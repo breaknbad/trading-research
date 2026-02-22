@@ -1,0 +1,88 @@
+{
+  "bot": { "name": "Alfred", "emoji": "🎩", "id": "alfred" },
+  "timestamp": "2026-02-22T14:30:00Z",
+  "strategy": "Conservative value investing with momentum confirmation. Focuses on large-cap stocks with strong fundamentals and positive price momentum.",
+  "portfolio": {
+    "cash": 18750.00,
+    "positions": [
+      {
+        "ticker": "AAPL",
+        "side": "long",
+        "shares": 15,
+        "entry_price": 198.50,
+        "current_price": 201.30,
+        "entry_time": "2026-02-20T10:15:00Z",
+        "reason": "Strong earnings beat, momentum breakout above 50-day MA",
+        "strategy_tag": "momentum-value"
+      },
+      {
+        "ticker": "MSFT",
+        "side": "long",
+        "shares": 8,
+        "entry_price": 415.20,
+        "current_price": 418.75,
+        "entry_time": "2026-02-21T11:30:00Z",
+        "reason": "Cloud revenue acceleration, undervalued relative to peers",
+        "strategy_tag": "value-growth"
+      }
+    ],
+    "realized_pnl": 125.40,
+    "unrealized_pnl": 70.40,
+    "total_return_pct": 0.78,
+    "total_value": 25195.40,
+    "daily_pnl": 85.20
+  },
+  "trades": [
+    {
+      "ticker": "NVDA",
+      "side": "long",
+      "action": "buy",
+      "shares": 5,
+      "price": 875.00,
+      "timestamp": "2026-02-19T09:45:00Z",
+      "reason": "AI infrastructure spending thesis",
+      "strategy_tag": "momentum-growth"
+    },
+    {
+      "ticker": "NVDA",
+      "side": "long",
+      "action": "sell",
+      "shares": 5,
+      "price": 900.08,
+      "timestamp": "2026-02-20T14:20:00Z",
+      "reason": "Hit 3% profit target, took gains",
+      "strategy_tag": "momentum-growth"
+    },
+    {
+      "ticker": "AAPL",
+      "side": "long",
+      "action": "buy",
+      "shares": 15,
+      "price": 198.50,
+      "timestamp": "2026-02-20T10:15:00Z",
+      "reason": "Strong earnings beat, momentum breakout above 50-day MA",
+      "strategy_tag": "momentum-value"
+    },
+    {
+      "ticker": "MSFT",
+      "side": "long",
+      "action": "buy",
+      "shares": 8,
+      "price": 415.20,
+      "timestamp": "2026-02-21T11:30:00Z",
+      "reason": "Cloud revenue acceleration, undervalued relative to peers",
+      "strategy_tag": "value-growth"
+    }
+  ],
+  "daily_review": {
+    "mistakes": [
+      "Sold NVDA too early — left another 2% on the table",
+      "Didn't set a trailing stop on AAPL position"
+    ],
+    "lessons": [
+      "Consider using trailing stops instead of fixed profit targets",
+      "Momentum stocks often run longer than expected after earnings"
+    ],
+    "strategy_evolution": "Moving toward trailing stops instead of fixed targets. Considering adding sector rotation signals to complement momentum."
+  }
+}

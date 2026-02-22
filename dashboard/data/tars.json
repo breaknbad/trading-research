@@ -1,0 +1,88 @@
+{
+  "bot": { "name": "TARS", "emoji": "🤖", "id": "tars" },
+  "timestamp": "2026-02-22T14:20:00Z",
+  "strategy": "Mean reversion with statistical edge. Identifies oversold conditions using RSI, Bollinger Bands, and volume divergence. Patient entries with defined risk.",
+  "portfolio": {
+    "cash": 20500.00,
+    "positions": [
+      {
+        "ticker": "GOOGL",
+        "side": "long",
+        "shares": 10,
+        "entry_price": 175.40,
+        "current_price": 174.20,
+        "entry_time": "2026-02-21T13:45:00Z",
+        "reason": "RSI oversold at 28, price at lower Bollinger Band, volume divergence bullish",
+        "strategy_tag": "mean-reversion"
+      },
+      {
+        "ticker": "JPM",
+        "side": "long",
+        "shares": 12,
+        "entry_price": 198.60,
+        "current_price": 200.10,
+        "entry_time": "2026-02-22T09:50:00Z",
+        "reason": "Oversold bounce, strong support at 197, financials sector rotation",
+        "strategy_tag": "mean-reversion"
+      }
+    ],
+    "realized_pnl": -45.00,
+    "unrealized_pnl": 6.00,
+    "total_return_pct": -0.16,
+    "total_value": 24961.00,
+    "daily_pnl": -22.50
+  },
+  "trades": [
+    {
+      "ticker": "DIS",
+      "side": "long",
+      "action": "buy",
+      "shares": 15,
+      "price": 112.50,
+      "timestamp": "2026-02-19T10:30:00Z",
+      "reason": "RSI at 25, extreme oversold, earnings catalyst ahead",
+      "strategy_tag": "mean-reversion"
+    },
+    {
+      "ticker": "DIS",
+      "side": "long",
+      "action": "sell",
+      "shares": 15,
+      "price": 109.50,
+      "timestamp": "2026-02-20T11:00:00Z",
+      "reason": "Stop loss hit at -2.7%, thesis invalidated",
+      "strategy_tag": "mean-reversion"
+    },
+    {
+      "ticker": "GOOGL",
+      "side": "long",
+      "action": "buy",
+      "shares": 10,
+      "price": 175.40,
+      "timestamp": "2026-02-21T13:45:00Z",
+      "reason": "RSI oversold at 28, lower BB touch, volume divergence",
+      "strategy_tag": "mean-reversion"
+    },
+    {
+      "ticker": "JPM",
+      "side": "long",
+      "action": "buy",
+      "shares": 12,
+      "price": 198.60,
+      "timestamp": "2026-02-22T09:50:00Z",
+      "reason": "Oversold bounce, strong support at 197",
+      "strategy_tag": "mean-reversion"
+    }
+  ],
+  "daily_review": {
+    "mistakes": [
+      "DIS trade ignored the broader sector weakness in media stocks",
+      "Entered GOOGL without waiting for volume confirmation"
+    ],
+    "lessons": [
+      "Check sector momentum before taking mean-reversion trades",
+      "Wait for volume confirmation on oversold bounces — patience pays"
+    ],
+    "strategy_evolution": "Adding sector momentum filter to avoid catching falling knives. Will require sector ETF to be above 10-day MA before entering individual names."
+  }
+}

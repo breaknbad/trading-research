@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Bot Trading Data",
+  "description": "Schema for each bot's JSON data file in the trading competition dashboard.",
+  "type": "object",
+  "required": ["bot", "timestamp", "strategy", "portfolio", "trades", "daily_review"],
+  "properties": {
+    "bot": {
+      "type": "object",
+      "required": ["name", "emoji", "id"],
+      "properties": {
+        "name": { "type": "string", "description": "Bot display name" },
+        "emoji": { "type": "string", "description": "Bot emoji identifier" },
+        "id": { "type": "string", "description": "Unique bot identifier" }
+      }
+    },
+    "timestamp": { "type": "string", "format": "date-time", "description": "Last data update time (ISO 8601)" },
+    "strategy": { "type": "string", "description": "Brief description of the bot's current trading strategy" },
+    "portfolio": {
+      "type": "object",
+      "required": ["cash", "positions", "realized_pnl", "unrealized_pnl", "total_return_pct", "total_value", "daily_pnl"],
+      "properties": {
+        "cash": { "type": "number", "description": "Available cash balance" },
+        "positions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["ticker", "side", "shares", "entry_price", "current_price", "entry_time", "reason", "strategy_tag"],
+            "properties": {
+              "ticker": { "type": "string" },
+              "side": { "type": "string", "enum": ["long", "short"] },
+              "shares": { "type": "number" },
+              "entry_price": { "type": "number" },
+              "current_price": { "type": "number" },
+              "entry_time": { "type": "string", "format": "date-time" },
+              "reason": { "type": "string" },
+              "strategy_tag": { "type": "string" }
+            }
+          }
+        },
+        "realized_pnl": { "type": "number" },
+        "unrealized_pnl": { "type": "number" },
+        "total_return_pct": { "type": "number", "description": "Total return as percentage (e.g. 2.5 = 2.5%)" },
+        "total_value": { "type": "number", "description": "Total portfolio value (cash + positions)" },
+        "daily_pnl": { "type": "number", "description": "Today's P&L" }
+      }
+    },
+    "trades": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ticker", "side", "action", "shares", "price", "timestamp", "reason", "strategy_tag"],
+        "properties": {
+          "ticker": { "type": "string" },
+          "side": { "type": "string", "enum": ["long", "short"] },
+          "action": { "type": "string", "enum": ["buy", "sell", "short", "cover"] },
+          "shares": { "type": "number" },
+          "price": { "type": "number" },
+          "timestamp": { "type": "string", "format": "date-time" },
+          "reason": { "type": "string" },
+          "strategy_tag": { "type": "string" }
+        }
+      }
+    },
+    "daily_review": {
+      "type": "object",
+      "required": ["mistakes", "lessons", "strategy_evolution"],
+      "properties": {
+        "mistakes": { "type": "array", "items": { "type": "string" } },
+        "lessons": { "type": "array", "items": { "type": "string" } },
+        "strategy_evolution": { "type": "string", "description": "How the strategy is evolving based on recent performance" }
+      }
+    }
+  }
+}

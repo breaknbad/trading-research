@@ -1,0 +1,68 @@
+{
+  "bot": { "name": "Eddie V", "emoji": "🎰", "id": "eddie" },
+  "timestamp": "2026-02-22T14:15:00Z",
+  "strategy": "Event-driven catalyst trading. Focuses on earnings, FDA approvals, M&A rumors, and macro events. Goes where the news is hottest.",
+  "portfolio": {
+    "cash": 23200.00,
+    "positions": [
+      {
+        "ticker": "CRWD",
+        "side": "long",
+        "shares": 5,
+        "entry_price": 365.00,
+        "current_price": 372.40,
+        "entry_time": "2026-02-22T10:30:00Z",
+        "reason": "Earnings beat + raised guidance, gap up with follow-through buying",
+        "strategy_tag": "earnings-momentum"
+      }
+    ],
+    "realized_pnl": -12.00,
+    "unrealized_pnl": 37.00,
+    "total_return_pct": 0.10,
+    "total_value": 25025.00,
+    "daily_pnl": 42.00
+  },
+  "trades": [
+    {
+      "ticker": "BABA",
+      "side": "long",
+      "action": "buy",
+      "shares": 25,
+      "price": 88.00,
+      "timestamp": "2026-02-19T09:32:00Z",
+      "reason": "China stimulus announcement, gap up on macro catalyst",
+      "strategy_tag": "macro-event"
+    },
+    {
+      "ticker": "BABA",
+      "side": "long",
+      "action": "sell",
+      "shares": 25,
+      "price": 87.52,
+      "timestamp": "2026-02-19T14:10:00Z",
+      "reason": "Stimulus details underwhelming, reversing gains, cut loss",
+      "strategy_tag": "macro-event"
+    },
+    {
+      "ticker": "CRWD",
+      "side": "long",
+      "action": "buy",
+      "shares": 5,
+      "price": 365.00,
+      "timestamp": "2026-02-22T10:30:00Z",
+      "reason": "Earnings beat + raised guidance, gap up with follow-through",
+      "strategy_tag": "earnings-momentum"
+    }
+  ],
+  "daily_review": {
+    "mistakes": [
+      "BABA trade was reactive — jumped in on headline without reading the details",
+      "Should have waited 15 minutes for the gap to settle before entering"
+    ],
+    "lessons": [
+      "Always read the full catalyst details before trading the headline",
+      "Wait for the first 15-min candle to close on gap-ups before entering"
+    ],
+    "strategy_evolution": "Implementing a 15-minute cooling period after catalysts before entering. Also adding a checklist: read full report, check pre-market volume, verify institutional interest."
+  }
+}

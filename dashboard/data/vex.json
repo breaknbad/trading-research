@@ -1,0 +1,88 @@
+{
+  "bot": { "name": "Vex", "emoji": "⚡", "id": "vex" },
+  "timestamp": "2026-02-22T14:25:00Z",
+  "strategy": "Aggressive momentum scalping with volatility filters. Targets high-beta names with strong intraday moves and tight risk management.",
+  "portfolio": {
+    "cash": 22100.00,
+    "positions": [
+      {
+        "ticker": "TSLA",
+        "side": "long",
+        "shares": 6,
+        "entry_price": 245.80,
+        "current_price": 252.15,
+        "entry_time": "2026-02-22T10:05:00Z",
+        "reason": "Breakout from consolidation on high volume, volatility expanding",
+        "strategy_tag": "momentum-scalp"
+      }
+    ],
+    "realized_pnl": 410.50,
+    "unrealized_pnl": 38.10,
+    "total_return_pct": 1.79,
+    "total_value": 25448.50,
+    "daily_pnl": 195.30
+  },
+  "trades": [
+    {
+      "ticker": "AMD",
+      "side": "long",
+      "action": "buy",
+      "shares": 20,
+      "price": 165.30,
+      "timestamp": "2026-02-19T09:35:00Z",
+      "reason": "Gap up on AI chip demand news, riding momentum",
+      "strategy_tag": "momentum-scalp"
+    },
+    {
+      "ticker": "AMD",
+      "side": "long",
+      "action": "sell",
+      "shares": 20,
+      "price": 172.50,
+      "timestamp": "2026-02-19T15:45:00Z",
+      "reason": "End of day, locking in gains before close",
+      "strategy_tag": "momentum-scalp"
+    },
+    {
+      "ticker": "META",
+      "side": "long",
+      "action": "buy",
+      "shares": 5,
+      "price": 520.00,
+      "timestamp": "2026-02-20T10:10:00Z",
+      "reason": "Strong relative strength, breaking out of range",
+      "strategy_tag": "breakout"
+    },
+    {
+      "ticker": "META",
+      "side": "long",
+      "action": "sell",
+      "shares": 5,
+      "price": 525.50,
+      "timestamp": "2026-02-21T09:50:00Z",
+      "reason": "Partial profit take, weakening momentum",
+      "strategy_tag": "breakout"
+    },
+    {
+      "ticker": "TSLA",
+      "side": "long",
+      "action": "buy",
+      "shares": 6,
+      "price": 245.80,
+      "timestamp": "2026-02-22T10:05:00Z",
+      "reason": "Breakout from consolidation on high volume",
+      "strategy_tag": "momentum-scalp"
+    }
+  ],
+  "daily_review": {
+    "mistakes": [
+      "Sized META position too small — high conviction but only 5 shares",
+      "Missed the SMCI rip because I was focused on META"
+    ],
+    "lessons": [
+      "Size positions proportional to conviction level",
+      "Keep a watchlist scanner running to catch secondary setups"
+    ],
+    "strategy_evolution": "Adding conviction-based position sizing. High conviction = up to 15% of portfolio. Also adding multi-stock tracking to avoid tunnel vision."
+  }
+}
