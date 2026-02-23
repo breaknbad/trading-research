@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🏆 Mi AI Crypto Trading Competition</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--bg:#0f0f1a;--card:#1a1a2e;--card2:#16213e;--accent:#0f3460;--blue:#4cc9f0;--green:#00f5a0;--red:#f72585;--yellow:#f7b731;--orange:#ff6b35;--purple:#b388ff;--text:#e0e0e0;--muted:#8892b0;--border:#2a2a4a;--gold:#ffd700;--silver:#c0c0c0;--bronze:#cd7f32}
@@ -126,6 +127,11 @@ tr:last-child td{border:none}
 </div>
 
 <script>
+// ═══ SUPABASE CONFIG ═══
+const SUPABASE_URL = 'https://vghssoltipiajiwzhkyn.supabase.co';
+const SUPABASE_ANON_KEY = 'YOUR_ANON_KEY_HERE';
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
 const BOT_COLORS = {
   'Alfred': '#4cc9f0',
   'TARS': '#00f5a0',
@@ -136,8 +142,39 @@ let raceChart = null;
 
 async function loadData() {
   try {
-    const res = await fetch('competition_data.json?t=' + Date.now());
-    return await res.json();
+    const [botRes, posRes, tradeRes, pnlRes] = await Promise.all([
+      sb.from('bot_status').select('*'),
+      sb.from('positions').select('*'),
+      sb.from('trades').select('*').order('closed_at', {ascending: false}).limit(100),
+      sb.from('pnl_snapshots').select('*').order('timestamp', {ascending: true})
+    ]);
+
+    const bots = (botRes.data || []).map(b => {
+      const botTrades = (tradeRes.data||[]).filter(t => t.bot_name === b.bot_name);
+      const botPositions = (posRes.data||[]).filter(p => p.bot_name === b.bot_name);
+      const botPnl = (pnlRes.data||[]).filter(p => p.bot_name === b.bot_name);
+
+      return {
+        name: b.bot_name, emoji: b.emoji || '🤖', status: b.status,
+        strategy: b.strategy || '', strategy_desc: b.strategy || '',
+        balance: Number(b.balance), total_pnl: Number(b.total_pnl), pnl_pct: Number(b.pnl_pct),
+        total_trades: Number(b.total_trades), win_rate: Number(b.win_rate),
+        best_trade: Number(b.best_trade), worst_trade: Number(b.worst_trade),
+        equity_curve: botPnl.map(p => Number(p.balance)),
+        equity_labels: botPnl.map(p => { const d=new Date(p.timestamp); return (d.getMonth()+1)+'/'+d.getDate(); }),
+        positions: botPositions.map(p => ({pair:p.pair, direction:p.direction, entry:Number(p.entry_price), current:Number(p.current_price), size:Number(p.size), unrealized_pnl:Number(p.unrealized_pnl)})),
+        trades: botTrades.map(t => ({timestamp:t.closed_at, pair:t.pair, direction:t.direction, entry:Number(t.entry_price), exit:Number(t.exit_price), pnl:Number(t.pnl)}))
+      };
+    });
+
+    return {
+      competition: {
+        start_date: '2025-02-22', end_date: '2025-03-22',
+        starting_capital: 25000,
+        rules: ['Each bot starts with $25,000 paper trading balance','Trade any crypto pairs on Coinbase','No manual intervention allowed','Winner determined by highest P&L % after 30 days','Bots can use any strategy (momentum, mean-reversion, scalping, etc.)']
+      },
+      bots
+    };
   } catch(e) { console.error('Failed to load data', e); return null; }
 }
 

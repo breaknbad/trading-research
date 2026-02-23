@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mi AI Trading Dashboard</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--bg:#0f0f1a;--card:#1a1a2e;--card2:#16213e;--accent:#0f3460;--blue:#4cc9f0;--green:#00f5a0;--red:#f72585;--yellow:#f7b731;--text:#e0e0e0;--muted:#8892b0;--border:#2a2a4a}
@@ -69,21 +70,67 @@ tr:hover td{background:rgba(255,255,255,.02)}
   <div class="card"><h2>💰 Per-Asset Breakdown</h2><div class="asset-grid" id="assetGrid"></div></div>
 </div>
 <script>
+// ═══ SUPABASE CONFIG ═══
+// Fill in your anon key from Supabase Dashboard > Settings > API
+const SUPABASE_URL = 'https://vghssoltipiajiwzhkyn.supabase.co';
+const SUPABASE_ANON_KEY = 'YOUR_ANON_KEY_HERE';
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
 const $ = s => document.getElementById(s);
 const fmt = v => (v >= 0 ? '+' : '') + '$' + Math.abs(v).toFixed(2);
 const cls = v => v >= 0 ? 'pos' : 'neg';
 const pct = v => v.toFixed(1) + '%';
 const shortTime = s => new Date(s).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
-const uptime = s => {if(!s) return 'offline'; const h=Math.floor(s/3600),m=Math.floor((s%3600)/60); return h+'h '+m+'m'};
+const uptime = s => {if(!s) return 'offline'; const ms=Date.now()-new Date(s).getTime(); const h=Math.floor(ms/3600000),m=Math.floor((ms%3600000)/60000); return h+'h '+m+'m'};
 let chart;
 
 async function load(){
   try{
-    const r = await fetch('data.json?t='+Date.now());
-    const d = await r.json();
+    // Fetch all data from Supabase
+    const [botRes, posRes, tradeRes, pnlRes] = await Promise.all([
+      sb.from('bot_status').select('*'),
+      sb.from('positions').select('*'),
+      sb.from('trades').select('*').order('closed_at', {ascending: false}).limit(50),
+      sb.from('pnl_snapshots').select('*').order('timestamp', {ascending: true})
+    ]);
+
+    const bots = botRes.data || [];
+    const positions = posRes.data || [];
+    const trades = tradeRes.data || [];
+    const pnlHistory = pnlRes.data || [];
+
+    // Build data object matching old format
+    const totalPnl = bots.reduce((s,b) => s + Number(b.total_pnl||0), 0);
+    const totalTrades = bots.reduce((s,b) => s + Number(b.total_trades||0), 0);
+    const avgWinRate = bots.length ? bots.reduce((s,b) => s + Number(b.win_rate||0), 0) / bots.length : 0;
+
+    const botMap = {};
+    bots.forEach(b => { botMap[b.bot_name] = {name: b.bot_name, emoji: b.emoji, status: b.status, stats: {total_pnl: Number(b.total_pnl), win_rate: Number(b.win_rate)}}; });
+
+    const d = {
+      aggregate: { total_pnl: totalPnl, daily_pnl: 0, win_rate: avgWinRate, active_positions: positions.length, total_trades: totalTrades },
+      bots: botMap,
+      positions: positions.map(p => ({bot: p.bot_name, pair: p.pair, direction: p.direction, entry_price: Number(p.entry_price), current_price: Number(p.current_price), size: Number(p.size), unrealized_pnl: Number(p.unrealized_pnl)})),
+      trades: trades.map(t => ({bot: t.bot_name, pair: t.pair, direction: t.direction, entry_price: Number(t.entry_price), exit_price: Number(t.exit_price), size: 1, pnl: Number(t.pnl), closed_at: t.closed_at})),
+      pnl_history: pnlHistory.map(p => ({timestamp: p.timestamp, cumulative_pnl: Number(p.balance) - 25000})),
+      asset_breakdown: buildAssetBreakdown(trades)
+    };
     render(d);
     $('lastRefresh').textContent = new Date().toLocaleTimeString();
   }catch(e){console.error(e)}
+}
+
+function buildAssetBreakdown(trades) {
+  const map = {};
+  trades.forEach(t => {
+    const pair = t.pair;
+    if (!map[pair]) map[pair] = {total_pnl: 0, total_trades: 0, wins: 0};
+    map[pair].total_pnl += Number(t.pnl||0);
+    map[pair].total_trades++;
+    if (Number(t.pnl||0) > 0) map[pair].wins++;
+  });
+  Object.values(map).forEach(v => { v.win_rate = v.total_trades ? (v.wins/v.total_trades)*100 : 0; });
+  return map;
 }
 
 function render(d){
