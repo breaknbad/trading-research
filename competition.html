@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🏆 Mi AI Crypto Trading Competition</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0f0f1a;--card:#1a1a2e;--card2:#16213e;--accent:#0f3460;--blue:#4cc9f0;--green:#00f5a0;--red:#f72585;--yellow:#f7b731;--orange:#ff6b35;--purple:#b388ff;--text:#e0e0e0;--muted:#8892b0;--border:#2a2a4a;--gold:#ffd700;--silver:#c0c0c0;--bronze:#cd7f32}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Nav */
+.nav{background:var(--card);border-bottom:1px solid var(--border);padding:10px 20px;display:flex;gap:20px;align-items:center;font-size:.9rem}
+.nav a{padding:6px 14px;border-radius:6px;transition:background .2s}
+.nav a:hover,.nav a.active{background:var(--accent);text-decoration:none}
+.nav a.active{color:var(--green);font-weight:600}
+
+.container{max-width:1400px;margin:0 auto;padding:16px}
+
+/* Header */
+.header{text-align:center;padding:30px 0 20px;border-bottom:1px solid var(--border);margin-bottom:24px}
+.header h1{font-size:2rem;font-weight:700;background:linear-gradient(135deg,var(--gold),var(--yellow));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+.header .dates{color:var(--muted);font-size:.9rem}
+.header .refresh-info{color:var(--muted);font-size:.75rem;margin-top:4px}
+
+/* Ticker */
+.ticker-wrap{overflow:hidden;background:var(--card);border:1px solid var(--border);border-radius:8px;margin-bottom:24px;padding:10px 0;position:relative}
+.ticker{display:flex;gap:40px;animation:scroll 30s linear infinite;white-space:nowrap;width:max-content}
+.ticker:hover{animation-play-state:paused}
+.ticker-item{font-size:.85rem;display:flex;align-items:center;gap:6px}
+@keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* Leaderboard */
+.leaderboard{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:28px}
+.lb-card{background:var(--card);border-radius:12px;padding:20px;border:2px solid var(--border);position:relative;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.lb-card:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(0,0,0,.3)}
+.lb-card.rank-1{border-color:var(--gold);background:linear-gradient(135deg,var(--card) 80%,rgba(255,215,0,.08))}
+.lb-card.rank-2{border-color:var(--silver);background:linear-gradient(135deg,var(--card) 80%,rgba(192,192,192,.06))}
+.lb-card.rank-3{border-color:var(--bronze);background:linear-gradient(135deg,var(--card) 80%,rgba(205,127,50,.06))}
+.lb-rank{position:absolute;top:12px;right:16px;font-size:1.8rem;font-weight:800;opacity:.25}
+.lb-card.rank-1 .lb-rank{color:var(--gold);opacity:.5}
+.lb-card.rank-2 .lb-rank{color:var(--silver);opacity:.4}
+.lb-card.rank-3 .lb-rank{color:var(--bronze);opacity:.4}
+.lb-name{font-size:1.3rem;font-weight:700;margin-bottom:10px}
+.lb-emoji{font-size:1.5rem;margin-right:6px}
+.lb-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.lb-stat .label{font-size:.7rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
+.lb-stat .value{font-size:1.1rem;font-weight:600}
+.pos{color:var(--green)}.neg{color:var(--red)}
+
+/* Chart */
+.chart-section{background:var(--card);border-radius:12px;padding:20px;border:1px solid var(--border);margin-bottom:28px}
+.chart-section h2{font-size:1.1rem;color:var(--blue);margin-bottom:16px;font-weight:600}
+.chart-container{position:relative;height:350px}
+
+/* Bot details */
+.bot-detail{background:var(--card);border-radius:12px;border:1px solid var(--border);margin-bottom:16px;overflow:hidden}
+.bot-detail-header{padding:16px 20px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;transition:background .2s}
+.bot-detail-header:hover{background:var(--card2)}
+.bot-detail-header h3{font-size:1.1rem;font-weight:600}
+.bot-detail-header .arrow{transition:transform .3s;font-size:.8rem;color:var(--muted)}
+.bot-detail-header .arrow.open{transform:rotate(180deg)}
+.bot-detail-body{display:none;padding:0 20px 20px}
+.bot-detail-body.open{display:block}
+.bot-detail .strategy{color:var(--muted);font-size:.85rem;margin-bottom:16px;font-style:italic}
+
+/* Tables */
+table{width:100%;border-collapse:collapse;font-size:.85rem}
+th{text-align:left;padding:8px 10px;color:var(--muted);font-size:.75rem;text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--border)}
+td{padding:8px 10px;border-bottom:1px solid var(--border)}
+tr:last-child td{border:none}
+.sub-title{font-size:.9rem;font-weight:600;color:var(--blue);margin:16px 0 8px}
+
+/* Rules */
+.rules-panel{background:var(--card);border-radius:12px;padding:20px;border:1px solid var(--border);margin-bottom:28px}
+.rules-panel h2{font-size:1.1rem;color:var(--yellow);margin-bottom:12px;font-weight:600}
+.rules-panel ul{list-style:none;padding:0}
+.rules-panel li{padding:6px 0;font-size:.85rem;color:var(--muted);display:flex;align-items:center;gap:8px}
+.rules-panel li::before{content:'⚡';font-size:.75rem}
+
+/* Responsive */
+@media(max-width:700px){
+  .leaderboard{grid-template-columns:1fr}
+  .header h1{font-size:1.4rem}
+  .lb-stats{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html">📊 Trading Dashboard</a>
+  <a href="competition.html" class="active">🏆 Competition</a>
+</nav>
+
+<div class="container">
+  <div class="header">
+    <h1>🏆 Mi AI Crypto Trading Competition</h1>
+    <div class="dates" id="comp-dates"></div>
+    <div class="refresh-info">Auto-refreshes every 30s · <span id="last-update"></span></div>
+  </div>
+
+  <!-- Live Ticker -->
+  <div class="ticker-wrap"><div class="ticker" id="ticker"></div></div>
+
+  <!-- Leaderboard -->
+  <div class="leaderboard" id="leaderboard"></div>
+
+  <!-- P&L Race Chart -->
+  <div class="chart-section">
+    <h2>📈 P&L Race — Equity Curves</h2>
+    <div class="chart-container"><canvas id="raceChart"></canvas></div>
+  </div>
+
+  <!-- Rules -->
+  <div class="rules-panel">
+    <h2>📜 Competition Rules</h2>
+    <ul id="rules-list"></ul>
+  </div>
+
+  <!-- Bot Details -->
+  <div id="bot-details"></div>
+</div>
+
+<script>
+const BOT_COLORS = {
+  'Alfred': '#4cc9f0',
+  'TARS': '#00f5a0',
+  'Vex': '#f7b731',
+  'Eddie V': '#f72585'
+};
+let raceChart = null;
+
+async function loadData() {
+  try {
+    const res = await fetch('competition_data.json?t=' + Date.now());
+    return await res.json();
+  } catch(e) { console.error('Failed to load data', e); return null; }
+}
+
+function fmt(n, dec=2) {
+  return n.toLocaleString('en-US', {minimumFractionDigits:dec, maximumFractionDigits:dec});
+}
+function fmtUSD(n) { return '$' + fmt(n); }
+function pnlClass(n) { return n >= 0 ? 'pos' : 'neg'; }
+function pnlSign(n) { return n >= 0 ? '+' : ''; }
+
+function renderLeaderboard(bots) {
+  const sorted = [...bots].sort((a,b) => b.pnl_pct - a.pnl_pct);
+  const el = document.getElementById('leaderboard');
+  el.innerHTML = sorted.map((b, i) => {
+    const rank = i + 1;
+    const rankClass = rank <= 3 ? ` rank-${rank}` : '';
+    const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : `#${rank}`;
+    return `<div class="lb-card${rankClass}">
+      <div class="lb-rank">${medal}</div>
+      <div class="lb-name"><span class="lb-emoji">${b.emoji}</span>${b.name}</div>
+      <div class="lb-stats">
+        <div class="lb-stat"><div class="label">P&L</div><div class="value ${pnlClass(b.total_pnl)}">${pnlSign(b.total_pnl)}${fmtUSD(b.total_pnl)}</div></div>
+        <div class="lb-stat"><div class="label">P&L %</div><div class="value ${pnlClass(b.pnl_pct)}">${pnlSign(b.pnl_pct)}${fmt(b.pnl_pct)}%</div></div>
+        <div class="lb-stat"><div class="label">Win Rate</div><div class="value">${fmt(b.win_rate,1)}%</div></div>
+        <div class="lb-stat"><div class="label">Trades</div><div class="value">${b.total_trades}</div></div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderChart(bots) {
+  const ctx = document.getElementById('raceChart').getContext('2d');
+  const datasets = bots.map(b => ({
+    label: `${b.emoji} ${b.name}`,
+    data: b.equity_curve,
+    borderColor: BOT_COLORS[b.name] || '#888',
+    backgroundColor: 'transparent',
+    tension: 0.3,
+    pointRadius: 3,
+    borderWidth: 2
+  }));
+  const labels = bots[0]?.equity_labels || [];
+
+  if (raceChart) {
+    raceChart.data.labels = labels;
+    raceChart.data.datasets = datasets;
+    raceChart.update();
+  } else {
+    raceChart = new Chart(ctx, {
+      type: 'line',
+      data: { labels, datasets },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        scales: {
+          y: { grid:{color:'#2a2a4a'}, ticks:{color:'#8892b0', callback: v=>'$'+v.toLocaleString()} },
+          x: { grid:{color:'#2a2a4a'}, ticks:{color:'#8892b0'} }
+        },
+        plugins: {
+          legend: { labels:{color:'#e0e0e0', usePointStyle:true, padding:16} },
+          tooltip: { callbacks:{ label: c=> `${c.dataset.label}: $${c.parsed.y.toLocaleString()}` }}
+        }
+      }
+    });
+  }
+}
+
+function renderTicker(bots) {
+  const allTrades = [];
+  bots.forEach(b => {
+    (b.trades || []).forEach(t => allTrades.push({...t, bot: b.name, emoji: b.emoji}));
+  });
+  allTrades.sort((a,b) => new Date(b.timestamp) - new Date(a.timestamp));
+  const recent = allTrades.slice(0, 20);
+  const items = recent.map(t => {
+    const cls = t.pnl >= 0 ? 'pos' : 'neg';
+    const sign = t.pnl >= 0 ? '+' : '';
+    return `<span class="ticker-item">${t.emoji} ${t.bot} <strong>${t.direction.toUpperCase()}</strong> ${t.pair} <span class="${cls}">${sign}$${fmt(t.pnl)}</span></span>`;
+  }).join('');
+  document.getElementById('ticker').innerHTML = items + items; // duplicate for seamless scroll
+}
+
+function renderDetails(bots) {
+  const sorted = [...bots].sort((a,b) => b.pnl_pct - a.pnl_pct);
+  const el = document.getElementById('bot-details');
+  el.innerHTML = sorted.map((b, i) => {
+    const posRows = (b.positions||[]).length ? b.positions.map(p =>
+      `<tr><td>${p.pair}</td><td>${p.direction}</td><td>$${fmt(p.entry)}</td><td>$${fmt(p.current)}</td><td>${p.size}</td><td class="${pnlClass(p.unrealized_pnl)}">${pnlSign(p.unrealized_pnl)}$${fmt(p.unrealized_pnl)}</td></tr>`
+    ).join('') : '<tr><td colspan="6" style="color:var(--muted);text-align:center">No open positions</td></tr>';
+
+    const tradeRows = (b.trades||[]).slice(0,20).map(t =>
+      `<tr><td>${new Date(t.timestamp).toLocaleString()}</td><td>${t.pair}</td><td>${t.direction}</td><td>$${fmt(t.entry)}</td><td>$${fmt(t.exit)}</td><td class="${pnlClass(t.pnl)}">${pnlSign(t.pnl)}$${fmt(t.pnl)}</td></tr>`
+    ).join('');
+
+    return `<div class="bot-detail">
+      <div class="bot-detail-header" onclick="toggleDetail(this)">
+        <h3>${b.emoji} ${b.name} — ${b.strategy}</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="bot-detail-body">
+        <p class="strategy">${b.strategy_desc}</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:16px">
+          <div><span style="color:var(--muted);font-size:.75rem">BALANCE</span><br><strong>${fmtUSD(b.balance)}</strong></div>
+          <div><span style="color:var(--muted);font-size:.75rem">BEST TRADE</span><br><strong class="pos">+${fmtUSD(b.best_trade)}</strong></div>
+          <div><span style="color:var(--muted);font-size:.75rem">WORST TRADE</span><br><strong class="neg">${fmtUSD(b.worst_trade)}</strong></div>
+        </div>
+        <div class="sub-title">Open Positions</div>
+        <table><thead><tr><th>Pair</th><th>Dir</th><th>Entry</th><th>Current</th><th>Size</th><th>Unrealized</th></tr></thead><tbody>${posRows}</tbody></table>
+        <div class="sub-title">Recent Trades</div>
+        <table><thead><tr><th>Time</th><th>Pair</th><th>Dir</th><th>Entry</th><th>Exit</th><th>P&L</th></tr></thead><tbody>${tradeRows}</tbody></table>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function toggleDetail(header) {
+  const body = header.nextElementSibling;
+  const arrow = header.querySelector('.arrow');
+  body.classList.toggle('open');
+  arrow.classList.toggle('open');
+}
+
+async function render() {
+  const data = await loadData();
+  if (!data) return;
+  const c = data.competition;
+  document.getElementById('comp-dates').textContent = `${c.start_date} → ${c.end_date} · Starting Capital: $${c.starting_capital.toLocaleString()}`;
+  document.getElementById('last-update').textContent = 'Updated ' + new Date().toLocaleTimeString();
+
+  const rulesList = document.getElementById('rules-list');
+  rulesList.innerHTML = c.rules.map(r => `<li>${r}</li>`).join('');
+
+  renderLeaderboard(data.bots);
+  renderChart(data.bots);
+  renderTicker(data.bots);
+  renderDetails(data.bots);
+}
+
+render();
+setInterval(render, 30000);
+</script>
+</body>
+</html>
