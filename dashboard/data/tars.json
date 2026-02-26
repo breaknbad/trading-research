@@ -1,88 +1,303 @@
 {
-  "bot": { "name": "TARS", "emoji": "🤖", "id": "tars" },
-  "timestamp": "2026-02-22T14:20:00Z",
-  "strategy": "Mean reversion with statistical edge. Identifies oversold conditions using RSI, Bollinger Bands, and volume divergence. Patient entries with defined risk.",
-  "portfolio": {
-    "cash": 20500.00,
-    "positions": [
-      {
-        "ticker": "GOOGL",
-        "side": "long",
-        "shares": 10,
-        "entry_price": 175.40,
-        "current_price": 174.20,
-        "entry_time": "2026-02-21T13:45:00Z",
-        "reason": "RSI oversold at 28, price at lower Bollinger Band, volume divergence bullish",
-        "strategy_tag": "mean-reversion"
-      },
-      {
-        "ticker": "JPM",
-        "side": "long",
-        "shares": 12,
-        "entry_price": 198.60,
-        "current_price": 200.10,
-        "entry_time": "2026-02-22T09:50:00Z",
-        "reason": "Oversold bounce, strong support at 197, financials sector rotation",
-        "strategy_tag": "mean-reversion"
-      }
-    ],
-    "realized_pnl": -45.00,
-    "unrealized_pnl": 6.00,
-    "total_return_pct": -0.16,
-    "total_value": 24961.00,
-    "daily_pnl": -22.50
-  },
-  "trades": [
+  "bot_id": "tars",
+  "bot_name": "TARS",
+  "emoji": "\ud83e\udd16",
+  "strategy": "Momentum Breakout Scanner",
+  "status": "running",
+  "updated_at": "2026-02-26T18:25:26.595717+00:00",
+  "total_value_usd": 32943.83,
+  "cash_usd": 17619.61,
+  "total_return_pct": 31.78,
+  "daily_pnl": 7786.75,
+  "daily_return_pct": 31.7753,
+  "realized_pl": 0.0,
+  "unrealized_pl": 152.56,
+  "day_start_value": 25157.08,
+  "win_rate": 61.1,
+  "trade_count": 21,
+  "positions": [
     {
-      "ticker": "DIS",
-      "side": "long",
-      "action": "buy",
-      "shares": 15,
-      "price": 112.50,
-      "timestamp": "2026-02-19T10:30:00Z",
-      "reason": "RSI at 25, extreme oversold, earnings catalyst ahead",
-      "strategy_tag": "mean-reversion"
+      "ticker": "AMZN",
+      "side": "LONG",
+      "quantity": 3.0,
+      "avg_entry": 209.0,
+      "current_price": 205.85,
+      "unrealized_pl": -9.45,
+      "pnl_pct": -1.51,
+      "market_value": 617.55
     },
     {
-      "ticker": "DIS",
-      "side": "long",
-      "action": "sell",
-      "shares": 15,
-      "price": 109.50,
-      "timestamp": "2026-02-20T11:00:00Z",
-      "reason": "Stop loss hit at -2.7%, thesis invalidated",
-      "strategy_tag": "mean-reversion"
+      "ticker": "GDX",
+      "side": "LONG",
+      "quantity": 10.0,
+      "avg_entry": 111.4,
+      "current_price": 111.4,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 1114.0
     },
     {
-      "ticker": "GOOGL",
-      "side": "long",
-      "action": "buy",
-      "shares": 10,
-      "price": 175.40,
-      "timestamp": "2026-02-21T13:45:00Z",
-      "reason": "RSI oversold at 28, lower BB touch, volume divergence",
-      "strategy_tag": "mean-reversion"
+      "ticker": "GLD",
+      "side": "LONG",
+      "quantity": 10.0,
+      "avg_entry": 462.62,
+      "current_price": 475.45,
+      "unrealized_pl": 128.3,
+      "pnl_pct": 2.77,
+      "market_value": 4754.5
     },
     {
-      "ticker": "JPM",
-      "side": "long",
-      "action": "buy",
-      "shares": 12,
-      "price": 198.60,
-      "timestamp": "2026-02-22T09:50:00Z",
-      "reason": "Oversold bounce, strong support at 197",
-      "strategy_tag": "mean-reversion"
+      "ticker": "INTC",
+      "side": "LONG",
+      "quantity": 10.0,
+      "avg_entry": 46.05,
+      "current_price": 45.19,
+      "unrealized_pl": -8.6,
+      "pnl_pct": -1.87,
+      "market_value": 451.9
+    },
+    {
+      "ticker": "TLT",
+      "side": "LONG",
+      "quantity": 93.0,
+      "avg_entry": 89.72,
+      "current_price": 90.175,
+      "unrealized_pl": 42.31,
+      "pnl_pct": 0.51,
+      "market_value": 8386.27
     }
   ],
-  "daily_review": {
-    "mistakes": [
-      "DIS trade ignored the broader sector weakness in media stocks",
-      "Entered GOOGL without waiting for volume confirmation"
-    ],
-    "lessons": [
-      "Check sector momentum before taking mean-reversion trades",
-      "Wait for volume confirmation on oversold bounces — patience pays"
-    ],
-    "strategy_evolution": "Adding sector momentum filter to avoid catching falling knives. Will require sector ETF to be above 10-day MA before entering individual names."
-  }
+  "recent_trades": [
+    {
+      "trade_id": "TARS-9b0ca4c4",
+      "timestamp": "2026-02-26T18:15:53.719189+00:00",
+      "action": "SELL",
+      "ticker": "COIN",
+      "quantity": 6.0,
+      "price_usd": 178.08,
+      "total_usd": 1068.48,
+      "reason": "STOP-LOSS EXECUTED. Entry .00, stop .32 (2% default), hit .08. P&L: -.52 (-3.22%)",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-5d8dd246",
+      "timestamp": "2026-02-26T18:15:48.743006+00:00",
+      "action": "SELL",
+      "ticker": "IBTA",
+      "quantity": 40.0,
+      "price_usd": 27.47,
+      "total_usd": 1098.8,
+      "reason": "STOP-LOSS EXECUTED. Entry .60, stop .03 (2% default), hit .47. P&L: -.20 (-3.95%)",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-2f48bfcd",
+      "timestamp": "2026-02-26T18:13:38.462758+00:00",
+      "action": "BUY",
+      "ticker": "COIN",
+      "quantity": 6.0,
+      "price_usd": 184.0,
+      "total_usd": 1104.0,
+      "reason": "BTC 68.5K holding, crypto momentum scout",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-ae2635ee",
+      "timestamp": "2026-02-26T18:13:37.695758+00:00",
+      "action": "BUY",
+      "ticker": "GDX",
+      "quantity": 10.0,
+      "price_usd": 111.4,
+      "total_usd": 1114.0,
+      "reason": "Gold miners ripping, GDXJ +5.8%, risk rotation from tech selloff",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "TARS-d6ffea1e",
+      "timestamp": "2026-02-26T18:13:22.028919+00:00",
+      "action": "SELL",
+      "ticker": "TLT",
+      "quantity": 90.0,
+      "price_usd": 91.5,
+      "total_usd": 8235.0,
+      "reason": "Trimming bonds - opportunity cost too high, redeploying capital",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-1e08856b",
+      "timestamp": "2026-02-26T18:13:21.296002+00:00",
+      "action": "BUY",
+      "ticker": "IBTA",
+      "quantity": 40.0,
+      "price_usd": 28.6,
+      "total_usd": 1144.0,
+      "reason": "Earnings beat +39%, 2.3x vol, M cap, ad-tech momentum",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TAR-ef0d2dde",
+      "timestamp": "2026-02-26T14:32:10+00:00",
+      "action": "SELL",
+      "ticker": "CRM",
+      "quantity": 5.0,
+      "price_usd": 195.55,
+      "total_usd": 977.75,
+      "reason": "CRM down 5% AH on weak guidance. Stop triggered.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-cdf56396",
+      "timestamp": "2026-02-24T19:13:14.538517+00:00",
+      "action": "SELL",
+      "ticker": "SLV",
+      "quantity": 6.0,
+      "price_usd": 78.72,
+      "total_usd": 472.32,
+      "reason": "2% stop triggered \u2014 SLV below stop level of 78.96",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-ac2a10a5",
+      "timestamp": "2026-02-24T19:07:57.128812+00:00",
+      "action": "BUY",
+      "ticker": "INTC",
+      "quantity": 7.0,
+      "price_usd": 46.05,
+      "total_usd": 322.34999999999997,
+      "reason": "Sizing up semi position. 10x total. Same thesis - sector momentum, institutional flow.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "TARS-97f2745c",
+      "timestamp": "2026-02-24T19:05:38.617608+00:00",
+      "action": "BUY",
+      "ticker": "INTC",
+      "quantity": 3.0,
+      "price_usd": 46.05,
+      "total_usd": 138.14999999999998,
+      "reason": "Semi momentum - AMD +9%, INTC +5.5%, institutions piling into chips. Stop $45.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "TARS-8087dde5",
+      "timestamp": "2026-02-24T18:34:34.277739+00:00",
+      "action": "BUY",
+      "ticker": "CRM",
+      "quantity": 5.0,
+      "price_usd": 186.51,
+      "total_usd": 932.55,
+      "reason": "Anthropic partnership catalyst. Down 43% from highs, +4.7% today, held through lunch. Stop $183.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-ea802f20",
+      "timestamp": "2026-02-24T17:01:18.510188+00:00",
+      "action": "BUY",
+      "ticker": "AMZN",
+      "quantity": 3.0,
+      "price_usd": 209.0,
+      "total_usd": 627.0,
+      "reason": "Long exposure for upside participation. Market +0.6%, we need to be in it. Stop $205 (2%).",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "TARS-e27c6577",
+      "timestamp": "2026-02-24T16:09:23.389219+00:00",
+      "action": "SELL",
+      "ticker": "TEST",
+      "quantity": 1.0,
+      "price_usd": 1.0,
+      "total_usd": 1.0,
+      "reason": "cleanup test trade",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-8b2f4bb5",
+      "timestamp": "2026-02-24T15:56:52.485415+00:00",
+      "action": "BUY",
+      "ticker": "SLV",
+      "quantity": 6.0,
+      "price_usd": 79.61,
+      "total_usd": 477.65999999999997,
+      "reason": "Adding to silver position per locked trade plan. Stop $78.96 (-2%), target $85.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-c4113e42",
+      "timestamp": "2026-02-24T15:56:45.442650+00:00",
+      "action": "SELL",
+      "ticker": "SQQQ",
+      "quantity": 2.0,
+      "price_usd": 71.01,
+      "total_usd": 142.02,
+      "reason": "Inverse ETF decay \u2014 market bouncing, SQQQ -2.7%. Should have sold at open per plan.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-dbf753d9",
+      "timestamp": "2026-02-23T19:31:30.759227+00:00",
+      "action": "BUY",
+      "ticker": "SQQQ",
+      "quantity": 2.0,
+      "price_usd": 73.33,
+      "total_usd": 146.66,
+      "reason": "Inverse Nasdaq hedge \u2014 tape staying bearish into close, SQQQ +4.2%",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-3a536a3c",
+      "timestamp": "2026-02-23T19:31:30.151801+00:00",
+      "action": "BUY",
+      "ticker": "SLV",
+      "quantity": 5.0,
+      "price_usd": 79.44,
+      "total_usd": 397.2,
+      "reason": "Silver momentum +3.7% today, safe haven flow continuing into close",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-638985b6",
+      "timestamp": "2026-02-23T19:31:29.500233+00:00",
+      "action": "SELL",
+      "ticker": "SPY",
+      "quantity": 7.0,
+      "price_usd": 681.46,
+      "total_usd": 4770.22,
+      "reason": "Cutting loser \u2014 SPY bleeding -1.2% in risk-off tape, no reversal signal",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "26fd1ae2-9ab1-493b-8372-7898818f779b",
+      "timestamp": "2026-02-23T15:00:00+00:00",
+      "action": "BUY",
+      "ticker": "TLT",
+      "quantity": 93.0,
+      "price_usd": 89.72,
+      "total_usd": 8343.96,
+      "reason": "Risk-off macro. Yields elevated, bonds undervalued. Pairs with GLD for defensive book.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "5d1a1646-b466-4973-8982-ce6300a1c0a5",
+      "timestamp": "2026-02-23T14:35:00+00:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "quantity": 7.0,
+      "price_usd": 681.75,
+      "total_usd": 4772.25,
+      "reason": "10am reversal play. SPY down from 689 close, watching for oversold bounce at 685 support. 2% stop at 671.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "38388e6b-60cb-4d71-99c6-6783ccaa30e7",
+      "timestamp": "2026-02-23T14:35:00+00:00",
+      "action": "BUY",
+      "ticker": "GLD",
+      "quantity": 10.0,
+      "price_usd": 462.62,
+      "total_usd": 4626.2,
+      "reason": "Gold strength + risk-off macro signal. SPY gapping down, GLD holding strong. Safe haven flow.",
+      "status": "OPEN"
+    }
+  ]
 }

@@ -1,68 +1,173 @@
 {
-  "bot": { "name": "Eddie V", "emoji": "🎰", "id": "eddie" },
-  "timestamp": "2026-02-22T14:15:00Z",
-  "strategy": "Event-driven catalyst trading. Focuses on earnings, FDA approvals, M&A rumors, and macro events. Goes where the news is hottest.",
-  "portfolio": {
-    "cash": 23200.00,
-    "positions": [
-      {
-        "ticker": "CRWD",
-        "side": "long",
-        "shares": 5,
-        "entry_price": 365.00,
-        "current_price": 372.40,
-        "entry_time": "2026-02-22T10:30:00Z",
-        "reason": "Earnings beat + raised guidance, gap up with follow-through buying",
-        "strategy_tag": "earnings-momentum"
-      }
-    ],
-    "realized_pnl": -12.00,
-    "unrealized_pnl": 37.00,
-    "total_return_pct": 0.10,
-    "total_value": 25025.00,
-    "daily_pnl": 42.00
-  },
-  "trades": [
+  "bot_id": "eddie",
+  "bot_name": "Eddie V",
+  "emoji": "\ud83c\udfb0",
+  "strategy": "Market Microstructure",
+  "status": "running",
+  "updated_at": "2026-02-26T18:25:26.240713+00:00",
+  "total_value_usd": 25081.12,
+  "cash_usd": 22131.38,
+  "total_return_pct": 0.32,
+  "daily_pnl": -43.13,
+  "daily_return_pct": 0.3245,
+  "realized_pl": 0.0,
+  "unrealized_pl": -16.3,
+  "day_start_value": 25124.25,
+  "win_rate": 63.6,
+  "trade_count": 11,
+  "positions": [
     {
-      "ticker": "BABA",
-      "side": "long",
-      "action": "buy",
-      "shares": 25,
-      "price": 88.00,
-      "timestamp": "2026-02-19T09:32:00Z",
-      "reason": "China stimulus announcement, gap up on macro catalyst",
-      "strategy_tag": "macro-event"
+      "ticker": "AMZN",
+      "side": "LONG",
+      "quantity": 5.0,
+      "avg_entry": 209.0,
+      "current_price": 205.85,
+      "unrealized_pl": -15.75,
+      "pnl_pct": -1.51,
+      "market_value": 1029.25
     },
     {
-      "ticker": "BABA",
-      "side": "long",
-      "action": "sell",
-      "shares": 25,
-      "price": 87.52,
-      "timestamp": "2026-02-19T14:10:00Z",
-      "reason": "Stimulus details underwhelming, reversing gains, cut loss",
-      "strategy_tag": "macro-event"
+      "ticker": "ORCL",
+      "side": "LONG",
+      "quantity": 8.0,
+      "avg_entry": 149.23,
+      "current_price": 149.23,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 1193.84
     },
     {
-      "ticker": "CRWD",
-      "side": "long",
-      "action": "buy",
-      "shares": 5,
-      "price": 365.00,
-      "timestamp": "2026-02-22T10:30:00Z",
-      "reason": "Earnings beat + raised guidance, gap up with follow-through",
-      "strategy_tag": "earnings-momentum"
+      "ticker": "QCOM",
+      "side": "LONG",
+      "quantity": 5.0,
+      "avg_entry": 145.44,
+      "current_price": 145.33,
+      "unrealized_pl": -0.55,
+      "pnl_pct": -0.08,
+      "market_value": 726.65
     }
   ],
-  "daily_review": {
-    "mistakes": [
-      "BABA trade was reactive — jumped in on headline without reading the details",
-      "Should have waited 15 minutes for the gap to settle before entering"
-    ],
-    "lessons": [
-      "Always read the full catalyst details before trading the headline",
-      "Wait for the first 15-min candle to close on gap-ups before entering"
-    ],
-    "strategy_evolution": "Implementing a 15-minute cooling period after catalysts before entering. Also adding a checklist: read full report, check pre-market volume, verify institutional interest."
-  }
+  "recent_trades": [
+    {
+      "trade_id": "EDV-3fdeaf22",
+      "timestamp": "2026-02-26T17:14:21.430567+00:00",
+      "action": "SELL",
+      "ticker": "AMD",
+      "quantity": 7.0,
+      "price_usd": 202.46,
+      "total_usd": 1417.22,
+      "reason": "STOP-LOSS EXECUTED. Entry .65, stop .50 (2% default), live .46. P&L: -.33",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-ed2b14f0",
+      "timestamp": "2026-02-26T14:32:13+00:00",
+      "action": "BUY",
+      "ticker": "ORCL",
+      "quantity": 8.0,
+      "price_usd": 149.23,
+      "total_usd": 1193.84,
+      "reason": "SCOUT: AI infra rotation. Upgraded to Outperform. Score 6. Stop $145.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "EDV-aa86a40c",
+      "timestamp": "2026-02-26T14:32:12+00:00",
+      "action": "BUY",
+      "ticker": "AMD",
+      "quantity": 7.0,
+      "price_usd": 207.65,
+      "total_usd": 1453.55,
+      "reason": "SCOUT: Meta $60B deal + NVDA beat lifts semis. Score 7. Stop $210.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-5a6c3fe9",
+      "timestamp": "2026-02-26T14:32:11+00:00",
+      "action": "SELL",
+      "ticker": "GLD",
+      "quantity": 10.0,
+      "price_usd": 473.48,
+      "total_usd": 4734.8,
+      "reason": "Mark's directive: sell gold.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-4790823f",
+      "timestamp": "2026-02-26T14:32:10+00:00",
+      "action": "SELL",
+      "ticker": "CRM",
+      "quantity": 5.0,
+      "price_usd": 195.55,
+      "total_usd": 977.75,
+      "reason": "CRM stop triggered. -3.9% pre-market.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-0f7ebf93",
+      "timestamp": "2026-02-24T19:06:20.639778+00:00",
+      "action": "BUY",
+      "ticker": "CRM",
+      "quantity": 5.0,
+      "price_usd": 186.81,
+      "total_usd": 934.05,
+      "reason": "Collaborative book - Anthropic partnership, earnings tomorrow, 43% below 52wk high. Stop $181.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-ab63e349",
+      "timestamp": "2026-02-24T19:06:19.782072+00:00",
+      "action": "BUY",
+      "ticker": "QCOM",
+      "quantity": 5.0,
+      "price_usd": 145.44,
+      "total_usd": 727.2,
+      "reason": "Collaborative book - Loop Capital upgrade, institutional call buying 4:3, semi momentum. Stop $143.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "EDV-e2447270",
+      "timestamp": "2026-02-24T17:05:17.806324+00:00",
+      "action": "SELL",
+      "ticker": "SQQQ",
+      "quantity": 7.0,
+      "price_usd": 70.68,
+      "total_usd": 494.76000000000005,
+      "reason": "Inverse ETF decay rule. Should have sold at open. Loss -$18.55.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-38f2780e",
+      "timestamp": "2026-02-24T17:01:35.329748+00:00",
+      "action": "BUY",
+      "ticker": "AMZN",
+      "quantity": 5.0,
+      "price_usd": 209.0,
+      "total_usd": 1045.0,
+      "reason": "Collaborative book upside exposure. Stop $205.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "EDV-a62d8ed3",
+      "timestamp": "2026-02-23T20:35:07.806472+00:00",
+      "action": "BUY",
+      "ticker": "SQQQ",
+      "quantity": 7.0,
+      "price_usd": 73.33,
+      "total_usd": 513.31,
+      "reason": "Consensus trade: inverse Nasdaq into power hour, 3/3 vote, risk-off day",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "c4ad6309-981e-452a-90bb-28cce0975f64",
+      "timestamp": "2026-02-23T15:00:00+00:00",
+      "action": "BUY",
+      "ticker": "GLD",
+      "quantity": 10.0,
+      "price_usd": 462.62,
+      "total_usd": 4626.2,
+      "reason": "3-bot convergence consensus trade. Risk-off gold play.",
+      "status": "CLOSED"
+    }
+  ]
 }

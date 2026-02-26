@@ -1,88 +1,235 @@
 {
-  "bot": { "name": "Vex", "emoji": "⚡", "id": "vex" },
-  "timestamp": "2026-02-22T14:25:00Z",
-  "strategy": "Aggressive momentum scalping with volatility filters. Targets high-beta names with strong intraday moves and tight risk management.",
-  "portfolio": {
-    "cash": 22100.00,
-    "positions": [
-      {
-        "ticker": "TSLA",
-        "side": "long",
-        "shares": 6,
-        "entry_price": 245.80,
-        "current_price": 252.15,
-        "entry_time": "2026-02-22T10:05:00Z",
-        "reason": "Breakout from consolidation on high volume, volatility expanding",
-        "strategy_tag": "momentum-scalp"
-      }
-    ],
-    "realized_pnl": 410.50,
-    "unrealized_pnl": 38.10,
-    "total_return_pct": 1.79,
-    "total_value": 25448.50,
-    "daily_pnl": 195.30
-  },
-  "trades": [
+  "bot_id": "vex",
+  "bot_name": "Vex",
+  "emoji": "\ud83e\udd19",
+  "strategy": "Cross-Market Correlations",
+  "status": "running",
+  "updated_at": "2026-02-26T18:25:26.952717+00:00",
+  "total_value_usd": 25189.24,
+  "cash_usd": 3055.92,
+  "total_return_pct": 0.76,
+  "daily_pnl": -44.57,
+  "daily_return_pct": 0.757,
+  "realized_pl": 0.0,
+  "unrealized_pl": 248.47,
+  "day_start_value": 25233.81,
+  "win_rate": 46.7,
+  "trade_count": 13,
+  "positions": [
     {
-      "ticker": "AMD",
-      "side": "long",
-      "action": "buy",
-      "shares": 20,
-      "price": 165.30,
-      "timestamp": "2026-02-19T09:35:00Z",
-      "reason": "Gap up on AI chip demand news, riding momentum",
-      "strategy_tag": "momentum-scalp"
+      "ticker": "AMZN",
+      "side": "LONG",
+      "quantity": 10.0,
+      "avg_entry": 209.0,
+      "current_price": 205.85,
+      "unrealized_pl": -31.5,
+      "pnl_pct": -1.51,
+      "market_value": 2058.5
     },
     {
-      "ticker": "AMD",
-      "side": "long",
-      "action": "sell",
-      "shares": 20,
-      "price": 172.50,
-      "timestamp": "2026-02-19T15:45:00Z",
-      "reason": "End of day, locking in gains before close",
-      "strategy_tag": "momentum-scalp"
+      "ticker": "EFA",
+      "side": "LONG",
+      "quantity": 25.0,
+      "avg_entry": 104.24,
+      "current_price": 105.11,
+      "unrealized_pl": 21.75,
+      "pnl_pct": 0.83,
+      "market_value": 2627.75
     },
     {
-      "ticker": "META",
-      "side": "long",
-      "action": "buy",
-      "shares": 5,
-      "price": 520.00,
-      "timestamp": "2026-02-20T10:10:00Z",
-      "reason": "Strong relative strength, breaking out of range",
-      "strategy_tag": "breakout"
+      "ticker": "EWC",
+      "side": "LONG",
+      "quantity": 50.0,
+      "avg_entry": 56.17,
+      "current_price": 57.785,
+      "unrealized_pl": 80.75,
+      "pnl_pct": 2.88,
+      "market_value": 2889.25
     },
     {
-      "ticker": "META",
-      "side": "long",
-      "action": "sell",
-      "shares": 5,
-      "price": 525.50,
-      "timestamp": "2026-02-21T09:50:00Z",
-      "reason": "Partial profit take, weakening momentum",
-      "strategy_tag": "breakout"
+      "ticker": "GDX",
+      "side": "LONG",
+      "quantity": 40.0,
+      "avg_entry": 109.82,
+      "current_price": 111.4,
+      "unrealized_pl": 63.2,
+      "pnl_pct": 1.44,
+      "market_value": 4456.0
     },
     {
-      "ticker": "TSLA",
-      "side": "long",
-      "action": "buy",
-      "shares": 6,
-      "price": 245.80,
-      "timestamp": "2026-02-22T10:05:00Z",
-      "reason": "Breakout from consolidation on high volume",
-      "strategy_tag": "momentum-scalp"
+      "ticker": "GLD",
+      "side": "LONG",
+      "quantity": 10.0,
+      "avg_entry": 462.62,
+      "current_price": 475.45,
+      "unrealized_pl": 128.3,
+      "pnl_pct": 2.77,
+      "market_value": 4754.5
+    },
+    {
+      "ticker": "XLE",
+      "side": "LONG",
+      "quantity": 26.0,
+      "avg_entry": 54.6,
+      "current_price": 55.32,
+      "unrealized_pl": 18.72,
+      "pnl_pct": 1.32,
+      "market_value": 1438.32
+    },
+    {
+      "ticker": "XLV",
+      "side": "LONG",
+      "quantity": 25.0,
+      "avg_entry": 157.67,
+      "current_price": 156.36,
+      "unrealized_pl": -32.75,
+      "pnl_pct": -0.83,
+      "market_value": 3909.0
     }
   ],
-  "daily_review": {
-    "mistakes": [
-      "Sized META position too small — high conviction but only 5 shares",
-      "Missed the SMCI rip because I was focused on META"
-    ],
-    "lessons": [
-      "Size positions proportional to conviction level",
-      "Keep a watchlist scanner running to catch secondary setups"
-    ],
-    "strategy_evolution": "Adding conviction-based position sizing. High conviction = up to 15% of portfolio. Also adding multi-stock tracking to avoid tunnel vision."
-  }
+  "recent_trades": [
+    {
+      "trade_id": "VEX-f36c0999",
+      "timestamp": "2026-02-26T14:32:12+00:00",
+      "action": "SELL",
+      "ticker": "XLI",
+      "quantity": 8.0,
+      "price_usd": 175.91,
+      "total_usd": 1407.28,
+      "reason": "Freeing cash for velocity plays.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "VEX-275c7a41",
+      "timestamp": "2026-02-26T14:32:11+00:00",
+      "action": "SELL",
+      "ticker": "DRS",
+      "quantity": 25.0,
+      "price_usd": 42.36,
+      "total_usd": 1059.0,
+      "reason": "DRS stop breached at -4.9%. Rule is rule.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "VEX-6c892758",
+      "timestamp": "2026-02-24T19:06:19.068651+00:00",
+      "action": "BUY",
+      "ticker": "DRS",
+      "quantity": 25.0,
+      "price_usd": 44.55,
+      "total_usd": 1113.75,
+      "reason": "Defense + AI convergence. +16.8% today. SOTU defense spending catalyst. Stop $42.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "VEX-a1772ebf",
+      "timestamp": "2026-02-24T17:05:17.207357+00:00",
+      "action": "BUY",
+      "ticker": "XLI",
+      "quantity": 8.0,
+      "price_usd": 176.47,
+      "total_usd": 1411.76,
+      "reason": "Cyclicals leading today. Infrastructure spend works either way. Stop $172.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "VEX-7003b006",
+      "timestamp": "2026-02-24T17:05:16.532817+00:00",
+      "action": "BUY",
+      "ticker": "XLE",
+      "quantity": 26.0,
+      "price_usd": 54.6,
+      "total_usd": 1419.6000000000001,
+      "reason": "Both-direction energy play. Tariffs lift oil, bounce lifts sector. Stop $53.50.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "VEX-d2259b67",
+      "timestamp": "2026-02-24T17:05:15.806854+00:00",
+      "action": "BUY",
+      "ticker": "GDX",
+      "quantity": 40.0,
+      "price_usd": 109.82,
+      "total_usd": 4392.799999999999,
+      "reason": "Gold miners leverage gold move 2-3x. Stop $107.62.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "VEX-66c0c42c",
+      "timestamp": "2026-02-24T17:05:15.181840+00:00",
+      "action": "SELL",
+      "ticker": "QQQ",
+      "quantity": 5.0,
+      "price_usd": 601.92,
+      "total_usd": 3009.6,
+      "reason": "Sold at open per locked plan. Cutting the loser.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "VEX-41bec37f",
+      "timestamp": "2026-02-24T17:01:34.659261+00:00",
+      "action": "BUY",
+      "ticker": "AMZN",
+      "quantity": 10.0,
+      "price_usd": 209.0,
+      "total_usd": 2090.0,
+      "reason": "Both-direction capability. Cloud + AI. Stop $205.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "VEX-ed4c9713",
+      "timestamp": "2026-02-23T17:20:00+00:00",
+      "action": "BUY",
+      "ticker": "XLV",
+      "quantity": 25.0,
+      "price_usd": 157.67,
+      "total_usd": 3941.75,
+      "reason": "Defensive rotation confirmed \u2014 Healthcare +0.87% while rest bleeds. Riding the flow.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "3b64b6f4-e5c1-4938-b714-03d5319e52c7",
+      "timestamp": "2026-02-23T15:30:00+00:00",
+      "action": "BUY",
+      "ticker": "EWC",
+      "quantity": 50.0,
+      "price_usd": 56.17,
+      "total_usd": 2808.5,
+      "reason": "Canadian energy exposure riding oil spike. Non-obvious play while market focuses on US tech/gold.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "a912a394-2cce-43d4-bff0-cd43745a0ebb",
+      "timestamp": "2026-02-23T14:40:00+00:00",
+      "action": "BUY",
+      "ticker": "EFA",
+      "quantity": 25.0,
+      "price_usd": 104.24,
+      "total_usd": 2606.0,
+      "reason": "International diversification. Europe holding up vs US selloff.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "8e1e6142-9c87-4f92-8fcd-e1051d1afd11",
+      "timestamp": "2026-02-23T14:40:00+00:00",
+      "action": "BUY",
+      "ticker": "GLD",
+      "quantity": 10.0,
+      "price_usd": 462.62,
+      "total_usd": 4626.2,
+      "reason": "Risk-off hedge. Gold bid on tariff fears.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "db3295c9-e25e-415c-b1ec-84f120ee7e5b",
+      "timestamp": "2026-02-23T14:40:00+00:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "quantity": 5.0,
+      "price_usd": 601.92,
+      "total_usd": 3009.6,
+      "reason": "10am reversal play. Nasdaq oversold bounce.",
+      "status": "CLOSED"
+    }
+  ]
 }

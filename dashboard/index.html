@@ -3,298 +3,436 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trading Competition Dashboard</title>
+<title>Fleet Trading Dashboard</title>
 <style>
   :root {
-    --bg: #0d1117;
-    --surface: #161b22;
-    --surface2: #1c2333;
-    --border: #30363d;
-    --text: #e6edf3;
-    --text2: #8b949e;
-    --green: #3fb950;
-    --red: #f85149;
-    --blue: #58a6ff;
-    --purple: #bc8cff;
-    --yellow: #d29922;
-    --orange: #f0883e;
+    --bg: #0d1117; --surface: #161b22; --surface2: #1c2333; --border: #30363d;
+    --text: #e6edf3; --text2: #8b949e; --green: #3fb950; --red: #f85149;
+    --blue: #58a6ff; --purple: #bc8cff; --yellow: #d29922; --orange: #f0883e;
   }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; line-height: 1.5; }
-  .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; line-height:1.5; font-size:14px; }
+  .container { max-width:1500px; margin:0 auto; padding:16px; }
 
   /* Header */
-  header { display: flex; justify-content: space-between; align-items: center; padding: 24px 0; border-bottom: 1px solid var(--border); margin-bottom: 24px; }
-  header h1 { font-size: 24px; font-weight: 700; }
-  header h1 span { color: var(--blue); }
-  .status { display: flex; align-items: center; gap: 8px; color: var(--text2); font-size: 13px; }
-  .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); animation: pulse 2s infinite; }
-  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+  header { display:flex; justify-content:space-between; align-items:center; padding:16px 0; border-bottom:1px solid var(--border); margin-bottom:16px; }
+  header h1 { font-size:22px; font-weight:700; }
+  header h1 span { color:var(--blue); }
+  .status { display:flex; align-items:center; gap:8px; color:var(--text2); font-size:12px; }
+  .status-dot { width:8px; height:8px; border-radius:50%; background:var(--green); animation:pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+  /* Fleet Summary Bar */
+  .fleet-bar { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; margin-bottom:20px; }
+  .fleet-stat { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:16px 20px; }
+  .fleet-stat .label { color:var(--text2); font-size:11px; text-transform:uppercase; letter-spacing:.5px; margin-bottom:4px; }
+  .fleet-stat .value { font-size:22px; font-weight:700; font-family:'SF Mono',SFMono-Regular,ui-monospace,Menlo,monospace; }
+  .fleet-stat .sub { font-size:11px; color:var(--text2); margin-top:2px; }
 
   /* Tabs */
-  .tabs { display: flex; gap: 4px; margin-bottom: 24px; border-bottom: 1px solid var(--border); }
-  .tab { padding: 10px 20px; background: none; border: none; color: var(--text2); font-size: 14px; cursor: pointer; border-bottom: 2px solid transparent; transition: all 0.2s; }
-  .tab:hover { color: var(--text); }
-  .tab.active { color: var(--text); border-bottom-color: var(--blue); }
-  .section { display: none; }
-  .section.active { display: block; }
+  .tabs { display:flex; gap:2px; margin-bottom:16px; border-bottom:1px solid var(--border); overflow-x:auto; }
+  .tab { padding:10px 18px; background:none; border:none; color:var(--text2); font-size:13px; cursor:pointer; border-bottom:2px solid transparent; transition:all .2s; white-space:nowrap; }
+  .tab:hover { color:var(--text); }
+  .tab.active { color:var(--text); border-bottom-color:var(--blue); }
+  .section { display:none; }
+  .section.active { display:block; }
 
-  /* Leaderboard */
-  .leaderboard { width: 100%; border-collapse: collapse; }
-  .leaderboard th { text-align: left; padding: 12px 16px; color: var(--text2); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 1px solid var(--border); }
-  .leaderboard td { padding: 16px; border-bottom: 1px solid var(--border); }
-  .leaderboard tr:hover td { background: var(--surface2); }
-  .rank { font-size: 20px; font-weight: 700; color: var(--text2); width: 40px; }
-  .rank-1 { color: var(--yellow); }
-  .rank-2 { color: #aaa; }
-  .rank-3 { color: #cd7f32; }
-  .bot-name { display: flex; align-items: center; gap: 10px; }
-  .bot-emoji { font-size: 24px; }
-  .bot-label { font-weight: 600; }
-  .bot-strategy { color: var(--text2); font-size: 12px; max-width: 250px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .positive { color: var(--green); }
-  .negative { color: var(--red); }
-  .mono { font-family: 'SF Mono', SFMono-Regular, ui-monospace, Menlo, monospace; font-size: 14px; }
+  /* Tables */
+  table { width:100%; border-collapse:collapse; }
+  th { text-align:left; padding:10px 12px; color:var(--text2); font-size:11px; text-transform:uppercase; letter-spacing:.5px; border-bottom:1px solid var(--border); position:sticky; top:0; background:var(--bg); }
+  td { padding:10px 12px; border-bottom:1px solid var(--border); font-size:13px; }
+  tr:hover td { background:var(--surface2); }
+  .mono { font-family:'SF Mono',SFMono-Regular,ui-monospace,Menlo,monospace; font-size:13px; }
+  .positive { color:var(--green); }
+  .negative { color:var(--red); }
+  .warning { color:var(--yellow); }
+  .rank { font-size:18px; font-weight:700; color:var(--text2); }
+  .rank-1 { color:var(--yellow); }
+  .rank-2 { color:#aaa; }
+  .rank-3 { color:#cd7f32; }
+  .bot-name { display:flex; align-items:center; gap:8px; }
+  .bot-emoji { font-size:20px; }
+  .bot-label { font-weight:600; font-size:14px; }
+  .bot-strategy { color:var(--text2); font-size:11px; }
+  .badge { display:inline-block; padding:2px 7px; border-radius:4px; font-size:10px; font-weight:600; text-transform:uppercase; }
+  .badge-long { background:rgba(63,185,80,.15); color:var(--green); }
+  .badge-short { background:rgba(248,81,73,.15); color:var(--red); }
+  .badge-buy { background:rgba(63,185,80,.15); color:var(--green); }
+  .badge-sell { background:rgba(248,81,73,.15); color:var(--red); }
 
-  /* Cards */
-  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px; }
-  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
-  .card-header { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; cursor: pointer; user-select: none; }
-  .card-header:hover { background: var(--surface2); }
-  .card-header h3 { display: flex; align-items: center; gap: 8px; font-size: 16px; }
-  .card-toggle { color: var(--text2); font-size: 18px; transition: transform 0.2s; }
-  .card.open .card-toggle { transform: rotate(180deg); }
-  .card-body { display: none; padding: 0 20px 20px; }
-  .card.open .card-body { display: block; }
-  .stat-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); }
-  .stat-row:last-child { border: none; }
-  .stat-label { color: var(--text2); font-size: 13px; }
-  .stat-value { font-weight: 600; font-size: 14px; }
+  /* Alerts */
+  .alerts { margin-bottom:20px; }
+  .alert { display:flex; align-items:center; gap:10px; padding:10px 16px; background:var(--surface); border:1px solid var(--border); border-radius:8px; margin-bottom:6px; font-size:13px; }
+  .alert-warn { border-left:3px solid var(--yellow); }
+  .alert-danger { border-left:3px solid var(--red); }
+  .alert-icon { font-size:16px; }
+  .alert-empty { color:var(--text2); padding:16px; text-align:center; font-size:13px; }
 
-  /* Positions table */
-  .pos-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 13px; }
-  .pos-table th { text-align: left; padding: 8px; color: var(--text2); font-size: 11px; text-transform: uppercase; border-bottom: 1px solid var(--border); }
-  .pos-table td { padding: 8px; border-bottom: 1px solid var(--border); }
-  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; text-transform: uppercase; }
-  .badge-long { background: rgba(63,185,80,0.15); color: var(--green); }
-  .badge-short { background: rgba(248,81,73,0.15); color: var(--red); }
-  .badge-tag { background: rgba(88,166,255,0.15); color: var(--blue); }
+  /* Bot cards */
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(380px,1fr)); gap:12px; }
+  .card { background:var(--surface); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+  .card-header { display:flex; justify-content:space-between; align-items:center; padding:14px 18px; cursor:pointer; }
+  .card-header:hover { background:var(--surface2); }
+  .card-header h3 { display:flex; align-items:center; gap:8px; font-size:15px; }
+  .card-toggle { color:var(--text2); transition:transform .2s; }
+  .card.open .card-toggle { transform:rotate(180deg); }
+  .card-body { display:none; padding:0 18px 18px; }
+  .card.open .card-body { display:block; }
+  .stat-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:12px; }
+  .stat-item { padding:8px 10px; background:var(--surface2); border-radius:6px; }
+  .stat-item .label { color:var(--text2); font-size:10px; text-transform:uppercase; }
+  .stat-item .value { font-weight:600; font-size:14px; font-family:'SF Mono',SFMono-Regular,ui-monospace,Menlo,monospace; }
 
-  /* Trade log */
-  .trade-log { width: 100%; border-collapse: collapse; }
-  .trade-log th { text-align: left; padding: 12px; color: var(--text2); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 1px solid var(--border); cursor: pointer; }
-  .trade-log th:hover { color: var(--text); }
-  .trade-log td { padding: 12px; border-bottom: 1px solid var(--border); font-size: 13px; }
-  .trade-log tr:hover td { background: var(--surface2); }
-  .action-buy { color: var(--green); font-weight: 600; }
-  .action-sell { color: var(--red); font-weight: 600; }
-  .reason-text { max-width: 300px; color: var(--text2); font-size: 12px; }
+  /* Filter bar */
+  .filter-bar { display:flex; gap:8px; margin-bottom:12px; flex-wrap:wrap; }
+  .filter-btn { padding:6px 14px; background:var(--surface); border:1px solid var(--border); border-radius:6px; color:var(--text2); cursor:pointer; font-size:12px; }
+  .filter-btn:hover, .filter-btn.active { color:var(--text); border-color:var(--blue); background:rgba(88,166,255,.1); }
 
-  /* Review cards */
-  .review-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 16px; }
-  .review-card h3 { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; font-size: 16px; }
-  .review-section { margin-bottom: 16px; }
-  .review-section h4 { color: var(--text2); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
-  .review-section ul { list-style: none; padding: 0; }
-  .review-section li { padding: 6px 0 6px 16px; position: relative; color: var(--text); font-size: 13px; }
-  .review-section li::before { content: ''; position: absolute; left: 0; top: 12px; width: 6px; height: 6px; border-radius: 50%; }
-  .mistakes li::before { background: var(--red); }
-  .lessons li::before { background: var(--green); }
-  .evolution { color: var(--text2); font-size: 13px; padding: 12px; background: var(--surface2); border-radius: 8px; border-left: 3px solid var(--purple); }
-
-  /* Strategy */
-  .strategy-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 16px; }
-  .strategy-card h3 { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
-  .strategy-card p { color: var(--text2); font-size: 14px; line-height: 1.6; }
-  .strategy-tags { display: flex; gap: 6px; margin-top: 12px; flex-wrap: wrap; }
+  /* Chart */
+  .chart-container { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:16px; margin-bottom:16px; }
+  .chart-container h3 { font-size:14px; margin-bottom:12px; color:var(--text2); }
+  canvas { width:100%!important; height:300px!important; }
 
   /* Responsive */
-  @media (max-width: 768px) {
-    .cards { grid-template-columns: 1fr; }
-    .leaderboard, .trade-log { font-size: 12px; }
-    .leaderboard td, .leaderboard th, .trade-log td, .trade-log th { padding: 8px; }
-    .container { padding: 12px; }
-    .tabs { overflow-x: auto; }
+  @media(max-width:768px) {
+    .fleet-bar { grid-template-columns:1fr 1fr; }
+    .cards { grid-template-columns:1fr; }
+    td,th { padding:8px 6px; font-size:12px; }
+    .container { padding:10px; }
   }
+
+  /* Scrollable table wrapper */
+  .table-wrap { overflow-x:auto; }
 </style>
 </head>
 <body>
 <div class="container">
   <header>
-    <h1>📊 Trading <span>Competition</span></h1>
+    <h1>📊 Fleet <span>Dashboard</span></h1>
     <div class="status">
       <div class="status-dot"></div>
       <span id="last-update">Loading...</span>
     </div>
   </header>
 
+  <div id="fleet-bar" class="fleet-bar"></div>
+
   <div class="tabs">
-    <button class="tab active" data-tab="leaderboard">🏆 Leaderboard</button>
-    <button class="tab" data-tab="portfolios">💼 Portfolios</button>
-    <button class="tab" data-tab="trades">📋 Trade Log</button>
-    <button class="tab" data-tab="review">📝 Daily Review</button>
-    <button class="tab" data-tab="strategy">🧠 Strategies</button>
+    <button class="tab active" data-tab="overview">📋 Overview</button>
+    <button class="tab" data-tab="positions">💰 All Positions</button>
+    <button class="tab" data-tab="trades">📜 Trade Log</button>
+    <button class="tab" data-tab="bots">🤖 Bot Detail</button>
+    <button class="tab" data-tab="chart">📈 Equity Curve</button>
   </div>
 
-  <div id="leaderboard" class="section active"></div>
-  <div id="portfolios" class="section"></div>
+  <div id="overview" class="section active">
+    <div id="alerts" class="alerts"></div>
+    <div id="leaderboard" class="table-wrap"></div>
+    <h3 style="color:var(--text2);font-size:12px;text-transform:uppercase;margin:20px 0 10px;letter-spacing:.5px;">Open Positions — All Bots</h3>
+    <div id="overview-positions" class="table-wrap"></div>
+  </div>
+  <div id="positions" class="section"></div>
   <div id="trades" class="section"></div>
-  <div id="review" class="section"></div>
-  <div id="strategy" class="section"></div>
+  <div id="bots" class="section"></div>
+  <div id="chart" class="section"></div>
 </div>
 
 <script>
-const BOT_FILES = ['alfred', 'vex', 'tars', 'eddie'];
-let allData = [];
+const BOT_FILES = ['alfred','tars','vex','eddie'];
+let allBots = [], fleetData = null;
 
-function fmt(n) { return n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
-function pnlClass(n) { return n >= 0 ? 'positive' : 'negative'; }
-function pnlSign(n) { return n >= 0 ? '+' : ''; }
-function fmtTime(ts) {
+const fmt = n => n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmtK = n => Math.abs(n) >= 1000 ? (n/1000).toFixed(1)+'k' : fmt(n);
+const pc = n => n >= 0 ? 'positive' : 'negative';
+const sign = n => n >= 0 ? '+' : '';
+const fmtTime = ts => {
   const d = new Date(ts);
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) + ' ' +
-         d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
-}
+  return d.toLocaleDateString('en-US',{month:'short',day:'numeric'})+' '+d.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+};
+const timeAgo = ts => {
+  const ms = Date.now() - new Date(ts).getTime();
+  const h = Math.floor(ms/3600000), m = Math.floor((ms%3600000)/60000);
+  if (h > 24) return Math.floor(h/24)+'d';
+  if (h > 0) return h+'h '+m+'m';
+  return m+'m';
+};
 
 async function loadData() {
   const results = await Promise.all(BOT_FILES.map(async f => {
-    try {
-      const r = await fetch(`data/${f}.json?t=${Date.now()}`);
-      return await r.json();
-    } catch(e) { console.error(`Failed to load ${f}:`, e); return null; }
+    try { const r = await fetch(`data/${f}.json?t=${Date.now()}`); return await r.json(); }
+    catch(e) { console.error(`Failed: ${f}`,e); return null; }
   }));
-  allData = results.filter(Boolean);
+  allBots = results.filter(Boolean);
+  try {
+    const r = await fetch(`data/fleet.json?t=${Date.now()}`);
+    fleetData = await r.json();
+  } catch(e) { console.error('Fleet data failed',e); }
   render();
 }
 
 function render() {
+  renderFleetBar();
+  renderAlerts();
   renderLeaderboard();
-  renderPortfolios();
+  renderOverviewPositions();
+  renderAllPositions();
   renderTrades();
-  renderReview();
-  renderStrategy();
-  const latest = allData.reduce((a, b) => new Date(a.timestamp) > new Date(b.timestamp) ? a : b);
-  document.getElementById('last-update').textContent = `Updated ${fmtTime(latest.timestamp)} · Auto-refresh 30s`;
+  renderBotDetail();
+  renderChart();
+
+  const latest = allBots.reduce((a,b) => new Date(a.updated_at)>new Date(b.updated_at)?a:b);
+  document.getElementById('last-update').textContent = `Updated ${fmtTime(latest.updated_at)} · Auto-refresh 30s`;
+}
+
+function renderFleetBar() {
+  const totalValue = allBots.reduce((s,b) => s+b.total_value_usd, 0);
+  const totalDailyPnl = allBots.reduce((s,b) => s+b.daily_pnl, 0);
+  const totalStartValue = allBots.reduce((s,b) => s+(b.day_start_value||25000), 0);
+  const dailyPct = totalStartValue ? (totalDailyPnl/totalStartValue*100) : 0;
+  const totalReturn = ((totalValue - 100000)/100000*100);
+  const totalPositions = allBots.reduce((s,b) => s+b.positions.length, 0);
+  const totalCash = allBots.reduce((s,b) => s+b.cash_usd, 0);
+  const cashPct = totalValue ? (totalCash/totalValue*100) : 0;
+
+  document.getElementById('fleet-bar').innerHTML = `
+    <div class="fleet-stat"><div class="label">Fleet Value</div><div class="value">$${fmt(totalValue)}</div><div class="sub">Started $100,000</div></div>
+    <div class="fleet-stat"><div class="label">Today's P&L</div><div class="value ${pc(totalDailyPnl)}">${sign(totalDailyPnl)}$${fmt(totalDailyPnl)}</div><div class="sub">${sign(dailyPct)}${dailyPct.toFixed(2)}%</div></div>
+    <div class="fleet-stat"><div class="label">Total Return</div><div class="value ${pc(totalReturn)}">${sign(totalReturn)}${totalReturn.toFixed(2)}%</div><div class="sub">Since inception</div></div>
+    <div class="fleet-stat"><div class="label">Open Positions</div><div class="value">${totalPositions}</div><div class="sub">${allBots.length} bots active</div></div>
+    <div class="fleet-stat"><div class="label">Fleet Cash</div><div class="value">$${fmt(totalCash)}</div><div class="sub">${cashPct.toFixed(1)}% of portfolio</div></div>
+  `;
+}
+
+function renderAlerts() {
+  let alerts = [];
+  allBots.forEach(b => {
+    b.positions.forEach(p => {
+      const pnlPct = p.pnl_pct || 0;
+      if (pnlPct <= -2) {
+        alerts.push({type:'danger', msg:`${b.emoji} ${b.bot_name} — ${p.ticker} down ${pnlPct.toFixed(2)}% ($${fmt(p.unrealized_pl)})`});
+      } else if (pnlPct <= -1) {
+        alerts.push({type:'warn', msg:`${b.emoji} ${b.bot_name} — ${p.ticker} approaching stop: ${pnlPct.toFixed(2)}%`});
+      }
+    });
+  });
+
+  const el = document.getElementById('alerts');
+  if (!alerts.length) { el.innerHTML = ''; return; }
+  el.innerHTML = alerts.map(a =>
+    `<div class="alert alert-${a.type}"><span class="alert-icon">${a.type==='danger'?'🚨':'⚠️'}</span>${a.msg}</div>`
+  ).join('');
 }
 
 function renderLeaderboard() {
-  const sorted = [...allData].sort((a, b) => b.portfolio.total_return_pct - a.portfolio.total_return_pct);
-  let html = `<table class="leaderboard"><thead><tr>
-    <th>#</th><th>Bot</th><th>Total Value</th><th>Daily P&L</th><th>Total Return</th>
+  const sorted = [...allBots].sort((a,b) => b.total_return_pct - a.total_return_pct);
+  let html = `<table><thead><tr>
+    <th>#</th><th>Bot</th><th>Total Value</th><th>Daily P&L</th><th>Return %</th><th>Positions</th><th>Cash %</th><th>Win Rate</th><th>Trades</th>
   </tr></thead><tbody>`;
-  sorted.forEach((d, i) => {
-    const p = d.portfolio;
+  sorted.forEach((b,i) => {
+    const cashPct = b.total_value_usd ? (b.cash_usd/b.total_value_usd*100) : 0;
     html += `<tr>
       <td class="rank rank-${i+1}">${i+1}</td>
-      <td><div class="bot-name"><span class="bot-emoji">${d.bot.emoji}</span><div><div class="bot-label">${d.bot.name}</div><div class="bot-strategy">${d.strategy}</div></div></div></td>
-      <td class="mono">$${fmt(p.total_value)}</td>
-      <td class="mono ${pnlClass(p.daily_pnl)}">${pnlSign(p.daily_pnl)}$${fmt(p.daily_pnl)}</td>
-      <td class="mono ${pnlClass(p.total_return_pct)}">${pnlSign(p.total_return_pct)}${p.total_return_pct.toFixed(2)}%</td>
+      <td><div class="bot-name"><span class="bot-emoji">${b.emoji}</span><div><div class="bot-label">${b.bot_name}</div><div class="bot-strategy">${b.strategy}</div></div></div></td>
+      <td class="mono">$${fmt(b.total_value_usd)}</td>
+      <td class="mono ${pc(b.daily_pnl)}">${sign(b.daily_pnl)}$${fmt(b.daily_pnl)}</td>
+      <td class="mono ${pc(b.total_return_pct)}">${sign(b.total_return_pct)}${b.total_return_pct.toFixed(2)}%</td>
+      <td>${b.positions.length}</td>
+      <td class="mono">${cashPct.toFixed(0)}%</td>
+      <td class="mono">${b.win_rate.toFixed(1)}%</td>
+      <td>${b.trade_count}</td>
     </tr>`;
   });
   html += '</tbody></table>';
   document.getElementById('leaderboard').innerHTML = html;
 }
 
-function renderPortfolios() {
-  let html = '<div class="cards">';
-  allData.forEach(d => {
-    const p = d.portfolio;
-    html += `<div class="card open">
-      <div class="card-header" onclick="this.parentElement.classList.toggle('open')">
-        <h3><span>${d.bot.emoji}</span> ${d.bot.name}</h3>
-        <span class="card-toggle">▼</span>
-      </div>
-      <div class="card-body">
-        <div class="stat-row"><span class="stat-label">Total Value</span><span class="stat-value mono">$${fmt(p.total_value)}</span></div>
-        <div class="stat-row"><span class="stat-label">Cash</span><span class="stat-value mono">$${fmt(p.cash)}</span></div>
-        <div class="stat-row"><span class="stat-label">Realized P&L</span><span class="stat-value mono ${pnlClass(p.realized_pnl)}">${pnlSign(p.realized_pnl)}$${fmt(p.realized_pnl)}</span></div>
-        <div class="stat-row"><span class="stat-label">Unrealized P&L</span><span class="stat-value mono ${pnlClass(p.unrealized_pnl)}">${pnlSign(p.unrealized_pnl)}$${fmt(p.unrealized_pnl)}</span></div>
-        <div class="stat-row"><span class="stat-label">Total Return</span><span class="stat-value mono ${pnlClass(p.total_return_pct)}">${pnlSign(p.total_return_pct)}${p.total_return_pct.toFixed(2)}%</span></div>
-        ${p.positions.length ? `<table class="pos-table"><thead><tr><th>Ticker</th><th>Side</th><th>Shares</th><th>Entry</th><th>Current</th><th>P&L</th></tr></thead><tbody>
-        ${p.positions.map(pos => {
-          const pnl = (pos.current_price - pos.entry_price) * pos.shares * (pos.side === 'short' ? -1 : 1);
-          return `<tr>
-            <td><strong>${pos.ticker}</strong></td>
-            <td><span class="badge badge-${pos.side}">${pos.side}</span></td>
-            <td class="mono">${pos.shares}</td>
-            <td class="mono">$${fmt(pos.entry_price)}</td>
-            <td class="mono">$${fmt(pos.current_price)}</td>
-            <td class="mono ${pnlClass(pnl)}">${pnlSign(pnl)}$${fmt(pnl)}</td>
-          </tr>`;
-        }).join('')}
-        </tbody></table>` : '<p style="color:var(--text2);font-size:13px;margin-top:12px;">No open positions</p>'}
-      </div>
-    </div>`;
+function getAllPositions() {
+  const all = [];
+  allBots.forEach(b => {
+    b.positions.forEach(p => all.push({...p, bot_name:b.bot_name, emoji:b.emoji, bot_id:b.bot_id}));
   });
-  html += '</div>';
-  document.getElementById('portfolios').innerHTML = html;
+  return all;
+}
+
+function positionTable(positions) {
+  if (!positions.length) return '<p style="color:var(--text2);padding:16px;">No open positions</p>';
+  let html = `<table><thead><tr>
+    <th>Ticker</th><th>Bot</th><th>Side</th><th>Qty</th><th>Entry</th><th>Current</th><th>P&L $</th><th>P&L %</th><th>Value</th>
+  </tr></thead><tbody>`;
+  positions.sort((a,b) => Math.abs(b.unrealized_pl) - Math.abs(a.unrealized_pl));
+  positions.forEach(p => {
+    const pnlPct = p.pnl_pct || 0;
+    const cls = pnlPct <= -2 ? 'negative' : pnlPct <= -1 ? 'warning' : pc(pnlPct);
+    html += `<tr>
+      <td><strong>${p.ticker}</strong></td>
+      <td>${p.emoji||''} ${p.bot_name||''}</td>
+      <td><span class="badge badge-${p.side.toLowerCase()}">${p.side}</span></td>
+      <td class="mono">${p.quantity}</td>
+      <td class="mono">$${fmt(p.avg_entry)}</td>
+      <td class="mono">$${fmt(p.current_price)}</td>
+      <td class="mono ${cls}">${sign(p.unrealized_pl)}$${fmt(p.unrealized_pl)}</td>
+      <td class="mono ${cls}">${sign(pnlPct)}${pnlPct.toFixed(2)}%</td>
+      <td class="mono">$${fmt(p.market_value||0)}</td>
+    </tr>`;
+  });
+  html += '</tbody></table>';
+  return html;
+}
+
+function renderOverviewPositions() {
+  document.getElementById('overview-positions').innerHTML = positionTable(getAllPositions());
+}
+
+function renderAllPositions() {
+  document.getElementById('positions').innerHTML = '<div class="table-wrap">'+positionTable(getAllPositions())+'</div>';
 }
 
 function renderTrades() {
   const all = [];
-  allData.forEach(d => d.trades.forEach(t => all.push({ ...t, bot: d.bot })));
-  all.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
-  let html = `<table class="trade-log"><thead><tr>
-    <th>Time</th><th>Bot</th><th>Action</th><th>Ticker</th><th>Shares</th><th>Price</th><th>Strategy</th><th>Reason</th>
+  allBots.forEach(b => {
+    (b.recent_trades||[]).forEach(t => all.push({...t, bot_name:b.bot_name, emoji:b.emoji}));
+  });
+  all.sort((a,b) => new Date(b.timestamp)-new Date(a.timestamp));
+
+  let filterHtml = `<div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    ${allBots.map(b=>`<button class="filter-btn" data-filter="${b.bot_id}">${b.emoji} ${b.bot_name}</button>`).join('')}
+  </div>`;
+
+  let html = filterHtml + `<div class="table-wrap"><table id="trade-table"><thead><tr>
+    <th>Time</th><th>Bot</th><th>Action</th><th>Ticker</th><th>Qty</th><th>Price</th><th>Total</th><th>Reason</th>
   </tr></thead><tbody>`;
   all.forEach(t => {
-    const actionClass = ['buy','cover'].includes(t.action) ? 'action-buy' : 'action-sell';
-    html += `<tr>
+    const isBuy = ['BUY','COVER'].includes(t.action.toUpperCase());
+    html += `<tr data-bot="${t.bot_name}">
       <td class="mono">${fmtTime(t.timestamp)}</td>
-      <td>${t.bot.emoji} ${t.bot.name}</td>
-      <td class="${actionClass}">${t.action.toUpperCase()}</td>
+      <td>${t.emoji} ${t.bot_name}</td>
+      <td><span class="badge badge-${isBuy?'buy':'sell'}">${t.action}</span></td>
       <td><strong>${t.ticker}</strong></td>
-      <td class="mono">${t.shares}</td>
-      <td class="mono">$${fmt(t.price)}</td>
-      <td><span class="badge badge-tag">${t.strategy_tag}</span></td>
-      <td class="reason-text">${t.reason}</td>
+      <td class="mono">${t.quantity}</td>
+      <td class="mono">$${fmt(t.price_usd)}</td>
+      <td class="mono">$${fmt(t.total_usd||t.price_usd*t.quantity)}</td>
+      <td style="max-width:300px;color:var(--text2);font-size:12px;">${t.reason||''}</td>
     </tr>`;
   });
-  html += '</tbody></table>';
+  html += '</tbody></table></div>';
   document.getElementById('trades').innerHTML = html;
+
+  // Filter handlers
+  document.querySelectorAll('#trades .filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#trades .filter-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      document.querySelectorAll('#trade-table tbody tr').forEach(tr => {
+        tr.style.display = (f==='all' || tr.dataset.bot===allBots.find(b=>b.bot_id===f)?.bot_name) ? '' : 'none';
+      });
+    });
+  });
 }
 
-function renderReview() {
-  let html = '';
-  allData.forEach(d => {
-    const r = d.daily_review;
-    html += `<div class="review-card">
-      <h3><span>${d.bot.emoji}</span> ${d.bot.name}</h3>
-      <div class="review-section mistakes"><h4>❌ Mistakes</h4><ul>${r.mistakes.map(m => `<li>${m}</li>`).join('')}</ul></div>
-      <div class="review-section lessons"><h4>✅ Lessons</h4><ul>${r.lessons.map(l => `<li>${l}</li>`).join('')}</ul></div>
-      <div class="review-section"><h4>🔄 Strategy Evolution</h4><div class="evolution">${r.strategy_evolution}</div></div>
+function renderBotDetail() {
+  let html = '<div class="cards">';
+  allBots.forEach(b => {
+    const cashPct = b.total_value_usd ? (b.cash_usd/b.total_value_usd*100) : 0;
+    html += `<div class="card open">
+      <div class="card-header" onclick="this.parentElement.classList.toggle('open')">
+        <h3><span>${b.emoji}</span> ${b.bot_name}</h3>
+        <span class="card-toggle">▼</span>
+      </div>
+      <div class="card-body">
+        <div class="stat-grid">
+          <div class="stat-item"><div class="label">Total Value</div><div class="value">$${fmt(b.total_value_usd)}</div></div>
+          <div class="stat-item"><div class="label">Cash</div><div class="value">$${fmt(b.cash_usd)} <span style="color:var(--text2);font-size:11px;">(${cashPct.toFixed(0)}%)</span></div></div>
+          <div class="stat-item"><div class="label">Daily P&L</div><div class="value ${pc(b.daily_pnl)}">${sign(b.daily_pnl)}$${fmt(b.daily_pnl)}</div></div>
+          <div class="stat-item"><div class="label">Total Return</div><div class="value ${pc(b.total_return_pct)}">${sign(b.total_return_pct)}${b.total_return_pct.toFixed(2)}%</div></div>
+          <div class="stat-item"><div class="label">Realized P&L</div><div class="value ${pc(b.realized_pl)}">${sign(b.realized_pl)}$${fmt(b.realized_pl)}</div></div>
+          <div class="stat-item"><div class="label">Unrealized P&L</div><div class="value ${pc(b.unrealized_pl)}">${sign(b.unrealized_pl)}$${fmt(b.unrealized_pl)}</div></div>
+          <div class="stat-item"><div class="label">Win Rate</div><div class="value">${b.win_rate.toFixed(1)}%</div></div>
+          <div class="stat-item"><div class="label">Trades</div><div class="value">${b.trade_count}</div></div>
+        </div>
+        <div style="color:var(--text2);font-size:12px;margin-bottom:8px;">Strategy: ${b.strategy}</div>
+        ${positionTable(b.positions.map(p=>({...p,bot_name:b.bot_name,emoji:b.emoji})))}
+      </div>
     </div>`;
   });
-  document.getElementById('review').innerHTML = html;
+  html += '</div>';
+  document.getElementById('bots').innerHTML = html;
 }
 
-function renderStrategy() {
-  let html = '';
-  allData.forEach(d => {
-    const tags = new Set();
-    d.trades.forEach(t => tags.add(t.strategy_tag));
-    d.portfolio.positions.forEach(p => tags.add(p.strategy_tag));
-    html += `<div class="strategy-card">
-      <h3><span>${d.bot.emoji}</span> ${d.bot.name}</h3>
-      <p>${d.strategy}</p>
-      <div class="strategy-tags">${[...tags].map(t => `<span class="badge badge-tag">${t}</span>`).join('')}</div>
-    </div>`;
+function renderChart() {
+  if (!fleetData || !fleetData.equity_curve || !fleetData.equity_curve.length) {
+    document.getElementById('chart').innerHTML = '<p style="color:var(--text2);padding:20px;">No equity data available.</p>';
+    return;
+  }
+
+  // Group by bot, get daily points
+  const byBot = {};
+  fleetData.equity_curve.forEach(e => {
+    if (!byBot[e.bot_id]) byBot[e.bot_id] = [];
+    byBot[e.bot_id].push({t:new Date(e.recorded_at), v:e.value});
   });
-  document.getElementById('strategy').innerHTML = html;
+
+  // Simple SVG chart
+  const allPoints = fleetData.equity_curve.map(e=>e.value);
+  const minV = Math.min(...allPoints)*0.99, maxV = Math.max(...allPoints)*1.01;
+  const allTimes = fleetData.equity_curve.map(e=>new Date(e.recorded_at).getTime());
+  const minT = Math.min(...allTimes), maxT = Math.max(...allTimes);
+  const W = 1200, H = 300, PAD = 40;
+
+  const colors = {alfred:'#58a6ff',tars:'#3fb950',vex:'#bc8cff',eddie:'#f0883e'};
+  const botNames = {alfred:'🎩 Alfred',tars:'🤖 TARS',vex:'🤙 Vex',eddie:'🎰 Eddie V'};
+
+  let svg = `<svg viewBox="0 0 ${W} ${H+20}" style="width:100%;height:auto;">`;
+
+  // Grid lines
+  for (let i=0;i<=4;i++) {
+    const y = PAD + (H-2*PAD)*i/4;
+    const val = maxV - (maxV-minV)*i/4;
+    svg += `<line x1="${PAD}" y1="${y}" x2="${W-PAD}" y2="${y}" stroke="var(--border)" stroke-width="0.5"/>`;
+    svg += `<text x="${PAD-4}" y="${y+4}" fill="var(--text2)" font-size="10" text-anchor="end">$${val.toFixed(0)}</text>`;
+  }
+
+  // Lines per bot
+  Object.entries(byBot).forEach(([bot, pts]) => {
+    pts.sort((a,b)=>a.t-b.t);
+    // Downsample to ~200 points
+    const step = Math.max(1, Math.floor(pts.length/200));
+    const sampled = pts.filter((_,i)=>i%step===0||i===pts.length-1);
+    const path = sampled.map((p,i) => {
+      const x = PAD + (p.t.getTime()-minT)/(maxT-minT)*(W-2*PAD);
+      const y = PAD + (1-(p.v-minV)/(maxV-minV))*(H-2*PAD);
+      return `${i===0?'M':'L'}${x.toFixed(1)},${y.toFixed(1)}`;
+    }).join(' ');
+    svg += `<path d="${path}" fill="none" stroke="${colors[bot]||'#888'}" stroke-width="2" opacity="0.85"/>`;
+  });
+
+  svg += '</svg>';
+
+  // Legend
+  const legend = Object.entries(botNames).map(([id,name])=>
+    `<span style="display:inline-flex;align-items:center;gap:4px;margin-right:16px;font-size:12px;"><span style="width:12px;height:3px;background:${colors[id]};display:inline-block;border-radius:2px;"></span>${name}</span>`
+  ).join('');
+
+  document.getElementById('chart').innerHTML = `
+    <div class="chart-container">
+      <h3>Equity Curves — All Bots</h3>
+      <div style="margin-bottom:10px;">${legend}</div>
+      ${svg}
+    </div>
+  `;
 }
 
 // Tab switching
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+    document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
     tab.classList.add('active');
     document.getElementById(tab.dataset.tab).classList.add('active');
   });
 });
 
-// Load and auto-refresh
 loadData();
 setInterval(loadData, 30000);
 </script>
