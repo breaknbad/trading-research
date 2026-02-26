@@ -112,14 +112,13 @@ def run_cycle(force=False, dry_run=False, verbose=True):
     if closed:
         summary_lines.append(f"🔴 Closed: {', '.join(closed)}")
 
-    # 4. Circuit breaker
+    # 4. Circuit breaker and hard limits only (cooldown handled per-signal)
     if risk["circuit_breaker"]:
         summary_lines.append("🛑 Circuit breaker active - no new trades")
         logger.info("Circuit breaker active")
-    elif not risk["can_trade"]:
-        reasons = "; ".join(risk["reasons"])
-        summary_lines.append(f"⛔ Trading paused: {reasons}")
-        logger.info(f"Cannot trade: {reasons}")
+    elif risk["trades_today"] >= config.MAX_TRADES_PER_DAY:
+        summary_lines.append(f"⛔ Daily trade limit reached ({risk['trades_today']}/{config.MAX_TRADES_PER_DAY})")
+        logger.info("Daily trade limit reached")
     else:
         # 5. Scan for signals
         logger.info("Scanning for signals...")
