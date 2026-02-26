@@ -1,284 +1,260 @@
 {
-  "bot": {
-    "name": "Alfred",
-    "emoji": "\ud83c\udfa9",
-    "id": "alfred"
-  },
-  "timestamp": "2026-02-26T16:03:12.507597+00:00",
-  "strategy": "Congressional & Insider Flow \u2014 tracks congressional trading disclosures, SOTU catalysts, and institutional rotation signals to identify asymmetric setups.",
-  "portfolio": {
-    "cash": 18162.65,
-    "positions": [
-      {
-        "ticker": "AAPL",
-        "side": "long",
-        "shares": 4.0,
-        "entry_price": 272.28,
-        "current_price": 272.28,
-        "entry_time": "2026-02-26T00:00:00Z",
-        "reason": "See trade log",
-        "strategy_tag": "value-momentum"
-      },
-      {
-        "ticker": "AMZN",
-        "side": "long",
-        "shares": 5.0,
-        "entry_price": 209.0,
-        "current_price": 209.0,
-        "entry_time": "2026-02-26T00:00:00Z",
-        "reason": "See trade log",
-        "strategy_tag": "value-momentum"
-      },
-      {
-        "ticker": "BBAI",
-        "side": "long",
-        "shares": 100.0,
-        "entry_price": 3.5,
-        "current_price": 3.5,
-        "entry_time": "2026-02-26T00:00:00Z",
-        "reason": "See trade log",
-        "strategy_tag": "value-momentum"
-      },
-      {
-        "ticker": "CRM",
-        "side": "long",
-        "shares": 5.0,
-        "entry_price": 186.06,
-        "current_price": 186.06,
-        "entry_time": "2026-02-26T00:00:00Z",
-        "reason": "See trade log",
-        "strategy_tag": "value-momentum"
-      },
-      {
-        "ticker": "GLD",
-        "side": "long",
-        "shares": 2.0,
-        "entry_price": 476.0,
-        "current_price": 476.0,
-        "entry_time": "2026-02-26T00:00:00Z",
-        "reason": "See trade log",
-        "strategy_tag": "value-momentum"
-      },
-      {
-        "ticker": "MSFT",
-        "side": "long",
-        "shares": 3.0,
-        "entry_price": 404.69,
-        "current_price": 404.69,
-        "entry_time": "2026-02-26T00:00:00Z",
-        "reason": "See trade log",
-        "strategy_tag": "congressional-flow"
-      },
-      {
-        "ticker": "PLTR",
-        "side": "long",
-        "shares": 9.0,
-        "entry_price": 135.63,
-        "current_price": 135.63,
-        "entry_time": "2026-02-26T00:00:00Z",
-        "reason": "See trade log",
-        "strategy_tag": "congressional-flow"
-      },
-      {
-        "ticker": "XLP",
-        "side": "long",
-        "shares": 7.0,
-        "entry_price": 80.0,
-        "current_price": 80.0,
-        "entry_time": "2026-02-26T00:00:00Z",
-        "reason": "See trade log",
-        "strategy_tag": "value-momentum"
-      }
-    ],
-    "realized_pnl": -139.64,
-    "unrealized_pnl": 0.0,
-    "total_return_pct": 2.7494,
-    "total_value": 25687.36,
-    "daily_pnl": -1040.8099999999977
-  },
-  "trades": [
+  "bot_id": "alfred",
+  "updated_at": "2026-02-26T17:09:02.703626+00:00",
+  "total_value_usd": 25663.33,
+  "cash_usd": 17378.25,
+  "total_return_pct": 2.65,
+  "positions": [
     {
-      "ticker": "PLTR",
-      "side": "long",
-      "action": "buy",
-      "shares": 9.0,
-      "price": 135.63,
-      "timestamp": "2026-02-26T15:17:23.751317+00:00",
-      "reason": "Green on red day, defense/gov insulated from trading ban narrative. Relative strength.",
-      "strategy_tag": "congressional-flow"
-    },
-    {
-      "ticker": "MSFT",
-      "side": "long",
-      "action": "buy",
-      "shares": 3.0,
-      "price": 404.69,
-      "timestamp": "2026-02-26T15:17:22.765106+00:00",
-      "reason": "Relative strength divergence, +1% while mega-cap peers sell off. Institutional rotation signal.",
-      "strategy_tag": "congressional-flow"
-    },
-    {
-      "ticker": "NVDA",
-      "side": "short",
-      "action": "short",
-      "shares": 6.0,
-      "price": 187.49,
-      "timestamp": "2026-02-26T15:17:17.169717+00:00",
-      "reason": "Congressional liquidation risk + SOTU ban catalyst. -4.1% velocity trigger, selling into LOD.",
-      "strategy_tag": "congressional-flow"
-    },
-    {
-      "ticker": "DRS",
-      "side": "short",
-      "action": "sell",
-      "shares": 25.0,
-      "price": 42.76,
-      "timestamp": "2026-02-25T20:34:36.159033+00:00",
-      "reason": "Stop breach. Entry 44.42, now 42.76 (-3.7%). 2% stop rule violated - should have been out at 43.53. Executing now. Late but following protocol.",
-      "strategy_tag": "value-momentum"
-    },
-    {
+      "side": "LONG",
+      "market": "US",
       "ticker": "AAPL",
-      "side": "long",
-      "action": "buy",
-      "shares": 4.0,
-      "price": 272.28,
-      "timestamp": "2026-02-24T19:06:37.428543+00:00",
-      "reason": "RE-BUYING. Sold on stale data - TradingView showed yesterdays close 266.18, actual price is 272.28 (+2.29%). Stop was never hit. My mistake. Stop remains 267.",
-      "strategy_tag": "value-momentum"
+      "quantity": 4.0,
+      "avg_entry": 272.28,
+      "currentPrice": 272.1,
+      "unrealizedPL": -0.72,
+      "current_price": 272.1,
+      "unrealized_pl": -0.72
     },
     {
-      "ticker": "DRS",
-      "side": "long",
-      "action": "buy",
-      "shares": 25.0,
-      "price": 44.42,
-      "timestamp": "2026-02-24T19:06:23.369582+00:00",
-      "reason": "Defense + AI convergence. Leonardo DRS +16% today on real defense contracts. SOTU tonight = defense spending rhetoric catalyst. Same lane as BBAI which is +11% on my book. Stop 42.",
-      "strategy_tag": "value-momentum"
-    },
-    {
-      "ticker": "CRM",
-      "side": "long",
-      "action": "buy",
-      "shares": 5.0,
-      "price": 186.06,
-      "timestamp": "2026-02-24T19:05:52.318114+00:00",
-      "reason": "Anthropic partnership catalyst, +4.4% today against fading tape = relative strength. Earnings tomorrow double catalyst. Stop 181. Verified live price on Yahoo Finance.",
-      "strategy_tag": "value-momentum"
-    },
-    {
-      "ticker": "SQQQ",
-      "side": "short",
-      "action": "sell",
-      "shares": 5.0,
-      "price": 70.68,
-      "timestamp": "2026-02-24T17:05:18.53164+00:00",
-      "reason": "Stop breached. Inverse ETF decay.",
-      "strategy_tag": "value-momentum"
-    },
-    {
-      "ticker": "SQQQ",
-      "side": "short",
-      "action": "sell",
-      "shares": 5.0,
-      "price": 70.68,
-      "timestamp": "2026-02-24T17:02:39.253175+00:00",
-      "reason": "Stop hit at -3.6%, closing per CIP rules",
-      "strategy_tag": "value-momentum"
-    },
-    {
+      "side": "LONG",
+      "market": "US",
       "ticker": "AMZN",
-      "side": "long",
-      "action": "buy",
-      "shares": 5.0,
-      "price": 209.0,
-      "timestamp": "2026-02-24T17:01:07.204406+00:00",
-      "reason": "Cloud+AI narrative, participating in market bounce",
-      "strategy_tag": "value-momentum"
+      "quantity": 5.0,
+      "avg_entry": 209.0,
+      "currentPrice": 207.26,
+      "unrealizedPL": -8.7,
+      "current_price": 207.37,
+      "unrealized_pl": -8.15
     },
     {
-      "ticker": "GLD",
-      "side": "long",
-      "action": "buy",
-      "shares": 2.0,
-      "price": 476.0,
-      "timestamp": "2026-02-24T15:57:32.890285+00:00",
-      "reason": "Adding to gold safe haven thesis on pullback",
-      "strategy_tag": "value-momentum"
-    },
-    {
-      "ticker": "XLP",
-      "side": "long",
-      "action": "buy",
-      "shares": 7.0,
-      "price": 80.0,
-      "timestamp": "2026-02-24T15:56:22.963625+00:00",
-      "reason": "Consumer staples defensive play - tariff resistant",
-      "strategy_tag": "value-momentum"
-    },
-    {
-      "ticker": "SQQQ",
-      "side": "short",
-      "action": "sell",
-      "shares": 5.0,
-      "price": 72.96,
-      "timestamp": "2026-02-24T15:56:18.065165+00:00",
-      "reason": "Inverse ETF decay rule - sell at open",
-      "strategy_tag": "value-momentum"
-    },
-    {
-      "ticker": "BTC-USD",
-      "side": "short",
-      "action": "sell",
-      "shares": 0.0383,
-      "price": 63311.39,
-      "timestamp": "2026-02-24T04:28:41.501965+00:00",
-      "reason": "Stop loss triggered \u2014 BTC below $63,400 stop. Entry $66,957, exit $63,311. Loss: -$139.72",
-      "strategy_tag": "value-momentum"
-    },
-    {
-      "ticker": "SQQQ",
-      "side": "long",
-      "action": "buy",
-      "shares": 5.0,
-      "price": 73.33,
-      "timestamp": "2026-02-23T19:31:38.40383+00:00",
-      "reason": "Inverse Nasdaq hedge - bear market positioning",
-      "strategy_tag": "value-momentum"
-    },
-    {
+      "side": "LONG",
+      "market": "US",
       "ticker": "BBAI",
-      "side": "long",
-      "action": "buy",
-      "shares": 100.0,
-      "price": 3.5,
-      "timestamp": "2026-02-23T17:20:00+00:00",
-      "reason": "AI + defense convergence. Congressional defense buys + AI spending decoupling from tech. Stop at $3.15, target $4.20.",
-      "strategy_tag": "value-momentum"
+      "quantity": 100,
+      "avg_entry": 3.5,
+      "currentPrice": 4.025,
+      "unrealizedPL": 52.5,
+      "current_price": 4.05,
+      "unrealized_pl": 55.0
     },
     {
-      "ticker": "BTC-USD",
-      "side": "long",
-      "action": "buy",
-      "shares": 0.0383,
-      "price": 66957.52,
-      "timestamp": "2026-02-23T14:45:00+00:00",
-      "reason": "BTC position. Stop 63400, target 68500.",
-      "strategy_tag": "value-momentum"
+      "side": "LONG",
+      "market": "US",
+      "ticker": "CRM",
+      "quantity": 9.0,
+      "avg_entry": 190.5222,
+      "currentPrice": 196.01,
+      "unrealizedPL": 49.75,
+      "current_price": 196.1,
+      "unrealized_pl": 50.2
+    },
+    {
+      "side": "LONG",
+      "market": "US",
+      "ticker": "GLD",
+      "quantity": 2.0,
+      "avg_entry": 476.0,
+      "currentPrice": 476.56,
+      "unrealizedPL": 1.12,
+      "current_price": 476.54,
+      "unrealized_pl": 1.08
+    },
+    {
+      "side": "LONG",
+      "market": "US",
+      "ticker": "MSFT",
+      "quantity": 3.0,
+      "avg_entry": 404.69,
+      "unrealizedPL": 0.0,
+      "current_price": 400.24,
+      "unrealized_pl": -13.35
+    },
+    {
+      "side": "LONG",
+      "market": "US",
+      "ticker": "PLTR",
+      "quantity": 9.0,
+      "avg_entry": 135.63,
+      "unrealizedPL": 0.0,
+      "current_price": 134.94,
+      "unrealized_pl": -6.21
+    },
+    {
+      "side": "LONG",
+      "market": "US",
+      "ticker": "XLP",
+      "quantity": 7.0,
+      "avg_entry": 80.0,
+      "currentPrice": 88.755,
+      "unrealizedPL": 61.28,
+      "current_price": 88.81,
+      "unrealized_pl": 61.67
     }
   ],
-  "daily_review": {
-    "mistakes": [
-      "Day 3: Sat on cash too long \u2014 80% undeployed until midday",
-      "Day 3: DRS stop breach not caught in time",
-      "Day 4: Initial scan lacked RVOL confirmation \u2014 Finnhub free tier gap"
-    ],
-    "lessons": [
-      "Congressional trading ban catalyst (SOTU) creates liquidation pressure on congress-favorite names",
-      "Relative strength divergence (MSFT green while NVDA -4%) is strongest intraday signal",
-      "Execute on triggers immediately \u2014 5-min scan directive now permanent"
-    ],
-    "strategy_evolution": "Added SOTU congressional ban catalyst as a new factor. Now running 5-minute automated scan cycles during market hours. Shifted from passive analysis to aggressive execution on trigger hits."
-  }
+  "recent_trades": [
+    {
+      "trade_id": "ALF-fe6f9ba7",
+      "timestamp": "2026-02-26T17:08:59.522657+00:00",
+      "action": "BUY",
+      "ticker": "CRM",
+      "quantity": 4.0,
+      "price_usd": 196.1,
+      "reason": "[CONFIRM] LONG | +6.31% move | RVOL=None | Score=63.1"
+    },
+    {
+      "trade_id": "ALF-3a3997cd",
+      "timestamp": "2026-02-26T15:17:23.751317+00:00",
+      "action": "BUY",
+      "ticker": "PLTR",
+      "quantity": 9.0,
+      "price_usd": 135.63,
+      "reason": "Green on red day, defense/gov insulated from trading ban narrative. Relative strength."
+    },
+    {
+      "trade_id": "ALF-a981caa2",
+      "timestamp": "2026-02-26T15:17:22.765106+00:00",
+      "action": "BUY",
+      "ticker": "MSFT",
+      "quantity": 3.0,
+      "price_usd": 404.69,
+      "reason": "Relative strength divergence, +1% while mega-cap peers sell off. Institutional rotation signal."
+    },
+    {
+      "trade_id": "ALF-2fc5d176",
+      "timestamp": "2026-02-26T15:17:17.169717+00:00",
+      "action": "SHORT",
+      "ticker": "NVDA",
+      "quantity": 6.0,
+      "price_usd": 187.49,
+      "reason": "Congressional liquidation risk + SOTU ban catalyst. -4.1% velocity trigger, selling into LOD."
+    },
+    {
+      "trade_id": "ALF-bed38ae4",
+      "timestamp": "2026-02-25T20:34:36.159033+00:00",
+      "action": "SELL",
+      "ticker": "DRS",
+      "quantity": 25.0,
+      "price_usd": 42.76,
+      "reason": "Stop breach. Entry 44.42, now 42.76 (-3.7%). 2% stop rule violated - should have been out at 43.53. Executing now. Late but following protocol."
+    },
+    {
+      "trade_id": "ALF-6bd6ec44",
+      "timestamp": "2026-02-24T19:06:37.428543+00:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "quantity": 4.0,
+      "price_usd": 272.28,
+      "reason": "RE-BUYING. Sold on stale data - TradingView showed yesterdays close 266.18, actual price is 272.28 (+2.29%). Stop was never hit. My mistake. Stop remains 267."
+    },
+    {
+      "trade_id": "ALF-fbbc2304",
+      "timestamp": "2026-02-24T19:06:23.369582+00:00",
+      "action": "BUY",
+      "ticker": "DRS",
+      "quantity": 25.0,
+      "price_usd": 44.42,
+      "reason": "Defense + AI convergence. Leonardo DRS +16% today on real defense contracts. SOTU tonight = defense spending rhetoric catalyst. Same lane as BBAI which is +11% on my book. Stop 42."
+    },
+    {
+      "trade_id": "ALF-f6a225c9",
+      "timestamp": "2026-02-24T19:05:52.318114+00:00",
+      "action": "BUY",
+      "ticker": "CRM",
+      "quantity": 5.0,
+      "price_usd": 186.06,
+      "reason": "Anthropic partnership catalyst, +4.4% today against fading tape = relative strength. Earnings tomorrow double catalyst. Stop 181. Verified live price on Yahoo Finance."
+    },
+    {
+      "trade_id": "ALF-bb7c5640",
+      "timestamp": "2026-02-24T17:05:18.53164+00:00",
+      "action": "SELL",
+      "ticker": "SQQQ",
+      "quantity": 5.0,
+      "price_usd": 70.68,
+      "reason": "Stop breached. Inverse ETF decay."
+    },
+    {
+      "trade_id": "ALF-3543dd1e",
+      "timestamp": "2026-02-24T17:02:39.253175+00:00",
+      "action": "SELL",
+      "ticker": "SQQQ",
+      "quantity": 5.0,
+      "price_usd": 70.68,
+      "reason": "Stop hit at -3.6%, closing per CIP rules"
+    },
+    {
+      "trade_id": "ALF-a3f6d116",
+      "timestamp": "2026-02-24T17:01:07.204406+00:00",
+      "action": "BUY",
+      "ticker": "AMZN",
+      "quantity": 5.0,
+      "price_usd": 209.0,
+      "reason": "Cloud+AI narrative, participating in market bounce"
+    },
+    {
+      "trade_id": "ALF-68fc04f2",
+      "timestamp": "2026-02-24T15:57:32.890285+00:00",
+      "action": "BUY",
+      "ticker": "GLD",
+      "quantity": 2.0,
+      "price_usd": 476.0,
+      "reason": "Adding to gold safe haven thesis on pullback"
+    },
+    {
+      "trade_id": "ALF-5cfc1a54",
+      "timestamp": "2026-02-24T15:56:22.963625+00:00",
+      "action": "BUY",
+      "ticker": "XLP",
+      "quantity": 7.0,
+      "price_usd": 80.0,
+      "reason": "Consumer staples defensive play - tariff resistant"
+    },
+    {
+      "trade_id": "ALF-99d7074c",
+      "timestamp": "2026-02-24T15:56:18.065165+00:00",
+      "action": "SELL",
+      "ticker": "SQQQ",
+      "quantity": 5.0,
+      "price_usd": 72.96,
+      "reason": "Inverse ETF decay rule - sell at open"
+    },
+    {
+      "trade_id": "ALF-7cbb6337",
+      "timestamp": "2026-02-24T04:28:41.501965+00:00",
+      "action": "SELL",
+      "ticker": "BTC-USD",
+      "quantity": 0.0383,
+      "price_usd": 63311.39,
+      "reason": "Stop loss triggered \u2014 BTC below $63,400 stop. Entry $66,957, exit $63,311. Loss: -$139.72"
+    },
+    {
+      "trade_id": "ALF-25931d44",
+      "timestamp": "2026-02-23T19:31:38.40383+00:00",
+      "action": "BUY",
+      "ticker": "SQQQ",
+      "quantity": 5.0,
+      "price_usd": 73.33,
+      "reason": "Inverse Nasdaq hedge - bear market positioning"
+    },
+    {
+      "trade_id": "ALF-3f849e11",
+      "timestamp": "2026-02-23T17:20:00+00:00",
+      "action": "BUY",
+      "ticker": "BBAI",
+      "quantity": 100,
+      "price_usd": 3.5,
+      "reason": "AI + defense convergence. Congressional defense buys + AI spending decoupling from tech. Stop at $3.15, target $4.20."
+    },
+    {
+      "trade_id": "949e4f45-986f-4cb8-9baa-ce89fc0cf793",
+      "timestamp": "2026-02-23T14:45:00+00:00",
+      "action": "BUY",
+      "ticker": "BTC-USD",
+      "quantity": 0.0383,
+      "price_usd": 66957.52,
+      "reason": "BTC position. Stop 63400, target 68500."
+    }
+  ],
+  "trade_count": 26
 }
