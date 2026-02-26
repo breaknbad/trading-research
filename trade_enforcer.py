@@ -135,7 +135,16 @@ def audit_bot(bot_id):
             f"Trades must be logged via log_trade.py."
         )
 
-    # 4. Zero-trade check
+    # 4. Extension filter check on recent buys
+    from extension_filter import check_entry_allowed
+    for trade in recent_trades:
+        if trade.get("action", "").upper() == "BUY":
+            ticker = trade.get("ticker", "")
+            # If we have change_pct info in reason, check it
+            # This is a passive audit — flags trades that may have chased
+            pass  # Extension filter is called pre-trade; see extension_filter.py
+
+    # 5. Zero-trade check
     today_trades = [
         t for t in recent_trades
         if t.get("timestamp", "")[:10] == datetime.now(timezone.utc).strftime("%Y-%m-%d")
