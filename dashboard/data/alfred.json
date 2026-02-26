@@ -1,6 +1,6 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-02-26T17:09:53.717130+00:00",
+  "updated_at": "2026-02-26T17:10:07.030935+00:00",
   "total_value_usd": 25659.9,
   "cash_usd": 15603.85,
   "total_return_pct": 2.64,
@@ -11,8 +11,8 @@
       "ticker": "AAPL",
       "quantity": 4.0,
       "avg_entry": 272.28,
-      "currentPrice": 272.0,
-      "unrealizedPL": -1.12,
+      "currentPrice": 272.03,
+      "unrealizedPL": -1.0,
       "current_price": 272.1,
       "unrealized_pl": -0.72
     },
@@ -22,8 +22,8 @@
       "ticker": "AMZN",
       "quantity": 5.0,
       "avg_entry": 209.0,
-      "currentPrice": 207.23,
-      "unrealizedPL": -8.85,
+      "currentPrice": 207.2,
+      "unrealizedPL": -9.0,
       "current_price": 207.21,
       "unrealized_pl": -8.95
     },
@@ -44,8 +44,8 @@
       "ticker": "CRM",
       "quantity": 13.0,
       "avg_entry": 192.2108,
-      "currentPrice": 196.13,
-      "unrealizedPL": 50.47,
+      "currentPrice": 195.919,
+      "unrealizedPL": 48.21,
       "current_price": 196.01,
       "unrealized_pl": 49.39
     },
@@ -55,8 +55,8 @@
       "ticker": "GLD",
       "quantity": 2.0,
       "avg_entry": 476.0,
-      "currentPrice": 476.64,
-      "unrealizedPL": 1.28,
+      "currentPrice": 476.55,
+      "unrealizedPL": 1.1,
       "current_price": 476.49,
       "unrealized_pl": 0.98
     },
@@ -86,8 +86,8 @@
       "ticker": "XLP",
       "quantity": 7.0,
       "avg_entry": 80.0,
-      "currentPrice": 88.76,
-      "unrealizedPL": 61.32,
+      "currentPrice": 88.768,
+      "unrealizedPL": 61.38,
       "current_price": 88.78,
       "unrealized_pl": 61.46
     },
@@ -97,6 +97,8 @@
       "ticker": "SQQQ",
       "quantity": 14.0,
       "avg_entry": 70.74,
+      "currentPrice": 70.78,
+      "unrealizedPL": 0.56,
       "current_price": 70.74,
       "unrealized_pl": 0.0
     }
