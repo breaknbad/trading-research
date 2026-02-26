@@ -1,7 +1,7 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-02-26T17:30:07.113465+00:00",
-  "total_value_usd": 25667.78,
+  "updated_at": "2026-02-26T17:35:06.513424+00:00",
+  "total_value_usd": 25667.48,
   "cash_usd": 15603.85,
   "total_return_pct": 2.67,
   "positions": [
@@ -11,10 +11,10 @@
       "ticker": "AAPL",
       "quantity": 4.0,
       "avg_entry": 272.28,
-      "currentPrice": 271.71,
-      "unrealizedPL": -2.28,
-      "current_price": 271.59,
-      "unrealized_pl": -2.76
+      "currentPrice": 271.902,
+      "unrealizedPL": -1.51,
+      "current_price": 271.92,
+      "unrealized_pl": -1.44
     },
     {
       "side": "LONG",
@@ -22,10 +22,10 @@
       "ticker": "AMZN",
       "quantity": 5.0,
       "avg_entry": 209.0,
-      "currentPrice": 206.99,
-      "unrealizedPL": -10.05,
-      "current_price": 206.96,
-      "unrealized_pl": -10.2
+      "currentPrice": 206.92,
+      "unrealizedPL": -10.4,
+      "current_price": 207.03,
+      "unrealized_pl": -9.85
     },
     {
       "side": "LONG",
@@ -33,10 +33,10 @@
       "ticker": "BBAI",
       "quantity": 100,
       "avg_entry": 3.5,
-      "currentPrice": 4.025,
-      "unrealizedPL": 52.5,
-      "current_price": 4.04,
-      "unrealized_pl": 54.0
+      "currentPrice": 4.04,
+      "unrealizedPL": 54.0,
+      "current_price": 4.06,
+      "unrealized_pl": 56.0
     },
     {
       "side": "LONG",
@@ -44,10 +44,10 @@
       "ticker": "CRM",
       "quantity": 13.0,
       "avg_entry": 192.2108,
-      "currentPrice": 196.85,
-      "unrealizedPL": 60.31,
-      "current_price": 197.01,
-      "unrealized_pl": 62.39
+      "currentPrice": 196.62,
+      "unrealizedPL": 57.32,
+      "current_price": 196.69,
+      "unrealized_pl": 58.23
     },
     {
       "side": "LONG",
@@ -55,10 +55,10 @@
       "ticker": "GLD",
       "quantity": 2.0,
       "avg_entry": 476.0,
-      "currentPrice": 475.35,
-      "unrealizedPL": -1.3,
-      "current_price": 475.41,
-      "unrealized_pl": -1.18
+      "currentPrice": 475.61,
+      "unrealizedPL": -0.78,
+      "current_price": 475.63,
+      "unrealized_pl": -0.74
     },
     {
       "side": "LONG",
@@ -67,8 +67,8 @@
       "quantity": 3.0,
       "avg_entry": 404.69,
       "unrealizedPL": 0.0,
-      "current_price": 400.79,
-      "unrealized_pl": -11.7
+      "current_price": 401.16,
+      "unrealized_pl": -10.59
     },
     {
       "side": "LONG",
@@ -77,8 +77,8 @@
       "quantity": 9.0,
       "avg_entry": 135.63,
       "unrealizedPL": 0.0,
-      "current_price": 134.34,
-      "unrealized_pl": -11.61
+      "current_price": 134.64,
+      "unrealized_pl": -8.91
     },
     {
       "side": "LONG",
@@ -86,10 +86,10 @@
       "ticker": "SQQQ",
       "quantity": 14.0,
       "avg_entry": 70.74,
-      "currentPrice": 70.95,
-      "unrealizedPL": 2.94,
-      "current_price": 71.04,
-      "unrealized_pl": 4.2
+      "currentPrice": 70.74,
+      "unrealizedPL": 0.0,
+      "current_price": 70.75,
+      "unrealized_pl": 0.14
     },
     {
       "side": "LONG",
@@ -97,8 +97,8 @@
       "ticker": "XLP",
       "quantity": 7.0,
       "avg_entry": 80.0,
-      "currentPrice": 88.71,
-      "unrealizedPL": 60.97,
+      "currentPrice": 88.67,
+      "unrealizedPL": 60.69,
       "current_price": 88.69,
       "unrealized_pl": 60.83
     }
