@@ -100,13 +100,13 @@ def update_portfolio(bot_id, action, ticker, qty, price, market):
     cash = float(portfolio.get("cash_usd", 0))
     trade_count = int(portfolio.get("trade_count", 0))
 
-    if action in ("BUY",):
+    if action == "BUY":
         cost = qty * price
         cash -= cost
         # Check if position exists
         found = False
         for pos in positions:
-            if pos.get("ticker") == ticker:
+            if pos.get("ticker") == ticker and pos.get("side", "LONG") == "LONG":
                 old_qty = float(pos.get("quantity", 0))
                 old_avg = float(pos.get("avg_entry", 0))
                 new_qty = old_qty + qty
@@ -127,11 +127,11 @@ def update_portfolio(bot_id, action, ticker, qty, price, market):
                 "side": "LONG",
             })
 
-    elif action in ("SELL",):
+    elif action == "SELL":
         proceeds = qty * price
         cash += proceeds
         for pos in positions:
-            if pos.get("ticker") == ticker:
+            if pos.get("ticker") == ticker and pos.get("side", "LONG") == "LONG":
                 old_qty = float(pos.get("quantity", 0))
                 new_qty = old_qty - qty
                 if new_qty <= 0:
@@ -140,12 +140,67 @@ def update_portfolio(bot_id, action, ticker, qty, price, market):
                     pos["quantity"] = new_qty
                 break
 
-    # Recalculate total value
-    position_value = sum(
-        float(p.get("quantity", 0)) * float(p.get("current_price", p.get("avg_entry", 0)))
-        for p in positions
-    )
+    elif action == "SHORT":
+        proceeds = qty * price
+        cash += proceeds
+        found = False
+        for pos in positions:
+            if pos.get("ticker") == ticker and pos.get("side") == "SHORT":
+                old_qty = float(pos.get("quantity", 0))
+                old_avg = float(pos.get("avg_entry", 0))
+                new_qty = old_qty + qty
+                new_avg = ((old_avg * old_qty) + (price * qty)) / new_qty
+                pos["quantity"] = new_qty
+                pos["avg_entry"] = round(new_avg, 4)
+                pos["current_price"] = price
+                found = True
+                break
+        if not found:
+            positions.append({
+                "ticker": ticker,
+                "market": market,
+                "quantity": qty,
+                "avg_entry": price,
+                "current_price": price,
+                "unrealized_pl": 0,
+                "side": "SHORT",
+            })
+
+    elif action == "COVER":
+        cost = qty * price
+        cash -= cost
+        for pos in positions:
+            if pos.get("ticker") == ticker and pos.get("side") == "SHORT":
+                old_qty = float(pos.get("quantity", 0))
+                new_qty = old_qty - qty
+                if new_qty <= 0:
+                    positions.remove(pos)
+                else:
+                    pos["quantity"] = new_qty
+                break
+
+    # Recalculate total value (LONG positions add value, SHORT positions subtract)
+    position_value = 0
+    for p in positions:
+        qty_val = float(p.get("quantity", 0)) * float(p.get("current_price", p.get("avg_entry", 0)))
+        if p.get("side") == "SHORT":
+            # Short P&L: entry_value - current_value (already reflected in cash from proceeds)
+            # Don't double-count: cash already has SHORT proceeds, position value is the obligation
+            entry_val = float(p.get("quantity", 0)) * float(p.get("avg_entry", 0))
+            position_value -= qty_val  # Subtract current obligation
+            position_value += entry_val  # Add back what we received (already in cash, so net is unrealized P&L)
+        else:
+            position_value += qty_val
     total_value = cash + position_value
+
+    # 3% spike guard: reject suspicious values
+    prev_total = float(portfolio.get("total_value_usd", 25000))
+    if prev_total > 0:
+        change_pct = abs(total_value - prev_total) / prev_total * 100
+        if change_pct > 3:
+            print(f"⚠️  SPIKE GUARD: value changed {change_pct:.1f}% (${prev_total:.2f} → ${total_value:.2f}) — skipping portfolio update")
+            print(f"   This is likely bad data. Investigate before retrying.")
+            return
 
     patch = {
         "cash_usd": round(cash, 2),

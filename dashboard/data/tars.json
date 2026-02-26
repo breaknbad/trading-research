@@ -4,70 +4,124 @@
   "emoji": "\ud83e\udd16",
   "strategy": "Momentum Breakout Scanner",
   "status": "running",
-  "updated_at": "2026-02-26T18:25:26.595717+00:00",
-  "total_value_usd": 32943.83,
-  "cash_usd": 17619.61,
-  "total_return_pct": 31.78,
-  "daily_pnl": 7786.75,
-  "daily_return_pct": 31.7753,
+  "updated_at": "2026-02-26T21:12:55.302935+00:00",
+  "total_value_usd": 24499.57,
+  "cash_usd": 13693.46,
+  "total_return_pct": -2.0,
+  "daily_pnl": -657.51,
+  "daily_return_pct": -2.0017,
   "realized_pl": 0.0,
-  "unrealized_pl": 152.56,
+  "unrealized_pl": 197.06,
   "day_start_value": 25157.08,
   "win_rate": 61.1,
-  "trade_count": 21,
+  "trade_count": 25,
   "positions": [
     {
       "ticker": "AMZN",
       "side": "LONG",
       "quantity": 3.0,
       "avg_entry": 209.0,
-      "current_price": 205.85,
-      "unrealized_pl": -9.45,
-      "pnl_pct": -1.51,
-      "market_value": 617.55
+      "current_price": 207.92,
+      "unrealized_pl": -3.24,
+      "pnl_pct": -0.52,
+      "market_value": 623.76
     },
     {
       "ticker": "GDX",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 111.4,
-      "current_price": 111.4,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 1114.0
+      "current_price": 113.86,
+      "unrealized_pl": 24.6,
+      "pnl_pct": 2.21,
+      "market_value": 1138.6
+    },
+    {
+      "ticker": "GDXJ",
+      "side": "LONG",
+      "quantity": 10.0,
+      "avg_entry": 150.73,
+      "current_price": 153.35,
+      "unrealized_pl": 26.2,
+      "pnl_pct": 1.74,
+      "market_value": 1533.5
     },
     {
       "ticker": "GLD",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 462.62,
-      "current_price": 475.45,
-      "unrealized_pl": 128.3,
-      "pnl_pct": 2.77,
-      "market_value": 4754.5
+      "current_price": 477.46,
+      "unrealized_pl": 148.4,
+      "pnl_pct": 3.21,
+      "market_value": 4774.6
     },
     {
-      "ticker": "INTC",
+      "ticker": "PLTR",
       "side": "LONG",
       "quantity": 10.0,
-      "avg_entry": 46.05,
-      "current_price": 45.19,
-      "unrealized_pl": -8.6,
-      "pnl_pct": -1.87,
-      "market_value": 451.9
+      "avg_entry": 135.33,
+      "current_price": 135.94,
+      "unrealized_pl": 6.1,
+      "pnl_pct": 0.45,
+      "market_value": 1359.4
     },
     {
-      "ticker": "TLT",
+      "ticker": "XLE",
       "side": "LONG",
-      "quantity": 93.0,
-      "avg_entry": 89.72,
-      "current_price": 90.175,
-      "unrealized_pl": 42.31,
-      "pnl_pct": 0.51,
-      "market_value": 8386.27
+      "quantity": 25.0,
+      "avg_entry": 55.25,
+      "current_price": 55.05,
+      "unrealized_pl": -5.0,
+      "pnl_pct": -0.36,
+      "market_value": 1376.25
     }
   ],
   "recent_trades": [
+    {
+      "trade_id": "TARS-f461b9ba",
+      "timestamp": "2026-02-26T20:23:43.757078+00:00",
+      "action": "SELL",
+      "ticker": "INTC",
+      "quantity": 7.0,
+      "price_usd": 45.1,
+      "total_usd": 315.7,
+      "reason": "STOP-LOSS EXECUTED. Entry .05, stop .13, breached at .10. Automated enforcement.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "TARS-d1c65eec",
+      "timestamp": "2026-02-26T19:16:39.187114+00:00",
+      "action": "BUY",
+      "ticker": "PLTR",
+      "quantity": 10.0,
+      "price_usd": 135.33,
+      "total_usd": 1353.3000000000002,
+      "reason": "Defense/AI play +1.3%, holding green on red tape day, conviction 5",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "TARS-f5282cce",
+      "timestamp": "2026-02-26T19:16:38.365182+00:00",
+      "action": "BUY",
+      "ticker": "XLE",
+      "quantity": 25.0,
+      "price_usd": 55.25,
+      "total_usd": 1381.25,
+      "reason": "Energy +1.9%, rotation into value/commodities on tech selloff",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "TARS-2abc89f3",
+      "timestamp": "2026-02-26T19:16:37.571945+00:00",
+      "action": "BUY",
+      "ticker": "GDXJ",
+      "quantity": 10.0,
+      "price_usd": 150.73,
+      "total_usd": 1507.3,
+      "reason": "Gold miners strongest sector +3.4%, risk rotation from tech, power hour momentum",
+      "status": "OPEN"
+    },
     {
       "trade_id": "TARS-9b0ca4c4",
       "timestamp": "2026-02-26T18:15:53.719189+00:00",
@@ -165,7 +219,7 @@
       "price_usd": 46.05,
       "total_usd": 322.34999999999997,
       "reason": "Sizing up semi position. 10x total. Same thesis - sector momentum, institutional flow.",
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "trade_id": "TARS-97f2745c",
@@ -176,7 +230,7 @@
       "price_usd": 46.05,
       "total_usd": 138.14999999999998,
       "reason": "Semi momentum - AMD +9%, INTC +5.5%, institutions piling into chips. Stop $45.",
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "trade_id": "TARS-8087dde5",
@@ -275,17 +329,6 @@
       "price_usd": 89.72,
       "total_usd": 8343.96,
       "reason": "Risk-off macro. Yields elevated, bonds undervalued. Pairs with GLD for defensive book.",
-      "status": "OPEN"
-    },
-    {
-      "trade_id": "5d1a1646-b466-4973-8982-ce6300a1c0a5",
-      "timestamp": "2026-02-23T14:35:00+00:00",
-      "action": "BUY",
-      "ticker": "SPY",
-      "quantity": 7.0,
-      "price_usd": 681.75,
-      "total_usd": 4772.25,
-      "reason": "10am reversal play. SPY down from 689 close, watching for oversold bounce at 685 support. 2% stop at 671.",
       "status": "CLOSED"
     },
     {
@@ -298,6 +341,17 @@
       "total_usd": 4626.2,
       "reason": "Gold strength + risk-off macro signal. SPY gapping down, GLD holding strong. Safe haven flow.",
       "status": "OPEN"
+    },
+    {
+      "trade_id": "5d1a1646-b466-4973-8982-ce6300a1c0a5",
+      "timestamp": "2026-02-23T14:35:00+00:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "quantity": 7.0,
+      "price_usd": 681.75,
+      "total_usd": 4772.25,
+      "reason": "10am reversal play. SPY down from 689 close, watching for oversold bounce at 685 support. 2% stop at 671.",
+      "status": "CLOSED"
     }
   ]
 }

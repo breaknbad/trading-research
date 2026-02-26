@@ -174,7 +174,20 @@ def sync():
         tmp.rename(out)
         print(f"✅ {file_id}.json — ${total_value:,.2f} ({len(positions)} positions, {len(bot_trades)} trades)")
 
-    # Write fleet summary
+    # Write fleet summary (filter out spike data: >3% jump from previous point per bot)
+    filtered_equity = []
+    last_by_bot = {}
+    for e in equity:
+        bot = e["bot_id"]
+        val = float(e["value"])
+        prev = last_by_bot.get(bot)
+        if prev and prev > 0:
+            change_pct = abs(val - prev) / prev * 100
+            if change_pct > 3:
+                continue  # Skip spike
+        last_by_bot[bot] = val
+        filtered_equity.append(e)
+
     fleet = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "equity_curve": [
@@ -183,7 +196,7 @@ def sync():
                 "value": float(e["value"]),
                 "recorded_at": e["recorded_at"].isoformat() if hasattr(e["recorded_at"], "isoformat") else str(e["recorded_at"]),
             }
-            for e in equity
+            for e in filtered_equity
         ],
     }
     with open(DATA_DIR / "fleet.json", "w") as f:

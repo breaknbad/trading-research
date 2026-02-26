@@ -122,7 +122,7 @@
     <button class="tab" data-tab="positions">💰 All Positions</button>
     <button class="tab" data-tab="trades">📜 Trade Log</button>
     <button class="tab" data-tab="bots">🤖 Bot Detail</button>
-    <button class="tab" data-tab="chart">📈 Equity Curve</button>
+    <button class="tab" data-tab="chart">🏁 The Race</button>
   </div>
 
   <div id="overview" class="section active">
@@ -194,11 +194,22 @@ function renderFleetBar() {
   const totalCash = allBots.reduce((s,b) => s+b.cash_usd, 0);
   const cashPct = totalValue ? (totalCash/totalValue*100) : 0;
 
+  // Per-bot growth stats
+  const bestDaily = allBots.reduce((best,b) => {
+    const dg = b.day_start_value ? ((b.total_value_usd - b.day_start_value)/b.day_start_value*100) : 0;
+    return dg > best.v ? {name:b.bot_name, emoji:b.emoji, v:dg} : best;
+  }, {name:'',emoji:'',v:-Infinity});
+  const bestCum = allBots.reduce((best,b) => {
+    const cg = ((b.total_value_usd - 25000)/25000*100);
+    return cg > best.v ? {name:b.bot_name, emoji:b.emoji, v:cg} : best;
+  }, {name:'',emoji:'',v:-Infinity});
+
   document.getElementById('fleet-bar').innerHTML = `
     <div class="fleet-stat"><div class="label">Fleet Value</div><div class="value">$${fmt(totalValue)}</div><div class="sub">Started $100,000</div></div>
     <div class="fleet-stat"><div class="label">Today's P&L</div><div class="value ${pc(totalDailyPnl)}">${sign(totalDailyPnl)}$${fmt(totalDailyPnl)}</div><div class="sub">${sign(dailyPct)}${dailyPct.toFixed(2)}%</div></div>
     <div class="fleet-stat"><div class="label">Total Return</div><div class="value ${pc(totalReturn)}">${sign(totalReturn)}${totalReturn.toFixed(2)}%</div><div class="sub">Since inception</div></div>
-    <div class="fleet-stat"><div class="label">Open Positions</div><div class="value">${totalPositions}</div><div class="sub">${allBots.length} bots active</div></div>
+    <div class="fleet-stat"><div class="label">🏆 Best Today</div><div class="value ${pc(bestDaily.v)}">${bestDaily.emoji} ${sign(bestDaily.v)}${bestDaily.v.toFixed(2)}%</div><div class="sub">${bestDaily.name}</div></div>
+    <div class="fleet-stat"><div class="label">🥇 Leader Overall</div><div class="value ${pc(bestCum.v)}">${bestCum.emoji} ${sign(bestCum.v)}${bestCum.v.toFixed(2)}%</div><div class="sub">${bestCum.name}</div></div>
     <div class="fleet-stat"><div class="label">Fleet Cash</div><div class="value">$${fmt(totalCash)}</div><div class="sub">${cashPct.toFixed(1)}% of portfolio</div></div>
   `;
 }
@@ -226,16 +237,19 @@ function renderAlerts() {
 function renderLeaderboard() {
   const sorted = [...allBots].sort((a,b) => b.total_return_pct - a.total_return_pct);
   let html = `<table><thead><tr>
-    <th>#</th><th>Bot</th><th>Total Value</th><th>Daily P&L</th><th>Return %</th><th>Positions</th><th>Cash %</th><th>Win Rate</th><th>Trades</th>
+    <th>#</th><th>Bot</th><th>Total Value</th><th>Daily P&L</th><th>Today's Growth</th><th>Cumulative Growth</th><th>Positions</th><th>Cash %</th><th>Win Rate</th><th>Trades</th>
   </tr></thead><tbody>`;
   sorted.forEach((b,i) => {
     const cashPct = b.total_value_usd ? (b.cash_usd/b.total_value_usd*100) : 0;
+    const dailyGrowth = b.day_start_value ? ((b.total_value_usd - b.day_start_value)/b.day_start_value*100) : 0;
+    const cumGrowth = ((b.total_value_usd - 25000)/25000*100);
     html += `<tr>
       <td class="rank rank-${i+1}">${i+1}</td>
       <td><div class="bot-name"><span class="bot-emoji">${b.emoji}</span><div><div class="bot-label">${b.bot_name}</div><div class="bot-strategy">${b.strategy}</div></div></div></td>
       <td class="mono">$${fmt(b.total_value_usd)}</td>
       <td class="mono ${pc(b.daily_pnl)}">${sign(b.daily_pnl)}$${fmt(b.daily_pnl)}</td>
-      <td class="mono ${pc(b.total_return_pct)}">${sign(b.total_return_pct)}${b.total_return_pct.toFixed(2)}%</td>
+      <td class="mono ${pc(dailyGrowth)}">${sign(dailyGrowth)}${dailyGrowth.toFixed(2)}%</td>
+      <td class="mono ${pc(cumGrowth)}"><strong>${sign(cumGrowth)}${cumGrowth.toFixed(2)}%</strong></td>
       <td>${b.positions.length}</td>
       <td class="mono">${cashPct.toFixed(0)}%</td>
       <td class="mono">${b.win_rate.toFixed(1)}%</td>
@@ -416,7 +430,7 @@ function renderChart() {
 
   document.getElementById('chart').innerHTML = `
     <div class="chart-container">
-      <h3>Equity Curves — All Bots</h3>
+      <h3>🏁 The Race — Who Finishes First?</h3>
       <div style="margin-bottom:10px;">${legend}</div>
       ${svg}
     </div>

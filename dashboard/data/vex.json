@@ -4,14 +4,14 @@
   "emoji": "\ud83e\udd19",
   "strategy": "Cross-Market Correlations",
   "status": "running",
-  "updated_at": "2026-02-26T18:25:26.952717+00:00",
-  "total_value_usd": 25189.24,
+  "updated_at": "2026-02-26T21:12:54.132173+00:00",
+  "total_value_usd": 25376.17,
   "cash_usd": 3055.92,
-  "total_return_pct": 0.76,
-  "daily_pnl": -44.57,
-  "daily_return_pct": 0.757,
+  "total_return_pct": 1.5,
+  "daily_pnl": 142.36,
+  "daily_return_pct": 1.5047,
   "realized_pl": 0.0,
-  "unrealized_pl": 248.47,
+  "unrealized_pl": 435.4,
   "day_start_value": 25233.81,
   "win_rate": 46.7,
   "trade_count": 13,
@@ -21,70 +21,70 @@
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 209.0,
-      "current_price": 205.85,
-      "unrealized_pl": -31.5,
-      "pnl_pct": -1.51,
-      "market_value": 2058.5
+      "current_price": 207.92,
+      "unrealized_pl": -10.8,
+      "pnl_pct": -0.52,
+      "market_value": 2079.2
     },
     {
       "ticker": "EFA",
       "side": "LONG",
       "quantity": 25.0,
       "avg_entry": 104.24,
-      "current_price": 105.11,
-      "unrealized_pl": 21.75,
-      "pnl_pct": 0.83,
-      "market_value": 2627.75
+      "current_price": 105.55,
+      "unrealized_pl": 32.75,
+      "pnl_pct": 1.26,
+      "market_value": 2638.75
     },
     {
       "ticker": "EWC",
       "side": "LONG",
       "quantity": 50.0,
       "avg_entry": 56.17,
-      "current_price": 57.785,
-      "unrealized_pl": 80.75,
-      "pnl_pct": 2.88,
-      "market_value": 2889.25
+      "current_price": 58.13,
+      "unrealized_pl": 98.0,
+      "pnl_pct": 3.49,
+      "market_value": 2906.5
     },
     {
       "ticker": "GDX",
       "side": "LONG",
       "quantity": 40.0,
       "avg_entry": 109.82,
-      "current_price": 111.4,
-      "unrealized_pl": 63.2,
-      "pnl_pct": 1.44,
-      "market_value": 4456.0
+      "current_price": 113.86,
+      "unrealized_pl": 161.6,
+      "pnl_pct": 3.68,
+      "market_value": 4554.4
     },
     {
       "ticker": "GLD",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 462.62,
-      "current_price": 475.45,
-      "unrealized_pl": 128.3,
-      "pnl_pct": 2.77,
-      "market_value": 4754.5
+      "current_price": 477.46,
+      "unrealized_pl": 148.4,
+      "pnl_pct": 3.21,
+      "market_value": 4774.6
     },
     {
       "ticker": "XLE",
       "side": "LONG",
       "quantity": 26.0,
       "avg_entry": 54.6,
-      "current_price": 55.32,
-      "unrealized_pl": 18.72,
-      "pnl_pct": 1.32,
-      "market_value": 1438.32
+      "current_price": 55.05,
+      "unrealized_pl": 11.7,
+      "pnl_pct": 0.82,
+      "market_value": 1431.3
     },
     {
       "ticker": "XLV",
       "side": "LONG",
       "quantity": 25.0,
       "avg_entry": 157.67,
-      "current_price": 156.36,
-      "unrealized_pl": -32.75,
-      "pnl_pct": -0.83,
-      "market_value": 3909.0
+      "current_price": 157.42,
+      "unrealized_pl": -6.25,
+      "pnl_pct": -0.16,
+      "market_value": 3935.5
     }
   ],
   "recent_trades": [
@@ -199,6 +199,17 @@
       "status": "OPEN"
     },
     {
+      "trade_id": "db3295c9-e25e-415c-b1ec-84f120ee7e5b",
+      "timestamp": "2026-02-23T14:40:00+00:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "quantity": 5.0,
+      "price_usd": 601.92,
+      "total_usd": 3009.6,
+      "reason": "10am reversal play. Nasdaq oversold bounce.",
+      "status": "CLOSED"
+    },
+    {
       "trade_id": "a912a394-2cce-43d4-bff0-cd43745a0ebb",
       "timestamp": "2026-02-23T14:40:00+00:00",
       "action": "BUY",
@@ -219,17 +230,6 @@
       "total_usd": 4626.2,
       "reason": "Risk-off hedge. Gold bid on tariff fears.",
       "status": "OPEN"
-    },
-    {
-      "trade_id": "db3295c9-e25e-415c-b1ec-84f120ee7e5b",
-      "timestamp": "2026-02-23T14:40:00+00:00",
-      "action": "BUY",
-      "ticker": "QQQ",
-      "quantity": 5.0,
-      "price_usd": 601.92,
-      "total_usd": 3009.6,
-      "reason": "10am reversal play. Nasdaq oversold bounce.",
-      "status": "CLOSED"
     }
   ]
 }
