@@ -1,9 +1,9 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-02-27T18:20:11.473237+00:00",
-  "total_value_usd": 69358.7,
-  "cash_usd": 48482.83,
-  "total_return_pct": 177.43,
+  "updated_at": "2026-02-27T18:25:09.229532+00:00",
+  "total_value_usd": 71892.94,
+  "cash_usd": 49760.79,
+  "total_return_pct": 187.57,
   "positions": [
     {
       "side": "LONG",
@@ -11,10 +11,10 @@
       "ticker": "AMZN",
       "quantity": 5.0,
       "avg_entry": 209.0,
-      "currentPrice": 208.02,
-      "unrealizedPL": -4.9,
-      "current_price": 208.05,
-      "unrealized_pl": -4.75
+      "currentPrice": 208.0,
+      "unrealizedPL": -5.0,
+      "current_price": 207.99,
+      "unrealized_pl": -5.05
     },
     {
       "side": "LONG",
@@ -22,10 +22,10 @@
       "ticker": "BBAI",
       "quantity": 100,
       "avg_entry": 3.5,
-      "currentPrice": 3.865,
-      "unrealizedPL": 36.5,
-      "current_price": 3.88,
-      "unrealized_pl": 38.0
+      "currentPrice": 3.845,
+      "unrealizedPL": 34.5,
+      "current_price": 3.86,
+      "unrealized_pl": 36.0
     },
     {
       "side": "LONG",
@@ -33,10 +33,10 @@
       "ticker": "GLD",
       "quantity": 2.0,
       "avg_entry": 476.0,
-      "currentPrice": 480.88,
-      "unrealizedPL": 9.76,
-      "current_price": 481,
-      "unrealized_pl": 10.0
+      "currentPrice": 480.35,
+      "unrealizedPL": 8.7,
+      "current_price": 480.6,
+      "unrealized_pl": 9.2
     },
     {
       "side": "LONG",
@@ -44,10 +44,10 @@
       "ticker": "PLTR",
       "quantity": 9.0,
       "avg_entry": 135.63,
-      "currentPrice": 134.617,
-      "unrealizedPL": -9.12,
-      "current_price": 134.81,
-      "unrealized_pl": -7.38
+      "currentPrice": 134.45,
+      "unrealizedPL": -10.62,
+      "current_price": 134.5,
+      "unrealized_pl": -10.17
     },
     {
       "side": "LONG",
@@ -55,10 +55,10 @@
       "ticker": "SQQQ",
       "quantity": 43.0,
       "avg_entry": 71.4756,
-      "currentPrice": 71.65,
-      "unrealizedPL": 7.5,
-      "current_price": 71.56,
-      "unrealized_pl": 3.63
+      "currentPrice": 71.685,
+      "unrealizedPL": 9.0,
+      "current_price": 71.69,
+      "unrealized_pl": 9.22
     },
     {
       "side": "LONG",
@@ -66,10 +66,10 @@
       "ticker": "XLP",
       "quantity": 7.0,
       "avg_entry": 80.0,
-      "currentPrice": 89.98,
-      "unrealizedPL": 69.86,
-      "current_price": 89.97,
-      "unrealized_pl": 69.79
+      "currentPrice": 89.99,
+      "unrealizedPL": 69.93,
+      "current_price": 90,
+      "unrealized_pl": 70.0
     },
     {
       "side": "SHORT",
@@ -77,10 +77,20 @@
       "ticker": "AMD",
       "quantity": 21.0,
       "avg_entry": 200.0986,
-      "currentPrice": 198.43,
-      "unrealizedPL": 35.04,
-      "current_price": 198.62,
-      "unrealized_pl": 31.05
+      "currentPrice": 198.33,
+      "unrealizedPL": 37.14,
+      "current_price": 198.27,
+      "unrealized_pl": 38.4
+    },
+    {
+      "side": "SHORT",
+      "market": "US",
+      "ticker": "META",
+      "quantity": 4.0,
+      "avg_entry": 639.51,
+      "unrealizedPL": 0.0,
+      "current_price": 638.98,
+      "unrealized_pl": 2.12
     },
     {
       "side": "SHORT",
@@ -88,10 +98,10 @@
       "ticker": "NVDA",
       "quantity": 23.0,
       "avg_entry": 184.7696,
-      "currentPrice": 178.85,
-      "unrealizedPL": 136.15,
-      "current_price": 179.02,
-      "unrealized_pl": 132.24
+      "currentPrice": 178.99,
+      "unrealizedPL": 132.93,
+      "current_price": 178.88,
+      "unrealized_pl": 135.46
     },
     {
       "side": "SHORT",
@@ -100,20 +110,20 @@
       "quantity": 10.0,
       "avg_entry": 399.812,
       "unrealizedPL": 0.02,
-      "current_price": 399.69,
-      "unrealized_pl": 1.22
-    },
-    {
-      "side": "SHORT",
-      "market": "US",
-      "ticker": "META",
-      "quantity": 2.0,
-      "avg_entry": 640.04,
-      "current_price": 640.04,
-      "unrealized_pl": 0.0
+      "current_price": 398.8,
+      "unrealized_pl": 10.12
     }
   ],
   "recent_trades": [
+    {
+      "trade_id": "ALF-0df708f0",
+      "timestamp": "2026-02-27T18:25:06.171899+00:00",
+      "action": "SHORT",
+      "ticker": "META",
+      "quantity": 2.0,
+      "price_usd": 638.98,
+      "reason": "[SCOUT] SHORT | -2.46% move | RVOL=None | Score=24.6"
+    },
     {
       "trade_id": "ALF-ab7e2f88",
       "timestamp": "2026-02-27T18:20:07.154232+00:00",
@@ -284,16 +294,7 @@
       "quantity": 3.0,
       "price_usd": 394.77,
       "reason": "[RISK] Stop loss hit: -2.5%"
-    },
-    {
-      "trade_id": "ALF-28bd6e20",
-      "timestamp": "2026-02-27T15:20:08.112473+00:00",
-      "action": "SHORT",
-      "ticker": "NVDA",
-      "quantity": 1.0,
-      "price_usd": 180.95,
-      "reason": "[SCOUT] SHORT | -2.90% move | RVOL=None | Score=29.0"
     }
   ],
-  "trade_count": 59
+  "trade_count": 60
 }
