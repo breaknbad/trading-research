@@ -1,118 +1,109 @@
 {
   "bot_id": "alfred",
   "updated_at": "2026-02-27T18:05:07.819661+00:00",
-  "total_value_usd": 66829.65,
-  "cash_usd": 46135.63,
-  "total_return_pct": 167.32,
+  "total_value_usd": 24861.0,
+  "cash_usd": 28803.4,
+  "total_return_pct": -0.56,
   "positions": [
     {
       "side": "LONG",
-      "market": "US",
       "ticker": "AAPL",
       "quantity": 4.0,
       "avg_entry": 272.28,
-      "currentPrice": 266.98,
-      "unrealizedPL": -21.2,
       "current_price": 267,
-      "unrealized_pl": -21.12
+      "unrealized_pl": -21.12,
+      "market_value": 1068.0,
+      "pnl_pct": -1.94
     },
     {
       "side": "LONG",
-      "market": "US",
       "ticker": "AMZN",
       "quantity": 5.0,
       "avg_entry": 209.0,
-      "currentPrice": 208.24,
-      "unrealizedPL": -3.8,
       "current_price": 208.2,
-      "unrealized_pl": -4.0
+      "unrealized_pl": -4.0,
+      "market_value": 1041.0,
+      "pnl_pct": -0.38
     },
     {
       "side": "LONG",
-      "market": "US",
       "ticker": "BBAI",
       "quantity": 100,
       "avg_entry": 3.5,
-      "currentPrice": 3.895,
-      "unrealizedPL": 39.5,
       "current_price": 3.91,
-      "unrealized_pl": 41.0
+      "unrealized_pl": 41.0,
+      "market_value": 391.0,
+      "pnl_pct": 11.71
     },
     {
       "side": "LONG",
-      "market": "US",
       "ticker": "GLD",
       "quantity": 2.0,
       "avg_entry": 476.0,
-      "currentPrice": 481.24,
-      "unrealizedPL": 10.48,
       "current_price": 481.26,
-      "unrealized_pl": 10.52
+      "unrealized_pl": 10.52,
+      "market_value": 962.52,
+      "pnl_pct": 1.11
     },
     {
       "side": "LONG",
-      "market": "US",
       "ticker": "PLTR",
       "quantity": 9.0,
       "avg_entry": 135.63,
-      "currentPrice": 135.18,
-      "unrealizedPL": -4.05,
       "current_price": 135.31,
-      "unrealized_pl": -2.88
+      "unrealized_pl": -2.88,
+      "market_value": 1217.79,
+      "pnl_pct": -0.24
     },
     {
       "side": "LONG",
-      "market": "US",
       "ticker": "SQQQ",
       "quantity": 43.0,
       "avg_entry": 71.4756,
-      "currentPrice": 71.26,
-      "unrealizedPL": -9.27,
       "current_price": 71.32,
-      "unrealized_pl": -6.69
+      "unrealized_pl": -6.69,
+      "market_value": 3066.76,
+      "pnl_pct": -0.22
     },
     {
       "side": "LONG",
-      "market": "US",
       "ticker": "XLP",
       "quantity": 7.0,
       "avg_entry": 80.0,
-      "currentPrice": 89.81,
-      "unrealizedPL": 68.67,
       "current_price": 89.82,
-      "unrealized_pl": 68.74
+      "unrealized_pl": 68.74,
+      "market_value": 628.74,
+      "pnl_pct": 12.27
     },
     {
       "side": "SHORT",
-      "market": "US",
       "ticker": "AMD",
       "quantity": 21.0,
       "avg_entry": 200.0986,
-      "currentPrice": 199.31,
-      "unrealizedPL": 16.56,
       "current_price": 199.39,
-      "unrealized_pl": 14.88
+      "unrealized_pl": 14.88,
+      "market_value": 4187.19,
+      "pnl_pct": 0.35
     },
     {
       "side": "SHORT",
-      "market": "US",
       "ticker": "NVDA",
       "quantity": 23.0,
       "avg_entry": 184.7696,
-      "currentPrice": 179.68,
-      "unrealizedPL": 117.06,
       "current_price": 179.74,
-      "unrealized_pl": 115.68
+      "unrealized_pl": 115.68,
+      "market_value": 4134.02,
+      "pnl_pct": 2.72
     },
     {
       "side": "SHORT",
-      "market": "US",
       "ticker": "TSLA",
       "quantity": 10.0,
       "avg_entry": 399.812,
-      "unrealizedPL": 0.02,
       "current_price": 399.7,
-      "unrealized_pl": 1.12
+      "unrealized_pl": 1.12,
+      "market_value": 3997.0,
+      "pnl_pct": 0.03
     }
   ],
   "recent_trades": [
@@ -297,5 +288,14 @@
       "reason": "[SCOUT] SHORT | -2.42% move | RVOL=None | Score=24.2"
     }
   ],
-  "trade_count": 57
+  "trade_count": 57,
+  "bot_name": "Alfred",
+  "emoji": "\ud83c\udfa9",
+  "strategy": "Congressional & Insider Flow + Velocity/Volume Triggers",
+  "status": "active",
+  "unrealized_pl": 217.25,
+  "day_start_value": 24817.0,
+  "daily_pnl": 44.0,
+  "win_rate": 45.0,
+  "realized_pl": -356.25
 }
