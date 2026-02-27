@@ -1,9 +1,9 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-02-27T19:35:08.157881+00:00",
-  "total_value_usd": 45614.15,
-  "cash_usd": 31067.68,
-  "total_return_pct": 82.46,
+  "updated_at": "2026-02-27T19:40:09.057356+00:00",
+  "total_value_usd": 46895.34,
+  "cash_usd": 31707.31,
+  "total_return_pct": 87.58,
   "positions": [
     {
       "side": "SHORT",
@@ -11,10 +11,8 @@
       "ticker": "AAPL",
       "quantity": 9.0,
       "avg_entry": 265.7967,
-      "currentPrice": 265.92,
-      "unrealizedPL": -1.11,
-      "current_price": 265.69,
-      "unrealized_pl": 0.96
+      "current_price": 266.01,
+      "unrealized_pl": -1.92
     },
     {
       "side": "SHORT",
@@ -22,10 +20,8 @@
       "ticker": "AMD",
       "quantity": 12.0,
       "avg_entry": 198.1858,
-      "currentPrice": 198.33,
-      "unrealizedPL": -1.73,
-      "current_price": 198.29,
-      "unrealized_pl": -1.25
+      "current_price": 198.27,
+      "unrealized_pl": -1.01
     },
     {
       "side": "LONG",
@@ -33,8 +29,6 @@
       "ticker": "AMZN",
       "quantity": 5.0,
       "avg_entry": 209.0,
-      "currentPrice": 208.86,
-      "unrealizedPL": -0.7,
       "current_price": 208.88,
       "unrealized_pl": -0.6
     },
@@ -44,10 +38,8 @@
       "ticker": "BBAI",
       "quantity": 100,
       "avg_entry": 3.5,
-      "currentPrice": 3.865,
-      "unrealizedPL": 36.5,
-      "current_price": 3.88,
-      "unrealized_pl": 38.0
+      "current_price": 3.87,
+      "unrealized_pl": 37.0
     },
     {
       "side": "LONG",
@@ -55,10 +47,17 @@
       "ticker": "GLD",
       "quantity": 2.0,
       "avg_entry": 476.0,
-      "currentPrice": 482.38,
-      "unrealizedPL": 12.76,
-      "current_price": 482.45,
-      "unrealized_pl": 12.9
+      "current_price": 482.34,
+      "unrealized_pl": 12.68
+    },
+    {
+      "side": "SHORT",
+      "market": "US",
+      "ticker": "META",
+      "quantity": 2.0,
+      "avg_entry": 639.67,
+      "current_price": 639.63,
+      "unrealized_pl": 0.08
     },
     {
       "side": "SHORT",
@@ -66,10 +65,8 @@
       "ticker": "NVDA",
       "quantity": 14.0,
       "avg_entry": 178.6636,
-      "currentPrice": 178.69,
-      "unrealizedPL": -0.37,
-      "current_price": 178.7,
-      "unrealized_pl": -0.51
+      "current_price": 178.78,
+      "unrealized_pl": -1.63
     },
     {
       "side": "LONG",
@@ -77,10 +74,8 @@
       "ticker": "PLTR",
       "quantity": 9.0,
       "avg_entry": 135.63,
-      "currentPrice": 134.35,
-      "unrealizedPL": -11.52,
-      "current_price": 134.39,
-      "unrealized_pl": -11.16
+      "current_price": 134.3,
+      "unrealized_pl": -11.97
     },
     {
       "side": "SHORT",
@@ -88,7 +83,6 @@
       "ticker": "TSLA",
       "quantity": 6.0,
       "avg_entry": 399.7,
-      "unrealizedPL": 0.0,
       "current_price": 399.81,
       "unrealized_pl": -0.66
     },
@@ -98,22 +92,20 @@
       "ticker": "XLP",
       "quantity": 7.0,
       "avg_entry": 80.0,
-      "currentPrice": 89.765,
-      "unrealizedPL": 68.36,
-      "current_price": 89.8,
-      "unrealized_pl": 68.6
-    },
-    {
-      "side": "SHORT",
-      "market": "US",
-      "ticker": "META",
-      "quantity": 1.0,
-      "avg_entry": 639.71,
-      "current_price": 639.71,
-      "unrealized_pl": 0.0
+      "current_price": 89.84,
+      "unrealized_pl": 68.88
     }
   ],
   "recent_trades": [
+    {
+      "trade_id": "ALF-6bf9de35",
+      "timestamp": "2026-02-27T19:40:06.132134+00:00",
+      "action": "SHORT",
+      "ticker": "META",
+      "quantity": 1.0,
+      "price_usd": 639.63,
+      "reason": "[SCOUT] SHORT | -2.36% move | RVOL=None | Score=23.6"
+    },
     {
       "trade_id": "ALF-a17da5ad",
       "timestamp": "2026-02-27T19:35:05.420693+00:00",
@@ -284,16 +276,7 @@
       "quantity": 22.0,
       "price_usd": 194.91,
       "reason": "[RISK] Oversized: 17.2% of portfolio"
-    },
-    {
-      "trade_id": "ALF-959138b6",
-      "timestamp": "2026-02-27T19:00:04.571666+00:00",
-      "action": "COVER",
-      "ticker": "AMD",
-      "quantity": 21.0,
-      "price_usd": 198.05,
-      "reason": "[RISK] Oversized: 16.6% of portfolio"
     }
   ],
-  "trade_count": 85
+  "trade_count": 86
 }
