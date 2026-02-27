@@ -51,11 +51,58 @@ def detect_market(ticker):
     return "US"
 
 
+def check_dedup_and_rate_limit(bot_id, action, ticker):
+    """
+    GUARD 1: Reject same bot+ticker+action within 5 minutes (dedup).
+    GUARD 2: Reject if bot has >10 trades in the last hour (rate limit).
+    Returns (ok, reason) tuple.
+    """
+    now = datetime.now(timezone.utc)
+
+    # Fetch recent trades for this bot (last 1 hour)
+    from datetime import timedelta
+    one_hour_ago = (now - timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%S")
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/trades",
+            params={"bot_id": f"eq.{bot_id}", "created_at": f"gte.{one_hour_ago}", "order": "created_at.desc"},
+            headers={k: v for k, v in HEADERS.items() if k != "Prefer"},
+        )
+        if r.status_code != 200:
+            # If we can't check, allow the trade but warn
+            print(f"⚠️  Could not check dedup/rate limit: {r.status_code}")
+            return True, ""
+        recent = r.json()
+    except Exception as e:
+        print(f"⚠️  Dedup check failed: {e}")
+        return True, ""
+
+    # GUARD 1: Dedup — no same bot+ticker+action within 5 minutes
+    five_min_ago = (now - timedelta(minutes=5)).strftime("%Y-%m-%dT%H:%M:%S")
+    for trade in recent:
+        if (trade.get("ticker", "").upper() == ticker.upper()
+                and trade.get("action", "").upper() == action.upper()
+                and trade.get("created_at", "")[:19] >= five_min_ago):
+            return False, f"DEDUP BLOCKED: {bot_id} already did {action} {ticker} within 5 minutes"
+
+    # GUARD 2: Rate limit — max 10 trades per hour per bot
+    if len(recent) >= 10:
+        return False, f"RATE LIMIT: {bot_id} has {len(recent)} trades in the last hour (max 10)"
+
+    return True, ""
+
+
 def log_trade(bot_id, action, ticker, qty, price, reason, market=None):
     prefix = BOT_PREFIXES.get(bot_id, bot_id.upper()[:3])
     trade_id = f"{prefix}-{uuid.uuid4().hex[:8]}"
     if market is None:
         market = detect_market(ticker)
+
+    # GUARD: Dedup + rate limit check
+    ok, block_reason = check_dedup_and_rate_limit(bot_id, action, ticker)
+    if not ok:
+        print(f"❌ {block_reason}")
+        return False
 
     # Pre-validate: SELL/COVER require an existing position
     if action.upper() in ("SELL", "COVER"):
