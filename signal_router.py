@@ -91,16 +91,51 @@ def get_price(ticker):
     return None
 
 
+def get_bot_performance(bot_id):
+    """Check if a bot is performing well enough to receive proxy trades."""
+    try:
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/portfolio_snapshots",
+            params={"bot_id": f"eq.{bot_id}", "select": "total_return_pct,trade_count"},
+            headers={k: v for k, v in HEADERS.items() if k != "Prefer"},
+        )
+        if r.status_code == 200 and r.json():
+            data = r.json()[0]
+            return_pct = float(data.get("total_return_pct", 0))
+            return return_pct
+    except Exception:
+        pass
+    return 0
+
+
 def find_best_deployer(portfolios, ticker):
-    """Find the bot with the most cash that doesn't already hold this ticker."""
+    """Find the bot with the most cash that doesn't already hold this ticker.
+    
+    Performance gate: won't route to a bot that is both:
+    - Negative on the week (total_return_pct < 0)
+    - AND has the worst return of all candidates
+    Unless it's the ONLY bot with cash.
+    """
     candidates = []
     for bot, info in portfolios.items():
         if ticker.upper() not in info["held_tickers"] and info["cash"] > 500:
-            candidates.append((bot, info["cash"], info["cash_pct"]))
+            perf = get_bot_performance(bot)
+            candidates.append((bot, info["cash"], info["cash_pct"], perf))
     
-    # Sort by cash descending
+    if not candidates:
+        return []
+    
+    # If multiple candidates, filter out the worst performer IF they're negative
+    if len(candidates) > 1:
+        worst = min(candidates, key=lambda x: x[3])
+        if worst[3] < -2.0:  # Only filter if significantly negative
+            candidates = [c for c in candidates if c != worst]
+            print(f"⚠️  Skipping {worst[0]} for proxy trade (return: {worst[3]:.1f}%)")
+    
+    # Sort by cash descending (among remaining candidates)
     candidates.sort(key=lambda x: x[1], reverse=True)
-    return candidates
+    # Return as 3-tuples for compatibility
+    return [(c[0], c[1], c[2]) for c in candidates]
 
 
 def size_position(cash, total, price, conviction="CONFIRM"):
