@@ -1,20 +1,20 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-02-27T19:20:10.530400+00:00",
-  "total_value_usd": 41144.05,
-  "cash_usd": 28833.98,
-  "total_return_pct": 64.58,
+  "updated_at": "2026-02-27T19:25:08.786601+00:00",
+  "total_value_usd": 42732.03,
+  "cash_usd": 29630.72,
+  "total_return_pct": 70.93,
   "positions": [
     {
       "side": "SHORT",
       "market": "US",
       "ticker": "AAPL",
-      "quantity": 3.0,
-      "avg_entry": 266.06,
-      "currentPrice": 266.09,
-      "unrealizedPL": -0.09,
-      "current_price": 266.17,
-      "unrealized_pl": -0.33
+      "quantity": 6.0,
+      "avg_entry": 265.82,
+      "currentPrice": 265.63,
+      "unrealizedPL": 1.29,
+      "current_price": 265.58,
+      "unrealized_pl": 1.44
     },
     {
       "side": "SHORT",
@@ -23,9 +23,9 @@
       "quantity": 12.0,
       "avg_entry": 198.1858,
       "currentPrice": 198.2,
-      "unrealizedPL": -0.25,
-      "current_price": 198.24,
-      "unrealized_pl": -0.65
+      "unrealizedPL": -0.17,
+      "current_price": 198.19,
+      "unrealized_pl": -0.05
     },
     {
       "side": "LONG",
@@ -33,10 +33,10 @@
       "ticker": "AMZN",
       "quantity": 5.0,
       "avg_entry": 209.0,
-      "currentPrice": 208.85,
-      "unrealizedPL": -0.75,
-      "current_price": 208.9,
-      "unrealized_pl": -0.5
+      "currentPrice": 208.87,
+      "unrealizedPL": -0.65,
+      "current_price": 208.85,
+      "unrealized_pl": -0.75
     },
     {
       "side": "LONG",
@@ -44,10 +44,10 @@
       "ticker": "BBAI",
       "quantity": 100,
       "avg_entry": 3.5,
-      "currentPrice": 3.865,
-      "unrealizedPL": 36.5,
-      "current_price": 3.88,
-      "unrealized_pl": 38.0
+      "currentPrice": 3.86,
+      "unrealizedPL": 36.0,
+      "current_price": 3.87,
+      "unrealized_pl": 37.0
     },
     {
       "side": "LONG",
@@ -55,10 +55,10 @@
       "ticker": "GLD",
       "quantity": 2.0,
       "avg_entry": 476.0,
-      "currentPrice": 482.45,
-      "unrealizedPL": 12.9,
-      "current_price": 482.55,
-      "unrealized_pl": 13.1
+      "currentPrice": 482.32,
+      "unrealizedPL": 12.64,
+      "current_price": 482.2,
+      "unrealized_pl": 12.4
     },
     {
       "side": "SHORT",
@@ -66,10 +66,10 @@
       "ticker": "NVDA",
       "quantity": 14.0,
       "avg_entry": 178.6636,
-      "currentPrice": 178.275,
-      "unrealizedPL": 4.9,
-      "current_price": 178.41,
-      "unrealized_pl": 3.55
+      "currentPrice": 178.48,
+      "unrealizedPL": 2.57,
+      "current_price": 178.34,
+      "unrealized_pl": 4.53
     },
     {
       "side": "LONG",
@@ -77,10 +77,10 @@
       "ticker": "PLTR",
       "quantity": 9.0,
       "avg_entry": 135.63,
-      "currentPrice": 134.35,
-      "unrealizedPL": -11.52,
-      "current_price": 134.45,
-      "unrealized_pl": -10.62
+      "currentPrice": 134.52,
+      "unrealizedPL": -9.99,
+      "current_price": 134.48,
+      "unrealized_pl": -10.35
     },
     {
       "side": "SHORT",
@@ -88,9 +88,9 @@
       "ticker": "TSLA",
       "quantity": 6.0,
       "avg_entry": 399.7,
-      "unrealizedPL": -0.02,
-      "current_price": 399.63,
-      "unrealized_pl": 0.42
+      "unrealizedPL": 0.0,
+      "current_price": 399.54,
+      "unrealized_pl": 0.96
     },
     {
       "side": "LONG",
@@ -98,13 +98,22 @@
       "ticker": "XLP",
       "quantity": 7.0,
       "avg_entry": 80.0,
-      "currentPrice": 89.95,
-      "unrealizedPL": 69.65,
-      "current_price": 89.93,
-      "unrealized_pl": 69.51
+      "currentPrice": 89.905,
+      "unrealizedPL": 69.34,
+      "current_price": 89.94,
+      "unrealized_pl": 69.58
     }
   ],
   "recent_trades": [
+    {
+      "trade_id": "ALF-b3930e7c",
+      "timestamp": "2026-02-27T19:25:05.821275+00:00",
+      "action": "SHORT",
+      "ticker": "AAPL",
+      "quantity": 3.0,
+      "price_usd": 265.58,
+      "reason": "[SCOUT] SHORT | -2.45% move | RVOL=None | Score=24.5"
+    },
     {
       "trade_id": "ALF-2ca47515",
       "timestamp": "2026-02-27T19:20:07.625581+00:00",
@@ -275,16 +284,7 @@
       "quantity": 3.0,
       "price_usd": 265.92,
       "reason": "[SCOUT] SHORT | -2.33% move | RVOL=None | Score=23.3"
-    },
-    {
-      "trade_id": "ALF-9a29bd15",
-      "timestamp": "2026-02-27T18:40:05.749662+00:00",
-      "action": "SHORT",
-      "ticker": "AAPL",
-      "quantity": 6.0,
-      "price_usd": 266.03,
-      "reason": "[SCOUT] SHORT | -2.29% move | RVOL=None | Score=22.9"
     }
   ],
-  "trade_count": 82
+  "trade_count": 83
 }
