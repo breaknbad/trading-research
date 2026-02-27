@@ -4,14 +4,14 @@
   "emoji": "\ud83e\udd19",
   "strategy": "Cross-Market Correlations",
   "status": "running",
-  "updated_at": "2026-02-27T18:58:00.843289+00:00",
-  "total_value_usd": 25541.59,
+  "updated_at": "2026-02-27T19:08:18.291870+00:00",
+  "total_value_usd": 25555.39,
   "cash_usd": 3055.92,
-  "total_return_pct": 2.17,
-  "daily_pnl": 162.52,
-  "daily_return_pct": 2.1664,
+  "total_return_pct": 2.22,
+  "daily_pnl": 176.32,
+  "daily_return_pct": 2.2216,
   "realized_pl": 0.0,
-  "unrealized_pl": 0.0,
+  "unrealized_pl": 614.62,
   "day_start_value": 25379.07,
   "win_rate": 46.7,
   "trade_count": 13,
@@ -21,70 +21,70 @@
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 209.0,
-      "current_price": 209.0,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 2090.0
+      "current_price": 209.17,
+      "unrealized_pl": 1.7,
+      "pnl_pct": 0.08,
+      "market_value": 2091.7
     },
     {
       "ticker": "EFA",
       "side": "LONG",
       "quantity": 25.0,
       "avg_entry": 104.24,
-      "current_price": 104.24,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 2606.0
+      "current_price": 105.48,
+      "unrealized_pl": 31.0,
+      "pnl_pct": 1.19,
+      "market_value": 2637.0
     },
     {
       "ticker": "EWC",
       "side": "LONG",
       "quantity": 50.0,
       "avg_entry": 56.17,
-      "current_price": 56.17,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 2808.5
+      "current_price": 58.09,
+      "unrealized_pl": 96.0,
+      "pnl_pct": 3.42,
+      "market_value": 2904.5
     },
     {
       "ticker": "GDX",
       "side": "LONG",
       "quantity": 40.0,
       "avg_entry": 109.82,
-      "current_price": 109.82,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 4392.8
+      "current_price": 115.05,
+      "unrealized_pl": 209.2,
+      "pnl_pct": 4.76,
+      "market_value": 4602.0
     },
     {
       "ticker": "GLD",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 462.62,
-      "current_price": 462.62,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 4626.2
+      "current_price": 482.38,
+      "unrealized_pl": 197.6,
+      "pnl_pct": 4.27,
+      "market_value": 4823.8
     },
     {
       "ticker": "XLE",
       "side": "LONG",
       "quantity": 26.0,
       "avg_entry": 54.6,
-      "current_price": 54.6,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 1419.6
+      "current_price": 55.84,
+      "unrealized_pl": 32.24,
+      "pnl_pct": 2.27,
+      "market_value": 1451.84
     },
     {
       "ticker": "XLV",
       "side": "LONG",
       "quantity": 25.0,
       "avg_entry": 157.67,
-      "current_price": 157.67,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 3941.75
+      "current_price": 159.545,
+      "unrealized_pl": 46.88,
+      "pnl_pct": 1.19,
+      "market_value": 3988.62
     }
   ],
   "recent_trades": [

@@ -4,14 +4,14 @@
   "emoji": "\ud83c\udfb0",
   "strategy": "Market Microstructure",
   "status": "running",
-  "updated_at": "2026-02-27T18:58:00.313175+00:00",
-  "total_value_usd": 26192.5,
+  "updated_at": "2026-02-27T19:08:07.358232+00:00",
+  "total_value_usd": 24785.02,
   "cash_usd": 15714.35,
-  "total_return_pct": 4.77,
-  "daily_pnl": 910.79,
-  "daily_return_pct": 4.77,
+  "total_return_pct": -0.86,
+  "daily_pnl": -496.69,
+  "daily_return_pct": -0.8599,
   "realized_pl": 0.0,
-  "unrealized_pl": 0.0,
+  "unrealized_pl": 12.49,
   "day_start_value": 25281.71,
   "win_rate": 63.6,
   "trade_count": 33,
@@ -31,50 +31,70 @@
       "side": "LONG",
       "quantity": 15.0,
       "avg_entry": 114.97,
-      "current_price": 114.97,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 1724.55
+      "current_price": 115.09,
+      "unrealized_pl": 1.8,
+      "pnl_pct": 0.1,
+      "market_value": 1726.35
     },
     {
       "ticker": "GDXJ",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 153.98,
-      "current_price": 153.98,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 1539.8
+      "current_price": 154.07,
+      "unrealized_pl": 0.9,
+      "pnl_pct": 0.06,
+      "market_value": 1540.7
     },
     {
       "ticker": "GLD",
       "side": "LONG",
       "quantity": 5.0,
       "avg_entry": 481.0,
-      "current_price": 481.0,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 2405.0
+      "current_price": 482.35,
+      "unrealized_pl": 6.75,
+      "pnl_pct": 0.28,
+      "market_value": 2411.75
+    },
+    {
+      "ticker": "NVDA",
+      "side": "LONG",
+      "quantity": 13.0,
+      "avg_entry": 181.8,
+      "current_price": 178.88,
+      "unrealized_pl": -37.96,
+      "pnl_pct": -1.61,
+      "market_value": 2325.44
     },
     {
       "ticker": "OPRA",
       "side": "LONG",
-      "quantity": 80.0,
+      "quantity": 60.0,
       "avg_entry": 15.03,
-      "current_price": 15.03,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 1202.4
+      "current_price": 15.92,
+      "unrealized_pl": 53.4,
+      "pnl_pct": 5.92,
+      "market_value": 955.2
     },
     {
       "ticker": "SLV",
       "side": "LONG",
       "quantity": 30.0,
       "avg_entry": 84.84,
-      "current_price": 84.84,
-      "unrealized_pl": 0.0,
-      "pnl_pct": 0.0,
-      "market_value": 2545.2
+      "current_price": 84.505,
+      "unrealized_pl": -10.05,
+      "pnl_pct": -0.39,
+      "market_value": 2535.15
+    },
+    {
+      "ticker": "SQQQ",
+      "side": "SHORT",
+      "quantity": 48.0,
+      "avg_entry": 71.24,
+      "current_price": 71.289,
+      "unrealized_pl": -2.35,
+      "pnl_pct": -0.07,
+      "market_value": 3421.87
     }
   ],
   "recent_trades": [
