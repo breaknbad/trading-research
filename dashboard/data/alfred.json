@@ -1,113 +1,139 @@
 {
   "bot_id": "alfred",
-  "bot_name": "Alfred",
-  "emoji": "\ud83c\udfa9",
-  "strategy": "Congressional & Insider Flow",
-  "status": "running",
-  "updated_at": "2026-02-26T21:12:54.880441+00:00",
-  "total_value_usd": 28384.74,
-  "cash_usd": 19240.22,
-  "total_return_pct": 13.54,
-  "daily_pnl": 1656.57,
-  "daily_return_pct": 13.539,
-  "realized_pl": -139.64,
-  "unrealized_pl": 214.92,
-  "day_start_value": 26728.17,
-  "win_rate": 66.7,
-  "trade_count": 22,
+  "updated_at": "2026-02-27T14:31:01.854752+00:00",
+  "total_value_usd": 32075.94,
+  "cash_usd": 19704.92,
+  "total_return_pct": 28.3,
   "positions": [
     {
-      "ticker": "AAPL",
       "side": "LONG",
+      "market": "US",
+      "ticker": "AAPL",
       "quantity": 4.0,
       "avg_entry": 272.28,
-      "current_price": 272.95,
-      "unrealized_pl": 2.68,
-      "pnl_pct": 0.25,
-      "market_value": 1091.8
+      "currentPrice": 271.57,
+      "unrealizedPL": -2.84,
+      "current_price": 272.61,
+      "unrealized_pl": 1.32
     },
     {
-      "ticker": "AMZN",
       "side": "LONG",
+      "market": "US",
+      "ticker": "AMZN",
       "quantity": 5.0,
       "avg_entry": 209.0,
-      "current_price": 207.92,
-      "unrealized_pl": -5.4,
-      "pnl_pct": -0.52,
-      "market_value": 1039.6
+      "currentPrice": 207.055,
+      "unrealizedPL": -9.72,
+      "current_price": 206.84,
+      "unrealized_pl": -10.8
     },
     {
+      "side": "LONG",
+      "market": "US",
       "ticker": "BBAI",
-      "side": "LONG",
-      "quantity": 100.0,
+      "quantity": 100,
       "avg_entry": 3.5,
-      "current_price": 4.15,
-      "unrealized_pl": 65.0,
-      "pnl_pct": 18.57,
-      "market_value": 415.0
+      "currentPrice": 3.996,
+      "unrealizedPL": 49.6,
+      "current_price": 4.14,
+      "unrealized_pl": 64.0
     },
     {
-      "ticker": "CRM",
       "side": "LONG",
+      "market": "US",
+      "ticker": "CRM",
       "quantity": 13.0,
       "avg_entry": 192.2108,
-      "current_price": 199.43,
-      "unrealized_pl": 93.85,
-      "pnl_pct": 3.76,
-      "market_value": 2592.59
+      "currentPrice": 190.52,
+      "unrealizedPL": -21.98,
+      "current_price": 191.46,
+      "unrealized_pl": -9.76
     },
     {
-      "ticker": "GLD",
       "side": "LONG",
+      "market": "US",
+      "ticker": "GLD",
       "quantity": 2.0,
       "avg_entry": 476.0,
-      "current_price": 477.46,
-      "unrealized_pl": 2.92,
-      "pnl_pct": 0.31,
-      "market_value": 954.92
+      "currentPrice": 480.66,
+      "unrealizedPL": 9.32,
+      "current_price": 480.65,
+      "unrealized_pl": 9.3
     },
     {
-      "ticker": "MSFT",
       "side": "LONG",
-      "quantity": 3.0,
-      "avg_entry": 404.69,
-      "current_price": 401.72,
-      "unrealized_pl": -8.91,
-      "pnl_pct": -0.73,
-      "market_value": 1205.16
-    },
-    {
+      "market": "US",
       "ticker": "PLTR",
-      "side": "LONG",
       "quantity": 9.0,
       "avg_entry": 135.63,
-      "current_price": 135.94,
-      "unrealized_pl": 2.79,
-      "pnl_pct": 0.23,
-      "market_value": 1223.46
+      "currentPrice": 135.52,
+      "unrealizedPL": -0.99,
+      "current_price": 134.33,
+      "unrealized_pl": -11.7
     },
     {
-      "ticker": "XLP",
       "side": "LONG",
+      "market": "US",
+      "ticker": "SQQQ",
+      "quantity": 14.0,
+      "avg_entry": 70.74,
+      "currentPrice": 72.26,
+      "unrealizedPL": 21.28,
+      "current_price": 72.36,
+      "unrealized_pl": 22.68
+    },
+    {
+      "side": "LONG",
+      "market": "US",
+      "ticker": "XLP",
       "quantity": 7.0,
       "avg_entry": 80.0,
-      "current_price": 88.855,
-      "unrealized_pl": 61.99,
-      "pnl_pct": 11.07,
-      "market_value": 621.99
+      "currentPrice": 89.16,
+      "unrealizedPL": 64.12,
+      "current_price": 89.01,
+      "unrealized_pl": 63.07
+    },
+    {
+      "side": "SHORT",
+      "market": "US",
+      "ticker": "AMD",
+      "quantity": 5.0,
+      "avg_entry": 202.91,
+      "currentPrice": 199.54,
+      "unrealizedPL": 16.85,
+      "current_price": 199.96,
+      "unrealized_pl": 14.75
+    },
+    {
+      "side": "SHORT",
+      "market": "US",
+      "ticker": "NVDA",
+      "quantity": 14.0,
+      "avg_entry": 187.2729,
+      "currentPrice": 180.75,
+      "unrealizedPL": 91.32,
+      "current_price": 181.23,
+      "unrealized_pl": 84.6
     }
   ],
   "recent_trades": [
     {
+      "trade_id": "ALF-2bc7edc0",
+      "timestamp": "2026-02-27T14:30:27.884461+00:00",
+      "action": "SELL",
+      "ticker": "MSFT",
+      "quantity": 3.0,
+      "price_usd": 390.5,
+      "reason": "[RISK] Stop loss hit: -3.5%"
+    },
+    {
       "trade_id": "ALF-11173e82",
-      "timestamp": "2026-02-26T17:09:49.973800+00:00",
+      "timestamp": "2026-02-26T17:09:49.9738+00:00",
       "action": "SHORT",
       "ticker": "AMD",
       "quantity": 5.0,
       "price_usd": 202.91,
-      "total_usd": 1014.55,
-      "reason": "[SCOUT] SHORT | -2.97% move | RVOL=None | Score=29.7",
-      "status": "OPEN"
+      "reason": "[SCOUT] SHORT | -2.97% move | RVOL=None | Score=29.7"
     },
     {
       "trade_id": "ALF-6000cd4a",
@@ -116,9 +142,7 @@
       "ticker": "SQQQ",
       "quantity": 14.0,
       "price_usd": 70.74,
-      "total_usd": 990.3599999999999,
-      "reason": "[SCOUT] LONG | +4.17% move | RVOL=None | Score=41.7",
-      "status": "CLOSED"
+      "reason": "[SCOUT] LONG | +4.17% move | RVOL=None | Score=41.7"
     },
     {
       "trade_id": "ALF-2a0ea814",
@@ -127,9 +151,7 @@
       "ticker": "NVDA",
       "quantity": 8.0,
       "price_usd": 187.11,
-      "total_usd": 1496.88,
-      "reason": "[CONFIRM] SHORT | -5.03% move | RVOL=None | Score=50.3",
-      "status": "OPEN"
+      "reason": "[CONFIRM] SHORT | -5.03% move | RVOL=None | Score=50.3"
     },
     {
       "trade_id": "ALF-793e6136",
@@ -138,9 +160,7 @@
       "ticker": "CRM",
       "quantity": 4.0,
       "price_usd": 196.01,
-      "total_usd": 784.04,
-      "reason": "[CONFIRM] LONG | +6.26% move | RVOL=None | Score=62.6",
-      "status": "OPEN"
+      "reason": "[CONFIRM] LONG | +6.26% move | RVOL=None | Score=62.6"
     },
     {
       "trade_id": "ALF-fe6f9ba7",
@@ -149,9 +169,7 @@
       "ticker": "CRM",
       "quantity": 4.0,
       "price_usd": 196.1,
-      "total_usd": 784.4,
-      "reason": "[CONFIRM] LONG | +6.31% move | RVOL=None | Score=63.1",
-      "status": "OPEN"
+      "reason": "[CONFIRM] LONG | +6.31% move | RVOL=None | Score=63.1"
     },
     {
       "trade_id": "ALF-3a3997cd",
@@ -160,9 +178,7 @@
       "ticker": "PLTR",
       "quantity": 9.0,
       "price_usd": 135.63,
-      "total_usd": 1220.67,
-      "reason": "Green on red day, defense/gov insulated from trading ban narrative. Relative strength.",
-      "status": "OPEN"
+      "reason": "Green on red day, defense/gov insulated from trading ban narrative. Relative strength."
     },
     {
       "trade_id": "ALF-a981caa2",
@@ -171,9 +187,7 @@
       "ticker": "MSFT",
       "quantity": 3.0,
       "price_usd": 404.69,
-      "total_usd": 1214.07,
-      "reason": "Relative strength divergence, +1% while mega-cap peers sell off. Institutional rotation signal.",
-      "status": "OPEN"
+      "reason": "Relative strength divergence, +1% while mega-cap peers sell off. Institutional rotation signal."
     },
     {
       "trade_id": "ALF-2fc5d176",
@@ -182,9 +196,7 @@
       "ticker": "NVDA",
       "quantity": 6.0,
       "price_usd": 187.49,
-      "total_usd": 1124.94,
-      "reason": "Congressional liquidation risk + SOTU ban catalyst. -4.1% velocity trigger, selling into LOD.",
-      "status": "OPEN"
+      "reason": "Congressional liquidation risk + SOTU ban catalyst. -4.1% velocity trigger, selling into LOD."
     },
     {
       "trade_id": "ALF-bed38ae4",
@@ -193,9 +205,7 @@
       "ticker": "DRS",
       "quantity": 25.0,
       "price_usd": 42.76,
-      "total_usd": 1069.0,
-      "reason": "Stop breach. Entry 44.42, now 42.76 (-3.7%). 2% stop rule violated - should have been out at 43.53. Executing now. Late but following protocol.",
-      "status": "CLOSED"
+      "reason": "Stop breach. Entry 44.42, now 42.76 (-3.7%). 2% stop rule violated - should have been out at 43.53. Executing now. Late but following protocol."
     },
     {
       "trade_id": "ALF-6bd6ec44",
@@ -204,9 +214,7 @@
       "ticker": "AAPL",
       "quantity": 4.0,
       "price_usd": 272.28,
-      "total_usd": 1089.12,
-      "reason": "RE-BUYING. Sold on stale data - TradingView showed yesterdays close 266.18, actual price is 272.28 (+2.29%). Stop was never hit. My mistake. Stop remains 267.",
-      "status": "OPEN"
+      "reason": "RE-BUYING. Sold on stale data - TradingView showed yesterdays close 266.18, actual price is 272.28 (+2.29%). Stop was never hit. My mistake. Stop remains 267."
     },
     {
       "trade_id": "ALF-fbbc2304",
@@ -215,9 +223,7 @@
       "ticker": "DRS",
       "quantity": 25.0,
       "price_usd": 44.42,
-      "total_usd": 1110.5,
-      "reason": "Defense + AI convergence. Leonardo DRS +16% today on real defense contracts. SOTU tonight = defense spending rhetoric catalyst. Same lane as BBAI which is +11% on my book. Stop 42.",
-      "status": "CLOSED"
+      "reason": "Defense + AI convergence. Leonardo DRS +16% today on real defense contracts. SOTU tonight = defense spending rhetoric catalyst. Same lane as BBAI which is +11% on my book. Stop 42."
     },
     {
       "trade_id": "ALF-f6a225c9",
@@ -226,31 +232,7 @@
       "ticker": "CRM",
       "quantity": 5.0,
       "price_usd": 186.06,
-      "total_usd": 930.3,
-      "reason": "Anthropic partnership catalyst, +4.4% today against fading tape = relative strength. Earnings tomorrow double catalyst. Stop 181. Verified live price on Yahoo Finance.",
-      "status": "OPEN"
-    },
-    {
-      "trade_id": "ALF-bb7c5640",
-      "timestamp": "2026-02-24T17:05:18.531640+00:00",
-      "action": "SELL",
-      "ticker": "SQQQ",
-      "quantity": 5.0,
-      "price_usd": 70.68,
-      "total_usd": 353.40000000000003,
-      "reason": "Stop breached. Inverse ETF decay.",
-      "status": "CLOSED"
-    },
-    {
-      "trade_id": "ALF-3543dd1e",
-      "timestamp": "2026-02-24T17:02:39.253175+00:00",
-      "action": "SELL",
-      "ticker": "SQQQ",
-      "quantity": 5.0,
-      "price_usd": 70.68,
-      "total_usd": 353.40000000000003,
-      "reason": "Stop hit at -3.6%, closing per CIP rules",
-      "status": "CLOSED"
+      "reason": "Anthropic partnership catalyst, +4.4% today against fading tape = relative strength. Earnings tomorrow double catalyst. Stop 181. Verified live price on Yahoo Finance."
     },
     {
       "trade_id": "ALF-a3f6d116",
@@ -259,9 +241,7 @@
       "ticker": "AMZN",
       "quantity": 5.0,
       "price_usd": 209.0,
-      "total_usd": 1045.0,
-      "reason": "Cloud+AI narrative, participating in market bounce",
-      "status": "OPEN"
+      "reason": "Cloud+AI narrative, participating in market bounce"
     },
     {
       "trade_id": "ALF-68fc04f2",
@@ -270,9 +250,7 @@
       "ticker": "GLD",
       "quantity": 2.0,
       "price_usd": 476.0,
-      "total_usd": 952.0,
-      "reason": "Adding to gold safe haven thesis on pullback",
-      "status": "OPEN"
+      "reason": "Adding to gold safe haven thesis on pullback"
     },
     {
       "trade_id": "ALF-5cfc1a54",
@@ -281,9 +259,7 @@
       "ticker": "XLP",
       "quantity": 7.0,
       "price_usd": 80.0,
-      "total_usd": 560.0,
-      "reason": "Consumer staples defensive play - tariff resistant",
-      "status": "OPEN"
+      "reason": "Consumer staples defensive play - tariff resistant"
     },
     {
       "trade_id": "ALF-99d7074c",
@@ -292,9 +268,7 @@
       "ticker": "SQQQ",
       "quantity": 5.0,
       "price_usd": 72.96,
-      "total_usd": 364.79999999999995,
-      "reason": "Inverse ETF decay rule - sell at open",
-      "status": "CLOSED"
+      "reason": "Inverse ETF decay rule - sell at open"
     },
     {
       "trade_id": "ALF-7cbb6337",
@@ -303,42 +277,26 @@
       "ticker": "BTC-USD",
       "quantity": 0.0383,
       "price_usd": 63311.39,
-      "total_usd": 2424.826237,
-      "reason": "Stop loss triggered \u2014 BTC below $63,400 stop. Entry $66,957, exit $63,311. Loss: -$139.72",
-      "status": "CLOSED"
+      "reason": "Stop loss triggered \u2014 BTC below $63,400 stop. Entry $66,957, exit $63,311. Loss: -$139.72"
     },
     {
       "trade_id": "ALF-25931d44",
-      "timestamp": "2026-02-23T19:31:38.403830+00:00",
+      "timestamp": "2026-02-23T19:31:38.40383+00:00",
       "action": "BUY",
       "ticker": "SQQQ",
       "quantity": 5.0,
       "price_usd": 73.33,
-      "total_usd": 366.65,
-      "reason": "Inverse Nasdaq hedge - bear market positioning",
-      "status": "CLOSED"
+      "reason": "Inverse Nasdaq hedge - bear market positioning"
     },
     {
       "trade_id": "ALF-3f849e11",
       "timestamp": "2026-02-23T17:20:00+00:00",
       "action": "BUY",
       "ticker": "BBAI",
-      "quantity": 100.0,
+      "quantity": 100,
       "price_usd": 3.5,
-      "total_usd": 350.0,
-      "reason": "AI + defense convergence. Congressional defense buys + AI spending decoupling from tech. Stop at $3.15, target $4.20.",
-      "status": "OPEN"
-    },
-    {
-      "trade_id": "949e4f45-986f-4cb8-9baa-ce89fc0cf793",
-      "timestamp": "2026-02-23T14:45:00+00:00",
-      "action": "BUY",
-      "ticker": "BTC-USD",
-      "quantity": 0.0383,
-      "price_usd": 66957.52,
-      "total_usd": 2564.47,
-      "reason": "BTC position. Stop 63400, target 68500.",
-      "status": "CLOSED"
+      "reason": "AI + defense convergence. Congressional defense buys + AI spending decoupling from tech. Stop at $3.15, target $4.20."
     }
-  ]
+  ],
+  "trade_count": 21
 }
