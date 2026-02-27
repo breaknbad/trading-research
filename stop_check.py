@@ -24,6 +24,7 @@ HEADERS = {
 }
 
 STOP_PCT = 2.0  # 2% stop-loss threshold
+TARGET_PCT = 5.0  # 5% profit target — auto-take profits
 BOTS = ["alfred", "tars", "vex", "eddie_v"]
 
 # Yahoo Finance price fetch (lightweight)
@@ -76,6 +77,30 @@ def check_stops(bot_id=None):
                 drawdown_pct = ((entry - current) / entry) * 100
             else:  # SHORT
                 drawdown_pct = ((current - entry) / entry) * 100
+
+            # TARGET CHECK: 5%+ gain = take profits (20-sec rule)
+            if side == "LONG":
+                gain_pct = ((current - entry) / entry) * 100
+            else:
+                gain_pct = ((entry - current) / entry) * 100
+
+            if gain_pct >= TARGET_PCT:
+                action = "SELL" if side == "LONG" else "COVER"
+                print(f"🎯 TARGET HIT: {bot} {side} {ticker} — entry ${entry:.2f}, now ${current:.2f}, gain {gain_pct:.1f}%")
+                try:
+                    from log_trade import log_trade
+                    success = log_trade(
+                        bot, action, ticker, qty, current,
+                        f"TARGET AUTO-EXIT: {gain_pct:.1f}% gain (threshold {TARGET_PCT}%)"
+                    )
+                    if success:
+                        print(f"   ✅ Auto-executed: {action} {qty}x {ticker} @ ${current:.2f}")
+                        stops_hit.append({"bot": bot, "ticker": ticker, "action": action, "price": current, "gain": gain_pct})
+                    else:
+                        print(f"   ❌ Auto-execute failed for {ticker}")
+                except Exception as e:
+                    print(f"   ❌ Error executing target exit: {e}")
+                continue  # Don't also check stop on same position
 
             if drawdown_pct >= STOP_PCT:
                 action = "SELL" if side == "LONG" else "COVER"
