@@ -57,6 +57,25 @@ def log_trade(bot_id, action, ticker, qty, price, reason, market=None):
     if market is None:
         market = detect_market(ticker)
 
+    # Pre-validate: SELL/COVER require an existing position
+    if action.upper() in ("SELL", "COVER"):
+        side = "LONG" if action.upper() == "SELL" else "SHORT"
+        r = requests.get(
+            f"{SUPABASE_URL}/rest/v1/portfolio_snapshots?bot_id=eq.{bot_id}&select=open_positions",
+            headers=HEADERS,
+        )
+        if r.json():
+            positions_check = r.json()[0].get("open_positions", []) or []
+            has_position = any(
+                p.get("ticker") == ticker.upper()
+                and p.get("side", "LONG") == side
+                and float(p.get("quantity", 0)) >= float(qty) - 0.001
+                for p in positions_check
+            )
+            if not has_position:
+                print(f"❌ REJECTED: No {side} position for {ticker} with sufficient quantity. Trade not logged.")
+                return False
+
     trade = {
         "bot_id": bot_id,
         "trade_id": trade_id,
@@ -129,16 +148,25 @@ def update_portfolio(bot_id, action, ticker, qty, price, market):
 
     elif action == "SELL":
         proceeds = qty * price
-        cash += proceeds
+        # Validate position exists before selling
+        found_pos = None
         for pos in positions:
             if pos.get("ticker") == ticker and pos.get("side", "LONG") == "LONG":
-                old_qty = float(pos.get("quantity", 0))
-                new_qty = old_qty - qty
-                if new_qty <= 0:
-                    positions.remove(pos)
-                else:
-                    pos["quantity"] = new_qty
+                found_pos = pos
                 break
+        if not found_pos:
+            print(f"⚠️  SELL REJECTED: No open LONG position for {ticker}. Cannot sell what you don't own.")
+            return
+        old_qty = float(found_pos.get("quantity", 0))
+        if qty > old_qty + 0.001:
+            print(f"⚠️  SELL REJECTED: Trying to sell {qty} {ticker} but only hold {old_qty}.")
+            return
+        cash += proceeds
+        new_qty = old_qty - qty
+        if new_qty <= 0.001:
+            positions.remove(found_pos)
+        else:
+            found_pos["quantity"] = new_qty
 
     elif action == "SHORT":
         proceeds = qty * price
@@ -167,31 +195,38 @@ def update_portfolio(bot_id, action, ticker, qty, price, market):
             })
 
     elif action == "COVER":
-        cost = qty * price
-        cash -= cost
+        # Validate short position exists before covering
+        found_pos = None
         for pos in positions:
             if pos.get("ticker") == ticker and pos.get("side") == "SHORT":
-                old_qty = float(pos.get("quantity", 0))
-                new_qty = old_qty - qty
-                if new_qty <= 0:
-                    positions.remove(pos)
-                else:
-                    pos["quantity"] = new_qty
+                found_pos = pos
                 break
+        if not found_pos:
+            print(f"⚠️  COVER REJECTED: No open SHORT position for {ticker}. Cannot cover what you haven't shorted.")
+            return
+        old_qty = float(found_pos.get("quantity", 0))
+        if qty > old_qty + 0.001:
+            print(f"⚠️  COVER REJECTED: Trying to cover {qty} {ticker} but only short {old_qty}.")
+            return
+        cost = qty * price
+        cash -= cost
+        new_qty = old_qty - qty
+        if new_qty <= 0.001:
+            positions.remove(found_pos)
+        else:
+            found_pos["quantity"] = new_qty
 
-    # Recalculate total value (LONG positions add value, SHORT positions subtract)
-    position_value = 0
+    # Recalculate total value: Cash + Long_value - Short_obligation
+    # Cash already includes short proceeds, so we subtract the current obligation
+    long_value = 0
+    short_obligation = 0
     for p in positions:
         qty_val = float(p.get("quantity", 0)) * float(p.get("current_price", p.get("avg_entry", 0)))
         if p.get("side") == "SHORT":
-            # Short P&L: entry_value - current_value (already reflected in cash from proceeds)
-            # Don't double-count: cash already has SHORT proceeds, position value is the obligation
-            entry_val = float(p.get("quantity", 0)) * float(p.get("avg_entry", 0))
-            position_value -= qty_val  # Subtract current obligation
-            position_value += entry_val  # Add back what we received (already in cash, so net is unrealized P&L)
+            short_obligation += qty_val
         else:
-            position_value += qty_val
-    total_value = cash + position_value
+            long_value += qty_val
+    total_value = cash + long_value - short_obligation
 
     # 3% spike guard: reject suspicious values
     prev_total = float(portfolio.get("total_value_usd", 25000))

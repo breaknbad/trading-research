@@ -51,11 +51,9 @@ TIERS = {
 STOP_LOSS_PCT = 2.0          # Default stop loss %
 MAX_POSITION_PCT = 10.0      # Max single position as % of portfolio
 DAILY_CIRCUIT_BREAKER_PCT = 5.0  # Max daily loss % before halting
-MAX_TRADES_PER_DAY = 5
-MAX_TRADES_PER_HOUR = 2
-COOLDOWN_MINUTES = 30
-SCOUT_CUTOFF_HOUR = 15       # No new scouts after 3:30 PM ET
-SCOUT_CUTOFF_MINUTE = 30
+COOLDOWN_SECONDS = 600       # 10-min same-ticker cooldown (v1.2 — no trade caps)
+SECTOR_CAP_PCT = 30.0        # Max sector exposure %
+MARKET_CAP_FLOOR = 500_000_000  # $500M minimum
 STARTING_CAPITAL = 25000.0
 
 # === Paths ===
@@ -69,6 +67,10 @@ TRADE_TIMESTAMPS_FILE = os.path.join(CACHE_DIR, "trade_timestamps.json")
 # Ensure dirs exist
 for d in [CACHE_DIR, LOGS_DIR]:
     os.makedirs(d, exist_ok=True)
+
+# === Scout Cutoff ===
+SCOUT_CUTOFF_HOUR = 15   # 3:00 PM ET — no new scouts after this
+SCOUT_CUTOFF_MINUTE = 0
 
 # === Finnhub Rate Limit ===
 FINNHUB_CALLS_PER_MIN = 60

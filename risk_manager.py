@@ -164,17 +164,7 @@ def check_risk(verbose=True):
     if ts_data["trades"]:
         last_trade_time = max(ts_data["trades"])
 
-    if trades_today >= config.MAX_TRADES_PER_DAY:
-        result["can_trade"] = False
-        result["reasons"].append(f"Daily limit: {trades_today}/{config.MAX_TRADES_PER_DAY}")
-        if verbose:
-            print(f"  ⛔ Daily trade limit reached: {trades_today}")
-
-    if trades_hour >= config.MAX_TRADES_PER_HOUR:
-        result["can_trade"] = False
-        result["reasons"].append(f"Hourly limit: {trades_hour}/{config.MAX_TRADES_PER_HOUR}")
-        if verbose:
-            print(f"  ⛔ Hourly trade limit reached: {trades_hour}")
+    # v1.2: No trade caps. "Cap risk, not activity."
 
     # Cooldown check
     if last_trade_time:

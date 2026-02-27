@@ -116,9 +116,6 @@ def run_cycle(force=False, dry_run=False, verbose=True):
     if risk["circuit_breaker"]:
         summary_lines.append("🛑 Circuit breaker active - no new trades")
         logger.info("Circuit breaker active")
-    elif risk["trades_today"] >= config.MAX_TRADES_PER_DAY:
-        summary_lines.append(f"⛔ Daily trade limit reached ({risk['trades_today']}/{config.MAX_TRADES_PER_DAY})")
-        logger.info("Daily trade limit reached")
     else:
         # 5. Scan for signals
         logger.info("Scanning for signals...")
@@ -144,7 +141,7 @@ def run_cycle(force=False, dry_run=False, verbose=True):
                         # Re-check hard limits only (daily max, circuit breaker)
                         # Don't re-check cooldown mid-cycle — allow batch execution
                         risk = risk_manager.check_risk(verbose=False)
-                        if risk["circuit_breaker"] or risk["trades_today"] >= config.MAX_TRADES_PER_DAY:
+                        if risk["circuit_breaker"]:
                             logger.info("Hard limit reached, stopping")
                             break
 

@@ -4,38 +4,18 @@
   "emoji": "\ud83c\udfb0",
   "strategy": "Market Microstructure",
   "status": "running",
-  "updated_at": "2026-02-26T21:12:54.512741+00:00",
-  "total_value_usd": 25279.01,
-  "cash_usd": 15007.13,
-  "total_return_pct": 1.12,
-  "daily_pnl": 154.76,
-  "daily_return_pct": 1.116,
+  "updated_at": "2026-02-27T18:58:00.313175+00:00",
+  "total_value_usd": 26192.5,
+  "cash_usd": 15714.35,
+  "total_return_pct": 4.77,
+  "daily_pnl": 910.79,
+  "daily_return_pct": 4.77,
   "realized_pl": 0.0,
-  "unrealized_pl": 222.99,
-  "day_start_value": 25124.25,
+  "unrealized_pl": 0.0,
+  "day_start_value": 25281.71,
   "win_rate": 63.6,
-  "trade_count": 21,
+  "trade_count": 33,
   "positions": [
-    {
-      "ticker": "AMZN",
-      "side": "LONG",
-      "quantity": 5.0,
-      "avg_entry": 209.0,
-      "current_price": 207.92,
-      "unrealized_pl": -5.4,
-      "pnl_pct": -0.52,
-      "market_value": 1039.6
-    },
-    {
-      "ticker": "BFLY",
-      "side": "LONG",
-      "quantity": 250.0,
-      "avg_entry": 4.35,
-      "current_price": 4.67,
-      "unrealized_pl": 80.0,
-      "pnl_pct": 7.36,
-      "market_value": 1167.5
-    },
     {
       "ticker": "FTDR",
       "side": "LONG",
@@ -47,67 +27,211 @@
       "market_value": 997.95
     },
     {
-      "ticker": "GCT",
+      "ticker": "GDX",
       "side": "LONG",
-      "quantity": 30.0,
-      "avg_entry": 46.18,
-      "current_price": 46.98,
-      "unrealized_pl": 24.0,
-      "pnl_pct": 1.73,
-      "market_value": 1409.4
+      "quantity": 15.0,
+      "avg_entry": 114.97,
+      "current_price": 114.97,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 1724.55
     },
     {
-      "ticker": "IONQ",
+      "ticker": "GDXJ",
       "side": "LONG",
-      "quantity": 30.0,
-      "avg_entry": 40.0,
-      "current_price": 40.79,
-      "unrealized_pl": 23.7,
-      "pnl_pct": 1.97,
-      "market_value": 1223.7
+      "quantity": 10.0,
+      "avg_entry": 153.98,
+      "current_price": 153.98,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 1539.8
+    },
+    {
+      "ticker": "GLD",
+      "side": "LONG",
+      "quantity": 5.0,
+      "avg_entry": 481.0,
+      "current_price": 481.0,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 2405.0
     },
     {
       "ticker": "OPRA",
       "side": "LONG",
       "quantity": 80.0,
       "avg_entry": 15.03,
-      "current_price": 15.41,
-      "unrealized_pl": 30.4,
-      "pnl_pct": 2.53,
-      "market_value": 1232.8
+      "current_price": 15.03,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 1202.4
     },
     {
-      "ticker": "ORCL",
+      "ticker": "SLV",
       "side": "LONG",
-      "quantity": 8.0,
-      "avg_entry": 149.23,
-      "current_price": 150.31,
-      "unrealized_pl": 8.64,
-      "pnl_pct": 0.72,
-      "market_value": 1202.48
-    },
-    {
-      "ticker": "QCOM",
-      "side": "LONG",
-      "quantity": 5.0,
-      "avg_entry": 145.44,
-      "current_price": 145.59,
-      "unrealized_pl": 0.75,
-      "pnl_pct": 0.1,
-      "market_value": 727.95
-    },
-    {
-      "ticker": "SEZL",
-      "side": "LONG",
-      "quantity": 15.0,
-      "avg_entry": 80.64,
-      "current_price": 84.7,
-      "unrealized_pl": 60.9,
-      "pnl_pct": 5.03,
-      "market_value": 1270.5
+      "quantity": 30.0,
+      "avg_entry": 84.84,
+      "current_price": 84.84,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 2545.2
     }
   ],
   "recent_trades": [
+    {
+      "trade_id": "EDV-7e9e3825",
+      "timestamp": "2026-02-27T18:02:58.972420+00:00",
+      "action": "SELL",
+      "ticker": "OPRA",
+      "quantity": 20.0,
+      "price_usd": 16.05,
+      "total_usd": 321.0,
+      "reason": "Partial profit take 25% at +6.8% gain. Entry 15.03. Keeping 60x with tightened stop 15.00",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-f2cbd3f4",
+      "timestamp": "2026-02-27T18:02:52.515226+00:00",
+      "action": "BUY",
+      "ticker": "GLD",
+      "quantity": 5.0,
+      "price_usd": 481.0,
+      "total_usd": 2405.0,
+      "reason": "Gold 5233 risk-off regime. Triple catalyst: hot PPI + geopolitical + VIX spike. Scout. Stop 470, target 500",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "EDV-eb78c8dd",
+      "timestamp": "2026-02-27T18:02:51.879944+00:00",
+      "action": "BUY",
+      "ticker": "SLV",
+      "quantity": 30.0,
+      "price_usd": 84.84,
+      "total_usd": 2545.2000000000003,
+      "reason": "Silver breakout +10% today. Jane Street top holder per 13F. Inflation hedge on hot PPI. Scout position. Stop 81, target 92",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "EDV-08a5c6c3",
+      "timestamp": "2026-02-27T16:16:18.049875+00:00",
+      "action": "SELL",
+      "ticker": "ORCL",
+      "quantity": 8.0,
+      "price_usd": 144.7,
+      "total_usd": 1157.6,
+      "reason": "STOP-LOSS EXECUTED. Stop was $145.00, entry was $149.23. Automated enforcement.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-d6af6555",
+      "timestamp": "2026-02-27T16:06:35.708823+00:00",
+      "action": "SELL",
+      "ticker": "GCT",
+      "quantity": 30.0,
+      "price_usd": 44.86,
+      "total_usd": 1345.8,
+      "reason": "STOP EXECUTED - breached stop at $45.26 (entry $46.18, P&L: -$39.60)",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-bfd5b0c7",
+      "timestamp": "2026-02-27T16:06:34.601223+00:00",
+      "action": "SELL",
+      "ticker": "SEZL",
+      "quantity": 15.0,
+      "price_usd": 78.98,
+      "total_usd": 1184.7,
+      "reason": "STOP EXECUTED - breached stop at $79.03 (entry $80.64, P&L: -$24.98)",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-2e4dd599",
+      "timestamp": "2026-02-27T16:06:33.385790+00:00",
+      "action": "SELL",
+      "ticker": "IONQ",
+      "quantity": 30.0,
+      "price_usd": 37.08,
+      "total_usd": 1112.3999999999999,
+      "reason": "STOP EXECUTED - breached stop at $39.20 (entry $40.00, P&L: -$87.60)",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-3f093330",
+      "timestamp": "2026-02-27T16:06:32.312215+00:00",
+      "action": "SELL",
+      "ticker": "BFLY",
+      "quantity": 250.0,
+      "price_usd": 4.0,
+      "total_usd": 1000.0,
+      "reason": "STOP EXECUTED - breached stop at $4.26 (entry $4.35, P&L: -$87.50)",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-2c72a5c9",
+      "timestamp": "2026-02-27T15:07:06.609670+00:00",
+      "action": "BUY",
+      "ticker": "GDXJ",
+      "quantity": 10.0,
+      "price_usd": 153.98,
+      "total_usd": 1539.8,
+      "reason": "Junior miners leading seniors 1.5x. Risk-off regime conviction. Scout position. Stop 147, target 170",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "EDV-85ec1e58",
+      "timestamp": "2026-02-27T15:07:05.934145+00:00",
+      "action": "BUY",
+      "ticker": "GDX",
+      "quantity": 15.0,
+      "price_usd": 114.97,
+      "total_usd": 1724.55,
+      "reason": "Risk-off regime. Gold miners +8.6% today. Institutional rotation. Scout position. Stop 110, target 125",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "EDV-76208eab",
+      "timestamp": "2026-02-27T15:06:59.364579+00:00",
+      "action": "SELL",
+      "ticker": "AMZN",
+      "quantity": 5.0,
+      "price_usd": 206.72,
+      "total_usd": 1033.6,
+      "reason": "Dead money 3 days. Exit engine flagged SOFT_EXIT. Entry 209.00, loss 2.28/share",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-0502ab51",
+      "timestamp": "2026-02-27T15:06:58.744582+00:00",
+      "action": "SELL",
+      "ticker": "QCOM",
+      "quantity": 5.0,
+      "price_usd": 142.11,
+      "total_usd": 710.5500000000001,
+      "reason": "Dead money. NVDA semi drag. Exit engine flagged SOFT_EXIT. Entry 145.44, loss 3.33/share",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-ed286b5f",
+      "timestamp": "2026-02-27T15:06:58.152931+00:00",
+      "action": "SELL",
+      "ticker": "SQQQ",
+      "quantity": 48.0,
+      "price_usd": 71.24,
+      "total_usd": 3419.5199999999995,
+      "reason": "Inverse ETF overnight hold violation. Selling at open per protocol. Entry 70.80, small gain",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "EDV-5e00f15e",
+      "timestamp": "2026-02-27T15:06:50.771625+00:00",
+      "action": "COVER",
+      "ticker": "NVDA",
+      "quantity": 13.0,
+      "price_usd": 181.8,
+      "total_usd": 2363.4,
+      "reason": "Target 180 hit. Covered short at target. Entry 187.50, profit 5.70/share = 74.10",
+      "status": "CLOSED"
+    },
     {
       "trade_id": "EDV-ca7a94db",
       "timestamp": "2026-02-26T20:01:22.855022+00:00",
@@ -131,28 +255,6 @@
       "status": "CLOSED"
     },
     {
-      "trade_id": "EDV-52fa7b9c",
-      "timestamp": "2026-02-26T19:32:14.952215+00:00",
-      "action": "SELL",
-      "ticker": "TEST",
-      "quantity": 1.0,
-      "price_usd": 10.0,
-      "total_usd": 10.0,
-      "reason": "Removing test trade",
-      "status": "CLOSED"
-    },
-    {
-      "trade_id": "EDV-18f0767c",
-      "timestamp": "2026-02-26T19:32:09.210407+00:00",
-      "action": "BUY",
-      "ticker": "TEST",
-      "quantity": 1.0,
-      "price_usd": 10.0,
-      "total_usd": 10.0,
-      "reason": "Testing enforcement gate | Stop: $9.5",
-      "status": "CLOSED"
-    },
-    {
       "trade_id": "EDV-75f71d72",
       "timestamp": "2026-02-26T19:30:54.198749+00:00",
       "action": "BUY",
@@ -161,7 +263,7 @@
       "price_usd": 46.18,
       "total_usd": 1385.4,
       "reason": "GigaCloud +30%, .7B cap, e-commerce logistics momentum, stop ",
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "trade_id": "EDV-2bb23e66",
@@ -172,7 +274,7 @@
       "price_usd": 80.64,
       "total_usd": 1209.6,
       "reason": "BNPL fintech +29%, 3x vol, stop ",
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "trade_id": "EDV-06c86321",
@@ -183,7 +285,7 @@
       "price_usd": 40.0,
       "total_usd": 1200.0,
       "reason": "Quantum, 428% rev surge, +19%, stop ",
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "trade_id": "EDV-5ba2bb1c",
@@ -216,7 +318,7 @@
       "price_usd": 4.35,
       "total_usd": 1087.5,
       "reason": "Medical AI imaging, +40%, 56M vol vs 7M avg, stop .00",
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "trade_id": "EDV-3fdeaf22",
@@ -238,7 +340,7 @@
       "price_usd": 149.23,
       "total_usd": 1193.84,
       "reason": "SCOUT: AI infra rotation. Upgraded to Outperform. Score 6. Stop $145.",
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "trade_id": "EDV-aa86a40c",
@@ -293,7 +395,7 @@
       "price_usd": 145.44,
       "total_usd": 727.2,
       "reason": "Collaborative book - Loop Capital upgrade, institutional call buying 4:3, semi momentum. Stop $143.",
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "trade_id": "EDV-e2447270",
@@ -315,7 +417,7 @@
       "price_usd": 209.0,
       "total_usd": 1045.0,
       "reason": "Collaborative book upside exposure. Stop $205.",
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "trade_id": "EDV-a62d8ed3",

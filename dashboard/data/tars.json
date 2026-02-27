@@ -4,77 +4,77 @@
   "emoji": "\ud83e\udd16",
   "strategy": "Momentum Breakout Scanner",
   "status": "running",
-  "updated_at": "2026-02-26T21:12:55.302935+00:00",
-  "total_value_usd": 24499.57,
-  "cash_usd": 13693.46,
-  "total_return_pct": -2.0,
-  "daily_pnl": -657.51,
-  "daily_return_pct": -2.0017,
+  "updated_at": "2026-02-27T18:57:59.798177+00:00",
+  "total_value_usd": 24569.5,
+  "cash_usd": 13692.46,
+  "total_return_pct": -1.72,
+  "daily_pnl": 71.13,
+  "daily_return_pct": -1.722,
   "realized_pl": 0.0,
-  "unrealized_pl": 197.06,
-  "day_start_value": 25157.08,
+  "unrealized_pl": 0.0,
+  "day_start_value": 24498.37,
   "win_rate": 61.1,
-  "trade_count": 25,
+  "trade_count": 24,
   "positions": [
     {
       "ticker": "AMZN",
       "side": "LONG",
       "quantity": 3.0,
       "avg_entry": 209.0,
-      "current_price": 207.92,
-      "unrealized_pl": -3.24,
-      "pnl_pct": -0.52,
-      "market_value": 623.76
+      "current_price": 209.0,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 627.0
     },
     {
       "ticker": "GDX",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 111.4,
-      "current_price": 113.86,
-      "unrealized_pl": 24.6,
-      "pnl_pct": 2.21,
-      "market_value": 1138.6
+      "current_price": 111.4,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 1114.0
     },
     {
       "ticker": "GDXJ",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 150.73,
-      "current_price": 153.35,
-      "unrealized_pl": 26.2,
-      "pnl_pct": 1.74,
-      "market_value": 1533.5
+      "current_price": 150.73,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 1507.3
     },
     {
       "ticker": "GLD",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 462.62,
-      "current_price": 477.46,
-      "unrealized_pl": 148.4,
-      "pnl_pct": 3.21,
-      "market_value": 4774.6
+      "current_price": 462.62,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 4626.2
     },
     {
       "ticker": "PLTR",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 135.33,
-      "current_price": 135.94,
-      "unrealized_pl": 6.1,
-      "pnl_pct": 0.45,
-      "market_value": 1359.4
+      "current_price": 135.33,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 1353.3
     },
     {
       "ticker": "XLE",
       "side": "LONG",
       "quantity": 25.0,
       "avg_entry": 55.25,
-      "current_price": 55.05,
-      "unrealized_pl": -5.0,
-      "pnl_pct": -0.36,
-      "market_value": 1376.25
+      "current_price": 55.25,
+      "unrealized_pl": 0.0,
+      "pnl_pct": 0.0,
+      "market_value": 1381.25
     }
   ],
   "recent_trades": [
@@ -253,17 +253,6 @@
       "total_usd": 627.0,
       "reason": "Long exposure for upside participation. Market +0.6%, we need to be in it. Stop $205 (2%).",
       "status": "OPEN"
-    },
-    {
-      "trade_id": "TARS-e27c6577",
-      "timestamp": "2026-02-24T16:09:23.389219+00:00",
-      "action": "SELL",
-      "ticker": "TEST",
-      "quantity": 1.0,
-      "price_usd": 1.0,
-      "total_usd": 1.0,
-      "reason": "cleanup test trade",
-      "status": "CLOSED"
     },
     {
       "trade_id": "TARS-8b2f4bb5",
