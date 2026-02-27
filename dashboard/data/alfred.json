@@ -1,9 +1,9 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-02-27T16:20:10.237450+00:00",
-  "total_value_usd": 55448.82,
+  "updated_at": "2026-02-27T16:25:08.771393+00:00",
+  "total_value_usd": 55426.39,
   "cash_usd": 38589.51,
-  "total_return_pct": 121.8,
+  "total_return_pct": 121.71,
   "positions": [
     {
       "side": "LONG",
@@ -11,10 +11,10 @@
       "ticker": "AAPL",
       "quantity": 4.0,
       "avg_entry": 272.28,
-      "currentPrice": 268.59,
-      "unrealizedPL": -14.76,
-      "current_price": 268.6,
-      "unrealized_pl": -14.72
+      "currentPrice": 268.76,
+      "unrealizedPL": -14.08,
+      "current_price": 268.51,
+      "unrealized_pl": -15.08
     },
     {
       "side": "LONG",
@@ -22,10 +22,10 @@
       "ticker": "AMZN",
       "quantity": 5.0,
       "avg_entry": 209.0,
-      "currentPrice": 208.28,
-      "unrealizedPL": -3.6,
-      "current_price": 208.45,
-      "unrealized_pl": -2.75
+      "currentPrice": 208.21,
+      "unrealizedPL": -3.95,
+      "current_price": 207.95,
+      "unrealized_pl": -5.25
     },
     {
       "side": "LONG",
@@ -33,10 +33,10 @@
       "ticker": "BBAI",
       "quantity": 100,
       "avg_entry": 3.5,
-      "currentPrice": 3.929,
-      "unrealizedPL": 42.9,
-      "current_price": 3.95,
-      "unrealized_pl": 45.0
+      "currentPrice": 3.907,
+      "unrealizedPL": 40.7,
+      "current_price": 3.92,
+      "unrealized_pl": 42.0
     },
     {
       "side": "LONG",
@@ -44,10 +44,10 @@
       "ticker": "GLD",
       "quantity": 2.0,
       "avg_entry": 476.0,
-      "currentPrice": 482.54,
-      "unrealizedPL": 13.08,
-      "current_price": 482.91,
-      "unrealized_pl": 13.82
+      "currentPrice": 480.68,
+      "unrealizedPL": 9.36,
+      "current_price": 480.98,
+      "unrealized_pl": 9.96
     },
     {
       "side": "LONG",
@@ -55,10 +55,10 @@
       "ticker": "PLTR",
       "quantity": 9.0,
       "avg_entry": 135.63,
-      "currentPrice": 137.66,
-      "unrealizedPL": 18.27,
-      "current_price": 138.04,
-      "unrealized_pl": 21.69
+      "currentPrice": 136.58,
+      "unrealizedPL": 8.55,
+      "current_price": 136.47,
+      "unrealized_pl": 7.56
     },
     {
       "side": "LONG",
@@ -66,10 +66,10 @@
       "ticker": "SQQQ",
       "quantity": 43.0,
       "avg_entry": 71.4756,
-      "currentPrice": 70.88,
-      "unrealizedPL": -25.61,
-      "current_price": 70.73,
-      "unrealized_pl": -32.06
+      "currentPrice": 71.09,
+      "unrealizedPL": -16.58,
+      "current_price": 71.09,
+      "unrealized_pl": -16.58
     },
     {
       "side": "LONG",
@@ -77,10 +77,10 @@
       "ticker": "XLP",
       "quantity": 7.0,
       "avg_entry": 80.0,
-      "currentPrice": 89.7,
-      "unrealizedPL": 67.9,
-      "current_price": 89.66,
-      "unrealized_pl": 67.62
+      "currentPrice": 89.74,
+      "unrealizedPL": 68.18,
+      "current_price": 89.76,
+      "unrealized_pl": 68.32
     },
     {
       "side": "SHORT",
@@ -88,10 +88,10 @@
       "ticker": "AMD",
       "quantity": 5.0,
       "avg_entry": 202.91,
-      "currentPrice": 200.49,
-      "unrealizedPL": 12.1,
-      "current_price": 200.95,
-      "unrealized_pl": 9.8
+      "currentPrice": 200.5,
+      "unrealizedPL": 12.05,
+      "current_price": 200.34,
+      "unrealized_pl": 12.85
     },
     {
       "side": "SHORT",
@@ -99,10 +99,10 @@
       "ticker": "CRM",
       "quantity": 19.0,
       "avg_entry": 191.1416,
-      "currentPrice": 191.93,
-      "unrealizedPL": -14.98,
-      "current_price": 192.04,
-      "unrealized_pl": -17.07
+      "currentPrice": 192.16,
+      "unrealizedPL": -19.35,
+      "current_price": 191.91,
+      "unrealized_pl": -14.6
     },
     {
       "side": "SHORT",
@@ -110,10 +110,10 @@
       "ticker": "NVDA",
       "quantity": 21.0,
       "avg_entry": 185.201,
-      "currentPrice": 181.67,
-      "unrealizedPL": 74.06,
-      "current_price": 181.76,
-      "unrealized_pl": 72.26
+      "currentPrice": 181.3,
+      "unrealizedPL": 81.92,
+      "current_price": 181.32,
+      "unrealized_pl": 81.5
     }
   ],
   "recent_trades": [
