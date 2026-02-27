@@ -1,9 +1,9 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-02-27T16:05:09.927341+00:00",
-  "total_value_usd": 53747.62,
-  "cash_usd": 34959.73,
-  "total_return_pct": 114.99,
+  "updated_at": "2026-02-27T16:10:09.934091+00:00",
+  "total_value_usd": 54302.51,
+  "cash_usd": 37641.47,
+  "total_return_pct": 117.21,
   "positions": [
     {
       "side": "LONG",
@@ -11,10 +11,10 @@
       "ticker": "AAPL",
       "quantity": 4.0,
       "avg_entry": 272.28,
-      "currentPrice": 269.42,
-      "unrealizedPL": -11.44,
-      "current_price": 269.49,
-      "unrealized_pl": -11.16
+      "currentPrice": 268.77,
+      "unrealizedPL": -14.04,
+      "current_price": 268.91,
+      "unrealized_pl": -13.48
     },
     {
       "side": "LONG",
@@ -22,10 +22,10 @@
       "ticker": "AMZN",
       "quantity": 5.0,
       "avg_entry": 209.0,
-      "currentPrice": 208.94,
-      "unrealizedPL": -0.3,
-      "current_price": 208.96,
-      "unrealized_pl": -0.2
+      "currentPrice": 207.84,
+      "unrealizedPL": -5.8,
+      "current_price": 208.15,
+      "unrealized_pl": -4.25
     },
     {
       "side": "LONG",
@@ -33,21 +33,10 @@
       "ticker": "BBAI",
       "quantity": 100,
       "avg_entry": 3.5,
-      "currentPrice": 3.935,
-      "unrealizedPL": 43.5,
-      "current_price": 3.95,
-      "unrealized_pl": 45.0
-    },
-    {
-      "side": "LONG",
-      "market": "US",
-      "ticker": "CRM",
-      "quantity": 13.0,
-      "avg_entry": 192.2108,
-      "currentPrice": 191.96,
-      "unrealizedPL": -3.26,
-      "current_price": 192.08,
-      "unrealized_pl": -1.7
+      "currentPrice": 3.91,
+      "unrealizedPL": 41.0,
+      "current_price": 3.93,
+      "unrealized_pl": 43.0
     },
     {
       "side": "LONG",
@@ -55,10 +44,10 @@
       "ticker": "GLD",
       "quantity": 2.0,
       "avg_entry": 476.0,
-      "currentPrice": 481.82,
-      "unrealizedPL": 11.64,
-      "current_price": 481.99,
-      "unrealized_pl": 11.98
+      "currentPrice": 482.01,
+      "unrealizedPL": 12.02,
+      "current_price": 481.95,
+      "unrealized_pl": 11.9
     },
     {
       "side": "LONG",
@@ -66,10 +55,10 @@
       "ticker": "PLTR",
       "quantity": 9.0,
       "avg_entry": 135.63,
-      "currentPrice": 137.13,
-      "unrealizedPL": 13.5,
-      "current_price": 137.21,
-      "unrealized_pl": 14.22
+      "currentPrice": 136.59,
+      "unrealizedPL": 8.64,
+      "current_price": 136.75,
+      "unrealized_pl": 10.08
     },
     {
       "side": "LONG",
@@ -77,10 +66,10 @@
       "ticker": "SQQQ",
       "quantity": 43.0,
       "avg_entry": 71.4756,
-      "currentPrice": 70.737,
-      "unrealizedPL": -31.76,
-      "current_price": 70.72,
-      "unrealized_pl": -32.49
+      "currentPrice": 71.19,
+      "unrealizedPL": -12.28,
+      "current_price": 71.2,
+      "unrealized_pl": -11.85
     },
     {
       "side": "LONG",
@@ -88,10 +77,10 @@
       "ticker": "XLP",
       "quantity": 7.0,
       "avg_entry": 80.0,
-      "currentPrice": 89.495,
-      "unrealizedPL": 66.47,
-      "current_price": 89.55,
-      "unrealized_pl": 66.85
+      "currentPrice": 89.57,
+      "unrealizedPL": 66.99,
+      "current_price": 89.59,
+      "unrealized_pl": 67.13
     },
     {
       "side": "SHORT",
@@ -99,21 +88,21 @@
       "ticker": "AMD",
       "quantity": 5.0,
       "avg_entry": 202.91,
-      "currentPrice": 200.93,
-      "unrealizedPL": 9.9,
-      "current_price": 200.89,
-      "unrealized_pl": 10.1
+      "currentPrice": 200.3,
+      "unrealizedPL": 13.05,
+      "current_price": 200.27,
+      "unrealized_pl": 13.2
     },
     {
       "side": "SHORT",
       "market": "US",
       "ticker": "CRM",
-      "quantity": 17.0,
-      "avg_entry": 191.1053,
-      "currentPrice": 191.96,
-      "unrealizedPL": -14.53,
-      "current_price": 192.08,
-      "unrealized_pl": -16.57
+      "quantity": 19.0,
+      "avg_entry": 191.1416,
+      "currentPrice": 191.49,
+      "unrealizedPL": -6.54,
+      "current_price": 191.48,
+      "unrealized_pl": -6.43
     },
     {
       "side": "SHORT",
@@ -121,13 +110,49 @@
       "ticker": "NVDA",
       "quantity": 20.0,
       "avg_entry": 185.373,
-      "currentPrice": 181.93,
-      "unrealizedPL": 68.86,
-      "current_price": 181.83,
-      "unrealized_pl": 70.86
+      "currentPrice": 181.53,
+      "unrealizedPL": 76.86,
+      "current_price": 181.44,
+      "unrealized_pl": 78.66
     }
   ],
   "recent_trades": [
+    {
+      "trade_id": "ALF-16db6e9e",
+      "timestamp": "2026-02-27T16:10:06.807431+00:00",
+      "action": "SHORT",
+      "ticker": "CRM",
+      "quantity": 2.0,
+      "price_usd": 191.45,
+      "reason": "[SCOUT] SHORT | -2.32% move | RVOL=None | Score=23.2"
+    },
+    {
+      "trade_id": "ALF-b8d53420",
+      "timestamp": "2026-02-27T16:10:03.723899+00:00",
+      "action": "SELL",
+      "ticker": "CRM",
+      "quantity": 4.0,
+      "price_usd": 191.49,
+      "reason": "[RISK] Stop loss hit: -2.3%"
+    },
+    {
+      "trade_id": "ALF-dbba8cbf",
+      "timestamp": "2026-02-27T16:06:25.414285+00:00",
+      "action": "SELL",
+      "ticker": "CRM",
+      "quantity": 4.0,
+      "price_usd": 191.61,
+      "reason": "STOP EXECUTED - breached stop at $192.09 (entry $196.01, P&L: -$17.62)"
+    },
+    {
+      "trade_id": "ALF-05ad6c27",
+      "timestamp": "2026-02-27T16:06:20.603491+00:00",
+      "action": "SELL",
+      "ticker": "CRM",
+      "quantity": 4.0,
+      "price_usd": 191.61,
+      "reason": "STOP EXECUTED - breached stop at $192.18 (entry $196.10, P&L: -$17.98)"
+    },
     {
       "trade_id": "ALF-94710689",
       "timestamp": "2026-02-27T15:35:03.296228+00:00",
@@ -271,43 +296,7 @@
       "quantity": 1.0,
       "price_usd": 180.45,
       "reason": "[SCOUT] SHORT | -3.17% move | RVOL=None | Score=31.7"
-    },
-    {
-      "trade_id": "ALF-69cb4f73",
-      "timestamp": "2026-02-27T14:55:04.467293+00:00",
-      "action": "SELL",
-      "ticker": "MSFT",
-      "quantity": 3.0,
-      "price_usd": 394.4,
-      "reason": "[RISK] Stop loss hit: -2.5%"
-    },
-    {
-      "trade_id": "ALF-c091e6d3",
-      "timestamp": "2026-02-27T14:50:08.282752+00:00",
-      "action": "SHORT",
-      "ticker": "CRM",
-      "quantity": 5.0,
-      "price_usd": 190.49,
-      "reason": "[SCOUT] SHORT | -2.81% move | RVOL=None | Score=28.1"
-    },
-    {
-      "trade_id": "ALF-3a8ac202",
-      "timestamp": "2026-02-27T14:50:04.033888+00:00",
-      "action": "SELL",
-      "ticker": "MSFT",
-      "quantity": 3.0,
-      "price_usd": 393.82,
-      "reason": "[RISK] Stop loss hit: -2.7%"
-    },
-    {
-      "trade_id": "ALF-400a519d",
-      "timestamp": "2026-02-27T14:40:11.448043+00:00",
-      "action": "BUY",
-      "ticker": "SQQQ",
-      "quantity": 15.0,
-      "price_usd": 71.85,
-      "reason": "[SCOUT] LONG | +2.37% move | RVOL=None | Score=23.7"
     }
   ],
-  "trade_count": 45
+  "trade_count": 49
 }
