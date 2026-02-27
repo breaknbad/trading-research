@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi AI Trading Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0f0f1a;--card:#1a1a2e;--card2:#16213e;--accent:#0f3460;--blue:#4cc9f0;--green:#00f5a0;--red:#f72585;--yellow:#f7b731;--text:#e0e0e0;--muted:#8892b0;--border:#2a2a4a}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
+a{color:var(--blue)}
+.container{max-width:1400px;margin:0 auto;padding:16px}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-bottom:1px solid var(--border);margin-bottom:20px;flex-wrap:wrap;gap:8px}
+header h1{font-size:1.5rem;font-weight:700;background:linear-gradient(135deg,var(--blue),var(--green));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+header .refresh{color:var(--muted);font-size:.85rem}
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:20px}
+.card{background:var(--card);border-radius:12px;padding:18px;border:1px solid var(--border)}
+.card.summary-card{text-align:center}
+.card .label{font-size:.75rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-bottom:4px}
+.card .value{font-size:1.6rem;font-weight:700}
+.pos{color:var(--green)}.neg{color:var(--red)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+@media(max-width:900px){.grid2{grid-template-columns:1fr}}
+.card h2{font-size:1rem;margin-bottom:12px;color:var(--blue);font-weight:600}
+.bot-row{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--border)}
+.bot-row:last-child{border:none}
+.dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.dot.running{background:var(--green);box-shadow:0 0 6px var(--green)}
+.dot.stopped{background:var(--red)}
+.dot.error{background:var(--yellow);box-shadow:0 0 6px var(--yellow)}
+.bot-name{font-weight:600;min-width:120px}
+.bot-meta{color:var(--muted);font-size:.8rem}
+table{width:100%;border-collapse:collapse;font-size:.85rem}
+th{text-align:left;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.5px;padding:8px 6px;border-bottom:1px solid var(--border)}
+td{padding:8px 6px;border-bottom:1px solid rgba(42,42,74,.5)}
+tr:hover td{background:rgba(255,255,255,.02)}
+.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.7rem;font-weight:600;text-transform:uppercase}
+.badge.long{background:rgba(0,245,160,.15);color:var(--green)}
+.badge.short{background:rgba(247,37,133,.15);color:var(--red)}
+.chart-wrap{position:relative;height:300px}
+.asset-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.asset-card{background:var(--card2);border-radius:8px;padding:14px;border:1px solid var(--border)}
+.asset-card .pair{font-weight:700;font-size:1rem;margin-bottom:6px}
+.asset-card .stat{display:flex;justify-content:space-between;font-size:.8rem;color:var(--muted)}
+.nav{background:var(--card);border-bottom:1px solid var(--border);padding:10px 20px;display:flex;gap:20px;align-items:center;font-size:.9rem}
+.nav a{padding:6px 14px;border-radius:6px;transition:background .2s;color:var(--blue);text-decoration:none}
+.nav a:hover,.nav a.active{background:var(--accent);text-decoration:none}
+.nav a.active{color:var(--green);font-weight:600}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <a href="index.html" class="active">📊 Trading Dashboard</a>
+  <a href="competition.html">🏆 Competition</a>
+</nav>
+<div class="container">
+  <header>
+    <h1>⚡ Mi AI Trading Dashboard</h1>
+    <div class="refresh">Last refresh: <span id="lastRefresh">—</span> · Auto-refresh 30s</div>
+  </header>
+  <div class="summary" id="summary"></div>
+  <div class="grid2">
+    <div class="card" id="botPanel"><h2>🤖 Bot Status</h2><div id="botList"></div></div>
+    <div class="card"><h2>📈 Cumulative P&L</h2><div class="chart-wrap"><canvas id="pnlChart"></canvas></div></div>
+  </div>
+  <div class="card" style="margin-bottom:20px"><h2>📊 Active Positions</h2><table><thead><tr><th>Bot</th><th>Pair</th><th>Dir</th><th>Entry</th><th>Current</th><th>Size</th><th>Unrealized P&L</th></tr></thead><tbody id="posTable"></tbody></table></div>
+  <div class="card" style="margin-bottom:20px"><h2>🔄 Recent Trades</h2><table><thead><tr><th>Bot</th><th>Pair</th><th>Dir</th><th>Entry</th><th>Exit</th><th>Size</th><th>P&L</th><th>Time</th></tr></thead><tbody id="tradeTable"></tbody></table></div>
+  <div class="card"><h2>💰 Per-Asset Breakdown</h2><div class="asset-grid" id="assetGrid"></div></div>
+</div>
+<script>
+// ═══ SUPABASE CONFIG ═══
+// Fill in your anon key from Supabase Dashboard > Settings > API
+const SUPABASE_URL = 'https://vghssoltipiajiwzhkyn.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZnaHNzb2x0aXBpYWppd3poa3luIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE3Mzk0ODgsImV4cCI6MjA4NzMxNTQ4OH0.UY8CFrYSkvygv0YzHY_N4uSCf0JwqYlKdGwRwpygub4';
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+const $ = s => document.getElementById(s);
+const fmt = v => (v >= 0 ? '+' : '') + '$' + Math.abs(v).toFixed(2);
+const cls = v => v >= 0 ? 'pos' : 'neg';
+const pct = v => v.toFixed(1) + '%';
+const shortTime = s => new Date(s).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+const uptime = s => {if(!s) return 'offline'; const ms=Date.now()-new Date(s).getTime(); const h=Math.floor(ms/3600000),m=Math.floor((ms%3600000)/60000); return h+'h '+m+'m'};
+let chart;
+
+async function load(){
+  try{
+    // Fetch all data from Supabase
+    const [botRes, posRes, tradeRes, pnlRes] = await Promise.all([
+      sb.from('bot_status').select('*'),
+      sb.from('positions').select('*'),
+      sb.from('trades').select('*').order('closed_at', {ascending: false}).limit(50),
+      sb.from('pnl_snapshots').select('*').order('timestamp', {ascending: true})
+    ]);
+
+    const bots = botRes.data || [];
+    const positions = posRes.data || [];
+    const trades = tradeRes.data || [];
+    const pnlHistory = pnlRes.data || [];
+
+    // Build data object matching old format
+    const totalPnl = bots.reduce((s,b) => s + Number(b.total_pnl||0), 0);
+    const totalTrades = bots.reduce((s,b) => s + Number(b.total_trades||0), 0);
+    const avgWinRate = bots.length ? bots.reduce((s,b) => s + Number(b.win_rate||0), 0) / bots.length : 0;
+
+    const botMap = {};
+    bots.forEach(b => { botMap[b.bot_name] = {name: b.bot_name, emoji: b.emoji, status: b.status, stats: {total_pnl: Number(b.total_pnl), win_rate: Number(b.win_rate)}}; });
+
+    const d = {
+      aggregate: { total_pnl: totalPnl, daily_pnl: 0, win_rate: avgWinRate, active_positions: positions.length, total_trades: totalTrades },
+      bots: botMap,
+      positions: positions.map(p => ({bot: p.bot_name, pair: p.pair, direction: p.direction, entry_price: Number(p.entry_price), current_price: Number(p.current_price), size: Number(p.size), unrealized_pnl: Number(p.unrealized_pnl)})),
+      trades: trades.map(t => ({bot: t.bot_name, pair: t.pair, direction: t.direction, entry_price: Number(t.entry_price), exit_price: Number(t.exit_price), size: 1, pnl: Number(t.pnl), closed_at: t.closed_at})),
+      pnl_history: pnlHistory.map(p => ({timestamp: p.timestamp, cumulative_pnl: Number(p.balance) - 25000})),
+      asset_breakdown: buildAssetBreakdown(trades)
+    };
+    render(d);
+    $('lastRefresh').textContent = new Date().toLocaleTimeString();
+  }catch(e){console.error(e)}
+}
+
+function buildAssetBreakdown(trades) {
+  const map = {};
+  trades.forEach(t => {
+    const pair = t.pair;
+    if (!map[pair]) map[pair] = {total_pnl: 0, total_trades: 0, wins: 0};
+    map[pair].total_pnl += Number(t.pnl||0);
+    map[pair].total_trades++;
+    if (Number(t.pnl||0) > 0) map[pair].wins++;
+  });
+  Object.values(map).forEach(v => { v.win_rate = v.total_trades ? (v.wins/v.total_trades)*100 : 0; });
+  return map;
+}
+
+function render(d){
+  const a = d.aggregate;
+  $('summary').innerHTML = [
+    ['Total P&L', fmt(a.total_pnl), cls(a.total_pnl)],
+    ["Today's P&L", fmt(a.daily_pnl), cls(a.daily_pnl)],
+    ['Win Rate', pct(a.win_rate), a.win_rate>=50?'pos':'neg'],
+    ['Active Positions', a.active_positions, ''],
+    ['Total Trades', a.total_trades, ''],
+  ].map(([l,v,c])=>`<div class="card summary-card"><div class="label">${l}</div><div class="value ${c}">${v}</div></div>`).join('');
+
+  $('botList').innerHTML = Object.values(d.bots).map(b=>`
+    <div class="bot-row">
+      <div class="dot ${b.status}"></div>
+      <div class="bot-name">${b.name}</div>
+      <div class="bot-meta">${b.status} · ${uptime(b.uptime_seconds)} · P&L: <span class="${cls(b.stats.total_pnl)}">${fmt(b.stats.total_pnl)}</span> · WR: ${pct(b.stats.win_rate)}</div>
+    </div>`).join('');
+
+  $('posTable').innerHTML = d.positions.map(p=>`<tr>
+    <td>${d.bots[p.bot]?.name||p.bot}</td><td>${p.pair}</td>
+    <td><span class="badge ${p.direction}">${p.direction}</span></td>
+    <td>$${p.entry_price.toLocaleString()}</td><td>$${p.current_price.toLocaleString()}</td>
+    <td>${p.size}</td><td class="${cls(p.unrealized_pnl)}">${fmt(p.unrealized_pnl)}</td></tr>`).join('');
+
+  $('tradeTable').innerHTML = d.trades.slice(0,50).map(t=>`<tr>
+    <td>${d.bots[t.bot]?.name||t.bot}</td><td>${t.pair}</td>
+    <td><span class="badge ${t.direction}">${t.direction}</span></td>
+    <td>$${t.entry_price.toLocaleString()}</td><td>$${t.exit_price.toLocaleString()}</td>
+    <td>${t.size}</td><td class="${cls(t.pnl)}">${fmt(t.pnl)}</td><td>${shortTime(t.closed_at)}</td></tr>`).join('');
+
+  $('assetGrid').innerHTML = Object.entries(d.asset_breakdown).map(([k,v])=>`
+    <div class="asset-card">
+      <div class="pair">${k}</div>
+      <div class="stat"><span>P&L</span><span class="${cls(v.total_pnl)}">${fmt(v.total_pnl)}</span></div>
+      <div class="stat"><span>Trades</span><span>${v.total_trades}</span></div>
+      <div class="stat"><span>Win Rate</span><span>${pct(v.win_rate)}</span></div>
+    </div>`).join('');
+
+  const labels = d.pnl_history.map(p=>{const dt=new Date(p.timestamp);return (dt.getMonth()+1)+'/'+dt.getDate()+' '+dt.getHours()+':00'});
+  const vals = d.pnl_history.map(p=>p.cumulative_pnl);
+  if(chart) chart.destroy();
+  chart = new Chart($('pnlChart'),{type:'line',data:{labels,datasets:[{label:'Cumulative P&L ($)',data:vals,borderColor:'#4cc9f0',backgroundColor:'rgba(76,201,240,.1)',fill:true,tension:.3,pointRadius:3,pointBackgroundColor:'#4cc9f0'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#8892b0',maxTicksLimit:8},grid:{color:'rgba(42,42,74,.5)'}},y:{ticks:{color:'#8892b0',callback:v=>'$'+v},grid:{color:'rgba(42,42,74,.5)'}}}}});
+}
+
+load();
+setInterval(load, 30000);
+</script>
+</body>
+</html>

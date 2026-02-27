@@ -1,0 +1,52 @@
+{
+  "balance": 998.4523140547594,
+  "initial_balance": 1000.0,
+  "round_num": 492,
+  "trades": [
+    {
+      "pair": "SHIB-USD",
+      "direction": "DOWN",
+      "score": 0,
+      "entry_price": 6.17e-06,
+      "exit_price": 6.17e-06,
+      "size_usd": 300.0,
+      "pnl": 0.0,
+      "entry_time": "2026-02-23T14:09:50.744547+00:00",
+      "exit_time": "2026-02-23T14:15:02.827911+00:00"
+    },
+    {
+      "pair": "AVAX-USD",
+      "direction": "UP",
+      "score": 0,
+      "entry_price": 8.4,
+      "exit_price": 8.38,
+      "size_usd": 300.0,
+      "pnl": -0.714285714285699,
+      "entry_time": "2026-02-24T02:35:00.476400+00:00",
+      "exit_time": "2026-02-24T02:40:13.361677+00:00"
+    },
+    {
+      "pair": "LINK-USD",
+      "direction": "UP",
+      "score": 0,
+      "entry_price": 8.183,
+      "exit_price": 8.17,
+      "size_usd": 299.7857142857143,
+      "pnl": -0.47625739774095754,
+      "entry_time": "2026-02-24T10:02:45.015641+00:00",
+      "exit_time": "2026-02-24T10:07:57.530309+00:00"
+    },
+    {
+      "pair": "AVAX-USD",
+      "direction": "UP",
+      "score": 0,
+      "entry_price": 8.39,
+      "exit_price": 8.38,
+      "size_usd": 299.64283706639196,
+      "pnl": -0.3571428332138088,
+      "entry_time": "2026-02-24T17:19:53.918373+00:00",
+      "exit_time": "2026-02-24T17:25:06.769744+00:00"
+    }
+  ],
+  "positions": {}
+}

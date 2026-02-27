@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Farm Solutions — What Would Help Your Operation?</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', sans-serif; background: #fff; color: #1a1a1a; }
+  :root { --deep: #0d2b0d; --dark: #1a4a1a; --gold: #d4a843; --gold-dk: #b8922e; --cream: #faf7f0; }
+
+  .header {
+    background: var(--deep); padding: 36px 48px; display: flex;
+    justify-content: space-between; align-items: center;
+  }
+  .logo { font-size: 20px; font-weight: 900; color: #fff; }
+  .logo span { color: var(--gold); }
+  .tagline { font-size: 11px; color: var(--gold); font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; }
+
+  .intro {
+    max-width: 720px; margin: 0 auto; padding: 40px 48px 24px;
+  }
+  .intro h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px; font-weight: 800; color: var(--deep);
+    margin-bottom: 14px; line-height: 1.2;
+  }
+  .intro p {
+    font-size: 15px; color: #555; line-height: 1.7;
+  }
+  .intro p strong { color: var(--deep); }
+
+  .form { max-width: 720px; margin: 0 auto; padding: 0 48px 48px; }
+
+  .q {
+    margin-bottom: 28px; padding-bottom: 24px;
+    border-bottom: 1px solid #eee;
+  }
+  .q:last-child { border-bottom: none; }
+  .q-num {
+    font-size: 11px; font-weight: 800; color: var(--gold-dk);
+    letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px;
+  }
+  .q-text { font-size: 16px; font-weight: 700; color: var(--deep); margin-bottom: 12px; line-height: 1.4; }
+
+  .options { display: flex; flex-wrap: wrap; gap: 8px; }
+  .opt {
+    border: 2px solid #ddd; border-radius: 8px; padding: 10px 18px;
+    font-size: 13px; color: #444; cursor: pointer; transition: all 0.15s;
+  }
+  .opt:hover { border-color: var(--gold); background: rgba(212,168,67,0.06); }
+
+  .rank-list { list-style: none; counter-reset: rank; }
+  .rank-list li {
+    counter-increment: rank; padding: 12px 16px; margin-bottom: 6px;
+    background: var(--cream); border-radius: 8px; font-size: 14px; color: #333;
+    display: flex; align-items: center; gap: 12px; border: 1px solid #e8e5de;
+  }
+  .rank-list li::before {
+    content: counter(rank); font-weight: 800; color: var(--gold-dk);
+    font-size: 16px; min-width: 20px;
+  }
+  .rank-list li .rank-box {
+    width: 28px; height: 28px; border: 2px solid #ccc; border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700; color: #999; flex-shrink: 0;
+  }
+
+  .check-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .check-item {
+    display: flex; align-items: center; gap: 8px;
+    padding: 8px 12px; font-size: 13px; color: #444;
+    background: var(--cream); border-radius: 6px;
+  }
+  .check-box {
+    width: 18px; height: 18px; border: 2px solid #ccc;
+    border-radius: 4px; flex-shrink: 0;
+  }
+
+  .text-area {
+    width: 100%; border: 2px solid #ddd; border-radius: 8px;
+    padding: 14px 16px; font-family: 'Inter', sans-serif;
+    font-size: 14px; color: #333; min-height: 80px; resize: vertical;
+  }
+
+  .cta-bar {
+    background: var(--deep); padding: 32px 48px; text-align: center;
+  }
+  .cta-bar p {
+    font-size: 14px; color: rgba(255,255,255,0.8); margin-bottom: 8px;
+  }
+  .cta-bar .small { font-size: 11px; color: rgba(255,255,255,0.5); }
+  .cta-bar .brand {
+    font-size: 13px; color: var(--gold); font-weight: 700; margin-top: 12px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">Mi <span>Farm</span> Solutions</div>
+  <div class="tagline">Built by Farmers, for Farmers</div>
+</div>
+
+<div class="intro">
+  <h1>What Would Help Your Operation?</h1>
+  <p>We're building an intelligence team for farmers. <strong>Not software. Not another app.</strong> A team that watches the markets, the reports, and your numbers — and tells you what to do before the decision, not after. We want to know what matters most to you.</p>
+</div>
+
+<div class="form">
+
+  <div class="q">
+    <div class="q-num">Question 1</div>
+    <div class="q-text">What's your primary crop?</div>
+    <div class="options">
+      <div class="opt">🌽 Corn / Soybeans</div>
+      <div class="opt">🌾 Wheat / Barley</div>
+      <div class="opt">🪻 Cotton / Rice</div>
+      <div class="opt">🍊 Fruits / Vegetables</div>
+      <div class="opt">Other: ________</div>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">Question 2</div>
+    <div class="q-text">How many acres do you operate?</div>
+    <div class="options">
+      <div class="opt">Under 500</div>
+      <div class="opt">500 – 1,500</div>
+      <div class="opt">1,500 – 5,000</div>
+      <div class="opt">5,000+</div>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">Question 3</div>
+    <div class="q-text">Rank these by how much they'd help your operation. (1 = most valuable)</div>
+    <ol class="rank-list">
+      <li><div class="rank-box">__</div> Knowing exactly what your soil needs so every input dollar is working</li>
+      <li><div class="rank-box">__</div> Getting a personalized breakdown of USDA reports within 30 minutes</li>
+      <li><div class="rank-box">__</div> Knowing the best day to sell your grain based on futures, basis, and storage costs</li>
+      <li><div class="rank-box">__</div> Optimizing your crop insurance so you're not overpaying or underinsured</li>
+      <li><div class="rank-box">__</div> Help timing major equipment purchases for maximum tax benefit</li>
+      <li><div class="rank-box">__</div> Getting alerts when global events are about to move commodity prices</li>
+    </ol>
+  </div>
+
+  <div class="q">
+    <div class="q-num">Question 4</div>
+    <div class="q-text">How do you currently get market intelligence? (check all that apply)</div>
+    <div class="check-grid">
+      <div class="check-item"><div class="check-box"></div> DTN / Progressive Farmer</div>
+      <div class="check-item"><div class="check-box"></div> Elevator / co-op newsletter</div>
+      <div class="check-item"><div class="check-box"></div> Ag radio</div>
+      <div class="check-item"><div class="check-box"></div> Broker / advisor</div>
+      <div class="check-item"><div class="check-box"></div> Social media</div>
+      <div class="check-item"><div class="check-box"></div> Gut feeling</div>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">Question 5</div>
+    <div class="q-text">Do you feel confident that every dollar you spend on inputs is working as hard as it can?</div>
+    <div class="options">
+      <div class="opt">Yes — I've got it dialed in</div>
+      <div class="opt">Probably, but I'm not sure</div>
+      <div class="opt">Honestly, no</div>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">Question 6</div>
+    <div class="q-text">Are you a member of a grain or input co-op?</div>
+    <div class="options">
+      <div class="opt">Yes</div>
+      <div class="opt">No</div>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">Question 7</div>
+    <div class="q-text">Do you rent farmland?</div>
+    <div class="options">
+      <div class="opt">Yes — I'm a tenant</div>
+      <div class="opt">Yes — I'm a landlord</div>
+      <div class="opt">Both</div>
+      <div class="opt">No — I own what I farm</div>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">Question 7b</div>
+    <div class="q-text">If you rent: do you have data to support your rent negotiations, or is it mostly based on what the neighbors pay?</div>
+    <div class="options">
+      <div class="opt">I have solid data</div>
+      <div class="opt">Mostly word of mouth / neighbors</div>
+      <div class="opt">I just accept what the landlord asks</div>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">Question 8</div>
+    <div class="q-text">What did your operation spend on crop inputs last year?</div>
+    <div class="options">
+      <div class="opt">Under $100K</div>
+      <div class="opt">$100K – $250K</div>
+      <div class="opt">$250K – $500K</div>
+      <div class="opt">$500K+</div>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">Question 9</div>
+    <div class="q-text">If a service could save you $50,000+ per year with proof, what would you pay monthly?</div>
+    <div class="options">
+      <div class="opt">Under $500</div>
+      <div class="opt">$500 – $1,000</div>
+      <div class="opt">$1,000 – $2,000</div>
+      <div class="opt">Whatever it takes if the ROI is real</div>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">Question 10</div>
+    <div class="q-text">How would you want to hear from your intelligence team?</div>
+    <div class="options">
+      <div class="opt">📱 Text / SMS</div>
+      <div class="opt">📞 Phone call</div>
+      <div class="opt">📧 Email</div>
+      <div class="opt">All of the above</div>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">Question 11</div>
+    <div class="q-text">Would you be interested in a free 90-day trial where we run our analysis on your operation and show you what you're leaving on the table?</div>
+    <div class="options">
+      <div class="opt" style="border-color: var(--gold); background: rgba(212,168,67,0.06);">Yes — run my numbers</div>
+      <div class="opt">Maybe — tell me more first</div>
+      <div class="opt">No thanks</div>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">Question 12</div>
+    <div class="q-text">Anything else keeping you up at night that nobody's helping with?</div>
+    <div class="text-area" contenteditable="false" style="background: var(--cream); border-color: #e8e5de; min-height: 60px; color: #999; font-style: italic;">Write anything here...</div>
+  </div>
+
+</div>
+
+<div class="cta-bar">
+  <p>Thank you. Your answers help us build something that actually works for farmers — not just another tool nobody asked for.</p>
+  <div class="small">Your responses are confidential and will only be used to shape our services.</div>
+  <div class="brand">Mi Farm Solutions · mifarm.ai · hello@mifarm.ai</div>
+</div>
+
+</body>
+</html>

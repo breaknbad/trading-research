@@ -1,0 +1,95 @@
+{
+  "last_updated": "2026-02-22T21:35:00-05:00",
+  "aggregate": {
+    "total_pnl": 1247.83,
+    "daily_pnl": 89.42,
+    "total_trades": 342,
+    "win_rate": 64.3,
+    "active_positions": 5,
+    "best_trade": 312.50,
+    "worst_trade": -87.20
+  },
+  "bots": {
+    "mean_reversion": {
+      "name": "Mean Reversion",
+      "status": "running",
+      "last_update": "2026-02-22T21:34:52-05:00",
+      "uptime_seconds": 86400,
+      "stats": {
+        "total_pnl": 523.41,
+        "daily_pnl": 34.20,
+        "total_trades": 128,
+        "win_rate": 67.2
+      }
+    },
+    "multi_strategy": {
+      "name": "Multi-Strategy",
+      "status": "running",
+      "last_update": "2026-02-22T21:34:48-05:00",
+      "uptime_seconds": 172800,
+      "stats": {
+        "total_pnl": 489.92,
+        "daily_pnl": 41.10,
+        "total_trades": 156,
+        "win_rate": 62.8
+      }
+    },
+    "scalper": {
+      "name": "Scalper",
+      "status": "stopped",
+      "last_update": "2026-02-22T20:15:00-05:00",
+      "uptime_seconds": 0,
+      "stats": {
+        "total_pnl": 234.50,
+        "daily_pnl": 14.12,
+        "total_trades": 58,
+        "win_rate": 60.3
+      }
+    }
+  },
+  "positions": [
+    {"bot": "mean_reversion", "pair": "BTC-USD", "direction": "long", "entry_price": 51200.00, "current_price": 51450.00, "size": 0.05, "unrealized_pnl": 12.50, "opened_at": "2026-02-22T19:30:00-05:00"},
+    {"bot": "mean_reversion", "pair": "ETH-USD", "direction": "short", "entry_price": 3120.00, "current_price": 3095.00, "size": 1.5, "unrealized_pnl": 37.50, "opened_at": "2026-02-22T20:00:00-05:00"},
+    {"bot": "multi_strategy", "pair": "SOL-USD", "direction": "long", "entry_price": 108.50, "current_price": 110.20, "size": 20, "unrealized_pnl": 34.00, "opened_at": "2026-02-22T18:45:00-05:00"},
+    {"bot": "multi_strategy", "pair": "BTC-USD", "direction": "long", "entry_price": 51100.00, "current_price": 51450.00, "size": 0.03, "unrealized_pnl": 10.50, "opened_at": "2026-02-22T20:30:00-05:00"},
+    {"bot": "multi_strategy", "pair": "AVAX-USD", "direction": "short", "entry_price": 38.40, "current_price": 38.90, "size": 50, "unrealized_pnl": -25.00, "opened_at": "2026-02-22T21:00:00-05:00"}
+  ],
+  "trades": [
+    {"bot": "mean_reversion", "pair": "BTC-USD", "direction": "long", "entry_price": 50800.00, "exit_price": 51100.00, "size": 0.05, "pnl": 15.00, "closed_at": "2026-02-22T21:30:00-05:00"},
+    {"bot": "multi_strategy", "pair": "ETH-USD", "direction": "short", "entry_price": 3150.00, "exit_price": 3110.00, "size": 2.0, "pnl": 80.00, "closed_at": "2026-02-22T21:15:00-05:00"},
+    {"bot": "scalper", "pair": "SOL-USD", "direction": "long", "entry_price": 107.20, "exit_price": 107.80, "size": 30, "pnl": 18.00, "closed_at": "2026-02-22T20:10:00-05:00"},
+    {"bot": "mean_reversion", "pair": "AVAX-USD", "direction": "long", "entry_price": 37.80, "exit_price": 38.20, "size": 100, "pnl": 40.00, "closed_at": "2026-02-22T19:45:00-05:00"},
+    {"bot": "multi_strategy", "pair": "BTC-USD", "direction": "short", "entry_price": 51500.00, "exit_price": 51350.00, "size": 0.04, "pnl": 6.00, "closed_at": "2026-02-22T19:30:00-05:00"},
+    {"bot": "scalper", "pair": "ETH-USD", "direction": "long", "entry_price": 3080.00, "exit_price": 3065.00, "size": 1.0, "pnl": -15.00, "closed_at": "2026-02-22T19:00:00-05:00"},
+    {"bot": "mean_reversion", "pair": "SOL-USD", "direction": "short", "entry_price": 109.00, "exit_price": 108.20, "size": 25, "pnl": 20.00, "closed_at": "2026-02-22T18:30:00-05:00"},
+    {"bot": "multi_strategy", "pair": "AVAX-USD", "direction": "long", "entry_price": 37.50, "exit_price": 37.20, "size": 80, "pnl": -24.00, "closed_at": "2026-02-22T18:00:00-05:00"},
+    {"bot": "scalper", "pair": "BTC-USD", "direction": "long", "entry_price": 50900.00, "exit_price": 51050.00, "size": 0.02, "pnl": 3.00, "closed_at": "2026-02-22T17:30:00-05:00"},
+    {"bot": "mean_reversion", "pair": "ETH-USD", "direction": "long", "entry_price": 3060.00, "exit_price": 3100.00, "size": 3.0, "pnl": 120.00, "closed_at": "2026-02-22T17:00:00-05:00"},
+    {"bot": "multi_strategy", "pair": "SOL-USD", "direction": "short", "entry_price": 110.50, "exit_price": 109.80, "size": 15, "pnl": 10.50, "closed_at": "2026-02-22T16:30:00-05:00"},
+    {"bot": "scalper", "pair": "BTC-USD", "direction": "short", "entry_price": 51200.00, "exit_price": 51250.00, "size": 0.03, "pnl": -1.50, "closed_at": "2026-02-22T16:00:00-05:00"},
+    {"bot": "mean_reversion", "pair": "AVAX-USD", "direction": "short", "entry_price": 38.80, "exit_price": 38.10, "size": 60, "pnl": 42.00, "closed_at": "2026-02-22T15:30:00-05:00"},
+    {"bot": "multi_strategy", "pair": "ETH-USD", "direction": "long", "entry_price": 3040.00, "exit_price": 3090.00, "size": 1.5, "pnl": 75.00, "closed_at": "2026-02-22T15:00:00-05:00"},
+    {"bot": "scalper", "pair": "SOL-USD", "direction": "long", "entry_price": 106.50, "exit_price": 107.10, "size": 40, "pnl": 24.00, "closed_at": "2026-02-22T14:30:00-05:00"}
+  ],
+  "pnl_history": [
+    {"timestamp": "2026-02-20T00:00:00-05:00", "cumulative_pnl": 0},
+    {"timestamp": "2026-02-20T06:00:00-05:00", "cumulative_pnl": 45.20},
+    {"timestamp": "2026-02-20T12:00:00-05:00", "cumulative_pnl": 112.80},
+    {"timestamp": "2026-02-20T18:00:00-05:00", "cumulative_pnl": 198.50},
+    {"timestamp": "2026-02-21T00:00:00-05:00", "cumulative_pnl": 320.40},
+    {"timestamp": "2026-02-21T06:00:00-05:00", "cumulative_pnl": 458.90},
+    {"timestamp": "2026-02-21T12:00:00-05:00", "cumulative_pnl": 612.30},
+    {"timestamp": "2026-02-21T18:00:00-05:00", "cumulative_pnl": 789.10},
+    {"timestamp": "2026-02-22T00:00:00-05:00", "cumulative_pnl": 920.50},
+    {"timestamp": "2026-02-22T06:00:00-05:00", "cumulative_pnl": 985.30},
+    {"timestamp": "2026-02-22T12:00:00-05:00", "cumulative_pnl": 1058.40},
+    {"timestamp": "2026-02-22T18:00:00-05:00", "cumulative_pnl": 1158.41},
+    {"timestamp": "2026-02-22T21:35:00-05:00", "cumulative_pnl": 1247.83}
+  ],
+  "asset_breakdown": {
+    "BTC-USD": {"total_trades": 95, "total_pnl": 512.30, "win_rate": 66.3},
+    "ETH-USD": {"total_trades": 88, "total_pnl": 389.20, "win_rate": 63.6},
+    "SOL-USD": {"total_trades": 92, "total_pnl": 245.80, "win_rate": 62.0},
+    "AVAX-USD": {"total_trades": 67, "total_pnl": 100.53, "win_rate": 64.2}
+  }
+}

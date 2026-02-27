@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Farm Solutions — Corn & Soybean Edition</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', sans-serif; background: #fff; color: #1a1a1a; }
+
+  :root {
+    --deep: #0d2b0d;
+    --dark: #1a4a1a;
+    --mid: #2d6b2d;
+    --bright: #4a9e3f;
+    --gold: #d4a843;
+    --gold-dk: #b8922e;
+    --cream: #faf7f0;
+    --warm: #f5f0e8;
+    --red: #dc2626;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    position: relative;
+    min-height: 620px;
+    background: var(--deep);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  .hero-bg {
+    position: absolute; inset: 0;
+    background: url('https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&h=700&fit=crop') center/cover;
+    opacity: 0.25;
+  }
+  .hero-grad {
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(13,43,13,0.95), rgba(13,43,13,0.7) 50%, rgba(13,43,13,0.95));
+  }
+  .hero-inner {
+    position: relative; z-index: 2;
+    max-width: 880px; margin: 0 auto; padding: 70px 60px;
+  }
+  .hero-top {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 48px;
+  }
+  .logo { font-size: 22px; font-weight: 900; color: #fff; letter-spacing: 1px; }
+  .logo span { color: var(--gold); }
+  .edition-badge {
+    background: rgba(212,168,67,0.2); border: 1px solid rgba(212,168,67,0.5);
+    color: var(--gold); font-size: 11px; font-weight: 700;
+    letter-spacing: 2px; text-transform: uppercase;
+    padding: 7px 18px; border-radius: 20px;
+  }
+
+  .hero-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px; font-weight: 800;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.4; margin-bottom: 16px;
+    max-width: 700px;
+  }
+
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 54px; font-weight: 900; color: #fff;
+    line-height: 1.1; margin-bottom: 28px;
+  }
+  .hero h1 em { font-style: normal; color: var(--gold); }
+
+  .hero-pitch {
+    font-size: 17px; color: rgba(255,255,255,0.85);
+    max-width: 620px; line-height: 1.7; margin-bottom: 40px;
+  }
+
+  .hero-stats { display: flex; gap: 44px; }
+  .h-stat { border-left: 3px solid var(--gold); padding-left: 16px; }
+  .h-stat .val { font-size: 30px; font-weight: 900; color: var(--gold); line-height: 1.1; }
+  .h-stat .lbl { font-size: 11px; color: rgba(255,255,255,0.6); text-transform: uppercase; letter-spacing: 1px; margin-top: 3px; }
+
+  .tagline-bar {
+    text-align: center; padding: 13px;
+    background: var(--gold); color: var(--deep);
+    font-size: 13px; font-weight: 800;
+    letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* ===== SECTIONS ===== */
+  .sec { max-width: 880px; margin: 0 auto; padding: 56px 60px; }
+  .sec-label {
+    font-size: 11px; font-weight: 800; letter-spacing: 3px;
+    text-transform: uppercase; color: var(--gold-dk); margin-bottom: 8px;
+  }
+  .sec-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px; font-weight: 800; color: var(--deep);
+    line-height: 1.2; margin-bottom: 8px;
+  }
+  .sec-title em { font-style: normal; color: var(--gold-dk); }
+  .sec-sub { font-size: 15px; color: #666; max-width: 600px; margin-bottom: 32px; line-height: 1.6; }
+
+  /* ===== WHY US BANNER ===== */
+  .why-banner {
+    background: var(--deep); padding: 56px 60px;
+  }
+  .why-inner { max-width: 880px; margin: 0 auto; }
+  .why-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px; font-weight: 900; color: var(--gold);
+    line-height: 1.25; margin-bottom: 20px;
+  }
+  .why-body {
+    font-size: 17px; color: rgba(255,255,255,0.85);
+    line-height: 1.7; max-width: 700px;
+  }
+  .why-body strong { color: #fff; }
+
+  /* ===== PROBLEM STRIP ===== */
+  .problem-strip {
+    background: var(--warm); padding: 44px 60px;
+  }
+  .problem-inner { max-width: 880px; margin: 0 auto; }
+  .problem-inner h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px; font-weight: 800; color: var(--deep);
+    margin-bottom: 24px; text-align: center;
+  }
+  .problem-grid {
+    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 16px;
+  }
+  .prob-card {
+    background: #fff; border-radius: 12px; padding: 24px 18px;
+    text-align: center; border: 1px solid #e8e5de;
+  }
+  .prob-card .icon { font-size: 28px; margin-bottom: 8px; }
+  .prob-card .amt { font-size: 20px; font-weight: 900; color: var(--red); margin-bottom: 4px; }
+  .prob-card .desc { font-size: 12px; color: #666; line-height: 1.4; }
+
+  /* ===== SERVICE CARDS ===== */
+  .svc {
+    display: flex; gap: 28px; margin-bottom: 44px; align-items: flex-start;
+  }
+  .svc.flip { flex-direction: row-reverse; }
+  .svc-icon {
+    width: 72px; height: 72px;
+    background: linear-gradient(135deg, var(--dark), var(--mid));
+    border-radius: 18px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 32px; flex-shrink: 0;
+  }
+  .svc-body { flex: 1; }
+  .svc-body h3 { font-size: 20px; font-weight: 800; color: var(--deep); margin-bottom: 4px; }
+  .svc-pill {
+    display: inline-block; background: rgba(212,168,67,0.15);
+    color: var(--gold-dk); font-size: 12px; font-weight: 700;
+    padding: 3px 11px; border-radius: 10px; margin-bottom: 8px;
+  }
+  .svc-body p { font-size: 14.5px; color: #444; line-height: 1.7; }
+  .svc-example {
+    margin-top: 12px; background: var(--cream);
+    border-left: 4px solid var(--gold); border-radius: 0 10px 10px 0;
+    padding: 14px 18px; font-size: 13.5px; color: var(--dark);
+    font-style: italic; line-height: 1.6;
+  }
+  .svc-example.bad {
+    border-left-color: var(--red); background: #fef2f2;
+  }
+  .svc-example strong.red { color: var(--red); font-style: normal; }
+  .svc-example strong.green { color: var(--bright); font-style: normal; }
+
+  /* Inline testimonial */
+  .test-inline {
+    margin-top: 16px; background: var(--deep); border-radius: 12px;
+    padding: 18px 22px; display: flex; gap: 14px; align-items: flex-start;
+  }
+  .test-inline .av {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: var(--mid); display: flex; align-items: center;
+    justify-content: center; font-size: 20px; flex-shrink: 0;
+    border: 2px solid var(--gold);
+  }
+  .test-inline .qt { font-size: 13.5px; color: rgba(255,255,255,0.9); font-style: italic; line-height: 1.6; }
+  .test-inline .at { font-size: 11px; color: var(--gold); font-weight: 700; font-style: normal; margin-top: 5px; }
+  .test-inline .sv {
+    display: inline-block; background: rgba(34,197,94,0.2);
+    color: #22c55e; font-size: 11px; font-weight: 700;
+    padding: 2px 9px; border-radius: 8px; margin-left: 6px; font-style: normal;
+  }
+
+  .svc-divider { height: 1px; background: linear-gradient(90deg, var(--gold), transparent 80%); margin-bottom: 44px; }
+
+  /* ===== COFFEE SHOP SCENE ===== */
+  .coffee-scene {
+    background: var(--deep); padding: 50px 60px; text-align: center;
+  }
+  .coffee-inner { max-width: 600px; margin: 0 auto; }
+  .coffee-dialog {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px; color: rgba(255,255,255,0.85);
+    line-height: 1.6; margin-bottom: 8px;
+  }
+  .coffee-dialog em { font-style: italic; color: var(--gold); }
+  .coffee-note {
+    font-size: 13px; color: rgba(255,255,255,0.4); font-style: italic;
+    margin-top: 12px;
+  }
+
+  /* ===== PULL QUOTE ===== */
+  .pull {
+    background: var(--warm); border-left: 5px solid var(--gold);
+    padding: 26px 34px; margin: 36px 0; border-radius: 0 12px 12px 0;
+  }
+  .pull p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px; color: var(--deep); font-weight: 700; line-height: 1.4;
+  }
+  .pull p em { font-style: normal; color: var(--gold-dk); }
+
+  /* ===== COST COMPARISON ===== */
+  .cost-compare {
+    background: var(--cream); border-radius: 14px; padding: 28px 32px;
+    margin: 32px 0; border: 2px solid #e8e5de;
+  }
+  .cost-compare h4 {
+    font-size: 15px; font-weight: 800; color: var(--deep);
+    margin-bottom: 16px; text-align: center;
+  }
+  .cost-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 10px 0; border-bottom: 1px solid #e8e5de;
+    font-size: 14px;
+  }
+  .cost-row:last-child { border-bottom: none; }
+  .cost-row .item { color: #555; }
+  .cost-row .price { font-weight: 700; color: var(--deep); }
+  .cost-row.highlight { background: rgba(212,168,67,0.1); border-radius: 8px; padding: 10px 12px; margin: 4px -12px; }
+  .cost-row.highlight .item { color: var(--deep); font-weight: 700; }
+  .cost-row.highlight .price { color: var(--gold-dk); font-size: 16px; }
+
+  /* ===== ADVANCED GRID ===== */
+  .adv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 24px; }
+  .adv-card {
+    border: 2px solid #e8e5de; border-radius: 12px; padding: 24px;
+  }
+  .adv-card h3 { font-size: 15px; font-weight: 800; color: var(--deep); margin-bottom: 4px; }
+  .adv-card p { font-size: 13px; color: #555; line-height: 1.6; }
+
+  /* ===== ROI ===== */
+  .roi-sec { background: var(--cream); padding: 56px 60px; }
+  .roi-inner { max-width: 880px; margin: 0 auto; }
+  .roi-box {
+    background: #fff; border-radius: 16px; padding: 32px;
+    border: 2px solid #e8e5de; margin-top: 24px;
+  }
+  .roi-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 20px; padding-bottom: 14px; border-bottom: 2px solid var(--deep);
+  }
+  .roi-header h4 { font-size: 17px; font-weight: 800; color: var(--deep); }
+  .roi-header .tag {
+    background: rgba(212,168,67,0.15); color: var(--gold-dk);
+    font-size: 12px; font-weight: 700; padding: 5px 14px; border-radius: 16px;
+  }
+  .roi-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 11px 0; border-bottom: 1px solid #eee; font-size: 14px;
+  }
+  .roi-row:last-child { border-bottom: none; }
+  .roi-row .label { color: #555; display: flex; align-items: center; gap: 8px; }
+  .roi-row .amt { font-weight: 700; color: var(--dark); font-size: 15px; }
+  .roi-total {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 18px; padding: 18px 22px;
+    background: var(--deep); border-radius: 12px;
+  }
+  .roi-total .l { font-size: 15px; font-weight: 700; color: #fff; }
+  .roi-total .a {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px; font-weight: 900; color: var(--gold);
+  }
+  .roi-vs {
+    text-align: center; margin-top: 18px; font-size: 14px; color: #666;
+  }
+  .roi-vs strong { color: var(--deep); font-size: 16px; }
+  .roi-badge {
+    display: inline-block; background: var(--bright); color: #fff;
+    font-size: 13px; font-weight: 800; padding: 4px 14px;
+    border-radius: 16px; margin-left: 8px;
+  }
+
+  /* ===== PRICING ===== */
+  .pricing-sec { background: var(--deep); padding: 56px 60px; }
+  .pricing-inner { max-width: 880px; margin: 0 auto; }
+  .pricing-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; margin-top: 28px; }
+  .p-card {
+    border-radius: 14px; padding: 32px 24px; text-align: center; position: relative;
+  }
+  .p-card.a { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); }
+  .p-card.b { background: rgba(212,168,67,0.1); border: 2px solid var(--gold); transform: scale(1.03); }
+  .p-card.c { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); }
+  .p-card .pop {
+    position: absolute; top: -11px; left: 50%; transform: translateX(-50%);
+    background: var(--gold); color: var(--deep);
+    font-size: 10px; font-weight: 800; letter-spacing: 1.5px;
+    text-transform: uppercase; padding: 4px 16px; border-radius: 10px; white-space: nowrap;
+  }
+  .p-card .tn {
+    font-size: 11px; font-weight: 800; letter-spacing: 2px;
+    text-transform: uppercase; color: var(--gold); margin-bottom: 6px;
+  }
+  .p-card .pr {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px; font-weight: 900; color: #fff; margin-bottom: 2px;
+  }
+  .p-card .per { font-size: 12px; color: rgba(255,255,255,0.45); margin-bottom: 20px; }
+  .p-card ul { list-style: none; text-align: left; margin-bottom: 20px; }
+  .p-card ul li {
+    font-size: 12.5px; color: rgba(255,255,255,0.8); padding: 6px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+    display: flex; align-items: center; gap: 7px;
+  }
+  .p-card ul li .ck { color: var(--gold); font-weight: 700; }
+  .p-card .btn {
+    display: inline-block; padding: 11px 28px; border-radius: 22px;
+    font-size: 12px; font-weight: 800; text-decoration: none; letter-spacing: 0.5px;
+  }
+  .p-card.a .btn, .p-card.c .btn { background: rgba(255,255,255,0.12); color: #fff; }
+  .p-card.b .btn { background: var(--gold); color: var(--deep); }
+
+  /* ===== CTA ===== */
+  .cta-sec { padding: 64px 60px; text-align: center; background: var(--cream); }
+  .cta-sec h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px; font-weight: 900; color: var(--deep); margin-bottom: 14px;
+  }
+  .cta-sec h2 em { font-style: normal; color: var(--gold-dk); }
+  .cta-sec p {
+    font-size: 16px; color: #555; max-width: 540px;
+    margin: 0 auto 28px; line-height: 1.7;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--dark), var(--deep));
+    color: var(--gold); font-size: 17px; font-weight: 800;
+    padding: 16px 52px; border-radius: 30px;
+    text-decoration: none; border: 2px solid var(--gold);
+    box-shadow: 0 6px 20px rgba(13,43,13,0.3); margin-bottom: 12px;
+  }
+  .cta-fine { font-size: 12px; color: #999; }
+
+  .footer {
+    max-width: 880px; margin: 0 auto;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 22px 60px; border-top: 1px solid #ddd;
+  }
+  .footer .brand { font-weight: 900; color: var(--deep); font-size: 14px; }
+  .footer .brand span { color: var(--gold-dk); }
+  .footer .motto { font-size: 12px; color: var(--gold-dk); font-weight: 700; font-style: italic; }
+  .footer .contact { font-size: 12px; color: #666; }
+</style>
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grad"></div>
+  <div class="hero-inner">
+    <div class="hero-top">
+      <div class="logo">Mi <span>Farm</span> Solutions</div>
+      <div class="edition-badge">🌽 Corn & Soybean Edition</div>
+    </div>
+    <div class="hero-headline">Everyone in agriculture has an intelligence team — except the farmer.</div>
+    <h1>It's time you <em>hired one</em>.</h1>
+    <p class="hero-pitch">Every person you do business with — grain buyer, fertilizer rep, crop insurer — they all have teams of analysts making sure THEY get the best deal. Mi Farm Solutions is the intelligence team that works for the farmer. We tell you when to sell, where your dollars aren't working hard enough, and how to keep an extra $84,000 a year.</p>
+    <div class="hero-stats">
+      <div class="h-stat">
+        <div class="val">$84K+</div>
+        <div class="lbl">Avg. Year-One Savings</div>
+      </div>
+      <div class="h-stat">
+        <div class="val">5.4x</div>
+        <div class="lbl">Return on Investment</div>
+      </div>
+      <div class="h-stat">
+        <div class="val">$2M-$50M</div>
+        <div class="lbl">Operations We Serve</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="tagline-bar">Built by Farmers, for Farmers</div>
+
+<!-- ===== WHY US ===== -->
+<div class="why-banner">
+  <div class="why-inner">
+    <div class="why-headline">The grain traders use AI to buy your crop cheap. The input companies use data to maximize their margins. The insurers use actuaries to price your policy high.</div>
+    <div class="why-body">Mi Farm Solutions is the first intelligence team built to fight for the other side of every one of those deals — <strong>yours</strong>. We're the team that calls you and says <strong>"sell today"</strong> or <strong>"you can cut $14 an acre on inputs without losing yield."</strong> You hire us. We make you money.</div>
+  </div>
+</div>
+
+<!-- ===== PROBLEM STRIP ===== -->
+<div class="problem-strip">
+  <div class="problem-inner">
+    <h3>Right now, your operation is leaking money in places you can't see.</h3>
+    <div class="problem-grid">
+      <div class="prob-card">
+        <div class="icon">🧪</div>
+        <div class="amt">$8-20/acre</div>
+        <div class="desc">Input dollars not matched to what your soil needs</div>
+      </div>
+      <div class="prob-card">
+        <div class="icon">📉</div>
+        <div class="amt">$0.15-0.25/bu</div>
+        <div class="desc">Left behind with wrong sell timing</div>
+      </div>
+      <div class="prob-card">
+        <div class="icon">🛡️</div>
+        <div class="amt">$5-15K/yr</div>
+        <div class="desc">Overpaying on crop insurance nobody optimized</div>
+      </div>
+      <div class="prob-card">
+        <div class="icon">🏛️</div>
+        <div class="amt">$30-50/acre</div>
+        <div class="desc">Wrong ARC/PLC election you made once and forgot</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SERVICES ===== -->
+<div class="sec">
+  <div class="sec-label">What Your Intelligence Team Does</div>
+  <div class="sec-title">We watch <em>everything</em> that touches your bottom line.</div>
+  <div class="sec-sub">Every recommendation comes with a specific dollar amount. You'll never wonder if we're earning our keep.</div>
+
+  <!-- USDA Reports -->
+  <div class="svc">
+    <div class="svc-icon">📊</div>
+    <div class="svc-body">
+      <h3>USDA Report Intelligence</h3>
+      <div class="svc-pill">Your personalized brief in 30 minutes</div>
+      <p>Every WASDE, Crop Production, and Grain Stocks report translated into what it means for <strong>your</strong> corn and beans — your county, your contracts, your next move. Not market commentary you have to interpret. Direct recommendations.</p>
+      <div class="svc-example bad"><strong class="red">Without us:</strong> USDA drops a bearish WASDE at 11am. You hear about it at the elevator the next morning. December corn already fell $0.18. On 100,000 bushels, you just lost $18,000 because you got the news 18 hours late.</div>
+      <div class="svc-example" style="margin-top: 8px;"><strong class="green">With us:</strong> You get a call at 11:30am: "WASDE was bearish on stocks, but basis in your county is strengthening. Hold your position — the carry still pays through March. Here's the math."</div>
+      <div class="test-inline">
+        <div class="av">👨‍🌾</div>
+        <div>
+          <div class="qt">"They told me to hold when every fiber in my body said sell. Three weeks later basis tightened just like they called it. That one call was worth more than a year of what I pay them."</div>
+          <div class="at">— Row Crop Operator, Northwest Ohio · 2,200 acres <span class="sv">+$14,400 on one call</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="svc-divider"></div>
+
+  <!-- Input Validation -->
+  <div class="svc flip">
+    <div class="svc-icon">🧪</div>
+    <div class="svc-body">
+      <h3>Input Optimization</h3>
+      <div class="svc-pill">Save $8-20/acre</div>
+      <p>Every dollar you spend on inputs should be a dollar that's earning. We cross-reference your soil tests against independent land-grant university research to make sure your input plan matches what your soil actually needs — so you're spending on what works, not what doesn't.</p>
+      <div class="svc-example">"Your soil P levels support 97% of max yield at 120 lbs/acre MAP. You're currently applying 180. Dropping to what the science supports saves $14/acre — that's $22,400 across your operation, with almost no yield impact."</div>
+      <div class="test-inline">
+        <div class="av">🧑‍🌾</div>
+        <div>
+          <div class="qt">"I've been farming 30 years. Had no idea I was overapplying potash by that much. Nobody ever ran the numbers against my actual soil data before. First month, they showed me where I could cut back without losing yield."</div>
+          <div class="at">— Corn & Soybean Operator, Central Iowa · 1,600 acres <span class="sv">Saved $22,400/year</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="svc-divider"></div>
+
+  <!-- Input Cost Timing -->
+  <div class="svc">
+    <div class="svc-icon">💰</div>
+    <div class="svc-body">
+      <h3>Input Cost Timing</h3>
+      <div class="svc-pill">Save 15-30% on fertilizer</div>
+      <p>Fertilizer follows natural gas. Seed prices follow demand cycles. Chemical prices follow manufacturing schedules. We track the markets that drive what you pay — so you buy when prices bottom, not on someone else's schedule.</p>
+      <div class="svc-example">"Urea is tracking natural gas lower. Our analysis says wait 3 more weeks — projected savings of $45/ton. On your planned purchase, that's $18,000 you keep."</div>
+
+      <!-- Cost comparison in farm terms -->
+      <div class="cost-compare">
+        <h4>What does Mi Farm cost in terms you already spend?</h4>
+        <div class="cost-row">
+          <div class="item">One bag of seed corn</div>
+          <div class="price">$300-350</div>
+        </div>
+        <div class="cost-row">
+          <div class="item">One acre of anhydrous ammonia</div>
+          <div class="price">$80-120</div>
+        </div>
+        <div class="cost-row">
+          <div class="item">One crop scout visit</div>
+          <div class="price">$500-800</div>
+        </div>
+        <div class="cost-row highlight">
+          <div class="item">Mi Farm Commander — one month of intelligence</div>
+          <div class="price">$1,299</div>
+        </div>
+        <div class="cost-row">
+          <div class="item">What it saves you per month (avg.)</div>
+          <div class="price" style="color: var(--bright);">$7,000</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="svc-divider"></div>
+
+  <!-- Sell Timing -->
+  <div class="svc flip">
+    <div class="svc-icon">📈</div>
+    <div class="svc-body">
+      <h3>Sell Timing & Basis Prediction</h3>
+      <div class="svc-pill">$0.10-0.20/bu edge</div>
+      <p>When to forward contract, when to store, when to haul. We analyze futures curves, global weather, export demand, and — critically — <strong>your county's local basis patterns</strong>. We predict basis at the elevator level, not just Chicago. Nobody else does this for you.</p>
+      <div class="svc-example">"Basis at your elevator typically widens $0.15 in the next 3 weeks based on harvest delivery pressure. Lock in today. At 100,000 bushels, this call is worth $15,000."</div>
+      <div class="test-inline">
+        <div class="av">👩‍🌾</div>
+        <div>
+          <div class="qt">"They told me basis was about to widen and to lock in that day. I almost didn't listen. Glad I did — the spread moved exactly when they said."</div>
+          <div class="at">— Family Farm, East-Central Illinois · 1,800 acres <span class="sv">+$14,400 in one move</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="svc-divider"></div>
+
+  <!-- Crop Insurance -->
+  <div class="svc">
+    <div class="svc-icon">🛡️</div>
+    <div class="svc-body">
+      <h3>Crop Insurance Optimization</h3>
+      <div class="svc-pill">Save $5,000-15,000/year</div>
+      <p>We model every RMA coverage level against your actual yield history, projected prices, and risk tolerance. Most farmers renew the same policy on autopilot. We find the structure that gives you better coverage for less money.</p>
+      <div class="svc-example">"Switching from 80% RP to 75% RP + SCO saves $8.40/acre while <em>adding</em> county-level downside protection you didn't have before. Net result: better coverage, $13,440 lower premium."</div>
+    </div>
+  </div>
+
+  <div class="svc-divider"></div>
+
+  <!-- Government Programs -->
+  <div class="svc flip">
+    <div class="svc-icon">🏛️</div>
+    <div class="svc-body">
+      <h3>Government Program Optimization</h3>
+      <div class="svc-pill">Save $30-50/acre</div>
+      <p>ARC-CO vs. ARC-IC vs. PLC — modeled against your farm's actual yields and forward price projections. The right election can be worth tens of thousands. We also flag EQIP cost-share opportunities and other programs you may be leaving on the table.</p>
+      <div class="svc-example">"Based on your yield history and our corn price forecast, PLC outperforms ARC-CO by $38/acre this cycle. On 2,000 acres of corn base, that's $76,000 your FSA office won't model for you."</div>
+    </div>
+  </div>
+
+  <div class="pull">
+    <p>"We make sure every dollar you spend is a dollar that's <em>earning</em>."</p>
+  </div>
+
+  <!-- CapEx & Tax -->
+  <div class="svc">
+    <div class="svc-icon">🏗️</div>
+    <div class="svc-body">
+      <h3>CapEx & Tax Strategy</h3>
+      <div class="svc-pill">Save $50,000-100,000+</div>
+      <p>Section 179, bonus depreciation, equipment timing — modeled <strong>forward</strong> so you make the big purchase when it saves the most. Your accountant tells you what happened. We tell you what to do before year-end.</p>
+      <div class="svc-example">"Buy the combine in Q4 this year: Section 179 + bonus depreciation saves $112,000 in federal tax. Wait until January and you lose the election."</div>
+      <div class="test-inline">
+        <div class="av">🧑‍🌾</div>
+        <div>
+          <div class="qt">"My accountant told me in February I should've bought the planter in December. Their team told me in October. That's the difference — they look forward, not backward."</div>
+          <div class="at">— Large-Scale Operator, Southern Minnesota · 4,800 acres <span class="sv">$80,000+ tax savings</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="svc-divider"></div>
+
+  <!-- Also included -->
+  <div class="sec-label">Also Working For You</div>
+  <div class="adv-grid">
+    <div class="adv-card">
+      <h3>🏠 Rent Negotiation Support</h3>
+      <div class="svc-pill">Data-backed leverage</div>
+      <p>Fair market cash rent calculated from soil ratings, yield potential, commodity outlook, and comparable leases. Walk into every landlord conversation with the numbers.</p>
+    </div>
+    <div class="adv-card">
+      <h3>🗄️ Storage Cost-of-Carry</h3>
+      <div class="svc-pill">Daily hold/sell signals</div>
+      <p>Real-time storage economics: futures carry vs. interest on your operating note vs. quality risk. Know exactly when holding costs more than selling.</p>
+    </div>
+    <div class="adv-card">
+      <h3>💵 Cash Flow Modeling</h3>
+      <div class="svc-pill">Full crop-cycle visibility</div>
+      <p>Revenue mapped against loans, input costs, rent, and living expenses across the entire crop cycle. No more surprises.</p>
+    </div>
+    <div class="adv-card">
+      <h3>🔄 Farm Transition Planning</h3>
+      <div class="svc-pill">Generational strategy</div>
+      <p>70% of US farmland changes hands in the next 20 years (USDA). We help model tax-efficient transfers so the next generation inherits opportunity, not a tax bill.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ===== COFFEE SHOP SCENE ===== -->
+<div class="coffee-scene">
+  <div class="coffee-inner">
+    <div class="coffee-dialog">"How'd you know to sell in October?"</div>
+    <div class="coffee-dialog"><em>"I just had a feeling."</em></div>
+    <div class="coffee-note">He didn't have a feeling. He had Mi Farm Solutions.</div>
+  </div>
+</div>
+
+<!-- ===== ROI ===== -->
+<div class="roi-sec">
+  <div class="roi-inner">
+    <div class="sec-label">Return on Investment</div>
+    <div class="sec-title">The math on a <em>2,000-acre</em> corn/soy operation.</div>
+    <div class="sec-sub">Conservative estimates. Your numbers may be higher.</div>
+
+    <div class="roi-box">
+      <div class="roi-header">
+        <h4>📋 Year-One Savings</h4>
+        <div class="tag">2,000 acres · Corn/Soy rotation</div>
+      </div>
+      <div class="roi-row"><div class="label">🧪 Input validation — reduced overapplication</div><div class="amt">$16,000</div></div>
+      <div class="roi-row"><div class="label">💰 Input cost timing — fertilizer bought at trough</div><div class="amt">$12,000</div></div>
+      <div class="roi-row"><div class="label">📈 Sell timing & basis edge — $0.12/bu on 160K bu</div><div class="amt">$19,200</div></div>
+      <div class="roi-row"><div class="label">🛡️ Crop insurance — optimized structure</div><div class="amt">$11,200</div></div>
+      <div class="roi-row"><div class="label">🏛️ Government programs — ARC/PLC modeling</div><div class="amt">$19,600</div></div>
+      <div class="roi-row"><div class="label">🏠 Rent negotiation — 800 rented acres</div><div class="amt">$6,000</div></div>
+
+      <div class="roi-total">
+        <div class="l">Estimated Year-One Savings</div>
+        <div class="a">$84,000</div>
+      </div>
+      <div class="roi-vs">
+        Commander plan cost: <strong>$15,588/year</strong> ($1,299/mo)
+        <span class="roi-badge">5.4x ROI</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== PRICING ===== -->
+<div class="pricing-sec">
+  <div class="pricing-inner">
+    <div class="sec-label" style="color: var(--gold);">Hire Your Team</div>
+    <div class="sec-title" style="color: #fff;">Pick your level. <em>Start saving</em> this season.</div>
+
+    <div class="pricing-grid">
+      <div class="p-card a">
+        <div class="tn">Scout</div>
+        <div class="pr">$499</div>
+        <div class="per">/month</div>
+        <ul>
+          <li><span class="ck">✓</span> USDA report intelligence</li>
+          <li><span class="ck">✓</span> Input cost timing alerts</li>
+          <li><span class="ck">✓</span> Annual crop insurance review</li>
+          <li><span class="ck">✓</span> Government program modeling</li>
+          <li><span class="ck">✓</span> Phone + SMS delivery</li>
+          <li><span class="ck">✓</span> Up to 2,000 acres</li>
+        </ul>
+        <a href="#" class="btn">Get Started →</a>
+      </div>
+
+      <div class="p-card b">
+        <div class="pop">★ MOST POPULAR</div>
+        <div class="tn">Commander</div>
+        <div class="pr">$1,299</div>
+        <div class="per">/month</div>
+        <ul>
+          <li><span class="ck">✓</span> Everything in Scout</li>
+          <li><span class="ck">✓</span> Input validation & soil analysis</li>
+          <li><span class="ck">✓</span> Sell timing & basis prediction</li>
+          <li><span class="ck">✓</span> Global weather intelligence</li>
+          <li><span class="ck">✓</span> Storage cost-of-carry signals</li>
+          <li><span class="ck">✓</span> Rent negotiation data</li>
+          <li><span class="ck">✓</span> Cash flow modeling</li>
+          <li><span class="ck">✓</span> Up to 8,000 acres</li>
+        </ul>
+        <a href="#" class="btn">Get Started →</a>
+      </div>
+
+      <div class="p-card c">
+        <div class="tn">Operator</div>
+        <div class="pr">Custom</div>
+        <div class="per">For large operations & co-ops</div>
+        <ul>
+          <li><span class="ck">✓</span> Everything in Commander</li>
+          <li><span class="ck">✓</span> CapEx & tax optimization</li>
+          <li><span class="ck">✓</span> Farm transition planning</li>
+          <li><span class="ck">✓</span> Financial benchmarking</li>
+          <li><span class="ck">✓</span> Multi-entity support</li>
+          <li><span class="ck">✓</span> Dedicated intelligence analyst</li>
+          <li><span class="ck">✓</span> Unlimited acres</li>
+        </ul>
+        <a href="#" class="btn">Contact Us →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== CTA ===== -->
+<div class="cta-sec">
+  <h2>Your First Season Is <em>On Us</em></h2>
+  <p>We'll run your numbers — inputs, insurance, programs, sell timing — and show you exactly what you're leaving on the table. If we can't save you more than you'd pay us, you owe us nothing.</p>
+  <a href="#" class="cta-btn">Run My Numbers — Free →</a>
+  <div class="cta-fine">No contracts. No hardware. Just an intelligence team that pays for itself.</div>
+</div>
+
+<div class="footer">
+  <div class="brand">Mi <span>Farm</span> Solutions</div>
+  <div class="motto">"Built by farmers, for farmers."</div>
+  <div class="contact">mifarm.ai · hello@mifarm.ai</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Plumbing & Heating Inc | Kasson, MN</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--navy:#1a2744;--navy-light:#243356;--blue:#2c5282;--orange:#e8720c;--orange-light:#f59e0b;--amber:#fbbf24;--gray-50:#f8fafc;--gray-100:#f1f5f9;--gray-200:#e2e8f0;--gray-300:#cbd5e1;--gray-600:#475569;--gray-700:#334155;--gray-800:#1e293b;--white:#ffffff;--shadow:0 4px 24px rgba(0,0,0,.08);--shadow-lg:0 12px 40px rgba(0,0,0,.12)}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:var(--gray-700);line-height:1.6;overflow-x:hidden}
+
+/* Demo Banner */
+.demo-banner{background:linear-gradient(90deg,var(--orange),var(--orange-light));color:var(--white);text-align:center;padding:8px 16px;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;position:sticky;top:0;z-index:1000}
+
+/* Nav */
+nav{background:var(--navy);padding:0 24px;position:sticky;top:33px;z-index:999;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:64px}
+.nav-logo{color:var(--white);font-size:18px;font-weight:700;text-decoration:none;display:flex;align-items:center;gap:10px}
+.nav-logo span{color:var(--orange)}
+.nav-links{display:flex;gap:24px;list-style:none}
+.nav-links a{color:var(--gray-200);text-decoration:none;font-size:14px;font-weight:500;transition:color .2s}
+.nav-links a:hover{color:var(--orange)}
+.nav-phone{color:var(--white);text-decoration:none;background:var(--orange);padding:8px 20px;border-radius:6px;font-weight:700;font-size:14px;transition:background .2s;white-space:nowrap}
+.nav-phone:hover{background:var(--orange-light)}
+.hamburger{display:none;background:none;border:none;color:var(--white);font-size:24px;cursor:pointer}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 50%,var(--blue) 100%);color:var(--white);padding:100px 24px 120px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(232,114,12,.12) 0%,transparent 70%);border-radius:50%}
+.hero::after{content:'';position:absolute;bottom:-30%;left:-10%;width:500px;height:500px;background:radial-gradient(circle,rgba(44,82,130,.2) 0%,transparent 70%);border-radius:50%}
+.hero-content{position:relative;z-index:1;max-width:800px;margin:0 auto}
+.hero-badge{display:inline-block;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);padding:6px 18px;border-radius:50px;font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:24px;color:var(--amber)}
+.hero h1{font-size:clamp(32px,6vw,56px);font-weight:800;line-height:1.15;margin-bottom:16px}
+.hero h1 span{color:var(--orange)}
+.hero p{font-size:clamp(16px,2.5vw,20px);color:rgba(255,255,255,.8);margin-bottom:40px;max-width:600px;margin-left:auto;margin-right:auto}
+.hero-buttons{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.btn-primary{background:var(--orange);color:var(--white);padding:16px 36px;border-radius:8px;text-decoration:none;font-weight:700;font-size:18px;transition:all .25s;display:inline-flex;align-items:center;gap:8px;box-shadow:0 4px 16px rgba(232,114,12,.35)}
+.btn-primary:hover{background:var(--orange-light);transform:translateY(-2px);box-shadow:0 6px 24px rgba(232,114,12,.45)}
+.btn-secondary{background:transparent;color:var(--white);padding:16px 36px;border-radius:8px;text-decoration:none;font-weight:600;font-size:18px;border:2px solid rgba(255,255,255,.3);transition:all .25s}
+.btn-secondary:hover{border-color:var(--white);background:rgba(255,255,255,.05)}
+
+/* Trust Bar */
+.trust-bar{background:var(--white);border-bottom:1px solid var(--gray-200);padding:24px}
+.trust-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:center;gap:48px;flex-wrap:wrap;align-items:center}
+.trust-item{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:600;color:var(--gray-600)}
+.trust-item .icon{font-size:22px}
+
+/* Sections */
+section{padding:80px 24px}
+.section-header{text-align:center;margin-bottom:56px}
+.section-header .label{color:var(--orange);font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+.section-header h2{font-size:clamp(28px,4vw,40px);font-weight:800;color:var(--navy);margin-bottom:16px}
+.section-header p{color:var(--gray-600);max-width:600px;margin:0 auto;font-size:17px}
+
+/* Services */
+.services{background:var(--gray-50)}
+.services-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
+.service-card{background:var(--white);border-radius:12px;padding:36px 28px;box-shadow:var(--shadow);transition:all .3s;border:1px solid var(--gray-200);position:relative;overflow:hidden}
+.service-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:var(--orange)}
+.service-card::after{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--orange),var(--orange-light));transform:scaleX(0);transition:transform .3s;transform-origin:left}
+.service-card:hover::after{transform:scaleX(1)}
+.service-icon{font-size:40px;margin-bottom:16px;display:block}
+.service-card h3{font-size:20px;font-weight:700;color:var(--navy);margin-bottom:10px}
+.service-card p{color:var(--gray-600);font-size:15px;line-height:1.7}
+
+/* About */
+.about-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.about-image{background:linear-gradient(135deg,var(--navy),var(--blue));border-radius:16px;height:400px;display:flex;align-items:center;justify-content:center;color:var(--white);font-size:80px;position:relative;overflow:hidden}
+.about-image::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
+.about-content h3{font-size:28px;font-weight:800;color:var(--navy);margin-bottom:16px}
+.about-content p{color:var(--gray-600);margin-bottom:16px;font-size:16px;line-height:1.8}
+.about-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:28px}
+.stat{text-align:center;padding:16px;background:var(--gray-50);border-radius:10px}
+.stat .num{font-size:28px;font-weight:800;color:var(--orange);display:block}
+.stat .txt{font-size:12px;color:var(--gray-600);text-transform:uppercase;letter-spacing:1px;font-weight:600}
+
+/* Service Area */
+.area{background:var(--navy);color:var(--white)}
+.area .section-header h2{color:var(--white)}
+.area .section-header p{color:rgba(255,255,255,.7)}
+.area-tags{max-width:800px;margin:0 auto;display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
+.area-tag{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:14px 28px;border-radius:50px;font-size:16px;font-weight:600;display:flex;align-items:center;gap:8px}
+.area-tag .pin{color:var(--orange)}
+
+/* Testimonials */
+.testimonials{background:var(--gray-50)}
+.testimonials-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.testimonial{background:var(--white);border-radius:12px;padding:32px;box-shadow:var(--shadow);border:1px solid var(--gray-200)}
+.stars{color:var(--orange);font-size:18px;margin-bottom:12px;letter-spacing:2px}
+.testimonial blockquote{font-size:15px;color:var(--gray-600);line-height:1.8;margin-bottom:16px;font-style:italic}
+.testimonial .author{font-weight:700;color:var(--navy);font-size:14px}
+.example-note{text-align:center;margin-top:32px;color:var(--gray-600);font-size:13px;font-style:italic;opacity:.7}
+
+/* Contact */
+.contact-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.contact-info{display:flex;flex-direction:column;gap:24px}
+.contact-item{display:flex;gap:16px;align-items:flex-start}
+.contact-icon{width:48px;height:48px;background:linear-gradient(135deg,var(--orange),var(--orange-light));border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.contact-item h4{font-size:16px;color:var(--navy);font-weight:700;margin-bottom:2px}
+.contact-item p{color:var(--gray-600);font-size:14px;line-height:1.6}
+.contact-item a{color:var(--orange);text-decoration:none;font-weight:600}
+.contact-form{background:var(--gray-50);border-radius:12px;padding:36px;border:1px solid var(--gray-200)}
+.contact-form h3{font-size:22px;font-weight:700;color:var(--navy);margin-bottom:24px}
+.form-group{margin-bottom:16px}
+.form-group label{display:block;font-size:13px;font-weight:600;color:var(--gray-700);margin-bottom:6px}
+.form-group input,.form-group textarea,.form-group select{width:100%;padding:12px 16px;border:1px solid var(--gray-300);border-radius:8px;font-size:15px;font-family:inherit;transition:border-color .2s;background:var(--white)}
+.form-group input:focus,.form-group textarea:focus,.form-group select:focus{outline:none;border-color:var(--orange);box-shadow:0 0 0 3px rgba(232,114,12,.1)}
+.form-group textarea{height:100px;resize:vertical}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.btn-submit{background:var(--orange);color:var(--white);border:none;padding:14px 32px;border-radius:8px;font-size:16px;font-weight:700;cursor:pointer;width:100%;transition:background .2s}
+.btn-submit:hover{background:var(--orange-light)}
+
+/* CTA */
+.cta{background:linear-gradient(135deg,var(--orange),#d35400);color:var(--white);text-align:center;padding:64px 24px}
+.cta h2{font-size:clamp(26px,4vw,38px);font-weight:800;margin-bottom:12px}
+.cta p{font-size:18px;opacity:.9;margin-bottom:32px}
+.cta-phone{color:var(--white);text-decoration:none;font-size:clamp(28px,5vw,44px);font-weight:800;display:inline-flex;align-items:center;gap:12px;transition:transform .2s}
+.cta-phone:hover{transform:scale(1.05)}
+
+/* Footer */
+footer{background:var(--gray-800);color:var(--gray-300);padding:40px 24px;text-align:center}
+footer p{font-size:13px;margin-bottom:6px}
+footer .credit{opacity:.5;font-size:11px}
+
+/* Responsive */
+@media(max-width:768px){
+  .nav-links{display:none}
+  .hamburger{display:block}
+  .nav-links.open{display:flex;flex-direction:column;position:absolute;top:64px;left:0;right:0;background:var(--navy);padding:16px 24px;gap:12px;box-shadow:0 8px 24px rgba(0,0,0,.2)}
+  .about-grid,.contact-grid{grid-template-columns:1fr}
+  .about-image{height:240px}
+  .form-row{grid-template-columns:1fr}
+  .trust-inner{gap:24px}
+  .hero{padding:64px 24px 80px}
+  section{padding:56px 24px}
+  .services-grid{grid-template-columns:1fr}
+}
+
+/* Animations */
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+.animate{opacity:0;transform:translateY(24px);transition:all .6s ease}
+.animate.visible{opacity:1;transform:translateY(0)}
+</style>
+</head>
+<body>
+
+<div class="demo-banner">⚡ Demo — For Presentation Purposes Only</div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">🔧 Advanced <span>Plumbing & Heating</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#areas">Service Area</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="tel:5074213833" class="nav-phone">📞 (507) 421-3833</a>
+    <button class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Menu">☰</button>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">Serving Kasson & Dodge County</div>
+    <h1>Your Trusted Local<br><span>Plumbing & Heating</span> Experts</h1>
+    <p>Professional plumbing, heating, and air conditioning services for your home. Reliable, honest, and always on time.</p>
+    <div class="hero-buttons">
+      <a href="tel:5074213833" class="btn-primary">📞 Call Now — Free Estimate</a>
+      <a href="#services" class="btn-secondary">Our Services →</a>
+    </div>
+  </div>
+</section>
+
+<div class="trust-bar">
+  <div class="trust-inner">
+    <div class="trust-item"><span class="icon">✅</span> Licensed & Insured</div>
+    <div class="trust-item"><span class="icon">⭐</span> 5-Star Rated</div>
+    <div class="trust-item"><span class="icon">🕐</span> Same-Day Service</div>
+    <div class="trust-item"><span class="icon">💯</span> Satisfaction Guaranteed</div>
+  </div>
+</div>
+
+<section class="services" id="services">
+  <div class="section-header">
+    <div class="label">What We Do</div>
+    <h2>Our Services</h2>
+    <p>From routine maintenance to emergency repairs, we've got your home covered.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card animate"><span class="service-icon">🔧</span><h3>Plumbing Repair</h3><p>Leaky faucets, burst pipes, toilet repairs, and full plumbing system diagnostics. Fast, reliable fixes you can count on.</p></div>
+    <div class="service-card animate"><span class="service-icon">🔥</span><h3>Water Heater Installation</h3><p>Tank and tankless water heater installation, repair, and replacement. We'll help you choose the right system for your home.</p></div>
+    <div class="service-card animate"><span class="service-icon">🌡️</span><h3>Heating & Furnace</h3><p>Furnace installation, repair, and maintenance. Stay warm all winter with our expert heating solutions.</p></div>
+    <div class="service-card animate"><span class="service-icon">❄️</span><h3>Air Conditioning</h3><p>AC installation, tune-ups, and repair. Keep your home cool and comfortable through the hottest Minnesota summers.</p></div>
+    <div class="service-card animate"><span class="service-icon">🚿</span><h3>Drain Cleaning</h3><p>Clogged drains, sewer line cleaning, and hydro-jetting. We clear the toughest blockages quickly and effectively.</p></div>
+    <div class="service-card animate"><span class="service-icon">🚨</span><h3>Emergency Service</h3><p>Plumbing or heating emergency? We offer rapid response when you need it most. Call us anytime — we're here to help.</p></div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="about-image">🏠</div>
+    <div class="about-content">
+      <div class="section-header" style="text-align:left;margin-bottom:0">
+        <div class="label">About Us</div>
+        <h2 style="font-size:32px">Kasson's Trusted Home Service Experts</h2>
+      </div>
+      <p style="margin-top:20px">Advanced Plumbing & Heating Inc has been proudly serving Kasson and the surrounding Dodge County communities. As a locally owned and operated business, we understand the unique needs of Minnesota homeowners.</p>
+      <p>Our team of skilled technicians is committed to delivering top-quality workmanship, transparent pricing, and the kind of personal service you'd expect from your neighbors — because that's exactly who we are.</p>
+      <div class="about-stats">
+        <div class="stat"><span class="num">500+</span><span class="txt">Jobs Completed</span></div>
+        <div class="stat"><span class="num">100%</span><span class="txt">Satisfaction</span></div>
+        <div class="stat"><span class="num">24/7</span><span class="txt">Emergency</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="area" id="areas">
+  <div class="section-header">
+    <div class="label" style="color:var(--amber)">Where We Work</div>
+    <h2>Service Area</h2>
+    <p>Proudly serving homeowners across Dodge County and beyond.</p>
+  </div>
+  <div class="area-tags">
+    <div class="area-tag"><span class="pin">📍</span> Kasson</div>
+    <div class="area-tag"><span class="pin">📍</span> Rochester</div>
+    <div class="area-tag"><span class="pin">📍</span> Mantorville</div>
+    <div class="area-tag"><span class="pin">📍</span> Dodge Center</div>
+    <div class="area-tag"><span class="pin">📍</span> Byron</div>
+    <div class="area-tag"><span class="pin">📍</span> Dodge County</div>
+  </div>
+</section>
+
+<section class="testimonials" id="reviews">
+  <div class="section-header">
+    <div class="label">Testimonials</div>
+    <h2>What Our Customers Say</h2>
+    <p>Real results, real satisfaction — every time.</p>
+  </div>
+  <div class="testimonials-grid">
+    <div class="testimonial animate">
+      <div class="stars">★★★★★</div>
+      <blockquote>"Called them for an emergency pipe burst at 10 PM and they were at our door within the hour. Professional, fast, and fair pricing. Can't recommend them enough!"</blockquote>
+      <div class="author">— Sarah M., Kasson</div>
+    </div>
+    <div class="testimonial animate">
+      <div class="stars">★★★★★</div>
+      <blockquote>"They installed a new furnace for us last fall. The whole process was smooth from the estimate to installation. Our heating bills are noticeably lower this winter!"</blockquote>
+      <div class="author">— Tom & Linda R., Rochester</div>
+    </div>
+    <div class="testimonial animate">
+      <div class="stars">★★★★★</div>
+      <blockquote>"Honest, reliable, and they do great work. They've handled our plumbing and AC for years now. It's rare to find a contractor you trust this much."</blockquote>
+      <div class="author">— Dave K., Mantorville</div>
+    </div>
+  </div>
+  <p class="example-note">* Example testimonials for demonstration purposes</p>
+</section>
+
+<section class="contact" id="contact">
+  <div class="section-header">
+    <div class="label">Get In Touch</div>
+    <h2>Contact Us</h2>
+    <p>Ready to schedule service? Reach out today for a free estimate.</p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div><h4>Address</h4><p>607 3rd St NW<br>Kasson, MN 55944</p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📞</div>
+        <div><h4>Phone</h4><p><a href="tel:5074213833">(507) 421-3833</a></p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🕐</div>
+        <div><h4>Business Hours</h4><p>Monday – Friday: 7:00 AM – 6:00 PM<br>Saturday: 8:00 AM – 2:00 PM<br>Sunday: Emergency Only</p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🚨</div>
+        <div><h4>Emergency Service</h4><p>Available 24/7 for plumbing &amp; heating emergencies.<br><a href="tel:5074213833">Call now →</a></p></div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h3>Request a Free Estimate</h3>
+      <div class="form-row">
+        <div class="form-group"><label>First Name</label><input type="text" placeholder="John"></div>
+        <div class="form-group"><label>Last Name</label><input type="text" placeholder="Smith"></div>
+      </div>
+      <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="(507) 000-0000"></div>
+      <div class="form-group"><label>Email</label><input type="email" placeholder="you@example.com"></div>
+      <div class="form-group"><label>Service Needed</label><select><option>Select a service...</option><option>Plumbing Repair</option><option>Water Heater</option><option>Heating & Furnace</option><option>Air Conditioning</option><option>Drain Cleaning</option><option>Emergency Service</option><option>Other</option></select></div>
+      <div class="form-group"><label>Message</label><textarea placeholder="Tell us about your project..."></textarea></div>
+      <button class="btn-submit" type="button" onclick="alert('This is a demo — form is not functional.')">Send Request →</button>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Ready to Get Started?</h2>
+  <p>Call us today for fast, professional service you can trust.</p>
+  <a href="tel:5074213833" class="cta-phone">📞 (507) 421-3833</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 Advanced Plumbing & Heating Inc. All rights reserved.</p>
+  <p>607 3rd St NW, Kasson, MN 55944 · (507) 421-3833</p>
+  <p class="credit">Website by Mi AI</p>
+</footer>
+
+<script>
+// Scroll animations
+const obs = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }});
+}, { threshold: 0.15 });
+document.querySelectorAll('.animate').forEach(el => obs.observe(el));
+
+// Close mobile nav on link click
+document.querySelectorAll('.nav-links a').forEach(a => {
+  a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+});
+</script>
+</body>
+</html>
