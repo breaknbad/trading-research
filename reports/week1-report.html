@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MI AI Capital Intelligence Fund — Week 1 Report</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: #0a0e17;
+    color: #e2e8f0;
+    line-height: 1.6;
+    padding: 40px;
+  }
+  
+  .container { max-width: 900px; margin: 0 auto; }
+  
+  .header {
+    text-align: center;
+    padding: 50px 0 30px;
+    border-bottom: 1px solid #1e293b;
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #f8fafc;
+    letter-spacing: -0.5px;
+  }
+  
+  .header .subtitle {
+    font-size: 1.1rem;
+    color: #64748b;
+    margin-top: 8px;
+    font-weight: 300;
+  }
+  
+  .header .date {
+    font-size: 0.9rem;
+    color: #475569;
+    margin-top: 4px;
+  }
+  
+  .hero-stat {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px 0;
+    margin-bottom: 40px;
+  }
+  
+  .hero-stat .stat {
+    text-align: center;
+  }
+  
+  .hero-stat .stat .value {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #10b981;
+  }
+  
+  .hero-stat .stat .value.negative { color: #ef4444; }
+  
+  .hero-stat .stat .label {
+    font-size: 0.85rem;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #f1f5f9;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1e293b;
+  }
+  
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .comparison-table th {
+    text-align: left;
+    padding: 12px 16px;
+    background: #1e293b;
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .comparison-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #1e293b;
+    font-size: 0.95rem;
+  }
+  
+  .comparison-table tr:hover { background: #111827; }
+  
+  .green { color: #10b981; font-weight: 600; }
+  .red { color: #ef4444; font-weight: 600; }
+  .gold { color: #f59e0b; }
+  .muted { color: #64748b; }
+  
+  .bot-card {
+    background: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bot-card .rank {
+    font-size: 1.5rem;
+    width: 40px;
+  }
+  
+  .bot-card .info { flex: 1; margin-left: 16px; }
+  
+  .bot-card .info .name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #f1f5f9;
+  }
+  
+  .bot-card .info .role {
+    font-size: 0.85rem;
+    color: #64748b;
+  }
+  
+  .bot-card .stats {
+    text-align: right;
+  }
+  
+  .bot-card .stats .pnl {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  
+  .bot-card .stats .details {
+    font-size: 0.8rem;
+    color: #64748b;
+  }
+  
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  
+  .card {
+    background: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    padding: 24px;
+  }
+  
+  .card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #f1f5f9;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .card ul li {
+    padding: 6px 0;
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    border-bottom: 1px solid #1e293b;
+  }
+  
+  .card ul li:last-child { border-bottom: none; }
+  
+  .priority-list {
+    counter-reset: priority;
+  }
+  
+  .priority-list li {
+    padding: 10px 0 10px 36px;
+    position: relative;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #1e293b;
+  }
+  
+  .priority-list li:before {
+    counter-increment: priority;
+    content: counter(priority);
+    position: absolute;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: #1e293b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #94a3b8;
+  }
+  
+  .priority-list li.critical:before { background: #7f1d1d; color: #fca5a5; }
+  .priority-list li.high:before { background: #78350f; color: #fcd34d; }
+  
+  .code-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .code-stat {
+    background: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .code-stat .num {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #818cf8;
+  }
+  
+  .code-stat .desc {
+    font-size: 0.8rem;
+    color: #64748b;
+    margin-top: 4px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 40px 0 20px;
+    border-top: 1px solid #1e293b;
+    margin-top: 40px;
+  }
+  
+  .footer p {
+    font-size: 0.8rem;
+    color: #475569;
+  }
+  
+  @media print {
+    body { background: white; color: #1a1a1a; padding: 20px; }
+    .bot-card, .card, .code-stat { border-color: #ddd; background: #f9f9f9; }
+    .comparison-table th { background: #eee; color: #333; }
+    .green { color: #059669; }
+    .red { color: #dc2626; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>MI AI Capital Intelligence Fund</h1>
+  <div class="subtitle">Week 1 Performance Report</div>
+  <div class="date">February 23–27, 2026 &nbsp;|&nbsp; Signal Corps Trading Division</div>
+</div>
+
+<div class="hero-stat">
+  <div class="stat">
+    <div class="value">$100,997</div>
+    <div class="label">Fund Value</div>
+  </div>
+  <div class="stat">
+    <div class="value">+0.98%</div>
+    <div class="label">Week 1 Return</div>
+  </div>
+  <div class="stat">
+    <div class="value">+3.5%</div>
+    <div class="label">Alpha vs Nasdaq</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>📊 Fund vs. Market Benchmarks</h2>
+  <table class="comparison-table">
+    <thead>
+      <tr><th>Index</th><th>Week Change</th><th>MI AI Alpha</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>MI AI Fund</td><td class="green">+0.98%</td><td class="gold">—</td></tr>
+      <tr><td>S&P 500</td><td class="red">-1.42%</td><td class="green">+2.40%</td></tr>
+      <tr><td>Nasdaq Composite</td><td class="red">-2.52%</td><td class="green">+3.50%</td></tr>
+      <tr><td>Dow Jones</td><td class="red">-1.06%</td><td class="green">+2.04%</td></tr>
+    </tbody>
+  </table>
+  <p class="muted" style="font-size: 0.85rem; margin-top: 8px;">
+    The fund generated positive returns in a week where all three major indices declined. 
+    PPI inflation data, NVDA earnings volatility, and tariff escalation drove broad market weakness. 
+    Our gold/metals thesis and defensive positioning delivered alpha.
+  </p>
+</div>
+
+<div class="section">
+  <h2>🏁 Bot Standings</h2>
+  
+  <div class="bot-card">
+    <div class="rank">🥇</div>
+    <div class="info">
+      <div class="name">Vex</div>
+      <div class="role">Intelligence — Cross-Market / Commodities</div>
+    </div>
+    <div class="stats">
+      <div class="pnl green">+$614 (+2.46%)</div>
+      <div class="details">11 trades · 88% deployed · $3,056 cash</div>
+    </div>
+  </div>
+  
+  <div class="bot-card">
+    <div class="rank">🥈</div>
+    <div class="info">
+      <div class="name">TARS</div>
+      <div class="role">Infrastructure — Macro / Gold</div>
+    </div>
+    <div class="stats">
+      <div class="pnl green">+$478 (+1.91%)</div>
+      <div class="details">24 trades · 46% deployed · $13,692 cash</div>
+    </div>
+  </div>
+  
+  <div class="bot-card">
+    <div class="rank">🥉</div>
+    <div class="info">
+      <div class="name">Alfred</div>
+      <div class="role">Risk — Congressional Flow / Shorts</div>
+    </div>
+    <div class="stats">
+      <div class="pnl green">+$47 (+0.19%)</div>
+      <div class="details">87 trades · Short-heavy · $32,346 cash</div>
+    </div>
+  </div>
+  
+  <div class="bot-card">
+    <div class="rank" style="opacity:0.6">4th</div>
+    <div class="info">
+      <div class="name">Eddie V</div>
+      <div class="role">Execution — Event-Driven / DA</div>
+    </div>
+    <div class="stats">
+      <div class="pnl red">-$159 (-0.64%)</div>
+      <div class="details">34 trades · 37% deployed · $18,018 cash</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>📈 Key Positions & Thesis</h2>
+  <table class="comparison-table">
+    <thead>
+      <tr><th>Thesis</th><th>Positions</th><th>Week P&L</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Gold / Precious Metals</td><td>GLD, GDX, GDXJ, SLV (all bots)</td><td class="green">+$600+</td><td class="green">✅ Core winner</td></tr>
+      <tr><td>Tech Shorts</td><td>NVDA, AMD, AAPL, META, TSLA (Alfred)</td><td class="green">+$20</td><td>🟡 Directionally right</td></tr>
+      <tr><td>Defensive / Staples</td><td>XLP (Alfred), XLV (Vex)</td><td class="green">+$133</td><td class="green">✅ Working</td></tr>
+      <tr><td>Energy</td><td>XLE (TARS, Vex)</td><td class="green">+$51</td><td>🟡 Small position</td></tr>
+      <tr><td>International</td><td>EFA, EWC (Vex)</td><td class="green">+$118</td><td class="green">✅ Diversified</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <h2>✅ Wins & ❌ Failures</h2>
+  <div class="two-col">
+    <div class="card">
+      <h3 style="color: #10b981;">✅ What Worked</h3>
+      <ul>
+        <li>Beat all 3 indices in a down market — real alpha</li>
+        <li>Gold thesis identified early, held with conviction</li>
+        <li>158 trades across 38 tickers — active management</li>
+        <li>Built entire trading infrastructure from zero in 5 days</li>
+        <li>Risk-off positioning protected capital</li>
+        <li>All 4 bots contributed (3 green, 1 slightly red)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="color: #ef4444;">❌ What Failed</h3>
+      <ul>
+        <li>Scout loop bug: 43 redundant trades in one morning</li>
+        <li>SLV missed: 4 CONFIRM signals, nobody bought</li>
+        <li>Zero positions in Friday's big movers (DELL +22%, NFLX +14%)</li>
+        <li>Dashboard showed wrong numbers for 3 days</li>
+        <li>3 bots built same scripts independently — wasted compute</li>
+        <li>60% of fleet sitting on cash while signals existed</li>
+        <li>25-ticker watchlist in a 5,000-stock market</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>💻 Engineering Output</h2>
+  <div class="code-stats">
+    <div class="code-stat">
+      <div class="num">8,445</div>
+      <div class="desc">Lines of Python</div>
+    </div>
+    <div class="code-stat">
+      <div class="num">52</div>
+      <div class="desc">Scripts Built</div>
+    </div>
+    <div class="code-stat">
+      <div class="num">122</div>
+      <div class="desc">Git Commits</div>
+    </div>
+    <div class="code-stat">
+      <div class="num">158</div>
+      <div class="desc">Trades Executed</div>
+    </div>
+  </div>
+  <p class="muted" style="font-size: 0.85rem;">
+    Infrastructure includes: universal trade logger, live price streamer, 10-factor pre-trade scoring engine, 
+    13-factor exit engine, portfolio auditor, ATR-based stop calculator, earnings calendar scanner, 
+    sector weakness detector, signal router, gap scanner, auto-execute daemon, and a live 
+    <a href="https://capital-dashboard-one.vercel.app" style="color: #818cf8;">competition dashboard</a>.
+  </p>
+</div>
+
+<div class="section">
+  <h2>📋 Weekend Priorities (Before Monday Open)</h2>
+  <ul class="priority-list">
+    <li class="critical">Full-market scanning system — all stocks + all crypto on radar (Noon DA session)</li>
+    <li class="critical">Pre-earnings positioning system — catch movers BEFORE they move</li>
+    <li class="critical">Signal-to-trade automation — no more missed CONFIRM signals</li>
+    <li class="critical">Short-side playbook — capture losers, not just winners</li>
+    <li class="critical">Wire CONFIRM signals to Supabase signal bus (currently Discord-only)</li>
+    <li class="high">Mandatory trade pipeline enforcement — every trade passes all gates</li>
+    <li class="high">Stop enforcement failover — backup system if primary machine goes down</li>
+    <li class="high">Backtest all new scanners against Week 1 actual movers</li>
+    <li class="high">Gap scanner tested for Monday pre-market deployment</li>
+    <li class="high">Risk framework for managing 50+ scout positions simultaneously</li>
+    <li>Earnings calendar cron — nightly 8 PM automated scan</li>
+    <li>Sector weakness scan — daily automated short candidate generation</li>
+    <li>Portfolio reconciliation — clean all orphaned trades</li>
+    <li>Dashboard accuracy verification — real P&L numbers Monday 7:30 AM</li>
+    <li>FRED macro data wired into pre-market factor engine</li>
+    <li>Stale position review — cut or re-evaluate dead money</li>
+    <li>Deploy to 75%+ capital by 10:00 AM Monday — no cash hesitation</li>
+    <li>Pre-market earnings scan Sunday night for Monday reporters</li>
+    <li>Factor-enhanced briefing at 9:00 AM Monday with full-market results</li>
+    <li>Options flow scanning prototype (stretch goal)</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>🎯 Week 2 Targets</h2>
+  <div class="two-col">
+    <div class="card">
+      <h3>Performance</h3>
+      <ul>
+        <li><strong>+5% over indices daily</strong></li>
+        <li>Catch every >10% mover with a position</li>
+        <li>Deploy 75%+ capital by 10:30 AM</li>
+        <li>Zero unvalidated trades</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Operations</h3>
+      <ul>
+        <li>Full-market radar (all stocks + crypto)</li>
+        <li>No duplicate bot work — domain ownership enforced</li>
+        <li>Every trade passes mandatory pipeline</li>
+        <li>3-min execution window on CONFIRM signals</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>🏗️ Team Structure</h2>
+  <table class="comparison-table">
+    <thead>
+      <tr><th>Domain</th><th>Owner</th><th>Backup</th><th>Scope</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Intelligence</td><td><strong>Vex</strong></td><td>TARS</td><td>Signals, scanning, factor engine, FRED, earnings calendar</td></tr>
+      <tr><td>Risk</td><td><strong>Alfred</strong></td><td>TARS</td><td>Stops, exits, compliance, position sizing, sector analysis</td></tr>
+      <tr><td>Execution</td><td><strong>Eddie V</strong></td><td>Alfred</td><td>Trade pipeline, logging, deployment, gap scanner</td></tr>
+      <tr><td>Infrastructure</td><td><strong>TARS</strong></td><td>Eddie</td><td>Dashboard, price streamer, crons, database, reporting</td></tr>
+      <tr><td>Devil's Advocate</td><td><strong>Eddie V</strong></td><td>All</td><td>Cross-cutting challenge function on every decision</td></tr>
+      <tr><td>Chief of Staff</td><td><strong>Donna</strong></td><td>TARS</td><td>Task routing, escalation, coordination</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="footer">
+  <p><strong>MI AI Capital Intelligence Fund</strong> — Signal Corps Division</p>
+  <p>4 AI agents · 4 Mac Minis · 1 shared mission</p>
+  <p style="margin-top: 8px;">Prepared February 27, 2026 &nbsp;·&nbsp; Confidential</p>
+</div>
+
+</div>
+</body>
+</html>
