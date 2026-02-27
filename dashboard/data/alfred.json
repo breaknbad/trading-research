@@ -1,9 +1,9 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-02-27T19:00:15.996650+00:00",
-  "total_value_usd": 24993.88,
-  "cash_usd": 20758.08,
-  "total_return_pct": -0.02,
+  "updated_at": "2026-02-27T19:05:09.737743+00:00",
+  "total_value_usd": 30374.87,
+  "cash_usd": 23444.56,
+  "total_return_pct": 21.5,
   "positions": [
     {
       "side": "LONG",
@@ -11,10 +11,10 @@
       "ticker": "AMZN",
       "quantity": 5.0,
       "avg_entry": 209.0,
-      "currentPrice": 208.73,
-      "unrealizedPL": -1.35,
-      "current_price": 208.82,
-      "unrealized_pl": -0.9
+      "currentPrice": 209.2,
+      "unrealizedPL": 1.0,
+      "current_price": 209.15,
+      "unrealized_pl": 0.75
     },
     {
       "side": "LONG",
@@ -33,10 +33,10 @@
       "ticker": "GLD",
       "quantity": 2.0,
       "avg_entry": 476.0,
-      "currentPrice": 482.13,
-      "unrealizedPL": 12.26,
-      "current_price": 481.96,
-      "unrealized_pl": 11.92
+      "currentPrice": 482.5,
+      "unrealizedPL": 13.0,
+      "current_price": 482.54,
+      "unrealized_pl": 13.08
     },
     {
       "side": "LONG",
@@ -44,10 +44,10 @@
       "ticker": "PLTR",
       "quantity": 9.0,
       "avg_entry": 135.63,
-      "currentPrice": 134.76,
-      "unrealizedPL": -7.83,
-      "current_price": 134.72,
-      "unrealized_pl": -8.19
+      "currentPrice": 135.21,
+      "unrealizedPL": -3.78,
+      "current_price": 135.23,
+      "unrealized_pl": -3.6
     },
     {
       "side": "LONG",
@@ -55,13 +55,67 @@
       "ticker": "XLP",
       "quantity": 7.0,
       "avg_entry": 80.0,
-      "currentPrice": 89.91,
-      "unrealizedPL": 69.37,
-      "current_price": 89.9,
-      "unrealized_pl": 69.3
+      "currentPrice": 89.98,
+      "unrealizedPL": 69.86,
+      "current_price": 89.99,
+      "unrealized_pl": 69.93
+    },
+    {
+      "side": "SHORT",
+      "market": "US",
+      "ticker": "NVDA",
+      "quantity": 5.0,
+      "avg_entry": 178.89,
+      "current_price": 178.89,
+      "unrealized_pl": 0.0
+    },
+    {
+      "side": "SHORT",
+      "market": "US",
+      "ticker": "AMD",
+      "quantity": 5.0,
+      "avg_entry": 198.45,
+      "current_price": 198.45,
+      "unrealized_pl": 0.0
+    },
+    {
+      "side": "SHORT",
+      "market": "US",
+      "ticker": "TSLA",
+      "quantity": 2.0,
+      "avg_entry": 399.89,
+      "current_price": 399.89,
+      "unrealized_pl": 0.0
     }
   ],
   "recent_trades": [
+    {
+      "trade_id": "ALF-880232b5",
+      "timestamp": "2026-02-27T19:05:07.26769+00:00",
+      "action": "SHORT",
+      "ticker": "TSLA",
+      "quantity": 2.0,
+      "price_usd": 399.89,
+      "reason": "[SCOUT] SHORT | -2.32% move | RVOL=None | Score=23.2"
+    },
+    {
+      "trade_id": "ALF-d22dfb71",
+      "timestamp": "2026-02-27T19:05:06.487274+00:00",
+      "action": "SHORT",
+      "ticker": "AMD",
+      "quantity": 5.0,
+      "price_usd": 198.45,
+      "reason": "[SCOUT] SHORT | -2.72% move | RVOL=None | Score=27.2"
+    },
+    {
+      "trade_id": "ALF-57895260",
+      "timestamp": "2026-02-27T19:05:05.740517+00:00",
+      "action": "SHORT",
+      "ticker": "NVDA",
+      "quantity": 5.0,
+      "price_usd": 178.89,
+      "reason": "[SCOUT] SHORT | -4.00% move | RVOL=None | Score=40.0"
+    },
     {
       "trade_id": "ALF-8526006b",
       "timestamp": "2026-02-27T19:00:09.236152+00:00",
@@ -214,34 +268,7 @@
       "quantity": 4.0,
       "price_usd": 399.85,
       "reason": "[SCOUT] SHORT | -2.33% move | RVOL=None | Score=23.3"
-    },
-    {
-      "trade_id": "ALF-9001b979",
-      "timestamp": "2026-02-27T17:30:07.432464+00:00",
-      "action": "SHORT",
-      "ticker": "AMD",
-      "quantity": 8.0,
-      "price_usd": 199.36,
-      "reason": "[SCOUT] SHORT | -2.27% move | RVOL=None | Score=22.7"
-    },
-    {
-      "trade_id": "ALF-cb9a6920",
-      "timestamp": "2026-02-27T17:25:06.693241+00:00",
-      "action": "SHORT",
-      "ticker": "TSLA",
-      "quantity": 4.0,
-      "price_usd": 399.84,
-      "reason": "[SCOUT] SHORT | -2.33% move | RVOL=None | Score=23.3"
-    },
-    {
-      "trade_id": "ALF-870653f2",
-      "timestamp": "2026-02-27T17:25:05.979015+00:00",
-      "action": "SHORT",
-      "ticker": "AMD",
-      "quantity": 8.0,
-      "price_usd": 199.08,
-      "reason": "[SCOUT] SHORT | -2.41% move | RVOL=None | Score=24.1"
     }
   ],
-  "trade_count": 72
+  "trade_count": 75
 }
