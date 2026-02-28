@@ -122,7 +122,7 @@
     <button class="tab" data-tab="positions">💰 All Positions</button>
     <button class="tab" data-tab="trades">📜 Trade Log</button>
     <button class="tab" data-tab="bots">🤖 Bot Detail</button>
-    <button class="tab" data-tab="chart">🏁 The Race</button>
+    <button class="tab" data-tab="chart">📈 Portfolio Chart</button>
   </div>
 
   <div id="overview" class="section active">
@@ -380,61 +380,165 @@ function renderChart() {
     return;
   }
 
-  // Group by bot, get daily points
-  const byBot = {};
-  fleetData.equity_curve.forEach(e => {
-    if (!byBot[e.bot_id]) byBot[e.bot_id] = [];
-    byBot[e.bot_id].push({t:new Date(e.recorded_at), v:e.value});
-  });
-
-  // Simple SVG chart
-  const allPoints = fleetData.equity_curve.map(e=>e.value);
-  const minV = Math.min(...allPoints)*0.99, maxV = Math.max(...allPoints)*1.01;
-  const allTimes = fleetData.equity_curve.map(e=>new Date(e.recorded_at).getTime());
-  const minT = Math.min(...allTimes), maxT = Math.max(...allTimes);
-  const W = 1200, H = 300, PAD = 40;
-
   const colors = {alfred:'#58a6ff',tars:'#3fb950',vex:'#bc8cff',eddie:'#f0883e'};
-  const botNames = {alfred:'🎩 Alfred',tars:'🤖 TARS',vex:'🤙 Vex',eddie:'🎰 Eddie V'};
+  const botNames = {alfred:'🎩 Alfred',tars:'🤖 TARS',vex:'⚡ Vex',eddie:'🤙 Eddie V'};
+  const W = 1200, H = 340, PAD_L = 65, PAD_R = 20, PAD_T = 30, PAD_B = 50;
 
-  let svg = `<svg viewBox="0 0 ${W} ${H+20}" style="width:100%;height:auto;">`;
+  // View toggle state
+  const viewMode = document.getElementById('chart').dataset.view || 'today';
 
-  // Grid lines
-  for (let i=0;i<=4;i++) {
-    const y = PAD + (H-2*PAD)*i/4;
-    const val = maxV - (maxV-minV)*i/4;
-    svg += `<line x1="${PAD}" y1="${y}" x2="${W-PAD}" y2="${y}" stroke="var(--border)" stroke-width="0.5"/>`;
-    svg += `<text x="${PAD-4}" y="${y+4}" fill="var(--text2)" font-size="10" text-anchor="end">$${val.toFixed(0)}</text>`;
+  // Filter data by view
+  const now = new Date();
+  const todayET = new Date(now.toLocaleString('en-US',{timeZone:'America/New_York'}));
+  const todayStr = todayET.toISOString().slice(0,10);
+
+  const allData = fleetData.equity_curve.map(e => ({
+    bot: e.bot_id,
+    t: new Date(e.recorded_at),
+    v: e.value
+  }));
+
+  let filtered;
+  if (viewMode === 'today') {
+    // Show only today's data (ET timezone)
+    filtered = allData.filter(e => {
+      const etDate = new Date(e.t.toLocaleString('en-US',{timeZone:'America/New_York'}));
+      return etDate.toISOString().slice(0,10) === todayStr;
+    });
+    // If no data today, fall back to last 24h
+    if (filtered.length < 4) {
+      const cutoff = new Date(now.getTime() - 24*3600000);
+      filtered = allData.filter(e => e.t >= cutoff);
+    }
+  } else {
+    // "All Week" — show everything
+    filtered = allData;
   }
 
-  // Lines per bot
+  if (!filtered.length) {
+    document.getElementById('chart').innerHTML = '<p style="color:var(--text2);padding:20px;">No data for this view yet.</p>';
+    return;
+  }
+
+  // Group by bot
+  const byBot = {};
+  filtered.forEach(e => {
+    if (!byBot[e.bot]) byBot[e.bot] = [];
+    byBot[e.bot].push(e);
+  });
+
+  // Calculate scale
+  const allVals = filtered.map(e => e.v);
+  const rawMin = Math.min(...allVals), rawMax = Math.max(...allVals);
+  const padding = Math.max((rawMax - rawMin) * 0.15, 20); // At least $20 padding
+  const minV = rawMin - padding, maxV = rawMax + padding;
+  const allTimes = filtered.map(e => e.t.getTime());
+  const minT = Math.min(...allTimes), maxT = Math.max(...allTimes);
+  const chartW = W - PAD_L - PAD_R, chartH = H - PAD_T - PAD_B;
+
+  const toX = t => PAD_L + (t - minT) / (maxT - minT) * chartW;
+  const toY = v => PAD_T + (1 - (v - minV) / (maxV - minV)) * chartH;
+
+  let svg = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;" xmlns="http://www.w3.org/2000/svg">`;
+
+  // Background
+  svg += `<rect x="${PAD_L}" y="${PAD_T}" width="${chartW}" height="${chartH}" fill="rgba(22,27,34,0.5)" rx="4"/>`;
+
+  // $25,000 baseline
+  if (25000 >= minV && 25000 <= maxV) {
+    const baseY = toY(25000);
+    svg += `<line x1="${PAD_L}" y1="${baseY}" x2="${W-PAD_R}" y2="${baseY}" stroke="var(--yellow)" stroke-width="1" stroke-dasharray="6,4" opacity="0.4"/>`;
+    svg += `<text x="${W-PAD_R+4}" y="${baseY+4}" fill="var(--yellow)" font-size="9" opacity="0.6">$25K start</text>`;
+  }
+
+  // Y-axis grid + labels (5 lines)
+  for (let i = 0; i <= 5; i++) {
+    const y = PAD_T + chartH * i / 5;
+    const val = maxV - (maxV - minV) * i / 5;
+    svg += `<line x1="${PAD_L}" y1="${y}" x2="${W-PAD_R}" y2="${y}" stroke="var(--border)" stroke-width="0.5"/>`;
+    svg += `<text x="${PAD_L-8}" y="${y+4}" fill="var(--text2)" font-size="10" text-anchor="end" font-family="SF Mono,monospace">$${val.toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0})}</text>`;
+  }
+
+  // X-axis time labels
+  const timeRange = maxT - minT;
+  const numLabels = viewMode === 'today' ? 8 : 6;
+  for (let i = 0; i <= numLabels; i++) {
+    const t = new Date(minT + timeRange * i / numLabels);
+    const x = toX(t.getTime());
+    svg += `<line x1="${x}" y1="${PAD_T}" x2="${x}" y2="${PAD_T+chartH}" stroke="var(--border)" stroke-width="0.3"/>`;
+    let label;
+    if (viewMode === 'today') {
+      label = t.toLocaleTimeString('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit'});
+    } else {
+      label = t.toLocaleDateString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric'});
+    }
+    svg += `<text x="${x}" y="${PAD_T+chartH+16}" fill="var(--text2)" font-size="10" text-anchor="middle">${label}</text>`;
+  }
+
+  // Bot lines — smooth with current value labels
   Object.entries(byBot).forEach(([bot, pts]) => {
-    pts.sort((a,b)=>a.t-b.t);
-    // Downsample to ~200 points
-    const step = Math.max(1, Math.floor(pts.length/200));
-    const sampled = pts.filter((_,i)=>i%step===0||i===pts.length-1);
-    const path = sampled.map((p,i) => {
-      const x = PAD + (p.t.getTime()-minT)/(maxT-minT)*(W-2*PAD);
-      const y = PAD + (1-(p.v-minV)/(maxV-minV))*(H-2*PAD);
-      return `${i===0?'M':'L'}${x.toFixed(1)},${y.toFixed(1)}`;
+    pts.sort((a, b) => a.t - b.t);
+    if (pts.length < 2) return;
+
+    // Downsample if needed
+    const maxPts = 150;
+    const step = Math.max(1, Math.floor(pts.length / maxPts));
+    const sampled = pts.filter((_, i) => i % step === 0 || i === pts.length - 1);
+
+    const color = colors[bot] || '#888';
+
+    // Draw smooth line
+    const path = sampled.map((p, i) => {
+      const x = toX(p.t.getTime());
+      const y = toY(p.v);
+      return `${i === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)}`;
     }).join(' ');
-    svg += `<path d="${path}" fill="none" stroke="${colors[bot]||'#888'}" stroke-width="2" opacity="0.85"/>`;
+    svg += `<path d="${path}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>`;
+
+    // End dot + value label
+    const last = sampled[sampled.length - 1];
+    const lx = toX(last.t.getTime()), ly = toY(last.v);
+    svg += `<circle cx="${lx}" cy="${ly}" r="4" fill="${color}" stroke="var(--bg)" stroke-width="2"/>`;
+    svg += `<text x="${lx - 8}" y="${ly - 10}" fill="${color}" font-size="11" font-weight="600" font-family="SF Mono,monospace">$${last.v.toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0})}</text>`;
   });
 
   svg += '</svg>';
 
   // Legend
-  const legend = Object.entries(botNames).map(([id,name])=>
-    `<span style="display:inline-flex;align-items:center;gap:4px;margin-right:16px;font-size:12px;"><span style="width:12px;height:3px;background:${colors[id]};display:inline-block;border-radius:2px;"></span>${name}</span>`
-  ).join('');
+  const legend = Object.entries(botNames).map(([id, name]) => {
+    const lastPt = (byBot[id] || []).slice(-1)[0];
+    const val = lastPt ? `$${lastPt.v.toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0})}` : '';
+    return `<span style="display:inline-flex;align-items:center;gap:6px;margin-right:20px;font-size:13px;">
+      <span style="width:14px;height:4px;background:${colors[id]};display:inline-block;border-radius:2px;"></span>
+      <span>${name}</span>
+      <span class="mono" style="color:${colors[id]};font-size:12px;">${val}</span>
+    </span>`;
+  }).join('');
+
+  // View toggle buttons
+  const toggleBtns = `<div style="display:flex;gap:4px;">
+    <button class="chart-view-btn ${viewMode==='today'?'active':''}" data-view="today" style="padding:4px 12px;border-radius:4px;border:1px solid var(--border);background:${viewMode==='today'?'rgba(88,166,255,.15)':'var(--surface)'};color:${viewMode==='today'?'var(--blue)':'var(--text2)'};cursor:pointer;font-size:11px;">Today</button>
+    <button class="chart-view-btn ${viewMode==='week'?'active':''}" data-view="week" style="padding:4px 12px;border-radius:4px;border:1px solid var(--border);background:${viewMode==='week'?'rgba(88,166,255,.15)':'var(--surface)'};color:${viewMode==='week'?'var(--blue)':'var(--text2)'};cursor:pointer;font-size:11px;">All Week</button>
+  </div>`;
 
   document.getElementById('chart').innerHTML = `
     <div class="chart-container">
-      <h3>🏁 The Race — Who Finishes First?</h3>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+        <h3 style="margin:0;">📈 Portfolio Value — ${viewMode === 'today' ? 'Today' : 'This Week'}</h3>
+        ${toggleBtns}
+      </div>
       <div style="margin-bottom:10px;">${legend}</div>
       ${svg}
     </div>
   `;
+
+  // Toggle handlers
+  document.querySelectorAll('.chart-view-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.getElementById('chart').dataset.view = btn.dataset.view;
+      renderChart();
+    });
+  });
 }
 
 // Tab switching
