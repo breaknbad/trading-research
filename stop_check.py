@@ -127,7 +127,46 @@ def check_stops(bot_id=None):
         now = datetime.now(timezone.utc).strftime("%H:%M:%S")
         print(f"✅ {now} UTC — No stops breached across {len(bots_to_check)} bot(s)")
 
+    # HEAT CAP CHECK: total stop exposure ≤6% of portfolio
+    for bot in bots_to_check:
+        check_heat_cap(bot)
+
     return stops_hit
+
+
+def check_heat_cap(bot_id):
+    """Check total portfolio heat (sum of all position risk at stop level). Cap: 6%."""
+    r = requests.get(
+        f"{SUPABASE_URL}/rest/v1/portfolio_snapshots",
+        params={"bot_id": f"eq.{bot_id}", "select": "open_positions,total_value_usd"},
+        headers=HEADERS,
+    )
+    if r.status_code != 200 or not r.json():
+        return
+
+    data = r.json()[0]
+    positions = data.get("open_positions", []) or []
+    total_value = float(data.get("total_value_usd", 25000))
+
+    if total_value <= 0:
+        return
+
+    total_heat = 0
+    for pos in positions:
+        entry = float(pos.get("avg_entry", 0))
+        qty = float(pos.get("quantity", 0))
+        if entry <= 0 or qty <= 0:
+            continue
+        # Heat = position_size * stop_distance (2% default)
+        position_value = qty * entry
+        heat = position_value * (STOP_PCT / 100)
+        total_heat += heat
+
+    heat_pct = (total_heat / total_value) * 100
+    if heat_pct > 6.0:
+        print(f"🔴 HEAT CAP BREACH: {bot_id} total heat {heat_pct:.1f}% (cap: 6%). Reduce positions or tighten stops.")
+    elif heat_pct > 5.0:
+        print(f"🟡 HEAT WARNING: {bot_id} total heat {heat_pct:.1f}% (cap: 6%). Approaching limit.")
 
 
 def is_market_hours():
