@@ -33,7 +33,10 @@ HEADERS = {
     "Prefer": "return=representation",
 }
 
-BOT_PREFIXES = {"tars": "TARS", "alfred": "ALF", "vex": "VEX", "eddie_v": "EDV"}
+BOT_PREFIXES = {
+    "tars": "TARS", "alfred": "ALF", "vex": "VEX", "eddie_v": "EDV",
+    "tars_crypto": "TCR", "alfred_crypto": "ACR", "vex_crypto": "VCR", "eddie_crypto": "ECR",
+}
 
 CRYPTO_TICKERS = {"BTC-USD", "ETH-USD", "SOL-USD", "DOGE-USD", "ADA-USD"}
 INTL_TICKERS = {"EFA", "EWC", "EWZ", "EWJ", "FXI", "VGK", "INDA"}
@@ -92,11 +95,19 @@ def check_dedup_and_rate_limit(bot_id, action, ticker):
     return True, ""
 
 
-def log_trade(bot_id, action, ticker, qty, price, reason, market=None):
+def log_trade(bot_id, action, ticker, qty, price, reason, market=None, stop_price=None):
     prefix = BOT_PREFIXES.get(bot_id, bot_id.upper()[:3])
     trade_id = f"{prefix}-{uuid.uuid4().hex[:8]}"
     if market is None:
         market = detect_market(ticker)
+
+    # GUARD: No-stop rejection for new entries (weekday trades only)
+    is_crypto_battle = bot_id.endswith("_crypto")
+    if action.upper() in ("BUY", "SHORT") and not is_crypto_battle:
+        if stop_price is None or float(stop_price) <= 0:
+            print(f"❌ NO-STOP REJECTION: {action} {ticker} rejected — stop_price required for all new entries.")
+            print(f"   Use --stop <price> to set a stop. No stop = no trade.")
+            return False
 
     # GUARD: Dedup + rate limit check
     ok, block_reason = check_dedup_and_rate_limit(bot_id, action, ticker)
@@ -329,13 +340,17 @@ def update_portfolio(bot_id, action, ticker, qty, price, market):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Log a trade to the Mi AI dashboard")
-    parser.add_argument("--bot", required=True, choices=["tars", "alfred", "vex", "eddie_v"])
+    parser.add_argument("--bot", required=True, choices=[
+        "tars", "alfred", "vex", "eddie_v",
+        "tars_crypto", "alfred_crypto", "vex_crypto", "eddie_crypto",
+    ])
     parser.add_argument("--action", required=True, choices=["BUY", "SELL", "SHORT", "COVER"])
     parser.add_argument("--ticker", required=True)
     parser.add_argument("--qty", required=True, type=float)
     parser.add_argument("--price", required=True, type=float)
     parser.add_argument("--reason", required=True)
     parser.add_argument("--market", choices=["US", "CRYPTO", "FOREX", "COMMODITY", "INTL"])
+    parser.add_argument("--stop", type=float, default=None, help="Stop price (REQUIRED for BUY/SHORT in weekday trading)")
 
     args = parser.parse_args()
-    log_trade(args.bot, args.action, args.ticker, args.qty, args.price, args.reason, args.market)
+    log_trade(args.bot, args.action, args.ticker, args.qty, args.price, args.reason, args.market, args.stop)
