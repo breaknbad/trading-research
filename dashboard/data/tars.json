@@ -4,14 +4,14 @@
   "emoji": "\ud83e\udd16",
   "strategy": "Momentum Breakout Scanner",
   "status": "running",
-  "updated_at": "2026-02-27T19:08:07.004776+00:00",
-  "total_value_usd": 25409.0,
+  "updated_at": "2026-02-28T01:46:26.829217+00:00",
+  "total_value_usd": 25484.4,
   "cash_usd": 13692.46,
-  "total_return_pct": 1.64,
-  "daily_pnl": 910.63,
-  "daily_return_pct": 1.636,
+  "total_return_pct": 1.94,
+  "daily_pnl": 986.03,
+  "daily_return_pct": 1.9376,
   "realized_pl": 0.0,
-  "unrealized_pl": 302.52,
+  "unrealized_pl": 377.92,
   "day_start_value": 24498.37,
   "win_rate": 61.1,
   "trade_count": 24,
@@ -21,90 +21,90 @@
       "side": "LONG",
       "quantity": 3.0,
       "avg_entry": 209.0,
-      "current_price": 209.06,
-      "unrealized_pl": 0.18,
-      "pnl_pct": 0.03,
-      "market_value": 627.18
+      "current_price": 210.0,
+      "unrealized_pl": 3.0,
+      "pnl_pct": 0.48,
+      "market_value": 630.0
     },
     {
       "ticker": "GDX",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 111.4,
-      "current_price": 115.09,
-      "unrealized_pl": 36.9,
-      "pnl_pct": 3.31,
-      "market_value": 1150.9
+      "current_price": 115.84,
+      "unrealized_pl": 44.4,
+      "pnl_pct": 3.99,
+      "market_value": 1158.4
     },
     {
       "ticker": "GDXJ",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 150.73,
-      "current_price": 154.07,
-      "unrealized_pl": 33.4,
-      "pnl_pct": 2.22,
-      "market_value": 1540.7
+      "current_price": 156.19,
+      "unrealized_pl": 54.6,
+      "pnl_pct": 3.62,
+      "market_value": 1561.9
     },
     {
       "ticker": "GLD",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 462.62,
-      "current_price": 482.35,
-      "unrealized_pl": 197.3,
-      "pnl_pct": 4.26,
-      "market_value": 4823.5
+      "current_price": 483.75,
+      "unrealized_pl": 211.3,
+      "pnl_pct": 4.57,
+      "market_value": 4837.5
     },
     {
       "ticker": "INTC",
       "side": "LONG",
       "quantity": 3.0,
       "avg_entry": 46.05,
-      "current_price": 45.08,
-      "unrealized_pl": -2.91,
-      "pnl_pct": -2.11,
-      "market_value": 135.24
+      "current_price": 45.61,
+      "unrealized_pl": -1.32,
+      "pnl_pct": -0.96,
+      "market_value": 136.83
     },
     {
       "ticker": "PLTR",
       "side": "LONG",
       "quantity": 10.0,
       "avg_entry": 135.33,
-      "current_price": 134.81,
-      "unrealized_pl": -5.2,
-      "pnl_pct": -0.38,
-      "market_value": 1348.1
+      "current_price": 137.19,
+      "unrealized_pl": 18.6,
+      "pnl_pct": 1.37,
+      "market_value": 1371.9
     },
     {
       "ticker": "SLV",
       "side": "LONG",
       "quantity": 5.0,
       "avg_entry": 79.5327,
-      "current_price": 84.505,
-      "unrealized_pl": 24.86,
-      "pnl_pct": 6.25,
-      "market_value": 422.52
+      "current_price": 84.99,
+      "unrealized_pl": 27.29,
+      "pnl_pct": 6.86,
+      "market_value": 424.95
     },
     {
       "ticker": "TLT",
       "side": "LONG",
       "quantity": 3.0,
       "avg_entry": 89.72,
-      "current_price": 90.8,
-      "unrealized_pl": 3.24,
-      "pnl_pct": 1.2,
-      "market_value": 272.4
+      "current_price": 90.82,
+      "unrealized_pl": 3.3,
+      "pnl_pct": 1.23,
+      "market_value": 272.46
     },
     {
       "ticker": "XLE",
       "side": "LONG",
       "quantity": 25.0,
       "avg_entry": 55.25,
-      "current_price": 55.84,
-      "unrealized_pl": 14.75,
-      "pnl_pct": 1.07,
-      "market_value": 1396.0
+      "current_price": 55.92,
+      "unrealized_pl": 16.75,
+      "pnl_pct": 1.21,
+      "market_value": 1398.0
     }
   ],
   "recent_trades": [

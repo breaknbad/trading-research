@@ -1,264 +1,133 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-02-27T20:55:07.639215+00:00",
-  "total_value_usd": 48222.92,
-  "cash_usd": 32346.17,
-  "total_return_pct": 92.89,
+  "bot_name": "Alfred",
+  "emoji": "\ud83c\udfa9",
+  "strategy": "Congressional & Insider Flow",
+  "status": "running",
+  "updated_at": "2026-02-28T01:46:26.081267+00:00",
+  "total_value_usd": 24987.94,
+  "cash_usd": 27043.58,
+  "total_return_pct": -0.05,
+  "daily_pnl": -64.71,
+  "daily_return_pct": -0.0482,
+  "realized_pl": -139.64,
+  "unrealized_pl": 239.35,
+  "day_start_value": 25052.65,
+  "win_rate": 66.7,
+  "trade_count": 30,
   "positions": [
     {
-      "side": "SHORT",
-      "market": "US",
       "ticker": "AAPL",
-      "quantity": 9.0,
-      "avg_entry": 265.7967,
-      "currentPrice": 264.81,
-      "unrealizedPL": 8.88,
-      "current_price": 265.39,
-      "unrealized_pl": 3.66
-    },
-    {
       "side": "SHORT",
-      "market": "US",
-      "ticker": "AMD",
-      "quantity": 12.0,
-      "avg_entry": 198.1858,
-      "currentPrice": 200.05,
-      "unrealizedPL": -22.37,
-      "current_price": 200.19,
-      "unrealized_pl": -24.05
+      "quantity": 6.0,
+      "avg_entry": 265.99,
+      "current_price": 264.18,
+      "unrealized_pl": 10.86,
+      "pnl_pct": 0.68,
+      "market_value": 1585.08
     },
     {
-      "side": "LONG",
-      "market": "US",
+      "ticker": "AMD",
+      "side": "SHORT",
+      "quantity": 5.0,
+      "avg_entry": 202.91,
+      "current_price": 200.21,
+      "unrealized_pl": 13.5,
+      "pnl_pct": 1.33,
+      "market_value": 1001.05
+    },
+    {
       "ticker": "AMZN",
+      "side": "LONG",
       "quantity": 5.0,
       "avg_entry": 209.0,
-      "currentPrice": 209.22,
-      "unrealizedPL": 1.1,
-      "current_price": 209.29,
-      "unrealized_pl": 1.45
+      "current_price": 210.0,
+      "unrealized_pl": 5.0,
+      "pnl_pct": 0.48,
+      "market_value": 1050.0
     },
     {
-      "side": "LONG",
-      "market": "US",
       "ticker": "BBAI",
-      "quantity": 100,
+      "side": "LONG",
+      "quantity": 100.0,
       "avg_entry": 3.5,
-      "currentPrice": 3.91,
-      "unrealizedPL": 41.0,
-      "current_price": 3.91,
-      "unrealized_pl": 41.0
+      "current_price": 3.96,
+      "unrealized_pl": 46.0,
+      "pnl_pct": 13.14,
+      "market_value": 396.0
     },
     {
+      "ticker": "CRM",
       "side": "LONG",
-      "market": "US",
+      "quantity": 1.0,
+      "avg_entry": 192.2108,
+      "current_price": 194.79,
+      "unrealized_pl": 2.58,
+      "pnl_pct": 1.34,
+      "market_value": 194.79
+    },
+    {
       "ticker": "GLD",
+      "side": "LONG",
       "quantity": 2.0,
       "avg_entry": 476.0,
-      "currentPrice": 483.6,
-      "unrealizedPL": 15.2,
-      "current_price": 483.7,
-      "unrealized_pl": 15.4
+      "current_price": 483.75,
+      "unrealized_pl": 15.5,
+      "pnl_pct": 1.63,
+      "market_value": 967.5
     },
     {
-      "side": "SHORT",
-      "market": "US",
       "ticker": "META",
-      "quantity": 3.0,
-      "avg_entry": 639.4,
-      "unrealizedPL": 0.0,
-      "current_price": 644.19,
-      "unrealized_pl": -14.37
-    },
-    {
       "side": "SHORT",
-      "market": "US",
-      "ticker": "NVDA",
-      "quantity": 14.0,
-      "avg_entry": 178.6636,
-      "currentPrice": 177.72,
-      "unrealizedPL": 13.21,
-      "current_price": 177.47,
-      "unrealized_pl": 16.71
+      "quantity": 2.0,
+      "avg_entry": 640.04,
+      "current_price": 640.04,
+      "unrealized_pl": 0.0,
+      "pnl_pct": -0.0,
+      "market_value": 1280.08
     },
     {
-      "side": "LONG",
-      "market": "US",
+      "ticker": "NVDA",
+      "side": "SHORT",
+      "quantity": 6.0,
+      "avg_entry": 187.49,
+      "current_price": 177.19,
+      "unrealized_pl": 61.8,
+      "pnl_pct": 5.49,
+      "market_value": 1063.14
+    },
+    {
       "ticker": "PLTR",
+      "side": "LONG",
       "quantity": 9.0,
       "avg_entry": 135.63,
-      "currentPrice": 135.69,
-      "unrealizedPL": 0.54,
-      "current_price": 135.65,
-      "unrealized_pl": 0.18
+      "current_price": 137.19,
+      "unrealized_pl": 14.04,
+      "pnl_pct": 1.15,
+      "market_value": 1234.71
     },
     {
-      "side": "SHORT",
-      "market": "US",
       "ticker": "TSLA",
-      "quantity": 6.0,
-      "avg_entry": 399.7,
-      "unrealizedPL": 0.0,
-      "current_price": 402.36,
-      "unrealized_pl": -15.96
+      "side": "SHORT",
+      "quantity": 4.0,
+      "avg_entry": 399.84,
+      "current_price": 399.84,
+      "unrealized_pl": 0.0,
+      "pnl_pct": -0.0,
+      "market_value": 1599.36
     },
     {
-      "side": "LONG",
-      "market": "US",
       "ticker": "XLP",
+      "side": "LONG",
       "quantity": 7.0,
       "avg_entry": 80.0,
-      "currentPrice": 89.885,
-      "unrealizedPL": 69.2,
-      "current_price": 89.85,
-      "unrealized_pl": 68.95
+      "current_price": 90.01,
+      "unrealized_pl": 70.07,
+      "pnl_pct": 12.51,
+      "market_value": 630.07
     }
   ],
   "recent_trades": [
-    {
-      "trade_id": "ALF-34b6e674",
-      "timestamp": "2026-02-27T19:50:06.299229+00:00",
-      "action": "SHORT",
-      "ticker": "META",
-      "quantity": 1.0,
-      "price_usd": 638.86,
-      "reason": "[SCOUT] SHORT | -2.47% move | RVOL=None | Score=24.7"
-    },
-    {
-      "trade_id": "ALF-6bf9de35",
-      "timestamp": "2026-02-27T19:40:06.132134+00:00",
-      "action": "SHORT",
-      "ticker": "META",
-      "quantity": 1.0,
-      "price_usd": 639.63,
-      "reason": "[SCOUT] SHORT | -2.36% move | RVOL=None | Score=23.6"
-    },
-    {
-      "trade_id": "ALF-a17da5ad",
-      "timestamp": "2026-02-27T19:35:05.420693+00:00",
-      "action": "SHORT",
-      "ticker": "META",
-      "quantity": 1.0,
-      "price_usd": 639.71,
-      "reason": "[SCOUT] SHORT | -2.34% move | RVOL=None | Score=23.4"
-    },
-    {
-      "trade_id": "ALF-0796542e",
-      "timestamp": "2026-02-27T19:30:07.245558+00:00",
-      "action": "SHORT",
-      "ticker": "AAPL",
-      "quantity": 3.0,
-      "price_usd": 265.75,
-      "reason": "[SCOUT] SHORT | -2.39% move | RVOL=None | Score=23.9"
-    },
-    {
-      "trade_id": "ALF-b3930e7c",
-      "timestamp": "2026-02-27T19:25:05.821275+00:00",
-      "action": "SHORT",
-      "ticker": "AAPL",
-      "quantity": 3.0,
-      "price_usd": 265.58,
-      "reason": "[SCOUT] SHORT | -2.45% move | RVOL=None | Score=24.5"
-    },
-    {
-      "trade_id": "ALF-2ca47515",
-      "timestamp": "2026-02-27T19:20:07.625581+00:00",
-      "action": "SHORT",
-      "ticker": "TSLA",
-      "quantity": 2.0,
-      "price_usd": 399.63,
-      "reason": "[SCOUT] SHORT | -2.38% move | RVOL=None | Score=23.8"
-    },
-    {
-      "trade_id": "ALF-007e171e",
-      "timestamp": "2026-02-27T19:20:06.916267+00:00",
-      "action": "SHORT",
-      "ticker": "AMD",
-      "quantity": 2.0,
-      "price_usd": 198.24,
-      "reason": "[SCOUT] SHORT | -2.82% move | RVOL=None | Score=28.2"
-    },
-    {
-      "trade_id": "ALF-002967b1",
-      "timestamp": "2026-02-27T19:20:06.216715+00:00",
-      "action": "SHORT",
-      "ticker": "NVDA",
-      "quantity": 4.0,
-      "price_usd": 178.41,
-      "reason": "[SCOUT] SHORT | -4.26% move | RVOL=None | Score=42.6"
-    },
-    {
-      "trade_id": "ALF-0c83555d",
-      "timestamp": "2026-02-27T19:10:08.010491+00:00",
-      "action": "SHORT",
-      "ticker": "AAPL",
-      "quantity": 3.0,
-      "price_usd": 266.06,
-      "reason": "[SCOUT] SHORT | -2.28% move | RVOL=None | Score=22.8"
-    },
-    {
-      "trade_id": "ALF-c3fd6b2e",
-      "timestamp": "2026-02-27T19:10:07.2762+00:00",
-      "action": "SHORT",
-      "ticker": "TSLA",
-      "quantity": 2.0,
-      "price_usd": 399.58,
-      "reason": "[SCOUT] SHORT | -2.40% move | RVOL=None | Score=24.0"
-    },
-    {
-      "trade_id": "ALF-524f0f00",
-      "timestamp": "2026-02-27T19:10:06.601036+00:00",
-      "action": "SHORT",
-      "ticker": "AMD",
-      "quantity": 5.0,
-      "price_usd": 197.9,
-      "reason": "[SCOUT] SHORT | -2.99% move | RVOL=None | Score=29.9"
-    },
-    {
-      "trade_id": "ALF-653882b2",
-      "timestamp": "2026-02-27T19:10:05.797981+00:00",
-      "action": "SHORT",
-      "ticker": "NVDA",
-      "quantity": 5.0,
-      "price_usd": 178.64,
-      "reason": "[SCOUT] SHORT | -4.14% move | RVOL=None | Score=41.4"
-    },
-    {
-      "trade_id": "ALF-880232b5",
-      "timestamp": "2026-02-27T19:05:07.26769+00:00",
-      "action": "SHORT",
-      "ticker": "TSLA",
-      "quantity": 2.0,
-      "price_usd": 399.89,
-      "reason": "[SCOUT] SHORT | -2.32% move | RVOL=None | Score=23.2"
-    },
-    {
-      "trade_id": "ALF-d22dfb71",
-      "timestamp": "2026-02-27T19:05:06.487274+00:00",
-      "action": "SHORT",
-      "ticker": "AMD",
-      "quantity": 5.0,
-      "price_usd": 198.45,
-      "reason": "[SCOUT] SHORT | -2.72% move | RVOL=None | Score=27.2"
-    },
-    {
-      "trade_id": "ALF-57895260",
-      "timestamp": "2026-02-27T19:05:05.740517+00:00",
-      "action": "SHORT",
-      "ticker": "NVDA",
-      "quantity": 5.0,
-      "price_usd": 178.89,
-      "reason": "[SCOUT] SHORT | -4.00% move | RVOL=None | Score=40.0"
-    },
-    {
-      "trade_id": "ALF-8526006b",
-      "timestamp": "2026-02-27T19:00:09.236152+00:00",
-      "action": "COVER",
-      "ticker": "TSLA",
-      "quantity": 10.0,
-      "price_usd": 399.81,
-      "reason": "[RISK] Oversized: 16.0% of portfolio"
-    },
     {
       "trade_id": "ALF-df4ca01f",
       "timestamp": "2026-02-27T19:00:08.464855+00:00",
@@ -266,35 +135,328 @@
       "ticker": "SQQQ",
       "quantity": 43.0,
       "price_usd": 71.565,
-      "reason": "[RISK] Oversized: 12.3% of portfolio"
+      "total_usd": 3077.295,
+      "reason": "[RISK] Oversized: 12.3% of portfolio",
+      "status": "CLOSED"
     },
     {
-      "trade_id": "ALF-fc37982e",
-      "timestamp": "2026-02-27T19:00:07.616711+00:00",
-      "action": "COVER",
-      "ticker": "NVDA",
-      "quantity": 23.0,
-      "price_usd": 178.34,
-      "reason": "[RISK] Oversized: 16.4% of portfolio"
-    },
-    {
-      "trade_id": "ALF-9fcc9ce7",
-      "timestamp": "2026-02-27T19:00:06.889579+00:00",
-      "action": "COVER",
-      "ticker": "MSFT",
-      "quantity": 33.0,
-      "price_usd": 393.1,
-      "reason": "[RISK] Oversized: 51.9% of portfolio"
-    },
-    {
-      "trade_id": "ALF-dd68ec57",
-      "timestamp": "2026-02-27T19:00:06.061533+00:00",
-      "action": "COVER",
-      "ticker": "META",
+      "trade_id": "ALF-e781d3d7",
+      "timestamp": "2026-02-27T18:30:07.454193+00:00",
+      "action": "SHORT",
+      "ticker": "AAPL",
       "quantity": 6.0,
-      "price_usd": 639.39,
-      "reason": "[RISK] Oversized: 15.3% of portfolio"
+      "price_usd": 265.99,
+      "total_usd": 1595.94,
+      "reason": "[SCOUT] SHORT | -2.30% move | RVOL=None | Score=23.0",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "ALF-ab7e2f88",
+      "timestamp": "2026-02-27T18:20:07.154232+00:00",
+      "action": "SHORT",
+      "ticker": "META",
+      "quantity": 2.0,
+      "price_usd": 640.04,
+      "total_usd": 1280.08,
+      "reason": "[SCOUT] SHORT | -2.29% move | RVOL=None | Score=22.9",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "ALF-1d7baaae",
+      "timestamp": "2026-02-27T18:06:09.724173+00:00",
+      "action": "SELL",
+      "ticker": "AAPL",
+      "quantity": 4.0,
+      "price_usd": 266.78,
+      "total_usd": 1067.12,
+      "reason": "STOP-LOSS EXECUTED. Entry .28, stop .83, live .78. P&L: -.00",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-cb9a6920",
+      "timestamp": "2026-02-27T17:25:06.693241+00:00",
+      "action": "SHORT",
+      "ticker": "TSLA",
+      "quantity": 4.0,
+      "price_usd": 399.84,
+      "total_usd": 1599.36,
+      "reason": "[SCOUT] SHORT | -2.33% move | RVOL=None | Score=23.3",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "ALF-b8d53420",
+      "timestamp": "2026-02-27T16:10:03.723899+00:00",
+      "action": "SELL",
+      "ticker": "CRM",
+      "quantity": 4.0,
+      "price_usd": 191.49,
+      "total_usd": 765.96,
+      "reason": "[RISK] Stop loss hit: -2.3%",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-dbba8cbf",
+      "timestamp": "2026-02-27T16:06:25.414285+00:00",
+      "action": "SELL",
+      "ticker": "CRM",
+      "quantity": 4.0,
+      "price_usd": 191.61,
+      "total_usd": 766.44,
+      "reason": "STOP EXECUTED - breached stop at $192.09 (entry $196.01, P&L: -$17.62)",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-05ad6c27",
+      "timestamp": "2026-02-27T16:06:20.603491+00:00",
+      "action": "SELL",
+      "ticker": "CRM",
+      "quantity": 4.0,
+      "price_usd": 191.61,
+      "total_usd": 766.44,
+      "reason": "STOP EXECUTED - breached stop at $192.18 (entry $196.10, P&L: -$17.98)",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-af7cd473",
+      "timestamp": "2026-02-27T15:00:11.758696+00:00",
+      "action": "BUY",
+      "ticker": "SQQQ",
+      "quantity": 14.0,
+      "price_usd": 71.81,
+      "total_usd": 1005.34,
+      "reason": "[SCOUT] LONG | +2.31% move | RVOL=None | Score=23.1",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-400a519d",
+      "timestamp": "2026-02-27T14:40:11.448043+00:00",
+      "action": "BUY",
+      "ticker": "SQQQ",
+      "quantity": 15.0,
+      "price_usd": 71.85,
+      "total_usd": 1077.75,
+      "reason": "[SCOUT] LONG | +2.37% move | RVOL=None | Score=23.7",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-2bc7edc0",
+      "timestamp": "2026-02-27T14:30:27.884461+00:00",
+      "action": "SELL",
+      "ticker": "MSFT",
+      "quantity": 3.0,
+      "price_usd": 390.5,
+      "total_usd": 1171.5,
+      "reason": "[RISK] Stop loss hit: -3.5%",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-11173e82",
+      "timestamp": "2026-02-26T17:09:49.973800+00:00",
+      "action": "SHORT",
+      "ticker": "AMD",
+      "quantity": 5.0,
+      "price_usd": 202.91,
+      "total_usd": 1014.55,
+      "reason": "[SCOUT] SHORT | -2.97% move | RVOL=None | Score=29.7",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "ALF-6000cd4a",
+      "timestamp": "2026-02-26T17:09:49.127697+00:00",
+      "action": "BUY",
+      "ticker": "SQQQ",
+      "quantity": 14.0,
+      "price_usd": 70.74,
+      "total_usd": 990.3599999999999,
+      "reason": "[SCOUT] LONG | +4.17% move | RVOL=None | Score=41.7",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-793e6136",
+      "timestamp": "2026-02-26T17:09:47.473043+00:00",
+      "action": "BUY",
+      "ticker": "CRM",
+      "quantity": 4.0,
+      "price_usd": 196.01,
+      "total_usd": 784.04,
+      "reason": "[CONFIRM] LONG | +6.26% move | RVOL=None | Score=62.6",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-fe6f9ba7",
+      "timestamp": "2026-02-26T17:08:59.522657+00:00",
+      "action": "BUY",
+      "ticker": "CRM",
+      "quantity": 4.0,
+      "price_usd": 196.1,
+      "total_usd": 784.4,
+      "reason": "[CONFIRM] LONG | +6.31% move | RVOL=None | Score=63.1",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-3a3997cd",
+      "timestamp": "2026-02-26T15:17:23.751317+00:00",
+      "action": "BUY",
+      "ticker": "PLTR",
+      "quantity": 9.0,
+      "price_usd": 135.63,
+      "total_usd": 1220.67,
+      "reason": "Green on red day, defense/gov insulated from trading ban narrative. Relative strength.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "ALF-a981caa2",
+      "timestamp": "2026-02-26T15:17:22.765106+00:00",
+      "action": "BUY",
+      "ticker": "MSFT",
+      "quantity": 3.0,
+      "price_usd": 404.69,
+      "total_usd": 1214.07,
+      "reason": "Relative strength divergence, +1% while mega-cap peers sell off. Institutional rotation signal.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-2fc5d176",
+      "timestamp": "2026-02-26T15:17:17.169717+00:00",
+      "action": "SHORT",
+      "ticker": "NVDA",
+      "quantity": 6.0,
+      "price_usd": 187.49,
+      "total_usd": 1124.94,
+      "reason": "Congressional liquidation risk + SOTU ban catalyst. -4.1% velocity trigger, selling into LOD.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "ALF-bed38ae4",
+      "timestamp": "2026-02-25T20:34:36.159033+00:00",
+      "action": "SELL",
+      "ticker": "DRS",
+      "quantity": 25.0,
+      "price_usd": 42.76,
+      "total_usd": 1069.0,
+      "reason": "Stop breach. Entry 44.42, now 42.76 (-3.7%). 2% stop rule violated - should have been out at 43.53. Executing now. Late but following protocol.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-6bd6ec44",
+      "timestamp": "2026-02-24T19:06:37.428543+00:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "quantity": 4.0,
+      "price_usd": 272.28,
+      "total_usd": 1089.12,
+      "reason": "RE-BUYING. Sold on stale data - TradingView showed yesterdays close 266.18, actual price is 272.28 (+2.29%). Stop was never hit. My mistake. Stop remains 267.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-fbbc2304",
+      "timestamp": "2026-02-24T19:06:23.369582+00:00",
+      "action": "BUY",
+      "ticker": "DRS",
+      "quantity": 25.0,
+      "price_usd": 44.42,
+      "total_usd": 1110.5,
+      "reason": "Defense + AI convergence. Leonardo DRS +16% today on real defense contracts. SOTU tonight = defense spending rhetoric catalyst. Same lane as BBAI which is +11% on my book. Stop 42.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-f6a225c9",
+      "timestamp": "2026-02-24T19:05:52.318114+00:00",
+      "action": "BUY",
+      "ticker": "CRM",
+      "quantity": 5.0,
+      "price_usd": 186.06,
+      "total_usd": 930.3,
+      "reason": "Anthropic partnership catalyst, +4.4% today against fading tape = relative strength. Earnings tomorrow double catalyst. Stop 181. Verified live price on Yahoo Finance.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-a3f6d116",
+      "timestamp": "2026-02-24T17:01:07.204406+00:00",
+      "action": "BUY",
+      "ticker": "AMZN",
+      "quantity": 5.0,
+      "price_usd": 209.0,
+      "total_usd": 1045.0,
+      "reason": "Cloud+AI narrative, participating in market bounce",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "ALF-68fc04f2",
+      "timestamp": "2026-02-24T15:57:32.890285+00:00",
+      "action": "BUY",
+      "ticker": "GLD",
+      "quantity": 2.0,
+      "price_usd": 476.0,
+      "total_usd": 952.0,
+      "reason": "Adding to gold safe haven thesis on pullback",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "ALF-5cfc1a54",
+      "timestamp": "2026-02-24T15:56:22.963625+00:00",
+      "action": "BUY",
+      "ticker": "XLP",
+      "quantity": 7.0,
+      "price_usd": 80.0,
+      "total_usd": 560.0,
+      "reason": "Consumer staples defensive play - tariff resistant",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "ALF-99d7074c",
+      "timestamp": "2026-02-24T15:56:18.065165+00:00",
+      "action": "SELL",
+      "ticker": "SQQQ",
+      "quantity": 5.0,
+      "price_usd": 72.96,
+      "total_usd": 364.79999999999995,
+      "reason": "Inverse ETF decay rule - sell at open",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-7cbb6337",
+      "timestamp": "2026-02-24T04:28:41.501965+00:00",
+      "action": "SELL",
+      "ticker": "BTC-USD",
+      "quantity": 0.0383,
+      "price_usd": 63311.39,
+      "total_usd": 2424.826237,
+      "reason": "Stop loss triggered \u2014 BTC below $63,400 stop. Entry $66,957, exit $63,311. Loss: -$139.72",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-25931d44",
+      "timestamp": "2026-02-23T19:31:38.403830+00:00",
+      "action": "BUY",
+      "ticker": "SQQQ",
+      "quantity": 5.0,
+      "price_usd": 73.33,
+      "total_usd": 366.65,
+      "reason": "Inverse Nasdaq hedge - bear market positioning",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "ALF-3f849e11",
+      "timestamp": "2026-02-23T17:20:00+00:00",
+      "action": "BUY",
+      "ticker": "BBAI",
+      "quantity": 100.0,
+      "price_usd": 3.5,
+      "total_usd": 350.0,
+      "reason": "AI + defense convergence. Congressional defense buys + AI spending decoupling from tech. Stop at $3.15, target $4.20.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "949e4f45-986f-4cb8-9baa-ce89fc0cf793",
+      "timestamp": "2026-02-23T14:45:00+00:00",
+      "action": "BUY",
+      "ticker": "BTC-USD",
+      "quantity": 0.0383,
+      "price_usd": 66957.52,
+      "total_usd": 2564.47,
+      "reason": "BTC position. Stop 63400, target 68500.",
+      "status": "CLOSED"
     }
-  ],
-  "trade_count": 87
+  ]
 }

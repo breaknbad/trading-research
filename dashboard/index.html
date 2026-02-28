@@ -485,14 +485,26 @@ function renderChart() {
     const step = Math.max(1, Math.floor(pts.length / maxPts));
     const sampled = pts.filter((_, i) => i % step === 0 || i === pts.length - 1);
 
+    // Smooth values with moving average (window=5) to remove jagged spikes
+    const smoothed = sampled.map((p, i, arr) => {
+      const win = 3; // points each side
+      let sum = 0, cnt = 0;
+      for (let j = Math.max(0, i - win); j <= Math.min(arr.length - 1, i + win); j++) {
+        sum += arr[j].v; cnt++;
+      }
+      return { t: p.t, v: sum / cnt };
+    });
+
     const color = colors[bot] || '#888';
 
-    // Draw smooth line
-    const path = sampled.map((p, i) => {
-      const x = toX(p.t.getTime());
-      const y = toY(p.v);
-      return `${i === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)}`;
-    }).join(' ');
+    // Draw smooth line using cubic bezier curves
+    const points = smoothed.map(p => ({ x: toX(p.t.getTime()), y: toY(p.v) }));
+    let path = `M${points[0].x.toFixed(1)},${points[0].y.toFixed(1)}`;
+    for (let i = 1; i < points.length; i++) {
+      const prev = points[i - 1], curr = points[i];
+      const cpx = (prev.x + curr.x) / 2;
+      path += ` C${cpx.toFixed(1)},${prev.y.toFixed(1)} ${cpx.toFixed(1)},${curr.y.toFixed(1)} ${curr.x.toFixed(1)},${curr.y.toFixed(1)}`;
+    }
     svg += `<path d="${path}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>`;
 
     // End dot + value label
