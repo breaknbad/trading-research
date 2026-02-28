@@ -105,6 +105,7 @@ def log_trade(bot_id, action, ticker, qty, price, reason, market=None):
         return False
 
     # Pre-validate: SELL/COVER require an existing position
+    # Uses portfolio_guard for validation + adds trade-level locking via unique constraint
     if action.upper() in ("SELL", "COVER"):
         side = "LONG" if action.upper() == "SELL" else "SHORT"
         r = requests.get(
@@ -113,6 +114,17 @@ def log_trade(bot_id, action, ticker, qty, price, reason, market=None):
         )
         if r.json():
             positions_check = r.json()[0].get("open_positions", []) or []
+            
+            # Import guard validation
+            try:
+                from portfolio_guard import validate_trade
+                ok, errors = validate_trade(bot_id, action.upper(), ticker.upper(), float(qty), positions_check)
+                if not ok:
+                    print(f"❌ GUARD REJECTED: {'; '.join(errors)}")
+                    return False
+            except ImportError:
+                pass  # Fallback to basic check
+            
             has_position = any(
                 p.get("ticker") == ticker.upper()
                 and p.get("side", "LONG") == side
@@ -274,6 +286,18 @@ def update_portfolio(bot_id, action, ticker, qty, price, market):
         else:
             long_value += qty_val
     total_value = cash + long_value - short_obligation
+
+    # Portfolio guard: validate before writing
+    try:
+        from portfolio_guard import validate_portfolio
+        ok, errors = validate_portfolio(bot_id, cash, positions, total_value)
+        if not ok:
+            print(f"⚠️  GUARD BLOCKED portfolio update:")
+            for e in errors:
+                print(f"   ❌ {e}")
+            return
+    except ImportError:
+        pass  # Guard not available, use basic check
 
     # 3% spike guard: reject suspicious values
     prev_total = float(portfolio.get("total_value_usd", 25000))
