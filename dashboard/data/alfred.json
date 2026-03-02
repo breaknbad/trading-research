@@ -1,9 +1,9 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-03-02T16:20:11.723983+00:00",
-  "total_value_usd": 50430.49,
+  "updated_at": "2026-03-02T16:25:10.755172+00:00",
+  "total_value_usd": 50479.24,
   "cash_usd": 17390.4,
-  "total_return_pct": 101.72,
+  "total_return_pct": 101.92,
   "positions": [
     {
       "side": "LONG",
@@ -31,10 +31,10 @@
       "ticker": "BTC-USD",
       "quantity": 0.1,
       "avg_entry": 65958.0,
-      "currentPrice": 69575.2,
-      "unrealizedPL": 361.72,
-      "current_price": 69575.2,
-      "unrealized_pl": 361.72
+      "currentPrice": 69639.99,
+      "unrealizedPL": 368.2,
+      "current_price": 69639.99,
+      "unrealized_pl": 368.2
     },
     {
       "side": "LONG",
@@ -42,10 +42,10 @@
       "ticker": "ETH-USD",
       "quantity": 2.5,
       "avg_entry": 1938.0,
-      "currentPrice": 2065.8079,
-      "unrealizedPL": 319.52,
-      "current_price": 2065.8079,
-      "unrealized_pl": 319.52
+      "currentPrice": 2067.2349,
+      "unrealizedPL": 323.09,
+      "current_price": 2067.2349,
+      "unrealized_pl": 323.09
     },
     {
       "side": "LONG",
@@ -53,10 +53,10 @@
       "ticker": "GLD",
       "quantity": 10.0,
       "avg_entry": 497.5,
-      "currentPrice": 485.54,
-      "unrealizedPL": -119.6,
-      "current_price": 485.87,
-      "unrealized_pl": -116.3
+      "currentPrice": 487.05,
+      "unrealizedPL": -104.5,
+      "current_price": 486.93,
+      "unrealized_pl": -105.7
     },
     {
       "side": "LONG",
@@ -84,10 +84,10 @@
       "ticker": "SQQQ",
       "quantity": 30.0,
       "avg_entry": 72.5,
-      "currentPrice": 71.38,
-      "unrealizedPL": -33.6,
-      "current_price": 71.2,
-      "unrealized_pl": -39.0
+      "currentPrice": 71.43,
+      "unrealizedPL": -32.1,
+      "current_price": 71.4,
+      "unrealized_pl": -33.0
     },
     {
       "side": "LONG",
@@ -95,10 +95,10 @@
       "ticker": "XLE",
       "quantity": 85.0,
       "avg_entry": 57.8,
-      "currentPrice": 56.76,
-      "unrealizedPL": -88.4,
-      "current_price": 56.73,
-      "unrealized_pl": -90.95
+      "currentPrice": 56.99,
+      "unrealizedPL": -68.85,
+      "current_price": 56.99,
+      "unrealized_pl": -68.85
     }
   ],
   "recent_trades": [
