@@ -1,9 +1,9 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-03-02T17:05:38.601622+00:00",
-  "total_value_usd": 50403.73,
-  "cash_usd": 17390.4,
-  "total_return_pct": 101.61,
+  "updated_at": "2026-03-02T17:15:10.982368+00:00",
+  "total_value_usd": 50531.64,
+  "cash_usd": 19890.4,
+  "total_return_pct": 102.13,
   "positions": [
     {
       "side": "LONG",
@@ -31,10 +31,10 @@
       "ticker": "BTC-USD",
       "quantity": 0.1,
       "avg_entry": 65958.0,
-      "currentPrice": 69406.5,
-      "unrealizedPL": 344.85,
-      "current_price": 69406.5,
-      "unrealized_pl": 344.85
+      "currentPrice": 69357.81,
+      "unrealizedPL": 339.98,
+      "current_price": 69357.81,
+      "unrealized_pl": 339.98
     },
     {
       "side": "LONG",
@@ -42,21 +42,10 @@
       "ticker": "ETH-USD",
       "quantity": 2.5,
       "avg_entry": 1938.0,
-      "currentPrice": 2060.752,
-      "unrealizedPL": 306.88,
-      "current_price": 2060.752,
-      "unrealized_pl": 306.88
-    },
-    {
-      "side": "LONG",
-      "market": "US",
-      "ticker": "GLD",
-      "quantity": 10.0,
-      "avg_entry": 497.5,
-      "currentPrice": 487.12,
-      "unrealizedPL": -103.8,
-      "current_price": 486.99,
-      "unrealized_pl": -105.1
+      "currentPrice": 2055.2246,
+      "unrealizedPL": 293.06,
+      "current_price": 2055.2246,
+      "unrealized_pl": 293.06
     },
     {
       "side": "LONG",
@@ -66,6 +55,16 @@
       "avg_entry": 8.66,
       "unrealizedPL": 0.0,
       "current_price": 8.66,
+      "unrealized_pl": 0.0
+    },
+    {
+      "side": "LONG",
+      "market": "US",
+      "ticker": "NEAR-USD",
+      "quantity": 2000.0,
+      "avg_entry": 1.33,
+      "unrealizedPL": 0.0,
+      "current_price": 1.33,
       "unrealized_pl": 0.0
     },
     {
@@ -81,13 +80,12 @@
     {
       "side": "LONG",
       "market": "US",
-      "ticker": "SQQQ",
-      "quantity": 30.0,
-      "avg_entry": 72.5,
-      "currentPrice": 70.56,
-      "unrealizedPL": -58.2,
-      "current_price": 70.55,
-      "unrealized_pl": -58.5
+      "ticker": "UNI-USD",
+      "quantity": 500.0,
+      "avg_entry": 3.98,
+      "unrealizedPL": 0.0,
+      "current_price": 3.98,
+      "unrealized_pl": 0.0
     },
     {
       "side": "LONG",
@@ -95,13 +93,49 @@
       "ticker": "XLE",
       "quantity": 85.0,
       "avg_entry": 57.8,
-      "currentPrice": 56.8,
-      "unrealizedPL": -85.0,
-      "current_price": 56.86,
-      "unrealized_pl": -79.9
+      "currentPrice": 56.6,
+      "unrealizedPL": -102.0,
+      "current_price": 56.66,
+      "unrealized_pl": -96.9
     }
   ],
   "recent_trades": [
+    {
+      "trade_id": "ALFRED-88f57732",
+      "timestamp": "2026-03-02T17:06:39.059896+00:00",
+      "action": "BUY",
+      "ticker": "UNI-USD",
+      "quantity": 500.0,
+      "price_usd": 3.98,
+      "reason": "UNI +5.7% today, DeFi momentum. Rotation play. Stop 3.82 (-4%)."
+    },
+    {
+      "trade_id": "ALFRED-3f0a5497",
+      "timestamp": "2026-03-02T17:06:38.78602+00:00",
+      "action": "BUY",
+      "ticker": "NEAR-USD",
+      "quantity": 2000.0,
+      "price_usd": 1.33,
+      "reason": "NEAR +16% today, strongest crypto mover. Momentum rotation from dead GLD/SQQQ. Stop 1.27 (-4.5%)."
+    },
+    {
+      "trade_id": "ALFRED-3fe606e5",
+      "timestamp": "2026-03-02T17:06:31.292375+00:00",
+      "action": "SELL",
+      "ticker": "GLD",
+      "quantity": 10.0,
+      "price_usd": 487.0,
+      "reason": "GLD -2.1% approaching stop. Safe haven bid killed by risk-on crypto bounce. Weakest link rotation."
+    },
+    {
+      "trade_id": "ALFRED-268c9ba6",
+      "timestamp": "2026-03-02T17:06:30.625211+00:00",
+      "action": "SELL",
+      "ticker": "SQQQ",
+      "quantity": 30.0,
+      "price_usd": 71.5,
+      "reason": "Regime flipped risk-ON. SQQQ hedge losing money while crypto longs print. Cut the loser."
+    },
     {
       "trade_id": "ALF-5820901b",
       "timestamp": "2026-03-02T17:04:29.883584+00:00",
@@ -245,43 +279,7 @@
       "quantity": 2.5,
       "price_usd": 2045.0038,
       "reason": "TARGET AUTO-EXIT: 5.5% gain (threshold 5.0%)"
-    },
-    {
-      "trade_id": "ALF-c7b674aa",
-      "timestamp": "2026-03-02T15:56:40.154391+00:00",
-      "action": "SELL",
-      "ticker": "ADA-USD",
-      "quantity": 5000.0,
-      "price_usd": 0.2857217,
-      "reason": "TARGET AUTO-EXIT: 5.5% gain (threshold 5.0%)"
-    },
-    {
-      "trade_id": "ALFRED-2f5fc34c",
-      "timestamp": "2026-03-02T15:28:50.532325+00:00",
-      "action": "BUY",
-      "ticker": "SQQQ",
-      "quantity": 30.0,
-      "price_usd": 72.5,
-      "reason": "Nasdaq risk-off hedge. Protects crypto longs if reversal. Stop 70.00 (-3.4%)."
-    },
-    {
-      "trade_id": "ALFRED-b247f2dc",
-      "timestamp": "2026-03-02T15:28:50.27635+00:00",
-      "action": "BUY",
-      "ticker": "XLE",
-      "quantity": 85.0,
-      "price_usd": 57.8,
-      "reason": "Oil +8% overnight, Hormuz closure, supply disruption. 2-3 day trade. Stop 56.00 (-3.1%)."
-    },
-    {
-      "trade_id": "ALFRED-00ef717a",
-      "timestamp": "2026-03-02T15:28:50.027104+00:00",
-      "action": "BUY",
-      "ticker": "GLD",
-      "quantity": 10.0,
-      "price_usd": 497.5,
-      "reason": "Gold ATH, Iran/Hormuz crisis, extreme fear F&G=10. Safe haven conviction play. Stop 482 (-3.1%)."
     }
   ],
-  "trade_count": 9
+  "trade_count": 11
 }
