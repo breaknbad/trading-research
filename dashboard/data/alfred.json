@@ -1,9 +1,9 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-03-02T20:25:13.308703+00:00",
-  "total_value_usd": 50447.23,
+  "updated_at": "2026-03-02T20:30:13.108844+00:00",
+  "total_value_usd": 50464.74,
   "cash_usd": 1732.55,
-  "total_return_pct": 101.79,
+  "total_return_pct": 101.86,
   "positions": [
     {
       "side": "LONG",
@@ -21,10 +21,10 @@
       "ticker": "BTC-USD",
       "quantity": 0.15000000000000002,
       "avg_entry": 67148.3333,
-      "currentPrice": 68867.836,
-      "unrealizedPL": 257.93,
-      "current_price": 68867.836,
-      "unrealized_pl": 257.93
+      "currentPrice": 68968.625,
+      "unrealizedPL": 273.04,
+      "current_price": 68968.625,
+      "unrealized_pl": 273.04
     },
     {
       "side": "LONG",
@@ -32,10 +32,10 @@
       "ticker": "ETH-USD",
       "quantity": 4.0,
       "avg_entry": 1974.375,
-      "currentPrice": 2035.8398,
-      "unrealizedPL": 245.86,
-      "current_price": 2035.8398,
-      "unrealized_pl": 245.86
+      "currentPrice": 2036.6481,
+      "unrealizedPL": 249.09,
+      "current_price": 2036.6481,
+      "unrealized_pl": 249.09
     },
     {
       "side": "LONG",
@@ -44,8 +44,8 @@
       "quantity": 520.0,
       "avg_entry": 9.64,
       "unrealizedPL": 0.0,
-      "current_price": 9.56,
-      "unrealized_pl": -41.6
+      "current_price": 9.59,
+      "unrealized_pl": -26.0
     },
     {
       "side": "LONG",
@@ -63,10 +63,10 @@
       "ticker": "PLTR",
       "quantity": 35.0,
       "avg_entry": 145.5,
-      "currentPrice": 144.78,
-      "unrealizedPL": -25.2,
-      "current_price": 145,
-      "unrealized_pl": -17.5
+      "currentPrice": 144.35,
+      "unrealizedPL": -40.25,
+      "current_price": 144.53,
+      "unrealized_pl": -33.95
     },
     {
       "side": "LONG",
