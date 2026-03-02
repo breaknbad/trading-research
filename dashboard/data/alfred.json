@@ -1,10 +1,20 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-03-02T17:15:10.982368+00:00",
-  "total_value_usd": 50531.64,
-  "cash_usd": 19890.4,
-  "total_return_pct": 102.13,
+  "updated_at": "2026-03-02T17:20:13.178481+00:00",
+  "total_value_usd": 50345.64,
+  "cash_usd": 8556.35,
+  "total_return_pct": 101.38,
   "positions": [
+    {
+      "side": "LONG",
+      "market": "US",
+      "ticker": "AAVE-USD",
+      "quantity": 30.0,
+      "avg_entry": 124.42,
+      "unrealizedPL": 0.0,
+      "current_price": 124.42,
+      "unrealized_pl": 0.0
+    },
     {
       "side": "LONG",
       "market": "US",
@@ -29,12 +39,12 @@
       "side": "LONG",
       "market": "US",
       "ticker": "BTC-USD",
-      "quantity": 0.1,
-      "avg_entry": 65958.0,
-      "currentPrice": 69357.81,
-      "unrealizedPL": 339.98,
-      "current_price": 69357.81,
-      "unrealized_pl": 339.98
+      "quantity": 0.15000000000000002,
+      "avg_entry": 67148.3333,
+      "currentPrice": 69219.7,
+      "unrealizedPL": 310.71,
+      "current_price": 69219.7,
+      "unrealized_pl": 310.71
     },
     {
       "side": "LONG",
@@ -42,10 +52,10 @@
       "ticker": "ETH-USD",
       "quantity": 2.5,
       "avg_entry": 1938.0,
-      "currentPrice": 2055.2246,
-      "unrealizedPL": 293.06,
-      "current_price": 2055.2246,
-      "unrealized_pl": 293.06
+      "currentPrice": 2051.9731,
+      "unrealizedPL": 284.93,
+      "current_price": 2051.9731,
+      "unrealized_pl": 284.93
     },
     {
       "side": "LONG",
@@ -61,7 +71,7 @@
       "side": "LONG",
       "market": "US",
       "ticker": "NEAR-USD",
-      "quantity": 2000.0,
+      "quantity": 5000.0,
       "avg_entry": 1.33,
       "unrealizedPL": 0.0,
       "current_price": 1.33,
@@ -93,13 +103,40 @@
       "ticker": "XLE",
       "quantity": 85.0,
       "avg_entry": 57.8,
-      "currentPrice": 56.6,
-      "unrealizedPL": -102.0,
-      "current_price": 56.66,
-      "unrealized_pl": -96.9
+      "currentPrice": 56.52,
+      "unrealizedPL": -108.8,
+      "current_price": 56.5,
+      "unrealized_pl": -110.5
     }
   ],
   "recent_trades": [
+    {
+      "trade_id": "ALFRED-b040110c",
+      "timestamp": "2026-03-02T17:16:40.727069+00:00",
+      "action": "BUY",
+      "ticker": "BTC-USD",
+      "quantity": 0.05,
+      "price_usd": 69529.0,
+      "reason": "5% velocity. Adding to BTC winner +5.4%. Deploying idle cash. Stop 67500."
+    },
+    {
+      "trade_id": "ALFRED-1bc0074a",
+      "timestamp": "2026-03-02T17:16:40.45685+00:00",
+      "action": "BUY",
+      "ticker": "AAVE-USD",
+      "quantity": 30.0,
+      "price_usd": 124.42,
+      "reason": "5% velocity protocol. AAVE +9% today. Momentum rotation. Stop 119."
+    },
+    {
+      "trade_id": "ALFRED-c745e5c7",
+      "timestamp": "2026-03-02T17:16:40.171312+00:00",
+      "action": "BUY",
+      "ticker": "NEAR-USD",
+      "quantity": 3000.0,
+      "price_usd": 1.33,
+      "reason": "5% velocity protocol. NEAR +16% today, strongest mover. Adding to winner. Stop 1.27."
+    },
     {
       "trade_id": "ALFRED-88f57732",
       "timestamp": "2026-03-02T17:06:39.059896+00:00",
@@ -252,34 +289,7 @@
       "quantity": 10.0,
       "price_usd": 485.28,
       "reason": "STOP-LOSS AUTO-EXIT: 2.5% drawdown (threshold 2.0%)"
-    },
-    {
-      "trade_id": "ALF-a985f1c6",
-      "timestamp": "2026-03-02T16:00:04.94959+00:00",
-      "action": "SELL",
-      "ticker": "BTC-USD",
-      "quantity": 0.1,
-      "price_usd": 65958.0,
-      "reason": "[RISK] Oversized: 13.1% of portfolio"
-    },
-    {
-      "trade_id": "ALF-554138cf",
-      "timestamp": "2026-03-02T15:58:53.879052+00:00",
-      "action": "SELL",
-      "ticker": "SOL-USD",
-      "quantity": 40.0,
-      "price_usd": 88.36499,
-      "reason": "TARGET AUTO-EXIT: 5.5% gain (threshold 5.0%)"
-    },
-    {
-      "trade_id": "ALF-d551ae57",
-      "timestamp": "2026-03-02T15:58:52.663392+00:00",
-      "action": "SELL",
-      "ticker": "ETH-USD",
-      "quantity": 2.5,
-      "price_usd": 2045.0038,
-      "reason": "TARGET AUTO-EXIT: 5.5% gain (threshold 5.0%)"
     }
   ],
-  "trade_count": 11
+  "trade_count": 14
 }
