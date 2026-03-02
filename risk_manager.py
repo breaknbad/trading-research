@@ -92,6 +92,11 @@ def check_risk(verbose=True):
     total_value = float(portfolio.get("total_value_usd", config.STARTING_CAPITAL))
     cash = float(portfolio.get("cash_usd", 0))
     positions = portfolio.get("open_positions", []) or []
+    if isinstance(positions, str):
+        try:
+            positions = json.loads(positions)
+        except (json.JSONDecodeError, TypeError):
+            positions = []
 
     # 2. Check daily P&L (circuit breaker)
     daily_return_pct = float(portfolio.get("total_return_pct", 0))

@@ -95,7 +95,7 @@ def check_dedup_and_rate_limit(bot_id, action, ticker):
     return True, ""
 
 
-def log_trade(bot_id, action, ticker, qty, price, reason, market=None, stop_price=None):
+def log_trade(bot_id, action, ticker, qty, price, reason, market=None, stop_price=None, risk_override=False):
     prefix = BOT_PREFIXES.get(bot_id, bot_id.upper()[:3])
     trade_id = f"{prefix}-{uuid.uuid4().hex[:8]}"
     if market is None:
@@ -109,11 +109,14 @@ def log_trade(bot_id, action, ticker, qty, price, reason, market=None, stop_pric
             print(f"   Use --stop <price> to set a stop. No stop = no trade.")
             return False
 
-    # GUARD: Dedup + rate limit check
+    # GUARD: Dedup + rate limit check (risk_override bypasses rate limit, not dedup)
     ok, block_reason = check_dedup_and_rate_limit(bot_id, action, ticker)
     if not ok:
-        print(f"❌ {block_reason}")
-        return False
+        if risk_override and "RATE LIMIT" in block_reason:
+            print(f"⚠️  {block_reason} — OVERRIDDEN (risk close)")
+        else:
+            print(f"❌ {block_reason}")
+            return False
 
     # Pre-validate: SELL/COVER require an existing position
     # Uses portfolio_guard for validation + adds trade-level locking via unique constraint

@@ -72,6 +72,12 @@ def execute_open(signal, portfolio, verbose=True):
     total_value = float(portfolio.get("total_value_usd", config.STARTING_CAPITAL))
     cash = float(portfolio.get("cash_usd", 0))
     positions = portfolio.get("open_positions", []) or []
+    if isinstance(positions, str):
+        import json as _json
+        try:
+            positions = _json.loads(positions)
+        except (ValueError, TypeError):
+            positions = []
 
     # Check existing position
     existing_value = 0
@@ -144,7 +150,7 @@ def execute_close(position_info, verbose=True):
     if verbose:
         print(f"  📉 CLOSING: {action} {qty}x {ticker} @ ${current:.2f} - {reason}")
 
-    success = log_trade(config.BOT_ID, action, ticker, qty, current, reason)
+    success = log_trade(config.BOT_ID, action, ticker, qty, current, reason, risk_override=True)
 
     if success:
         risk_manager.save_trade_timestamp()
