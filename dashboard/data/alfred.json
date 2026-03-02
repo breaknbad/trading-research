@@ -1,6 +1,6 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-03-02T14:30:39.048361+00:00",
+  "updated_at": "2026-03-02T15:10:09.040687+00:00",
   "total_value_usd": 50141.76,
   "cash_usd": 14190.12,
   "total_return_pct": 100.57,
@@ -89,6 +89,60 @@
     }
   ],
   "recent_trades": [
+    {
+      "trade_id": "ALF-84b26d6f",
+      "timestamp": "2026-03-02T15:03:16.326169+00:00",
+      "action": "COVER",
+      "ticker": "RNDR-USD",
+      "quantity": 164.0,
+      "price_usd": 6.799348,
+      "reason": "STOP-LOSS AUTO-EXIT: 407.4% drawdown (threshold 2.0%)"
+    },
+    {
+      "trade_id": "ALF-2d639935",
+      "timestamp": "2026-03-02T14:57:47.094739+00:00",
+      "action": "COVER",
+      "ticker": "RNDR-USD",
+      "quantity": 164.0,
+      "price_usd": 6.799348,
+      "reason": "STOP-LOSS AUTO-EXIT: 407.4% drawdown (threshold 2.0%)"
+    },
+    {
+      "trade_id": "ALF-83c932f1",
+      "timestamp": "2026-03-02T14:52:18.688958+00:00",
+      "action": "COVER",
+      "ticker": "RNDR-USD",
+      "quantity": 164.0,
+      "price_usd": 6.799348,
+      "reason": "STOP-LOSS AUTO-EXIT: 407.4% drawdown (threshold 2.0%)"
+    },
+    {
+      "trade_id": "ALF-f124bada",
+      "timestamp": "2026-03-02T14:46:50.927447+00:00",
+      "action": "COVER",
+      "ticker": "RNDR-USD",
+      "quantity": 164.0,
+      "price_usd": 6.799348,
+      "reason": "STOP-LOSS AUTO-EXIT: 407.4% drawdown (threshold 2.0%)"
+    },
+    {
+      "trade_id": "ALF-7a0c9eb1",
+      "timestamp": "2026-03-02T14:41:24.805414+00:00",
+      "action": "COVER",
+      "ticker": "RNDR-USD",
+      "quantity": 164.0,
+      "price_usd": 6.799348,
+      "reason": "STOP-LOSS AUTO-EXIT: 407.4% drawdown (threshold 2.0%)"
+    },
+    {
+      "trade_id": "ALF-8b32080c",
+      "timestamp": "2026-03-02T14:35:57.35992+00:00",
+      "action": "COVER",
+      "ticker": "RNDR-USD",
+      "quantity": 164.0,
+      "price_usd": 6.799348,
+      "reason": "STOP-LOSS AUTO-EXIT: 407.4% drawdown (threshold 2.0%)"
+    },
     {
       "trade_id": "ALF-458fe019",
       "timestamp": "2026-03-02T14:30:34.859454+00:00",
@@ -214,60 +268,6 @@
       "quantity": 130.0,
       "price_usd": 1.54,
       "reason": "Adding DOT on -7% dip, F&G=10 extreme fear, score=4"
-    },
-    {
-      "trade_id": "ALF-c218c10e",
-      "timestamp": "2026-03-02T00:24:50.941461+00:00",
-      "action": "SELL",
-      "ticker": "RNDR-USD",
-      "quantity": 164.0,
-      "price_usd": 1.34,
-      "reason": "Trimming 50% RNDR to free capital for DOT dip (F&G=10, DOT -7%)"
-    },
-    {
-      "trade_id": "ALF-48ccd37b",
-      "timestamp": "2026-03-01T13:39:21.121915+00:00",
-      "action": "BUY",
-      "ticker": "SOL-USD",
-      "quantity": 14.751,
-      "price_usd": 84.74,
-      "reason": "Extreme fear dip-buy (F&G=14). Redeploying BTC trim into SOL"
-    },
-    {
-      "trade_id": "ALF-d5a32fb7",
-      "timestamp": "2026-03-01T13:39:20.497111+00:00",
-      "action": "BUY",
-      "ticker": "ETH-USD",
-      "quantity": 0.6329,
-      "price_usd": 1975.08,
-      "reason": "Extreme fear dip-buy (F&G=14). Redeploying BTC trim into ETH"
-    },
-    {
-      "trade_id": "ALF-c5470b10",
-      "timestamp": "2026-03-01T13:39:11.572435+00:00",
-      "action": "SELL",
-      "ticker": "BTC-USD",
-      "quantity": 0.0377,
-      "price_usd": 66298.0,
-      "reason": "Rebalance: BTC at 46%, trimming to ~36%. F&G=14 extreme fear \u2014 redeploy into ETH/SOL dip"
-    },
-    {
-      "trade_id": "ALF-d78d6eba",
-      "timestamp": "2026-03-01T12:09:27.233102+00:00",
-      "action": "BUY",
-      "ticker": "BTC-USD",
-      "quantity": 0.00196503,
-      "price_usd": 66516.0,
-      "reason": "Extreme fear dip-buy (F&G=14), flight to quality"
-    },
-    {
-      "trade_id": "ALF-7aaaa3c0",
-      "timestamp": "2026-03-01T12:09:21.096631+00:00",
-      "action": "SELL",
-      "ticker": "DOGE-USD",
-      "quantity": 1397.0,
-      "price_usd": 0.093562,
-      "reason": "Trim DOGE in extreme fear (F&G=14) to redeploy into BTC"
     }
   ],
   "trade_count": 6
