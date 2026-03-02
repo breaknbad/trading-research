@@ -198,9 +198,12 @@ def route_signal(ticker, conviction="CONFIRM", side="BUY", reason="Signal bus ro
     # Execute through log_trade (which has dedup + rate limit guards)
     try:
         from log_trade import log_trade
+        # 2% stop rule
+        stop = round(price * 0.98, 2) if side == "BUY" else round(price * 1.02, 2)
         success = log_trade(
             best_bot, side, ticker, qty, price,
-            f"SIGNAL ROUTER: {conviction} signal, routed from bus. {reason}"
+            f"SIGNAL ROUTER: {conviction} signal, routed from bus. {reason}",
+            stop_price=stop
         )
         if success:
             print(f"   ✅ Executed: {best_bot} {side} {qty}x {ticker} @ ${price:.2f}")

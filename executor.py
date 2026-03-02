@@ -102,7 +102,13 @@ def execute_open(signal, portfolio, verbose=True):
     if verbose:
         print(f"  📈 EXECUTING: {action} {shares}x {ticker} @ ${price:.2f} ({size_pct:.1f}% of portfolio)")
 
-    success = log_trade(config.BOT_ID, action, ticker, shares, price, reason)
+    # 2% stop rule: BUY stops 2% below entry, SHORT stops 2% above
+    if action == "BUY":
+        stop_price = round(price * 0.98, 2)
+    else:
+        stop_price = round(price * 1.02, 2)
+
+    success = log_trade(config.BOT_ID, action, ticker, shares, price, reason, stop_price=stop_price)
 
     if success:
         risk_manager.save_trade_timestamp()
