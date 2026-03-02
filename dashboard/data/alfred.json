@@ -1,94 +1,96 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-03-02T15:10:09.040687+00:00",
-  "total_value_usd": 50141.76,
-  "cash_usd": 14190.12,
-  "total_return_pct": 100.57,
+  "updated_at": "2026-03-02T15:40:09.849918+00:00",
+  "total_value_usd": 50802.28,
+  "cash_usd": 17390.4,
+  "total_return_pct": 103.21,
   "positions": [
     {
-      "side": "LONG",
-      "market": "US",
-      "ticker": "ADA-USD",
-      "quantity": 5000.0,
-      "avg_entry": 0.2709,
-      "unrealizedPL": -4.5,
-      "current_price": 0.27,
-      "unrealized_pl": -4.5
-    },
-    {
-      "side": "LONG",
-      "market": "US",
-      "ticker": "AVAX-USD",
-      "quantity": 250.0,
-      "avg_entry": 8.95,
-      "unrealizedPL": 0.0,
-      "current_price": 8.95,
-      "unrealized_pl": 0.0
-    },
-    {
-      "side": "LONG",
-      "market": "US",
       "ticker": "BTC-USD",
-      "quantity": 0.22,
-      "avg_entry": 66301.0909,
-      "currentPrice": 65452.22,
-      "unrealizedPL": -186.75,
-      "current_price": 65452.22,
-      "unrealized_pl": -186.75
+      "quantity": 0.1,
+      "market_value": 6866.2,
+      "current_price": 68662
     },
     {
-      "side": "LONG",
-      "market": "US",
-      "ticker": "DOT-USD",
-      "quantity": 130.0,
-      "avg_entry": 1.54,
-      "unrealizedPL": 0.0,
-      "current_price": 1.54,
-      "unrealized_pl": 0.0
-    },
-    {
-      "side": "LONG",
-      "market": "US",
       "ticker": "ETH-USD",
-      "quantity": 4.5,
-      "avg_entry": 1951.3333,
-      "currentPrice": 1927.7535,
-      "unrealizedPL": -106.11,
-      "current_price": 1927.7535,
-      "unrealized_pl": -106.11
+      "quantity": 2.5,
+      "market_value": 5091.58,
+      "current_price": 2036.63
     },
     {
-      "side": "LONG",
-      "market": "US",
-      "ticker": "LINK-USD",
-      "quantity": 250.0,
-      "avg_entry": 8.66,
-      "unrealizedPL": 0.0,
-      "current_price": 8.66,
-      "unrealized_pl": 0.0
-    },
-    {
-      "side": "SHORT",
-      "market": "US",
-      "ticker": "RNDR-USD",
-      "quantity": 164.0,
-      "avg_entry": 1.34,
-      "unrealizedPL": 0.0,
-      "current_price": 1.34,
-      "unrealized_pl": 0.0
-    },
-    {
-      "side": "LONG",
-      "market": "US",
       "ticker": "SOL-USD",
-      "quantity": 80.0,
-      "avg_entry": 83.815,
-      "unrealizedPL": -0.4,
-      "current_price": 83.81,
-      "unrealized_pl": -0.4
+      "quantity": 40,
+      "market_value": 3514.8,
+      "current_price": 87.87
+    },
+    {
+      "ticker": "LINK-USD",
+      "quantity": 250,
+      "market_value": 2280.0,
+      "current_price": 9.12
+    },
+    {
+      "ticker": "AVAX-USD",
+      "quantity": 250,
+      "market_value": 2340.0,
+      "current_price": 9.36
+    },
+    {
+      "ticker": "ADA-USD",
+      "quantity": 5000,
+      "market_value": 1424.41,
+      "current_price": 0.2849
+    },
+    {
+      "ticker": "GLD",
+      "quantity": 10,
+      "market_value": 4975.0,
+      "current_price": 491.28,
+      "unrealized_pl": 0.0
+    },
+    {
+      "ticker": "XLE",
+      "quantity": 85,
+      "market_value": 4913.0,
+      "current_price": 56.86,
+      "unrealized_pl": 0.0
+    },
+    {
+      "ticker": "SQQQ",
+      "quantity": 30,
+      "market_value": 2175.0,
+      "current_price": 71.63,
+      "unrealized_pl": 0.0
     }
   ],
   "recent_trades": [
+    {
+      "trade_id": "ALFRED-2f5fc34c",
+      "timestamp": "2026-03-02T15:28:50.532325+00:00",
+      "action": "BUY",
+      "ticker": "SQQQ",
+      "quantity": 30.0,
+      "price_usd": 72.5,
+      "reason": "Nasdaq risk-off hedge. Protects crypto longs if reversal. Stop 70.00 (-3.4%)."
+    },
+    {
+      "trade_id": "ALFRED-b247f2dc",
+      "timestamp": "2026-03-02T15:28:50.27635+00:00",
+      "action": "BUY",
+      "ticker": "XLE",
+      "quantity": 85.0,
+      "price_usd": 57.8,
+      "reason": "Oil +8% overnight, Hormuz closure, supply disruption. 2-3 day trade. Stop 56.00 (-3.1%)."
+    },
+    {
+      "trade_id": "ALFRED-00ef717a",
+      "timestamp": "2026-03-02T15:28:50.027104+00:00",
+      "action": "BUY",
+      "ticker": "GLD",
+      "quantity": 10.0,
+      "price_usd": 497.5,
+      "reason": "Gold ATH, Iran/Hormuz crisis, extreme fear F&G=10. Safe haven conviction play. Stop 482 (-3.1%)."
+    },
     {
       "trade_id": "ALF-84b26d6f",
       "timestamp": "2026-03-02T15:03:16.326169+00:00",
@@ -241,34 +243,7 @@
       "quantity": 40.0,
       "price_usd": 83.91,
       "reason": "Tier 3 scout: SOL -3% oversold, biggest dip of the three. Stop 81.40 (-3%), target 88 (+4.9%). Small position, high upside if bounce."
-    },
-    {
-      "trade_id": "ALFRED-678a8940",
-      "timestamp": "2026-03-02T06:13:33.73885+00:00",
-      "action": "BUY",
-      "ticker": "ETH-USD",
-      "quantity": 2.0,
-      "price_usd": 1968.0,
-      "reason": "Tier 2: ETH oversold at 1968, RSI approaching 30. Stop 1910 (-3%), target 2050 (+4.2%)."
-    },
-    {
-      "trade_id": "ALFRED-a4344264",
-      "timestamp": "2026-03-02T06:13:15.161132+00:00",
-      "action": "BUY",
-      "ticker": "BTC-USD",
-      "quantity": 0.12,
-      "price_usd": 66587.0,
-      "reason": "Tier 2: BTC 66K support hold, tariff dip buy. Stop 64.5K, target 69K."
-    },
-    {
-      "trade_id": "ALF-522140f5",
-      "timestamp": "2026-03-02T00:24:58.11313+00:00",
-      "action": "BUY",
-      "ticker": "DOT-USD",
-      "quantity": 130.0,
-      "price_usd": 1.54,
-      "reason": "Adding DOT on -7% dip, F&G=10 extreme fear, score=4"
     }
   ],
-  "trade_count": 6
+  "trade_count": 9
 }
