@@ -1,9 +1,9 @@
 {
   "bot_id": "alfred",
-  "updated_at": "2026-03-02T19:40:12.364032+00:00",
-  "total_value_usd": 50582.33,
+  "updated_at": "2026-03-02T19:45:13.153955+00:00",
+  "total_value_usd": 50499.1,
   "cash_usd": 1732.55,
-  "total_return_pct": 102.33,
+  "total_return_pct": 102.0,
   "positions": [
     {
       "side": "LONG",
@@ -21,10 +21,10 @@
       "ticker": "BTC-USD",
       "quantity": 0.15000000000000002,
       "avg_entry": 67148.3333,
-      "currentPrice": 69030.914,
-      "unrealizedPL": 282.39,
-      "current_price": 69030.914,
-      "unrealized_pl": 282.39
+      "currentPrice": 68852.15,
+      "unrealizedPL": 255.57,
+      "current_price": 68852.15,
+      "unrealized_pl": 255.57
     },
     {
       "side": "LONG",
@@ -32,10 +32,10 @@
       "ticker": "ETH-USD",
       "quantity": 4.0,
       "avg_entry": 1974.375,
-      "currentPrice": 2040.9366,
-      "unrealizedPL": 266.25,
-      "current_price": 2040.9366,
-      "unrealized_pl": 266.25
+      "currentPrice": 2034.2814,
+      "unrealizedPL": 239.63,
+      "current_price": 2034.2814,
+      "unrealized_pl": 239.63
     },
     {
       "side": "LONG",
@@ -44,8 +44,8 @@
       "quantity": 520.0,
       "avg_entry": 9.64,
       "unrealizedPL": 0.0,
-      "current_price": 9.71,
-      "unrealized_pl": 36.4
+      "current_price": 9.65,
+      "unrealized_pl": 5.2
     },
     {
       "side": "LONG",
@@ -63,10 +63,10 @@
       "ticker": "PLTR",
       "quantity": 35.0,
       "avg_entry": 145.5,
-      "currentPrice": 145.42,
-      "unrealizedPL": -2.8,
-      "current_price": 145.35,
-      "unrealized_pl": -5.25
+      "currentPrice": 145.44,
+      "unrealizedPL": -2.1,
+      "current_price": 145.39,
+      "unrealized_pl": -3.85
     },
     {
       "side": "LONG",
@@ -90,6 +90,33 @@
     }
   ],
   "recent_trades": [
+    {
+      "trade_id": "ALF-7c5282aa",
+      "timestamp": "2026-03-02T19:45:07.809766+00:00",
+      "action": "SELL",
+      "ticker": "NEAR-USD",
+      "quantity": 5000.0,
+      "price_usd": 1.33,
+      "reason": "[RISK] Oversized: 13.2% of portfolio"
+    },
+    {
+      "trade_id": "ALF-6a63b78a",
+      "timestamp": "2026-03-02T19:45:07.016122+00:00",
+      "action": "SELL",
+      "ticker": "ETH-USD",
+      "quantity": 4.0,
+      "price_usd": 2034.2814,
+      "reason": "[RISK] Oversized: 16.1% of portfolio"
+    },
+    {
+      "trade_id": "ALF-f2fa74d0",
+      "timestamp": "2026-03-02T19:45:06.199+00:00",
+      "action": "SELL",
+      "ticker": "BTC-USD",
+      "quantity": 0.15000000000000002,
+      "price_usd": 68852.15,
+      "reason": "[RISK] Oversized: 20.5% of portfolio"
+    },
     {
       "trade_id": "ALF-e0bde564",
       "timestamp": "2026-03-02T19:40:06.155672+00:00",
@@ -242,33 +269,6 @@
       "quantity": 520.0,
       "price_usd": 9.64,
       "reason": "Closing session momentum. +7.9% on 46M vol, BTC proxy. 2% stop at 9.45. Target EOD push."
-    },
-    {
-      "trade_id": "ALF-3c792794",
-      "timestamp": "2026-03-02T19:00:05.49769+00:00",
-      "action": "SELL",
-      "ticker": "NEAR-USD",
-      "quantity": 5000.0,
-      "price_usd": 1.33,
-      "reason": "[RISK] Oversized: 13.2% of portfolio"
-    },
-    {
-      "trade_id": "ALF-5fa643b4",
-      "timestamp": "2026-03-02T18:55:05.440962+00:00",
-      "action": "SELL",
-      "ticker": "ETH-USD",
-      "quantity": 4.0,
-      "price_usd": 2036.4473,
-      "reason": "[RISK] Oversized: 16.1% of portfolio"
-    },
-    {
-      "trade_id": "ALF-62b49711",
-      "timestamp": "2026-03-02T18:55:04.69311+00:00",
-      "action": "SELL",
-      "ticker": "BTC-USD",
-      "quantity": 0.15000000000000002,
-      "price_usd": 69116.28,
-      "reason": "[RISK] Oversized: 20.5% of portfolio"
     }
   ],
   "trade_count": 12
