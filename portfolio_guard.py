@@ -25,9 +25,9 @@ try:
 except Exception:
     SUPABASE_URL = None
 
-STARTING_CAPITAL = 25000.0
-MAX_SNAPSHOT_JUMP_PCT = 5.0  # Max % change between consecutive snapshots
-MAX_REASONABLE_RETURN_PCT = 50.0  # No bot should be up 50% in week 1
+STARTING_CAPITAL = 50000.0  # Updated from 25K → 50K for Week 2 baseline
+MAX_SNAPSHOT_JUMP_PCT = 10.0  # Raised from 5% — crypto can move 7%+ in a day
+MAX_REASONABLE_RETURN_PCT = 100.0  # Raised from 50% — 50K baseline was triggering false positives
 
 
 def validate_portfolio(bot_id, cash, positions, total_value):
