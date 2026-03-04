@@ -45,6 +45,22 @@ STOP_PCT_DEFAULT = 2.0  # 2% stop-loss threshold (NORMAL/SURGE regime)
 TARGET_PCT = 5.0  # 5% profit target — auto-take profits
 BOTS = ["alfred", "tars", "vex", "eddie_v"]
 
+# CROSS-BOT EXECUTION GUARD (Mar 4 lesson: Alfred's stop_check liquidated Vex's positions)
+# Only auto-execute stops for LOCAL bot(s). Other bots get ALERT ONLY.
+# Each machine should set this to its own bot IDs.
+import socket
+HOSTNAME = socket.gethostname().lower()
+if "sheridan" in HOSTNAME:  # Alfred's machine
+    LOCAL_BOTS = {"alfred", "alfred_crypto"}
+elif "matthew" in HOSTNAME:  # TARS's machine
+    LOCAL_BOTS = {"tars", "tars_crypto"}
+elif "mark" in HOSTNAME:  # Eddie's machine
+    LOCAL_BOTS = {"eddie_v", "eddie_crypto"}
+elif "kent" in HOSTNAME:  # Vex's machine
+    LOCAL_BOTS = {"vex", "vex_crypto"}
+else:
+    LOCAL_BOTS = set()  # Unknown machine = alert only for everyone
+
 # Glide killer: regime-adaptive stop tightening
 REGIME_STOP_PCT = {
     "SURGE": 2.0,
@@ -267,6 +283,13 @@ def check_stops(bot_id=None):
                     continue
                 action = "SELL" if side == "LONG" else "COVER"
                 print(f"🚨 STOP HIT: {bot} {side} {ticker} — entry ${entry:.2f}, now ${current:.2f}, drawdown {drawdown_pct:.1f}%")
+
+                # CROSS-BOT EXECUTION GUARD (Mar 4 lesson)
+                # Only auto-execute for LOCAL bot. Alert only for other bots.
+                if bot not in LOCAL_BOTS:
+                    print(f"   ⚠️ CROSS-BOT GUARD: {bot} is not local ({LOCAL_BOTS}). ALERT ONLY — not executing.")
+                    stops_hit.append({"bot": bot, "ticker": ticker, "action": "ALERT_ONLY", "price": current, "drawdown": drawdown_pct})
+                    continue
 
                 # Auto-execute via log_trade
                 # PRICE SANITY GATE (SHIL HARDENED 2026-03-04)
