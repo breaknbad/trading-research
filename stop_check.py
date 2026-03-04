@@ -89,8 +89,37 @@ except ImportError:
     HAS_SANITY = False
 
 # Yahoo Finance price fetch (lightweight)
+# CoinGecko ID mapping for tickers that Yahoo gets wrong
+COINGECKO_IDS = {
+    "SUI-USD": "sui", "RENDER-USD": "render-token", "STX-USD": "stacks",
+    "INJ-USD": "injective-protocol", "TIA-USD": "celestia", "SEI-USD": "sei-network",
+    "JUP-USD": "jupiter-exchange-solana", "WIF-USD": "dogwifcoin",
+    "FET-USD": "artificial-superintelligence-alliance",
+    "ARB-USD": "arbitrum", "OP-USD": "optimism", "NEAR-USD": "near",
+    "APT-USD": "aptos", "BONK-USD": "bonk",
+}
+
+
+def get_price_coingecko(ticker):
+    """Fallback price from CoinGecko for tickers Yahoo gets wrong."""
+    cg_id = COINGECKO_IDS.get(ticker)
+    if not cg_id:
+        return None
+    try:
+        url = f"https://api.coingecko.com/api/v3/simple/price?ids={cg_id}&vs_currencies=usd"
+        r = requests.get(url, timeout=5)
+        if r.status_code == 200:
+            data = r.json()
+            price = float(data.get(cg_id, {}).get("usd", 0))
+            if price > 0:
+                return price
+    except Exception:
+        pass
+    return None
+
+
 def get_price(ticker):
-    """Get current price from Yahoo Finance. Returns None if insane."""
+    """Get current price from Yahoo Finance, with CoinGecko fallback. Returns None if insane."""
     try:
         url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1m&range=1d"
         headers = {"User-Agent": "Mozilla/5.0"}
@@ -104,10 +133,20 @@ def get_price(ticker):
                 is_sane, reason = sanity_check(ticker, price)
                 if not is_sane:
                     print(f"⚠️ PRICE SANITY REJECTED for {ticker}: {reason}")
+                    # Try CoinGecko fallback before giving up
+                    cg_price = get_price_coingecko(ticker)
+                    if cg_price:
+                        print(f"   ✅ CoinGecko fallback: {ticker} = ${cg_price}")
+                        return cg_price
                     return None
             return price if price > 0 else None
     except Exception:
         pass
+    # Yahoo failed entirely — try CoinGecko
+    cg_price = get_price_coingecko(ticker)
+    if cg_price:
+        print(f"   ✅ CoinGecko fallback (Yahoo down): {ticker} = ${cg_price}")
+        return cg_price
     return None
 
 
