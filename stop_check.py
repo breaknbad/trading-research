@@ -137,7 +137,21 @@ def check_stops(bot_id=None):
             if entry <= 0 or qty <= 0:
                 continue
 
-            current = get_price(ticker)
+            # Normalize bare crypto tickers → Yahoo format (BTC → BTC-USD)
+            CRYPTO_BARE = {"BTC", "ETH", "SOL", "LINK", "DOGE", "SUI", "AVAX", "ADA",
+                           "NEAR", "APT", "RENDER", "STX", "MATIC", "DOT", "INJ", "JUP",
+                           "SEI", "TIA", "ARB", "OP", "RNDR", "FET", "WIF", "BONK"}
+            yahoo_ticker = ticker
+            if ticker in CRYPTO_BARE:
+                yahoo_ticker = f"{ticker}-USD"
+            # Strip -USD suffix from equity tickers that got tagged wrong
+            EQUITY_TICKERS = {"GDX", "GLD", "XLE", "ROST", "COIN", "HOOD", "AMD",
+                              "INTC", "NVDA", "TSLA", "PLTR", "MRNA", "SQQQ"}
+            bare = ticker.replace("-USD", "")
+            if bare in EQUITY_TICKERS and ticker.endswith("-USD"):
+                yahoo_ticker = bare
+
+            current = get_price(yahoo_ticker)
             if current is None:
                 continue
 
