@@ -1,0 +1,23 @@
+{
+  "lastHeartbeat": "2026-03-04T22:35:00Z",
+  "fund_value": 50341,
+  "lastChecks": {
+    "market_sync": "2026-03-04T22:33:00Z",
+    "reconciliation": "2026-03-04T22:33:00Z",
+    "failure_analysis": "2026-03-04T22:30:00Z"
+  },
+  "activePositions": {
+    "SOL-USD": {"qty": 93.33, "avg_entry": 90.34, "cost_basis": 8431.55},
+    "ETH-USD": {"qty": 1.9, "entry": 1973.0, "cost_basis": 3748.70},
+    "SUI-USD": {"qty": 2928, "entry": 0.911, "cost_basis": 2667.41},
+    "INTC": {"qty": 80, "entry": 45.58, "cost_basis": 3646.40},
+    "ROST": {"qty": 5, "entry": 211.90, "cost_basis": 1059.50},
+    "MRNA": {"qty": 9, "entry": 54.83, "cost_basis": 493.43}
+  },
+  "cash": 29953,
+  "deployed_pct": 40,
+  "positions_count": 6,
+  "total_deployed_cost": 20047,
+  "notes": "BTC position lost in migration chaos. GDX/GLD/XLE legitimately sold. Bare-ticker phantom positions cleaned. See memory/2026-03-04-failure-analysis.md",
+  "updatedAt": "2026-03-04T22:35:00Z"
+}
