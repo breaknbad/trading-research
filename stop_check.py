@@ -11,7 +11,9 @@ Usage:
 
 import argparse
 import json
+import os
 import sys
+import time
 import requests
 from datetime import datetime, timezone
 
@@ -23,13 +25,72 @@ HEADERS = {
     "Content-Type": "application/json",
 }
 
-STOP_PCT = 2.0  # 2% stop-loss threshold
+# Retry helper for Supabase calls
+def supabase_get(url, params, max_retries=3, backoff_s=2):
+    """GET with retry + exponential backoff."""
+    for attempt in range(max_retries):
+        try:
+            r = requests.get(url, params=params, headers=HEADERS, timeout=10)
+            if r.status_code == 200:
+                return r
+            print(f"⚠️ Supabase GET attempt {attempt+1}/{max_retries} failed: HTTP {r.status_code}")
+        except requests.exceptions.RequestException as e:
+            print(f"⚠️ Supabase GET attempt {attempt+1}/{max_retries} error: {e}")
+        if attempt < max_retries - 1:
+            time.sleep(backoff_s * (2 ** attempt))
+    print(f"❌ Supabase GET failed after {max_retries} attempts")
+    return None
+
+STOP_PCT_DEFAULT = 2.0  # 2% stop-loss threshold (NORMAL/SURGE regime)
 TARGET_PCT = 5.0  # 5% profit target — auto-take profits
 BOTS = ["alfred", "tars", "vex", "eddie_v"]
 
+# Glide killer: regime-adaptive stop tightening
+REGIME_STOP_PCT = {
+    "SURGE": 2.0,
+    "NORMAL": 1.5,
+    "FADING": 1.0,
+    "DEAD": 0.5,
+}
+
+def get_regime_stop_pct():
+    """Read volume regime and return appropriate stop %. THIS is the glide killer."""
+    regime_file = "/Users/sheridanskala/.openclaw/workspace/logs/volume_regime.json"
+    try:
+        with open(regime_file, 'r') as f:
+            regime = json.load(f)
+        # Stale check: if regime data is >30 min old, use default
+        from datetime import timedelta
+        updated = datetime.fromisoformat(regime["updated_at"])
+        if datetime.now() - updated > timedelta(minutes=30):
+            return STOP_PCT_DEFAULT, "STALE"
+        regime_key = regime.get("regime", "NORMAL")
+        stop_pct = REGIME_STOP_PCT.get(regime_key, STOP_PCT_DEFAULT)
+        if regime.get("glide_killer_active"):
+            print(f"🔪 GLIDE KILLER ACTIVE — stops tightened to {stop_pct}% (regime: {regime_key})")
+        return stop_pct, regime_key
+    except (FileNotFoundError, json.JSONDecodeError, KeyError):
+        return STOP_PCT_DEFAULT, "DEFAULT"
+
+# Price sanity gate import
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
+try:
+    from reentry_trigger import record_stop
+    HAS_REENTRY = True
+except ImportError:
+    HAS_REENTRY = False
+
+try:
+    from price_sanity_gate import validate_price as sanity_check
+    HAS_SANITY = True
+except ImportError:
+    HAS_SANITY = False
+
 # Yahoo Finance price fetch (lightweight)
 def get_price(ticker):
-    """Get current price from Yahoo Finance."""
+    """Get current price from Yahoo Finance. Returns None if insane."""
     try:
         url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1m&range=1d"
         headers = {"User-Agent": "Mozilla/5.0"}
@@ -37,7 +98,14 @@ def get_price(ticker):
         if r.status_code == 200:
             data = r.json()
             meta = data.get("chart", {}).get("result", [{}])[0].get("meta", {})
-            return float(meta.get("regularMarketPrice", 0))
+            price = float(meta.get("regularMarketPrice", 0))
+            # PRICE SANITY CHECK — reject garbage prices
+            if HAS_SANITY and price > 0:
+                is_sane, reason = sanity_check(ticker, price)
+                if not is_sane:
+                    print(f"⚠️ PRICE SANITY REJECTED for {ticker}: {reason}")
+                    return None
+            return price if price > 0 else None
     except Exception:
         pass
     return None
@@ -47,14 +115,15 @@ def check_stops(bot_id=None):
     """Check all positions for stop-loss breaches."""
     bots_to_check = [bot_id] if bot_id else BOTS
     stops_hit = []
+    STOP_PCT, current_regime = get_regime_stop_pct()
+    print(f"📊 Stop threshold: {STOP_PCT}% (regime: {current_regime})")
 
     for bot in bots_to_check:
-        r = requests.get(
+        r = supabase_get(
             f"{SUPABASE_URL}/rest/v1/portfolio_snapshots",
             params={"bot_id": f"eq.{bot}", "select": "open_positions,cash_usd"},
-            headers=HEADERS,
         )
-        if r.status_code != 200 or not r.json():
+        if r is None or not r.json():
             continue
 
         positions = r.json()[0].get("open_positions", []) or []
@@ -72,11 +141,41 @@ def check_stops(bot_id=None):
             if current is None:
                 continue
 
-            # Calculate drawdown based on side
-            if side == "LONG":
-                drawdown_pct = ((entry - current) / entry) * 100
-            else:  # SHORT
-                drawdown_pct = ((current - entry) / entry) * 100
+            # Check if trailing stop system is managing this position
+            trail_state_path = os.path.join(os.path.dirname(__file__), "..", "logs", "trailing_stop_state.json")
+            trailing_stop = None
+            try:
+                if os.path.exists(trail_state_path):
+                    with open(trail_state_path, 'r') as _tf:
+                        _ts = json.load(_tf)
+                    _key = f"{bot}:{ticker}:{side}"
+                    if _key in _ts and _ts[_key].get("trailing_stop") is not None:
+                        trailing_stop = float(_ts[_key]["trailing_stop"])
+            except Exception:
+                pass
+
+            # If trailing stop is active, use IT instead of fixed 2%
+            if trailing_stop is not None:
+                if side == "LONG" and current <= trailing_stop:
+                    drawdown_pct = STOP_PCT + 1  # force trigger
+                elif side == "SHORT" and current >= trailing_stop:
+                    drawdown_pct = STOP_PCT + 1
+                elif side == "LONG":
+                    # Positive = below trail (bad), negative = above trail (safe)
+                    drawdown_pct = ((trailing_stop - current) / trailing_stop) * 100
+                else:
+                    # SHORT: positive = above trail (bad), negative = below trail (safe)
+                    drawdown_pct = ((current - trailing_stop) / trailing_stop) * 100
+                # Skip the fixed % check below — trailing stop manages this position
+                if drawdown_pct < STOP_PCT:
+                    continue  # trailing stop not hit, skip fixed stop check
+
+            # Calculate drawdown based on side (fixed stop for non-trailed positions)
+            if trailing_stop is None:
+                if side == "LONG":
+                    drawdown_pct = ((entry - current) / entry) * 100
+                else:  # SHORT
+                    drawdown_pct = ((current - entry) / entry) * 100
 
             # TARGET CHECK: 5%+ gain = take profits (20-sec rule)
             if side == "LONG":
@@ -85,6 +184,11 @@ def check_stops(bot_id=None):
                 gain_pct = ((entry - current) / entry) * 100
 
             if gain_pct >= TARGET_PCT:
+                # DISABLED 2026-03-04: Auto-profit-take disabled pending review.
+                # Pyramid scaler + manual scale-outs handle profit-taking now.
+                # Re-enable only after SHIL review confirms logic is correct.
+                print(f"📊 TARGET REACHED (no auto-exit): {bot} {side} {ticker} — entry ${entry:.2f}, now ${current:.2f}, gain {gain_pct:.1f}%")
+                continue
                 action = "SELL" if side == "LONG" else "COVER"
                 print(f"🎯 TARGET HIT: {bot} {side} {ticker} — entry ${entry:.2f}, now ${current:.2f}, gain {gain_pct:.1f}%")
                 try:
@@ -103,10 +207,21 @@ def check_stops(bot_id=None):
                 continue  # Don't also check stop on same position
 
             if drawdown_pct >= STOP_PCT:
+                # SAFETY GUARD (2026-03-04): Never sell a profitable position as a "stop loss"
+                # This catches the inverted P&L bug that liquidated TARS's winners
+                if gain_pct > 0:
+                    print(f"⚠️ STOP GUARD: {bot} {side} {ticker} — drawdown calc says {drawdown_pct:.1f}% but position is PROFITABLE ({gain_pct:.1f}%). SKIPPING. Likely inverted P&L bug.")
+                    continue
                 action = "SELL" if side == "LONG" else "COVER"
                 print(f"🚨 STOP HIT: {bot} {side} {ticker} — entry ${entry:.2f}, now ${current:.2f}, drawdown {drawdown_pct:.1f}%")
 
                 # Auto-execute via log_trade
+                # PRICE SANITY GATE (SHIL HARDENED 2026-03-04)
+                from price_sanity import validate_price
+                pcheck = validate_price(ticker, current, entry)
+                if not pcheck['valid']:
+                    print(f'   🚫 PRICE SANITY BLOCKED stop-sell: {pcheck["reason"]}')
+                    continue
                 try:
                     from log_trade import log_trade
                     success = log_trade(
@@ -116,6 +231,12 @@ def check_stops(bot_id=None):
                     if success:
                         print(f"   ✅ Auto-executed: {action} {qty}x {ticker} @ ${current:.2f}")
                         stops_hit.append({"bot": bot, "ticker": ticker, "action": action, "price": current, "drawdown": drawdown_pct})
+                        # Register for re-entry monitoring
+                        if HAS_REENTRY:
+                            try:
+                                record_stop(bot, ticker, side, entry, qty)
+                            except Exception:
+                                pass
                     else:
                         print(f"   ❌ Auto-execute failed for {ticker}")
                 except Exception as e:
@@ -136,12 +257,11 @@ def check_stops(bot_id=None):
 
 def check_heat_cap(bot_id):
     """Check total portfolio heat (sum of all position risk at stop level). Cap: 6%."""
-    r = requests.get(
+    r = supabase_get(
         f"{SUPABASE_URL}/rest/v1/portfolio_snapshots",
         params={"bot_id": f"eq.{bot_id}", "select": "open_positions,total_value_usd"},
-        headers=HEADERS,
     )
-    if r.status_code != 200 or not r.json():
+    if r is None or not r.json():
         return
 
     data = r.json()[0]
@@ -159,7 +279,7 @@ def check_heat_cap(bot_id):
             continue
         # Heat = position_size * stop_distance (2% default)
         position_value = qty * entry
-        heat = position_value * (STOP_PCT / 100)
+        heat = position_value * (STOP_PCT_DEFAULT / 100)
         total_heat += heat
 
     heat_pct = (total_heat / total_value) * 100
@@ -172,10 +292,14 @@ def check_heat_cap(bot_id):
 def is_market_hours():
     """Check if within US market hours (9:30 AM - 4:00 PM ET)."""
     from datetime import timedelta
-    # ET = UTC-5 (EST) or UTC-4 (EDT). Approximate with UTC-5 for now.
+    import subprocess
     now_utc = datetime.now(timezone.utc)
-    et_offset = timezone(timedelta(hours=-5))
-    now_et = now_utc.astimezone(et_offset)
+    # Use system timezone (machine is in America/Indianapolis = ET)
+    try:
+        now_et = datetime.now()
+    except Exception:
+        et_offset = timezone(timedelta(hours=-5))
+        now_et = now_utc.astimezone(et_offset)
     market_open = now_et.replace(hour=9, minute=30, second=0, microsecond=0)
     market_close = now_et.replace(hour=16, minute=0, second=0, microsecond=0)
     weekday = now_et.weekday()
@@ -188,8 +312,7 @@ if __name__ == "__main__":
     parser.add_argument("--force", action="store_true", help="Run even outside market hours")
     args = parser.parse_args()
 
-    if not args.force and not is_market_hours():
-        print("Market closed. Use --force to run anyway.")
-        sys.exit(0)
-
+    # Always run — crypto is 24/7, stops must be checked around the clock.
+    # Market hours check removed. Equity positions still have stops that need
+    # monitoring even after hours (gap risk on next open).
     check_stops(args.bot)
