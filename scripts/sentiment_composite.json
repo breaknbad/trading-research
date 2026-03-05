@@ -1,0 +1,21 @@
+{
+  "composite_score": 25.5,
+  "regime": "FEAR",
+  "components": {
+    "fng": 22,
+    "momentum": {
+      "momentum_score": 28.2,
+      "mcap_change_24h": -2.18,
+      "btc_dominance": 57.1
+    },
+    "btc_trend": null
+  },
+  "weights_used": {
+    "fng": 0.3,
+    "momentum": 0.4
+  },
+  "sources_available": 2,
+  "updated_at": "2026-03-05T21:21:45.740020+00:00",
+  "delta_from_last": -42.5,
+  "trend": "DETERIORATING"
+}

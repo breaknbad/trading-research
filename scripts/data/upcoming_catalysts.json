@@ -1,0 +1,33 @@
+{
+  "last_updated": "2026-03-01T21:55:21.626581",
+  "window": {
+    "start": "2026-03-01",
+    "end": "2026-03-15"
+  },
+  "events": [
+    {
+      "date": "2026-03-06",
+      "type": "jobs",
+      "ticker": null,
+      "description": "February 2026 Jobs Report (BLS)"
+    },
+    {
+      "date": "2026-03-06",
+      "type": "opex",
+      "ticker": null,
+      "description": "Weekly Options Expiry"
+    },
+    {
+      "date": "2026-03-11",
+      "type": "cpi",
+      "ticker": null,
+      "description": "February 2026 CPI Release"
+    },
+    {
+      "date": "2026-03-13",
+      "type": "opex",
+      "ticker": null,
+      "description": "Weekly Options Expiry"
+    }
+  ]
+}
