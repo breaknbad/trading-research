@@ -1,0 +1,68 @@
+{
+  "lastUpdated": "2026-03-04T13:00:07.611086+00:00",
+  "positions": [
+    {
+      "trade_id": "ALF-68a1072f",
+      "bot_id": "alfred",
+      "ticker": "ETH-USD",
+      "side": "BUY",
+      "quantity": 4.0,
+      "entry_price": 1974,
+      "market": "CRYPTO",
+      "status": "OPEN",
+      "current_price": 2053.36,
+      "unrealized_pl": 317.44,
+      "unrealized_pl_pct": 4.02
+    },
+    {
+      "trade_id": "ALF-3ba2b4ab",
+      "bot_id": "alfred",
+      "ticker": "BTC-USD",
+      "side": "BUY",
+      "quantity": 0.19,
+      "entry_price": 68038,
+      "market": "CRYPTO",
+      "status": "OPEN",
+      "current_price": 71306,
+      "unrealized_pl": 620.92,
+      "unrealized_pl_pct": 4.8
+    },
+    {
+      "trade_id": "ALF-a3cb4619",
+      "bot_id": "alfred",
+      "ticker": "NEAR-USD",
+      "side": "BUY",
+      "quantity": 8100,
+      "entry_price": 1.35,
+      "market": "CRYPTO",
+      "status": "OPEN",
+      "current_price": 1.33,
+      "unrealized_pl": -162.0,
+      "unrealized_pl_pct": -1.48
+    },
+    {
+      "trade_id": "ALF-6e4ab1a3",
+      "bot_id": "alfred",
+      "ticker": "APT-USD",
+      "side": "BUY",
+      "quantity": 7914,
+      "entry_price": 0.995,
+      "market": "CRYPTO",
+      "status": "OPEN",
+      "current_price": null,
+      "price_status": "stale",
+      "unrealized_pl": null,
+      "unrealized_pl_pct": null
+    }
+  ],
+  "signals": [],
+  "pendingOrders": [],
+  "cashBalance": null,
+  "summary": {
+    "total_positions": 4,
+    "priced": 3,
+    "stale": 1,
+    "total_unrealized_pl": 776.36
+  },
+  "notes": "Synced 4 positions (3 priced, 1 stale). Total unrealized P&L: $+776.36"
+}

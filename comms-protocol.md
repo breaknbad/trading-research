@@ -35,6 +35,14 @@ When complete, the receiving bot replies in the same thread:
 - **Single-round limit.** A handoff cannot trigger another handoff. If the task requires a second hop, escalate to a human.
 - **Same-thread rule.** Handoff conversations stay in the thread where they started.
 
+## Bias to Action
+- **Do not ask — do.** If you have enough context to make a decision, make it and execute.
+- Stop waiting for human approval on protocols, configs, scripts, or trade parameters.
+- If something needs building, build it. If something needs fixing, fix it.
+- Solve problems yourselves first. 99% of the time you have what you need.
+- When you genuinely cannot proceed: escalate to Mark (preferred), Matthew, or Donna.
+- Mark gives direction, not implementation details — frame escalations as decisions, not tech questions.
+
 ## 3. Deference Rules
 
 1. If a human mentions a specific bot, only that bot responds.

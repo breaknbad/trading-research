@@ -1,0 +1,408 @@
+{
+  "alfred:SQQQ:LONG": {
+    "original_qty": 40.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "tars:BTC-USD:LONG": {
+    "original_qty": 0.555,
+    "tier_1_done": true,
+    "tier_2_done": false,
+    "trailing_stop": 67334.0,
+    "highest_profit_atr": 2.097944334356251
+  },
+  "tars:ETH-USD:LONG": {
+    "original_qty": 5.0,
+    "tier_1_done": true,
+    "tier_2_done": false,
+    "trailing_stop": 1952.0,
+    "highest_profit_atr": 1.6234790231890766
+  },
+  "tars:NEAR-USD:LONG": {
+    "original_qty": 800.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.6108005249986558
+  },
+  "tars:SQQQ:LONG": {
+    "original_qty": 35.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "vex:BTC-USD:LONG": {
+    "original_qty": 0.409,
+    "tier_1_done": true,
+    "tier_2_done": false,
+    "trailing_stop": 67200.0,
+    "highest_profit_atr": 2.2095998191859305
+  },
+  "vex:ETH-USD:LONG": {
+    "original_qty": 6.26,
+    "tier_1_done": true,
+    "tier_2_done": true,
+    "trailing_stop": 2060.920548,
+    "highest_profit_atr": 2.563996284152022
+  },
+  "vex:SOL-USD:LONG": {
+    "original_qty": 93.33,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.5965658898715146
+  },
+  "vex:SQQQ:LONG": {
+    "original_qty": 13.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "eddie_v:NVDA:SHORT": {
+    "original_qty": 13.0,
+    "tier_1_done": true,
+    "tier_2_done": false,
+    "trailing_stop": 187.5,
+    "highest_profit_atr": 1.6550958067203527
+  },
+  "eddie_v:SQQQ:LONG": {
+    "original_qty": 56.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.19555372581309433
+  },
+  "eddie_v:SUI-USD:LONG": {
+    "original_qty": 2206.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "eddie_v:SOL-USD:LONG": {
+    "original_qty": 189.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.2930481262139876
+  },
+  "eddie_v:BTC-USD:LONG": {
+    "original_qty": 0.438,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.1516305449583137
+  },
+  "eddie_v:APT-USD:LONG": {
+    "original_qty": 1996.5131,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "eddie_v:AVAX-USD:LONG": {
+    "original_qty": 220.6,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 1.1466115572367874
+  },
+  "eddie_v:DOT-USD:LONG": {
+    "original_qty": 1320.6494,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 1.0787610319787249
+  },
+  "alfred:APT-USD:LONG": {
+    "original_qty": 7914.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "alfred:BTC-USD:LONG": {
+    "original_qty": 0.19,
+    "tier_1_done": true,
+    "tier_2_done": false,
+    "trailing_stop": 68036.8421,
+    "highest_profit_atr": 1.8220157341588574
+  },
+  "alfred:ETH-USD:LONG": {
+    "original_qty": 4.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 1.3600141351307566
+  },
+  "alfred:NEAR-USD:LONG": {
+    "original_qty": 8100.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.47712297026017403
+  },
+  "eddie_v:ETH-USD:LONG": {
+    "original_qty": 3.4215,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.09392544791250305
+  },
+  "eddie_v:NEAR-USD:LONG": {
+    "original_qty": 23999.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.2847634564320986
+  },
+  "eddie_v:ARB-USD:LONG": {
+    "original_qty": 323977.6963,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "eddie_v:RNDR-USD:LONG": {
+    "original_qty": 1450.8543,
+    "tier_1_done": true,
+    "tier_2_done": true,
+    "trailing_stop": 6.632162699999999,
+    "highest_profit_atr": 31.66272060203419
+  },
+  "tars:AAVE-USD:LONG": {
+    "original_qty": 9.2804,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.08419041314668692
+  },
+  "vex:BTC:LONG": {
+    "original_qty": 0.193468,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "vex:ETH:LONG": {
+    "original_qty": 2.8365839999999998,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "vex:ROST:LONG": {
+    "original_qty": 10.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.31735630031829115
+  },
+  "tars:SOL-USD:LONG": {
+    "original_qty": 98.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.3276585707364656
+  },
+  "eddie_v:TSLA:LONG": {
+    "original_qty": 2.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.26456322571162494
+  },
+  "eddie_v:SPY:LONG": {
+    "original_qty": 15.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "eddie_v:GLD:LONG": {
+    "original_qty": 50.0,
+    "tier_1_done": true,
+    "tier_2_done": true,
+    "trailing_stop": 466.328445,
+    "highest_profit_atr": 33.456052934885385
+  },
+  "eddie_v:QQQ:LONG": {
+    "original_qty": 15.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "vex:GDX:LONG": {
+    "original_qty": 27.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "vex:GLD:LONG": {
+    "original_qty": 10.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "vex:MRNA:LONG": {
+    "original_qty": 18.0,
+    "tier_1_done": true,
+    "tier_2_done": true,
+    "trailing_stop": 56.289500000000004,
+    "highest_profit_atr": 3.1302008909809156
+  },
+  "vex:SUI:LONG": {
+    "original_qty": 2928.0,
+    "tier_1_done": true,
+    "tier_2_done": true,
+    "trailing_stop": 125.12,
+    "highest_profit_atr": 12.446775092936804
+  },
+  "vex:XLE:LONG": {
+    "original_qty": 80.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "alfred:SOL-USD:LONG": {
+    "original_qty": 36.4,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "vex:GDX-USD:LONG": {
+    "original_qty": 27.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "vex:GLD-USD:LONG": {
+    "original_qty": 10.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "vex:SUI-USD:LONG": {
+    "original_qty": 2928.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "tars:LINK-USD:LONG": {
+    "original_qty": 300.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.28006522595666944
+  },
+  "alfred:GDX:LONG": {
+    "original_qty": 20.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.05496052225901105
+  },
+  "tars:DOGE-USD:LONG": {
+    "original_qty": 40928.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.2982880475752764
+  },
+  "alfred:ROST:LONG": {
+    "original_qty": 15.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.04043538566424588
+  },
+  "vex:INTC:LONG": {
+    "original_qty": 80.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.35659926070885295
+  },
+  "vex:STX:LONG": {
+    "original_qty": 10.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.13619357093846668
+  },
+  "alfred:COIN:LONG": {
+    "original_qty": 10.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.20982986767485542
+  },
+  "eddie_v:ADA-USD:LONG": {
+    "original_qty": 7142.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.6386380968781469
+  },
+  "eddie_v:HOOD:LONG": {
+    "original_qty": 50.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.4008209585898821
+  },
+  "eddie_v:COIN:LONG": {
+    "original_qty": 40.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.20887975236879844
+  },
+  "eddie_v:LINK-USD:LONG": {
+    "original_qty": 500.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.19336363103227672
+  },
+  "eddie_v:AMD:LONG": {
+    "original_qty": 15.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.10080545535405265
+  },
+  "alfred:LINK-USD:LONG": {
+    "original_qty": 250.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "alfred:RENDER-USD:LONG": {
+    "original_qty": 2193.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "eddie_v:DOGE-USD:LONG": {
+    "original_qty": 753.2431,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.01248510673683832
+  }
+}

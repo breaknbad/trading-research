@@ -1,0 +1,11 @@
+[
+  {
+    "bot": "alfred",
+    "ticker": "LINK-USD",
+    "side": "LONG",
+    "pnl_pct": -2.15,
+    "threshold": -1.5,
+    "message": "\u26a0\ufe0f APPROACHING STOP: alfred LONG LINK-USD at -2.2% \u2014 review thesis",
+    "timestamp": "2026-03-05T01:47:56.342264+00:00"
+  }
+]

@@ -35,6 +35,12 @@
 - -5% daily circuit breaker
 - 2% trailing stop default (regime-adjusted)
 
+## Launchd Cache Rule
+- After editing ANY Python script that launchd runs, ALWAYS clear `.pyc` cache:
+  `find ~/.openclaw/workspace/scripts -name "*.pyc" -delete`
+- Then reload: `launchctl unload/load` the plist
+- Then verify the output matches the new code
+
 ## Stop Enforcement
 - stop_check.py runs every 60s, 24/7
 - CoinGecko fallback for Yahoo failures

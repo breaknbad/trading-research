@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-03-04T06:18:27.687773",
+  "date": "2026-03-04",
+  "caught": [],
+  "missed": [
+    {
+      "ticker": "SOL-USD",
+      "move_pct": 7.56,
+      "price": 90.36,
+      "had_position": false,
+      "status": "\u274c MISSED",
+      "potential_gain_pct": 7.56
+    },
+    {
+      "ticker": "BTC-USD",
+      "move_pct": 6.95,
+      "price": 71434,
+      "had_position": false,
+      "status": "\u274c MISSED",
+      "potential_gain_pct": 6.95
+    },
+    {
+      "ticker": "LINK-USD",
+      "move_pct": 6.63,
+      "price": 9.21,
+      "had_position": false,
+      "status": "\u274c MISSED",
+      "potential_gain_pct": 6.63
+    },
+    {
+      "ticker": "ETH-USD",
+      "move_pct": 6.22,
+      "price": 2074.51,
+      "had_position": false,
+      "status": "\u274c MISSED",
+      "potential_gain_pct": 6.22
+    },
+    {
+      "ticker": "XRP-USD",
+      "move_pct": 4.23,
+      "price": 1.41,
+      "had_position": false,
+      "status": "\u274c MISSED",
+      "potential_gain_pct": 4.23
+    },
+    {
+      "ticker": "AVAX-USD",
+      "move_pct": 4.2,
+      "price": 9.36,
+      "had_position": false,
+      "status": "\u274c MISSED",
+      "potential_gain_pct": 4.2
+    },
+    {
+      "ticker": "DOT-USD",
+      "move_pct": 3.94,
+      "price": 1.55,
+      "had_position": false,
+      "status": "\u274c MISSED",
+      "potential_gain_pct": 3.94
+    },
+    {
+      "ticker": "DOGE-USD",
+      "move_pct": 3.51,
+      "price": 0.092953,
+      "had_position": false,
+      "status": "\u274c MISSED",
+      "potential_gain_pct": 3.51
+    }
+  ],
+  "total_movers": 8,
+  "catch_rate_pct": 0.0,
+  "biggest_miss": {
+    "ticker": "SOL-USD",
+    "move_pct": 7.56,
+    "price": 90.36,
+    "had_position": false,
+    "status": "\u274c MISSED",
+    "potential_gain_pct": 7.56
+  },
+  "total_missed_alpha_pct": 43.24
+}

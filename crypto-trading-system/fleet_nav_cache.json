@@ -1,0 +1,11 @@
+{
+  "fleet_nav": 100000.0,
+  "bot_navs": {
+    "alfred_crypto": 25000.0,
+    "tars_crypto": 25000.0,
+    "vex_crypto": 25000.0,
+    "eddie_crypto": 25000.0
+  },
+  "source": "supabase",
+  "timestamp": "2026-03-01T23:11:18.741676+00:00"
+}

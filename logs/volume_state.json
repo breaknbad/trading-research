@@ -1,0 +1,256 @@
+{
+  "last_regime": "\ud83d\udfe1 NORMAL",
+  "morning_avg_rvol": 1.423244087416435,
+  "checks": [
+    {
+      "time": "2026-03-04T11:03:29.233916",
+      "avg_rvol": 1.249,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T11:18:31.402626",
+      "avg_rvol": 1.216,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T11:33:34.386694",
+      "avg_rvol": 1.195,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T11:48:36.425374",
+      "avg_rvol": 1.174,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T12:03:38.717086",
+      "avg_rvol": 1.146,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T12:18:41.119256",
+      "avg_rvol": 1.118,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T12:33:43.596531",
+      "avg_rvol": 1.112,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T12:48:45.938627",
+      "avg_rvol": 1.099,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T13:03:47.996630",
+      "avg_rvol": 1.079,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T13:18:49.974250",
+      "avg_rvol": 1.071,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T13:33:51.906166",
+      "avg_rvol": 1.059,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T13:48:54.666201",
+      "avg_rvol": 1.046,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T14:03:56.651974",
+      "avg_rvol": 1.033,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T14:18:59.364030",
+      "avg_rvol": 1.03,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T14:34:01.397265",
+      "avg_rvol": 1.03,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T14:49:03.730046",
+      "avg_rvol": 1.025,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T15:04:05.744310",
+      "avg_rvol": 1.021,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T15:19:08.012254",
+      "avg_rvol": 1.015,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T15:34:10.125806",
+      "avg_rvol": 1.015,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T15:49:12.672755",
+      "avg_rvol": 1.013,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T16:04:15.247766",
+      "avg_rvol": 1.29,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T16:19:16.815265",
+      "avg_rvol": 1.297,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T16:34:18.366869",
+      "avg_rvol": 1.296,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T16:49:19.571788",
+      "avg_rvol": 1.304,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T17:04:20.829447",
+      "avg_rvol": 1.305,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T17:19:22.170472",
+      "avg_rvol": 1.305,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T17:34:23.292200",
+      "avg_rvol": 1.306,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T17:49:24.342488",
+      "avg_rvol": 1.303,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T18:04:25.516002",
+      "avg_rvol": 1.306,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T18:19:26.713359",
+      "avg_rvol": 1.306,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T18:34:28.119785",
+      "avg_rvol": 1.423,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T18:50:13.814085",
+      "avg_rvol": 1.312,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T19:05:14.843431",
+      "avg_rvol": 1.286,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T19:20:15.962473",
+      "avg_rvol": 1.284,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T19:35:17.117968",
+      "avg_rvol": 1.284,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T19:37:50.147526",
+      "avg_rvol": 1.284,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T19:37:54.239236",
+      "avg_rvol": 1.284,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T19:52:55.345213",
+      "avg_rvol": 1.283,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T20:07:56.521800",
+      "avg_rvol": 1.278,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T20:22:58.133544",
+      "avg_rvol": 1.278,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T20:37:59.516204",
+      "avg_rvol": 1.276,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T20:53:00.658133",
+      "avg_rvol": 1.279,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T21:08:01.678911",
+      "avg_rvol": 1.281,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T21:23:02.864091",
+      "avg_rvol": 1.284,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T21:38:04.100854",
+      "avg_rvol": 1.284,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T21:53:05.339752",
+      "avg_rvol": 1.287,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T22:08:06.245247",
+      "avg_rvol": 1.277,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T22:23:07.257666",
+      "avg_rvol": 1.277,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T22:38:08.646340",
+      "avg_rvol": 1.272,
+      "regime": "\ud83d\udfe1 NORMAL"
+    },
+    {
+      "time": "2026-03-04T22:44:03.070437",
+      "avg_rvol": 1.268,
+      "regime": "\ud83d\udfe1 NORMAL"
+    }
+  ]
+}

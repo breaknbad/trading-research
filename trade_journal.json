@@ -1,0 +1,53 @@
+{
+  "entries": [
+    {
+      "ticker": "BTC-USD",
+      "bot": "alfred",
+      "thesis": "Oversold bounce, RSI 25",
+      "entry_price": 67900.0,
+      "entry_time": "2026-03-03T23:06:12.981314+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "BTC-USD",
+      "bot": "alfred_crypto",
+      "thesis": "Mark directive: deploy cash, ride momentum on +7% day",
+      "entry_price": 69200.0,
+      "entry_time": "2026-03-04T18:07:58.561967+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "ETH-USD",
+      "bot": "alfred_crypto",
+      "thesis": "Mark directive: deploy cash, ETH outperforming +8.3% strongest relative strength",
+      "entry_price": 2200.0,
+      "entry_time": "2026-03-04T18:07:58.825889+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "SOL-USD",
+      "bot": "alfred_crypto",
+      "thesis": "Mark directive 100% deployment - SOL momentum +8.7% on crypto rip day",
+      "entry_price": 92.75,
+      "entry_time": "2026-03-04T19:38:42.310875+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "ETH-USD",
+      "bot": "alfred_crypto",
+      "thesis": "GDX rotation into ETH - strongest momentum +10% today, adding to winner",
+      "entry_price": 2186.0,
+      "entry_time": "2026-03-04T19:44:31.319838+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "RENDER-USD",
+      "bot": "alfred_crypto",
+      "thesis": "Predictive factor play: negative funding squeeze (-0.024%), AI narrative, +7.2% with room to run. Shorts paying longs = squeeze setup.",
+      "entry_price": 1.45,
+      "entry_time": "2026-03-04T19:47:14.014316+00:00",
+      "status": "OPEN"
+    }
+  ],
+  "exits": []
+}

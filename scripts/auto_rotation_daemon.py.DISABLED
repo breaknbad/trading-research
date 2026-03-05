@@ -1,0 +1,298 @@
+#!/usr/bin/env python3
+"""
+auto_rotation_daemon.py — Mechanical rotation engine
+Runs every 30 min via launchd. No AI needed. Pure math.
+
+Rules:
+1. Fetch prices for held + watchlist assets
+2. Rank all by 24h momentum
+3. If weakest held is >3% behind strongest non-held AND held >1hr: ROTATE
+4. Log trade to Supabase via execute_trade.py
+5. Post to Discord via webhook or Supabase signal
+
+This is C2E. Concept to Execution. No thinking, no deliberating.
+"""
+
+import json
+import os
+import sys
+import subprocess
+import time
+from datetime import datetime, timezone
+
+WORKSPACE = '/Users/sheridanskala/.openclaw/workspace'
+EXECUTE_TRADE = os.path.join(WORKSPACE, 'scripts', 'execute_trade.py')
+STATE_FILE = os.path.join(WORKSPACE, 'rotation_state.json')
+
+# All crypto we track
+UNIVERSE = {
+    'bitcoin': 'BTC-USD',
+    'ethereum': 'ETH-USD',
+    'solana': 'SOL-USD',
+    'near': 'NEAR-USD',
+    'aave': 'AAVE-USD',
+    'sui': 'SUI-USD',
+    'aptos': 'APT-USD',
+    'uniswap': 'UNI-USD',
+    'chainlink': 'LINK-USD',
+    'dogecoin': 'DOGE-USD',
+    'avalanche-2': 'AVAX-USD',
+    'injective-protocol': 'INJ-USD',
+}
+
+ROTATION_DELTA_MIN = 3.0  # % gap to trigger rotation
+MAX_ROTATIONS_PER_DAY = 4
+MIN_TRADE_VALUE = 200  # don't rotate positions smaller than this
+
+def load_creds():
+    creds_path = os.path.expanduser('~/.supabase_trading_creds')
+    with open(creds_path) as f:
+        lines = f.read().strip().split('\n')
+    url = lines[0].split('=', 1)[1].strip()
+    key = lines[1].split('=', 1)[1].strip()
+    return url, key
+
+def fetch_prices():
+    """Get live prices + 24h change from CoinGecko"""
+    import urllib.request
+    ids = ','.join(UNIVERSE.keys())
+    url = f'https://api.coingecko.com/api/v3/simple/price?ids={ids}&vs_currencies=usd&include_24hr_change=true'
+    try:
+        req = urllib.request.Request(url)
+        data = json.loads(urllib.request.urlopen(req, timeout=10).read())
+        result = {}
+        for cg_id, ticker in UNIVERSE.items():
+            if cg_id in data:
+                result[ticker] = {
+                    'price': data[cg_id]['usd'],
+                    'change_24h': data[cg_id].get('usd_24h_change', 0)
+                }
+        return result
+    except Exception as e:
+        log(f"ERROR fetching prices: {e}")
+        return None
+
+def get_open_positions(sb_url, sb_key):
+    """Get Alfred's open positions from Supabase"""
+    import urllib.request
+    try:
+        req = urllib.request.Request(
+            f'{sb_url}/rest/v1/trades?or=(bot_id.eq.alfred,bot_id.eq.alfred_crypto)&status=eq.OPEN&order=created_at.asc',
+            headers={'apikey': sb_key, 'Authorization': f'Bearer {sb_key}'}
+        )
+        data = json.loads(urllib.request.urlopen(req, timeout=10).read())
+        positions = {}
+        for t in data:
+            ticker = t['ticker']
+            qty = float(t['quantity'])
+            price = float(t['price_usd']) if t.get('price_usd') else 0
+            created = t.get('created_at', '')
+            if ticker in positions:
+                old = positions[ticker]
+                new_qty = old['quantity'] + qty
+                new_avg = (old['avg_entry'] * old['quantity'] + price * qty) / new_qty if new_qty > 0 else 0
+                positions[ticker] = {
+                    'quantity': new_qty,
+                    'avg_entry': new_avg,
+                    'cost': old['cost'] + qty * price,
+                    'first_entry': old['first_entry']
+                }
+            else:
+                positions[ticker] = {
+                    'quantity': qty,
+                    'avg_entry': price,
+                    'cost': qty * price,
+                    'first_entry': created
+                }
+        return positions
+    except Exception as e:
+        log(f"ERROR fetching positions: {e}")
+        return None
+
+def load_state():
+    if os.path.exists(STATE_FILE):
+        with open(STATE_FILE) as f:
+            return json.load(f)
+    return {'rotations_today': 0, 'last_rotation_date': '', 'last_run': ''}
+
+def save_state(state):
+    with open(STATE_FILE, 'w') as f:
+        json.dump(state, f, indent=2)
+
+def log(msg):
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    line = f"[{timestamp}] {msg}"
+    print(line)
+    # Also append to log file
+    log_path = os.path.join(WORKSPACE, 'rotation_daemon.log')
+    with open(log_path, 'a') as f:
+        f.write(line + '\n')
+
+def execute_sell(ticker, qty, price):
+    cmd = [
+        'python3', EXECUTE_TRADE,
+        '--ticker', ticker,
+        '--action', 'SELL',
+        '--quantity', str(qty),
+        '--price', str(price),
+        '--market', 'CRYPTO',
+        '--bot-id', 'alfred',
+        '--reason', f'AUTO-ROTATION OUT: daemon detected weaker momentum',
+        '--skip-validation'
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True, cwd=WORKSPACE)
+    return result.returncode == 0, result.stdout
+
+def execute_buy(ticker, qty, price):
+    cmd = [
+        'python3', EXECUTE_TRADE,
+        '--ticker', ticker,
+        '--action', 'BUY',
+        '--quantity', str(qty),
+        '--price', str(price),
+        '--market', 'CRYPTO',
+        '--bot-id', 'alfred',
+        '--reason', f'AUTO-ROTATION IN: daemon detected stronger momentum',
+        '--skip-validation'
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True, cwd=WORKSPACE)
+    return result.returncode == 0, result.stdout
+
+def get_hold_hours(first_entry):
+    """Calculate hours since first entry"""
+    try:
+        # Parse ISO timestamp
+        entry_time = datetime.fromisoformat(first_entry.replace('Z', '+00:00'))
+        now = datetime.now(timezone.utc)
+        delta = now - entry_time
+        return delta.total_seconds() / 3600
+    except:
+        return 999  # assume old enough if can't parse
+
+def main():
+    log("=== Auto Rotation Daemon Starting ===")
+    
+    state = load_state()
+    today = datetime.now().strftime('%Y-%m-%d')
+    
+    # Reset daily counter
+    if state.get('last_rotation_date') != today:
+        state['rotations_today'] = 0
+        state['last_rotation_date'] = today
+    
+    if state['rotations_today'] >= MAX_ROTATIONS_PER_DAY:
+        log(f"Max rotations ({MAX_ROTATIONS_PER_DAY}) reached today. Skipping.")
+        save_state(state)
+        return
+    
+    # Fetch prices
+    prices = fetch_prices()
+    if not prices:
+        log("No prices available. Exiting.")
+        return
+    
+    # Get positions
+    sb_url, sb_key = load_creds()
+    positions = get_open_positions(sb_url, sb_key)
+    if not positions:
+        log("No positions available. Exiting.")
+        return
+    
+    # Filter to crypto positions only (skip equities like MARA, PLTR)
+    crypto_positions = {k: v for k, v in positions.items() if k.endswith('-USD')}
+    held_tickers = set(crypto_positions.keys())
+    
+    log(f"Held: {len(crypto_positions)} crypto positions")
+    log(f"Universe: {len(prices)} assets tracked")
+    
+    # Rank held by 24h momentum
+    held_ranked = []
+    for ticker, pos in crypto_positions.items():
+        if ticker in prices:
+            momentum = prices[ticker]['change_24h']
+            value = pos['quantity'] * prices[ticker]['price']
+            held_ranked.append({
+                'ticker': ticker,
+                'momentum': momentum,
+                'value': value,
+                'quantity': pos['quantity'],
+                'price': prices[ticker]['price'],
+                'hold_hours': get_hold_hours(pos['first_entry'])
+            })
+    
+    held_ranked.sort(key=lambda x: x['momentum'])
+    
+    # Rank non-held by 24h momentum
+    non_held_ranked = []
+    for ticker, pdata in prices.items():
+        if ticker not in held_tickers:
+            non_held_ranked.append({
+                'ticker': ticker,
+                'momentum': pdata['change_24h'],
+                'price': pdata['price']
+            })
+    non_held_ranked.sort(key=lambda x: -x['momentum'])
+    
+    if not held_ranked or not non_held_ranked:
+        log("Not enough data to evaluate rotation. Exiting.")
+        save_state(state)
+        return
+    
+    weakest = held_ranked[0]
+    strongest = non_held_ranked[0]
+    delta = strongest['momentum'] - weakest['momentum']
+    
+    log(f"Weakest held: {weakest['ticker']} ({weakest['momentum']:+.1f}%, ${weakest['value']:.0f}, held {weakest['hold_hours']:.1f}h)")
+    log(f"Strongest non-held: {strongest['ticker']} ({strongest['momentum']:+.1f}%)")
+    log(f"Delta: {delta:.1f}% (threshold: {ROTATION_DELTA_MIN}%)")
+    
+    # Check rotation conditions
+    if delta < ROTATION_DELTA_MIN:
+        log(f"Delta {delta:.1f}% below threshold {ROTATION_DELTA_MIN}%. No rotation.")
+        state['last_run'] = datetime.utcnow().isoformat() + 'Z'
+        save_state(state)
+        return
+    
+    if weakest['hold_hours'] < 1.0:
+        log(f"Hold time {weakest['hold_hours']:.1f}h below 1h minimum. No rotation.")
+        state['last_run'] = datetime.utcnow().isoformat() + 'Z'
+        save_state(state)
+        return
+    
+    if weakest['value'] < MIN_TRADE_VALUE:
+        log(f"Position value ${weakest['value']:.0f} below ${MIN_TRADE_VALUE} minimum. No rotation.")
+        state['last_run'] = datetime.utcnow().isoformat() + 'Z'
+        save_state(state)
+        return
+    
+    # EXECUTE ROTATION
+    log(f"🔄 ROTATING: {weakest['ticker']} → {strongest['ticker']} (delta: {delta:+.1f}%)")
+    
+    # Sell weakest
+    sell_ok, sell_out = execute_sell(weakest['ticker'], weakest['quantity'], weakest['price'])
+    if not sell_ok:
+        log(f"SELL FAILED: {sell_out}")
+        save_state(state)
+        return
+    log(f"SOLD {weakest['ticker']} {weakest['quantity']} @ ${weakest['price']}")
+    
+    # Buy strongest with proceeds
+    proceeds = weakest['quantity'] * weakest['price']
+    buy_qty = round(proceeds / strongest['price'], 6) if strongest['price'] > 0 else 0
+    
+    buy_ok, buy_out = execute_buy(strongest['ticker'], buy_qty, strongest['price'])
+    if not buy_ok:
+        log(f"BUY FAILED: {buy_out}")
+        save_state(state)
+        return
+    log(f"BOUGHT {strongest['ticker']} {buy_qty} @ ${strongest['price']}")
+    
+    state['rotations_today'] += 1
+    state['last_run'] = datetime.utcnow().isoformat() + 'Z'
+    save_state(state)
+    
+    log(f"✅ Rotation complete. {state['rotations_today']}/{MAX_ROTATIONS_PER_DAY} today.")
+    log("=== Daemon Complete ===")
+
+if __name__ == '__main__':
+    main()

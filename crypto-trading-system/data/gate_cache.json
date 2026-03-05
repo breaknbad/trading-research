@@ -1,0 +1,86 @@
+{
+  "bot": "alfred",
+  "gates": {
+    "BTC": {
+      "action": "BLOCK",
+      "size_multiplier": 0.0,
+      "fails": 1,
+      "blocked_by": [
+        "price_age"
+      ]
+    },
+    "ETH": {
+      "action": "BLOCK",
+      "size_multiplier": 0.0,
+      "fails": 1,
+      "blocked_by": [
+        "price_age"
+      ]
+    },
+    "SOL": {
+      "action": "BLOCK",
+      "size_multiplier": 0.0,
+      "fails": 1,
+      "blocked_by": [
+        "price_age"
+      ]
+    },
+    "AVAX": {
+      "action": "BLOCK",
+      "size_multiplier": 0.0,
+      "fails": 1,
+      "blocked_by": [
+        "price_age"
+      ]
+    },
+    "ADA": {
+      "action": "BLOCK",
+      "size_multiplier": 0.0,
+      "fails": 1,
+      "blocked_by": [
+        "price_age"
+      ]
+    },
+    "DOT": {
+      "action": "BLOCK",
+      "size_multiplier": 0.0,
+      "fails": 1,
+      "blocked_by": [
+        "price_age"
+      ]
+    },
+    "LINK": {
+      "action": "BLOCK",
+      "size_multiplier": 0.0,
+      "fails": 1,
+      "blocked_by": [
+        "price_age"
+      ]
+    },
+    "DOGE": {
+      "action": "BLOCK",
+      "size_multiplier": 0.0,
+      "fails": 1,
+      "blocked_by": [
+        "price_age"
+      ]
+    },
+    "XRP": {
+      "action": "BLOCK",
+      "size_multiplier": 0.0,
+      "fails": 1,
+      "blocked_by": [
+        "price_age"
+      ]
+    },
+    "SHIB": {
+      "action": "BLOCK",
+      "size_multiplier": 0.0,
+      "fails": 1,
+      "blocked_by": [
+        "price_age"
+      ]
+    }
+  },
+  "timestamp": 1772395223.70677
+}

@@ -152,7 +152,7 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 
 - Multiple checks can batch together (inbox + calendar + notifications in one turn)
 - You need conversational context from recent messages
-- Timing can drift slightly (every ~30 min is fine, not exact)
+- Heartbeats fire every 5 minutes. Treat every heartbeat as urgent — scan, decide, execute. Do not defer to the next heartbeat.
 - You want to reduce API calls by combining periodic checks
 
 **Use cron when:**
@@ -219,6 +219,58 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Bias to Action
+
+Stop saying "I'll build this" or "I'll work on this this week." If you can build it right now, build it right now. Default to doing, not planning. If something genuinely can't be done in the current session, explain WHY — don't just defer it.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
+
+## Memory Discipline
+Write to `memory/YYYY-MM-DD.md` once per session at the end of any significant work block. Not after every action — just a shift log. Cover:
+- Key decisions made and why
+- Position changes (entries, exits, stops moved)
+- Lessons learned or mistakes caught
+- Anything the next session needs to know
+Compaction can happen anytime. If it is not written to a file, it does not survive.
+
+## Reaching Donna (Chief of Staff)
+- **Discord ID:** `<@1475031472275456031>`
+- **Channel:** #donna-chief-of-staff — tag her here when you need something
+- **When to reach out:**
+  - Blocked on something for >2 hours
+  - Need Matthew's decision or approval
+  - Cross-bot coordination needed
+  - Reporting completed work that needs verification
+  - Anything urgent that can't wait for next heartbeat
+- **Donna checks this channel every 15 minutes.** If you tag her, she will see it.
+
+## Mi AI Fleet — Discord Tags (USE THESE)
+When tagging teammates, you MUST use the `<@ID>` format. Typing @TARS does NOT create a real mention.
+
+**Bots:**
+- **TARS:** `<@1474972952368775308>` — Lead strategist, market watcher, canonical price source
+- **Alfred:** `<@1474950973997973575>` — Portfolio health, risk management, alerts
+- **Eddie V:** `<@1475265797180882984>` — Execution, crypto rotation, momentum
+- **Vex:** `<@1474965154293612626>` — Factor engine, technical scanning, signals
+- **Donna:** `<@1475031472275456031>` — Chief of Staff (tag in #donna-chief-of-staff)
+- **The Auditor:** `<@1478229875176505436>` — Accountability bot (don't tag)
+
+**Humans:**
+- **Matthew:** `<@664555708225683466>`
+- **Sheridan:** `<@1468846581116833895>`
+- **Mark:** `<@1474987984481816722>`
+- **Kent:** `<@1474987419324387429>`
+
+**When to tag teammates:**
+- Publishing a signal → tag all trading bots so they evaluate it
+- Found something relevant to another bot's domain → tag them
+- Cross-signal confirmation → tag the originating bot
+- Blocked or need input → tag the relevant bot + Donna
+
+## Timezone (CRITICAL)
+- **All times are America/Indianapolis (EST/EDT)**
+- When logging, scheduling, or mentioning times — use EST
+- Market hours reference: NYSE 9:30 AM - 4:00 PM ET
+- Crypto is 24/7 but all timestamps should still be EST

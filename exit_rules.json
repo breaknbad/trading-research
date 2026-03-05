@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "max_positions": 10,
+  "max_position_pct": 10,
+  "max_sector_concentration_pct": 30,
+  "hard_exits": {
+    "max_loss_pct": 5,
+    "trailing_stop_trigger_pct": 10,
+    "trailing_stop_distance_pct": 3,
+    "max_hold_days_no_movement": 14
+  },
+  "soft_exits": {
+    "target_profit_pct": 10,
+    "partial_exit_at_pct": 7,
+    "partial_exit_size_pct": 50,
+    "thesis_invalidated": true
+  },
+  "rules": [
+    "DOWN >5% from entry + no catalyst = CLOSE immediately",
+    "UP >10% from entry = set trailing stop at entry+7%",
+    "UP >20% = take 50% off, trail remainder",
+    "Contradictory positions (long+short same ticker) = net out immediately",
+    "Duplicate entries at similar prices = consolidate into one position",
+    "Max 10 concurrent positions. New entry requires closing worst performer.",
+    "Corrupted data fields = flag for manual review, do not trade"
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "updated": "2026-03-05T03:46:13.063049+00:00",
+  "alerts": [
+    {
+      "type": "BIG_MOVE",
+      "ticker": "BTC",
+      "value": 7.062686684046627,
+      "message": "BTC moved 7.1% (crypto HIGH)",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "BIG_MOVE",
+      "ticker": "ETH",
+      "value": 7.929133223020009,
+      "message": "ETH moved 7.9% (crypto HIGH)",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "ETH",
+      "value": 29.12,
+      "message": "ETH RSI=29.12 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "BIG_MOVE",
+      "ticker": "SOL",
+      "value": 5.065918130097981,
+      "message": "SOL moved 5.1% (crypto HIGH)",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "SOL",
+      "value": 5.66,
+      "message": "SOL RSI=5.66 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "AVAX",
+      "value": 0.0,
+      "message": "AVAX RSI=0.0 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "BIG_MOVE",
+      "ticker": "LINK",
+      "value": 6.189130576423488,
+      "message": "LINK moved 6.2% (crypto HIGH)",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "LINK",
+      "value": 0.0,
+      "message": "LINK RSI=0.0 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "DOT",
+      "value": 0.0,
+      "message": "DOT RSI=0.0 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "ADA",
+      "value": 16.91,
+      "message": "ADA RSI=16.91 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "BIG_MOVE",
+      "ticker": "DOGE",
+      "value": 8.029705019003405,
+      "message": "DOGE moved 8.0% (crypto CRITICAL)",
+      "source": "watcher",
+      "severity": "CRITICAL"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "DOGE",
+      "value": 19.21,
+      "message": "DOGE RSI=19.21 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "BIG_MOVE",
+      "ticker": "SUI",
+      "value": 5.752702220945579,
+      "message": "SUI moved 5.8% (crypto HIGH)",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "SUI",
+      "value": 10.0,
+      "message": "SUI RSI=10.0 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "BIG_MOVE",
+      "ticker": "RNDR",
+      "value": 5.24552992016474,
+      "message": "RNDR moved 5.2% (crypto HIGH)",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "RNDR",
+      "value": 29.0,
+      "message": "RNDR RSI=29.0 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERBOUGHT",
+      "ticker": "PENDLE",
+      "value": 100.0,
+      "message": "PENDLE RSI=100.0 overbought",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "BIG_MOVE",
+      "ticker": "COIN",
+      "value": 14.570081158148712,
+      "message": "COIN moved 14.6% (stock CRITICAL)",
+      "source": "watcher",
+      "severity": "CRITICAL"
+    },
+    {
+      "type": "CORRELATION",
+      "ticker": "BTC,ETH,SOL,AVAX,LINK,ADA,DOGE,SUI,RNDR,PENDLE,COIN",
+      "value": 11,
+      "message": "Correlation alert: 11 positions up >3%: BTC, ETH, SOL, AVAX, LINK, ADA, DOGE, SUI, RNDR, PENDLE, COIN",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "HEAT_CAP",
+      "ticker": "PORTFOLIO",
+      "value": 14.57,
+      "message": "Portfolio heat cap 14.6% exceeds 6%",
+      "source": "watcher",
+      "severity": "CRITICAL"
+    }
+  ]
+}

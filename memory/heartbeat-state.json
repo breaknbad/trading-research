@@ -1,0 +1,27 @@
+{
+  "lastChecks": {
+    "volume_spike": 1741113720,
+    "system_check": 1741113720,
+    "positions": 1741113720
+  },
+  "lastHeartbeat": "2026-03-04T14:02:00-05:00",
+  "fomcReaction": "DOVISH - risk on, crypto ripping, loosening trails",
+  "trailingStops": {
+    "BTC-USD": 71100,
+    "ETH-USD": 2087,
+    "LINK-USD": 9.15,
+    "GDX": 101,
+    "ROST": 200,
+    "COIN": 195
+  },
+  "activePositions": {
+    "BTC-USD": {"qty": 0.0918, "entry": 73405, "stop": 71100, "current": 73695, "pnl_pct": 0.4},
+    "ETH-USD": {"qty": 2.61, "entry": 2150, "stop": 2087, "current": 2162, "pnl_pct": 0.6},
+    "LINK-USD": {"qty": 250, "entry": 9.48, "stop": 9.15, "current": 9.48, "pnl_pct": 0.0},
+    "GDX": {"qty": 20, "entry": 106.43, "stop": 101, "current": 105.95, "pnl_pct": -0.5},
+    "ROST": {"qty": 15, "entry": 212.47, "stop": 200, "current": 212.05, "pnl_pct": -0.2},
+    "COIN": {"qty": 10, "entry": 210.49, "stop": 195, "current": 210.41, "pnl_pct": 0.0}
+  },
+  "cash": 300,
+  "deployed_pct": 99
+}

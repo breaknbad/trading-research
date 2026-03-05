@@ -1,0 +1,19 @@
+{
+  "bot_id": "alfred",
+  "primary_lane": "contrarian",
+  "description": "Risk/Contrarian — mean reversion, oversold bounces, outlier catches, fleet hedging",
+  "weights": {
+    "risk": 0.25,
+    "volatility": 0.20,
+    "momentum": 0.15,
+    "volume": 0.15,
+    "trend": 0.10,
+    "macro": 0.10,
+    "sentiment": 0.05
+  },
+  "flex_max_pct": 0.30,
+  "overnight_crypto": false,
+  "sub_lanes": ["mean_reversion", "oversold_bounce", "outlier", "hedge"],
+  "typical_tickers": ["GDX", "GDXJ", "SLV", "SQQQ", "TQQQ", "VIX", "XLE"],
+  "notes": "Risk + volatility weighted highest. Mean reversion needs ATR awareness. Hedge positions for fleet exposure."
+}

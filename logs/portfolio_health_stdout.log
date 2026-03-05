@@ -1,0 +1,261 @@
+[2026-03-02 02:22:58 UTC] Portfolio Health Monitor started
+[2026-03-02 02:22:59 UTC] ALERTS: 9 (2 critical, 2 high)
+[2026-03-02 02:22:59 UTC]   [HIGH] Position count 53 exceeds cap of 10. Need to trim 43 positions.
+[2026-03-02 02:22:59 UTC]   [CRITICAL] Both LONG and SHORT on SOL. Net out immediately.
+[2026-03-02 02:22:59 UTC]   [CRITICAL] Both LONG and SHORT on ETH. Net out immediately.
+[2026-03-02 02:22:59 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:22:59 UTC]   [MEDIUM] ETH-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:22:59 UTC]   [MEDIUM] SOL-USD BUY: 6 separate entries. Consider consolidating.
+[2026-03-02 02:22:59 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:22:59 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:22:59 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:24:00 UTC] ALERTS: 9 (2 critical, 2 high)
+[2026-03-02 02:24:00 UTC]   [HIGH] Position count 53 exceeds cap of 10. Need to trim 43 positions.
+[2026-03-02 02:24:00 UTC]   [CRITICAL] Both LONG and SHORT on SOL. Net out immediately.
+[2026-03-02 02:24:00 UTC]   [CRITICAL] Both LONG and SHORT on ETH. Net out immediately.
+[2026-03-02 02:24:00 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:24:00 UTC]   [MEDIUM] ETH-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:24:00 UTC]   [MEDIUM] SOL-USD BUY: 6 separate entries. Consider consolidating.
+[2026-03-02 02:24:00 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:24:00 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:24:00 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:25:00 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:25:00 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:25:00 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:25:00 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:25:00 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:25:00 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:25:00 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:26:01 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:26:01 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:26:01 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:26:01 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:26:01 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:26:01 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:26:01 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:27:02 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:27:02 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:27:02 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:27:02 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:27:02 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:27:02 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:27:02 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:28:03 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:28:03 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:28:03 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:28:03 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:28:03 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:28:03 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:28:03 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:29:04 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:29:04 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:29:04 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:29:04 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:29:04 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:29:04 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:29:04 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:30:05 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:30:05 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:30:05 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:30:05 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:30:05 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:30:05 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:30:05 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:31:06 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:31:06 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:31:06 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:31:06 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:31:06 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:31:06 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:31:06 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:32:06 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:32:06 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:32:06 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:32:06 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:32:06 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:32:06 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:32:06 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:33:07 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:33:07 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:33:07 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:33:07 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:33:07 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:33:07 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:33:07 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:34:08 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:34:08 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:34:08 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:34:08 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:34:08 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:34:08 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:34:08 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:35:09 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:35:09 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:35:09 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:35:09 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:35:09 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:35:09 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:35:09 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:36:10 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:36:10 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:36:10 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:36:10 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:36:10 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:36:10 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:36:10 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:37:11 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:37:11 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:37:11 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:37:11 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:37:11 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:37:11 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:37:11 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:38:12 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:38:12 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:38:12 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:38:12 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:38:12 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:38:12 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:38:12 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:39:12 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:39:12 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:39:12 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:39:12 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:39:12 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:39:12 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:39:12 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:40:13 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:40:13 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:40:13 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:40:13 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:40:13 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:40:13 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:40:13 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:41:14 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:41:14 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:41:14 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:41:14 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:41:14 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:41:14 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:41:14 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:42:15 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:42:15 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:42:15 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:42:15 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:42:15 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:42:15 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:42:15 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:43:16 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:43:16 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:43:16 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:43:16 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:43:16 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:43:16 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:43:16 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:44:16 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:44:16 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:44:16 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:44:16 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:44:16 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:44:16 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:44:16 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:45:17 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:45:17 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:45:17 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:45:17 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:45:17 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:45:17 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:45:17 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:46:18 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:46:18 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:46:18 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:46:18 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:46:18 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:46:18 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:46:18 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:47:19 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:47:19 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:47:19 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:47:19 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:47:19 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:47:19 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:47:19 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:48:20 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:48:20 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:48:20 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:48:20 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:48:20 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:48:20 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:48:20 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:49:21 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:49:21 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:49:21 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:49:21 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:49:21 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:49:21 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:49:21 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:50:22 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:50:22 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:50:22 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:50:22 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:50:22 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:50:22 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:50:22 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:51:22 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:51:22 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:51:22 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:51:22 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:51:22 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:51:22 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:51:22 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:52:23 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:52:23 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:52:23 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:52:23 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:52:23 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:52:23 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:52:23 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:53:24 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:53:24 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:53:24 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:53:24 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:53:24 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:53:24 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:53:24 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:54:25 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:54:25 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:54:25 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:54:25 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:54:25 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:54:25 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:54:25 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:55:26 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:55:26 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:55:26 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:55:26 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:55:26 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:55:26 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:55:26 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:56:26 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:56:26 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:56:26 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:56:26 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:56:26 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:56:26 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:56:26 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:57:27 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:57:27 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:57:27 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:57:27 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:57:27 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:57:27 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:57:27 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:58:28 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:58:28 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.
+[2026-03-02 02:58:28 UTC]   [MEDIUM] BTC-USD BUY: 11 separate entries. Consider consolidating.
+[2026-03-02 02:58:28 UTC]   [MEDIUM] SOL-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:58:28 UTC]   [MEDIUM] DOT-USD BUY: 7 separate entries. Consider consolidating.
+[2026-03-02 02:58:28 UTC]   [MEDIUM] ADA-USD BUY: 4 separate entries. Consider consolidating.
+[2026-03-02 02:58:28 UTC]   [HIGH] Corrupted market field on BTC-USD: 'Adding BTC in extreme fear (F&G=14). Flight to qua...'
+[2026-03-02 02:59:29 UTC] ALERTS: 6 (0 critical, 2 high)
+[2026-03-02 02:59:29 UTC]   [HIGH] Position count 46 exceeds cap of 10. Need to trim 36 positions.

@@ -1,0 +1,28 @@
+[
+  {
+    "ticker": "BTC-USD",
+    "quantity": 0.2068,
+    "live_price": 72433.0,
+    "flags": [
+      {
+        "factor": "CONCENTRATION",
+        "score": 90,
+        "detail": "BTC at 47.3% \u2014 CRITICAL concentration (>35%)"
+      }
+    ],
+    "avg_score": 90.0
+  },
+  {
+    "ticker": "ETH-USD",
+    "quantity": 4.15,
+    "live_price": 2113.87,
+    "flags": [
+      {
+        "factor": "CONCENTRATION",
+        "score": 70,
+        "detail": "ETH at 27.7% \u2014 over 25% limit, trim recommended"
+      }
+    ],
+    "avg_score": 70.0
+  }
+]

@@ -1,0 +1,136 @@
+#!/usr/bin/env python3
+"""
+Auto Signal Publisher — Reads market-state.json, runs factor_engine.py for each ticker,
+and publishes signals scoring >= 50 to Supabase shared_signals table with 30-min cooldown.
+"""
+
+import json
+import os
+import subprocess
+import sys
+import time
+import urllib.request
+import urllib.error
+from datetime import datetime, timezone
+from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).parent
+MARKET_STATE = SCRIPT_DIR.parent / "market-state.json"
+COOLDOWN_FILE = SCRIPT_DIR / ".signal_cooldowns.json"
+COOLDOWN_SEC = 1800  # 30 minutes
+SCORE_THRESHOLD = 50
+
+def load_supabase_creds():
+    creds = {}
+    with open(Path.home() / ".supabase_trading_creds") as f:
+        for line in f:
+            line = line.strip()
+            if "=" in line and not line.startswith("#"):
+                k, v = line.split("=", 1)
+                creds[k.strip()] = v.strip()
+    return creds["SUPABASE_URL"], creds["SUPABASE_ANON_KEY"]
+
+def load_cooldowns():
+    if COOLDOWN_FILE.exists():
+        try:
+            return json.loads(COOLDOWN_FILE.read_text())
+        except Exception:
+            pass
+    return {}
+
+def save_cooldowns(cd):
+    COOLDOWN_FILE.write_text(json.dumps(cd))
+
+def is_cooled_down(cooldowns, ticker, signal_type):
+    key = f"{ticker}:{signal_type}"
+    last = cooldowns.get(key, 0)
+    return time.time() - last < COOLDOWN_SEC
+
+def mark_published(cooldowns, ticker, signal_type):
+    cooldowns[f"{ticker}:{signal_type}"] = time.time()
+
+def supabase_insert(url, key, row):
+    data = json.dumps(row).encode()
+    req = urllib.request.Request(
+        f"{url}/rest/v1/shared_signals",
+        data=data,
+        headers={
+            "apikey": key,
+            "Authorization": f"Bearer {key}",
+            "Content-Type": "application/json",
+            "Prefer": "return=minimal",
+        },
+        method="POST",
+    )
+    urllib.request.urlopen(req, timeout=15)
+
+def run_factor_engine(ticker):
+    """Run factor_engine.py and return parsed JSON result, or None on failure."""
+    # Touch market-state to avoid staleness check
+    os.utime(MARKET_STATE, None)
+    cmd = [
+        sys.executable, str(SCRIPT_DIR / "factor_engine.py"),
+        "--ticker", ticker, "--side", "long",
+        "--market-state", str(MARKET_STATE),
+    ]
+    try:
+        proc = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        if proc.stdout.strip():
+            return json.loads(proc.stdout)
+    except Exception as e:
+        print(f"  factor_engine error for {ticker}: {e}", file=sys.stderr)
+    return None
+
+def main():
+    # Load market state
+    with open(MARKET_STATE) as f:
+        state = json.load(f)
+    tickers_data = state.get("tickers", {})
+
+    supa_url, supa_key = load_supabase_creds()
+    cooldowns = load_cooldowns()
+    published = 0
+
+    for ticker, data in tickers_data.items():
+        print(f"Evaluating {ticker}...")
+        result = run_factor_engine(ticker)
+        if not result or "total_score" not in result:
+            print(f"  {ticker}: no result from factor engine")
+            continue
+
+        score = result["total_score"]
+        rec = result.get("recommendation", "UNKNOWN")
+        print(f"  {ticker}: score={score} rec={rec}")
+
+        if score < SCORE_THRESHOLD:
+            continue
+
+        signal_type = rec  # GO, CAUTION, etc.
+        if is_cooled_down(cooldowns, ticker, signal_type):
+            print(f"  {ticker}: cooldown active for {signal_type}, skipping")
+            continue
+
+        row = {
+            "ticker": ticker,
+            "price": data.get("price"),
+            "change_pct": round(data.get("change_24h_pct", 0), 2),
+            "volume": int(data.get("volume_24h", 0)),
+            "signal_type": signal_type,
+            "source_bot": "alfred",
+            "reason": result.get("reasoning", ""),
+            "status": "OPEN",
+        }
+
+        try:
+            supabase_insert(supa_url, supa_key, row)
+            mark_published(cooldowns, ticker, signal_type)
+            published += 1
+            print(f"  ✅ Published {ticker} {signal_type} (score {score})")
+        except Exception as e:
+            print(f"  ❌ Failed to publish {ticker}: {e}", file=sys.stderr)
+
+    save_cooldowns(cooldowns)
+    print(f"\nDone. Published {published} signal(s).")
+
+if __name__ == "__main__":
+    main()
