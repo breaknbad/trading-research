@@ -6884,3 +6884,1936 @@
 📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $204.38 is above manual stop $195. Regime says sell but Mark says hold.
 🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
    ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.96 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.05 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2089.41, gain 5.9%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $52.85, drawdown 3.6%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.96229
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.96 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $204.06 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.13 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2089.41, gain 5.9%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $52.77, drawdown 3.7%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963344
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $204.02 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.95 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.18 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2084.51, gain 5.7%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $52.75, drawdown 3.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963589
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.8%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.81 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.24 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.18 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2084.51, gain 5.7%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $52.68, drawdown 3.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963516
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.8%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.39 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.35 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.18 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2084.51, gain 5.7%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $52.67, drawdown 3.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963349
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.35 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.52 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.14 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2083.33, gain 5.6%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $52.69, drawdown 3.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.50 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.21 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.99 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2076.72, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $52.74, drawdown 3.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961914
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.32 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.19 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.99 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2076.72, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $52.91, drawdown 3.5%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961626
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.12 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.14 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.99 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2078.11, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.01, drawdown 3.3%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.960808
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.11 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.66 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.99 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2078.11, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.03, drawdown 3.3%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.96031
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.4%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.65 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.82 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.99 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2076.02, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.02, drawdown 3.3%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.94 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.87 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.97 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2076.02, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.05, drawdown 3.2%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.957767
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.1%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.78 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.74 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.20 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.95 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2073.76, gain 5.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.09, drawdown 3.2%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.957275
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.1%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.69 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.4% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.59 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.20 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.92 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2075.28, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.08, drawdown 3.2%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956848
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.58 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.4% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.13 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.20 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.94 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2076.42, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.23, drawdown 2.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956536
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.09 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.60 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.20 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.94 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2075.68, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.27, drawdown 2.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956253
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.78 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.84 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.20 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.90 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2073.44, gain 5.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.27, drawdown 2.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.955928
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.84 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.43 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.20 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.90 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2074.80, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.39, drawdown 2.6%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.95539
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.43 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.72 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.20 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.82 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2075.51, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.35, drawdown 2.7%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.955951
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.72 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.29 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.20 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.88 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2077.81, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.46, drawdown 2.5%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.955997
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.29 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.24 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.98 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2079.37, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.48, drawdown 2.5%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956245
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.24 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.1% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.42 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.98 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.17, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.30, drawdown 2.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.47 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.13 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.99 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2079.70, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.23, drawdown 2.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.955846
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.13 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.15 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.96 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2078.12, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.19, drawdown 3.0%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956157
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.09 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.68 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.90 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2079.19, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.41, drawdown 2.6%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956216
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.61 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.74 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.93 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.94, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.47, drawdown 2.5%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956547
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.74 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.65 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.93 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.94, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.54, drawdown 2.3%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956634
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.57 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.04 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.00 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2082.55, gain 5.6%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.34, drawdown 2.7%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956608
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.19 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.12 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.95 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2082.38, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.33, drawdown 2.7%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956471
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.15 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.03 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.92 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2079.40, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.31, drawdown 2.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956091
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.94 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.84 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.92 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2079.40, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.29, drawdown 2.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.955942
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.92 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.20 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.20 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.92 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2077.99, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.30, drawdown 2.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.955807
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.27 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.19 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.20 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.83 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2073.96, gain 5.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.35, drawdown 2.7%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.23 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.21 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.19 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.83 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2074.46, gain 5.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.40, drawdown 2.6%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956256
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.21 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.07 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.19 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.81 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2074.69, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.70, drawdown 2.1%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.95602
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.07 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.38 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.19 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.81 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2074.69, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.70, drawdown 2.1%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956217
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.25 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG CRWD — 1.1% drawdown (stop at 1.5%)
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.35 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.19 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.80 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2074.43, gain 5.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.71, drawdown 2.0%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956573
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.43 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.88 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.19 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.78 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2075.19, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.67, drawdown 2.1%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956642
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.96 is above manual stop $195. Regime says sell but Mark says hold.
+⚠️  NEAR STOP: eddie_v LONG TSLA — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.33 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.19 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.78 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2075.19, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.84, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956592
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.57 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.90 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.19 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.77 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2075.16, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.70, drawdown 2.1%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956868
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.88 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.88 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.19 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.80 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2078.41, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.69, drawdown 2.1%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956945
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.97 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $202.96 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.19 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.79 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2076.54, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.78, drawdown 1.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956585
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $202.79 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.33 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.19 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.79 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2076.54, gain 5.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.92, drawdown 1.7%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956403
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.33 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.72 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.19 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.78 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2073.90, gain 5.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.74, drawdown 2.0%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956797
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.58 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $203.76 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.19 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.78 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2073.21, gain 5.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.76, drawdown 1.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.957732
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.1%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $203.93 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $204.05 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.79 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2073.21, gain 5.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.85, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.958284
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.2%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $204.09 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $204.17 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.21 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.94 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2079.37, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.76, drawdown 1.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.958366
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.2%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $204.07 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $204.43 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $88.94 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2078.57, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.77, drawdown 1.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.958661
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.2%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $204.37 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $204.87 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.00 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2079.04, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.71, drawdown 2.0%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.958813
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.2%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.4% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.28 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.00 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2079.63, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.77, drawdown 1.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.959205
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.3%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $204.50 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.23 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.01 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.35, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.76, drawdown 1.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.960057
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.4%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $204.57 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $204.77 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.23 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.11 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2081.80, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961273
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.4% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $204.54 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.23 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.10 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.97, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.86, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962087
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+📋 MANUAL STOP OVERRIDE: eddie_v COIN @ $204.54 is above manual stop $195. Regime says sell but Mark says hold.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $204.96 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.10 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2084.29, gain 5.6%
+⚠️  NEAR STOP: vex LONG MRNA — 1.3% drawdown (stop at 1.5%)
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962822
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.10 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.19 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2088.29, gain 5.8%
+⚠️  NEAR STOP: vex LONG MRNA — 1.2% drawdown (stop at 1.5%)
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962144
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.47 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.19 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2086.55, gain 5.8%
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961825
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.63 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.19 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2086.55, gain 5.8%
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961897
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.19 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2086.55, gain 5.8%
+⚠️  NEAR STOP: vex LONG MRNA — 1.3% drawdown (stop at 1.5%)
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962401
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.68 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.26 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2091.16, gain 6.0%
+⚠️  NEAR STOP: vex LONG MRNA — 1.4% drawdown (stop at 1.5%)
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.9625
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.54 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.26 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2091.16, gain 6.0%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.96, drawdown 1.6%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.33 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.28 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2092.30, gain 6.0%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.86, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962137
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.2% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.02 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.28 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2092.30, gain 6.0%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.70, drawdown 2.1%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962081
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.27 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.34 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2090.84, gain 6.0%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.72, drawdown 2.0%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962627
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.15 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.33 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2088.25, gain 5.8%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.77, drawdown 1.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962746
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.08 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.33 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2087.96, gain 5.8%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.94, drawdown 1.6%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963138
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.09 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.23 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2087.96, gain 5.8%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.97, drawdown 1.6%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963203
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.3% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.66 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.27 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.35 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2090.27, gain 5.9%
+⚠️  NEAR STOP: vex LONG MRNA — 1.3% drawdown (stop at 1.5%)
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963199
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.91 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.27 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.35 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2090.27, gain 5.9%
+⚠️  NEAR STOP: vex LONG MRNA — 1.4% drawdown (stop at 1.5%)
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963004
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $206.10 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.27 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.37 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2091.86, gain 6.0%
+⚠️  NEAR STOP: vex LONG MRNA — 1.4% drawdown (stop at 1.5%)
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963185
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $206.20 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.27 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.44 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2092.21, gain 6.0%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $54.00, drawdown 1.5%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963258
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.84 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.27 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.44 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2093.75, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.87, drawdown 1.7%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $206.05 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.27 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.46 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2092.21, gain 6.0%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.84, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963034
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.81 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.27 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.46 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2089.80, gain 5.9%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.91, drawdown 1.7%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961881
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.84 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.27 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.39 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2089.80, gain 5.9%
+⚠️  NEAR STOP: vex LONG MRNA — 1.3% drawdown (stop at 1.5%)
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.89 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.38 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2088.63, gain 5.9%
+⚠️  NEAR STOP: vex LONG MRNA — 1.4% drawdown (stop at 1.5%)
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961399
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.81 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.26 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2088.98, gain 5.9%
+⚠️  NEAR STOP: vex LONG MRNA — 1.5% drawdown (stop at 1.5%)
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961289
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.42 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.25 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2088.10, gain 5.8%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.88, drawdown 1.7%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961224
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+⚠️  NEAR STOP: eddie_v LONG COIN — 1.1% drawdown (stop at 1.5%)
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.59 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.25 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2087.87, gain 5.8%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.84, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961318
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $206.03 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.26 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2088.03, gain 5.8%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.99, drawdown 1.5%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961072
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $206.44 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.23 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2086.85, gain 5.8%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.95, drawdown 1.6%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.960736
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.79 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.22 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2086.81, gain 5.8%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.92, drawdown 1.7%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.960564
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.4%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.50 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.20 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2088.84, gain 5.9%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.99, drawdown 1.5%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.960641
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.4%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.83 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.21 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2090.55, gain 6.0%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.99, drawdown 1.5%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.959375
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.3%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $206.43 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.21 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2089.64, gain 5.9%
+⚠️  NEAR STOP: vex LONG MRNA — 1.4% drawdown (stop at 1.5%)
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.958954
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.3%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.48 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.16 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2086.38, gain 5.7%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.93, drawdown 1.6%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.959581
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.3%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.49 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.16 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2091.10, gain 6.0%
+⚠️  NEAR STOP: vex LONG MRNA — 1.5% drawdown (stop at 1.5%)
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.959777
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.4%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.65 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.20 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2091.92, gain 6.0%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.85, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.63 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.21 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2092.40, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.81, drawdown 1.9%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.960114
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.4%
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.78 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.20 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2092.42, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.960611
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.4%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.27 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.24 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2093.85, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.960921
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.27 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.23 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2093.05, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.960945
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.28 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.23 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2092.57, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.960987
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.28 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.24 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2094.84, gain 6.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961502
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.29 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.24 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2094.73, gain 6.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961626
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.33 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2096.38, gain 6.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961753
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.33 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2096.38, gain 6.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961512
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.39 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2094.03, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961417
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.39 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2094.03, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961444
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.38 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2094.30, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961299
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.38 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2095.33, gain 6.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961013
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.38 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2095.33, gain 6.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.37 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2093.85, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961037
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.29 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.34 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2092.77, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961122
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.29 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.34 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2093.47, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961326
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.40 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2095.77, gain 6.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961515
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.40 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2095.77, gain 6.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962319
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.41 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2093.47, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962924
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.31 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.47 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2098.51, gain 6.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963527
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.8%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.31 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.59 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2096.30, gain 6.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963596
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.8%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.31 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.59 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2096.30, gain 6.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963448
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.8%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.31 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.70 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2095.62, gain 6.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963241
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.31 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.70 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2095.62, gain 6.2%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.963018
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.31 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.67 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2093.84, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962867
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.67 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2094.18, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962904
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.67 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2094.18, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962564
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.65 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2092.38, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.96242
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.63 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2091.04, gain 6.0%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962561
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.66 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2093.13, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962681
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.67 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2093.11, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962565
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.7%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.76 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2093.67, gain 6.1%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962323
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.76 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2092.31, gain 6.0%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.962343
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.6%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.30 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.73 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2091.51, gain 6.0%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.961326
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.29 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.64 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2091.67, gain 6.0%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.960844
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.5%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.27 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.58 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2083.45, gain 5.6%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.960435
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.4%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.27 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.40 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2082.39, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.959101
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.3%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.26 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.39 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2084.45, gain 5.6%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.957783
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.1%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.34 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2077.67, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.957671
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.1%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.14 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2078.45, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.14 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2079.71, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.95706
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.1%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.25 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.14 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.61, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956867
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.13 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.61, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.95703
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.1%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.13 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2081.24, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.957105
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.1%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.14 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2081.24, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.957111
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.1%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.11 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2081.93, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.957323
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.1%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.11 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2081.93, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.95769
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.1%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.14 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2083.86, gain 5.6%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.957906
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.1%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.24 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.17 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2083.86, gain 5.6%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.958002
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.2%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.23 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.20 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2082.03, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.957918
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.2%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.23 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.20 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2082.03, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956633
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.23 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.13 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2076.99, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.95617
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.02 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2076.67, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956281
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.02 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2077.89, gain 5.3%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.03 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2078.70, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.955935
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.08 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.20, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.955963
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.08 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.59, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.95606
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.08 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.59, gain 5.5%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956109
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.14 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.17, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956249
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.22 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.14 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.17, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956622
+📊 TARGET REACHED (no auto-exit): vex LONG SUI-USD — entry $0.91, now $0.96, gain 5.0%
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred', 'alfred_crypto'}). ALERT ONLY — not executing.
+📊 Stop threshold: 1.5% (regime: NORMAL)
+📋 MANUAL STOP OVERRIDE: alfred COIN @ $205.71 is above manual stop $190. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars LINK-USD @ $9.23 is above manual stop $8.8. Regime says sell but Mark says hold.
+📋 MANUAL STOP OVERRIDE: tars SOL-USD @ $89.15 is above manual stop $85. Regime says sell but Mark says hold.
+📊 TARGET REACHED (no auto-exit): vex LONG ETH-USD — entry $1973.00, now $2080.35, gain 5.4%
+🚨 STOP HIT: vex LONG MRNA — entry $54.83, now $53.83, drawdown 1.8%
+   ⚠️ CROSS-BOT GUARD: vex is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+⚠️ PRICE SANITY REJECTED for SUI-USD: REJECTED: SUI-USD $0.000300194 below absolute minimum $0.1
+   ✅ CoinGecko fallback: SUI-USD = $0.956525
+🚨 STOP HIT: eddie_v LONG MRVL — entry $78.33, now $75.68, drawdown 3.4%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
+🚨 STOP HIT: eddie_v LONG UNI-USD — entry $4.01, now $0.00, drawdown 100.0%
+   ⚠️ CROSS-BOT GUARD: eddie_v is not local ({'alfred_crypto', 'alfred'}). ALERT ONLY — not executing.
