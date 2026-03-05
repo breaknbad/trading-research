@@ -10320,3 +10320,38 @@
 2026-03-04 22:46:13,227 [WATCHER] Pushed market state to Supabase
 2026-03-04 22:46:13,415 [WATCHER] Pushed 20 fleet signals to Supabase
 2026-03-04 22:46:13,415 [WATCHER] Cycle done — 13 tickers, 20 alerts
+2026-03-04 22:46:47,433 [WATCHER] Pushed market state to Supabase
+2026-03-04 22:46:47,599 [WATCHER] Pushed 21 fleet signals to Supabase
+2026-03-04 22:46:47,600 [WATCHER] Cycle done — 13 tickers, 21 alerts
+2026-03-04 22:47:20,227 [WATCHER] Crypto fetch failed: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Csolana%2Cavalanche-2%2Cchainlink%2Cpolkadot%2Ccardano%2Cdogecoin%2Csui%2Cinjective-protocol%2Crender-token%2Cpendle&vs_currencies=usd&include_24hr_change=true&include_24hr_vol=true
+2026-03-04 22:47:20,794 [WATCHER] Pushed market state to Supabase
+2026-03-04 22:47:20,976 [WATCHER] Pushed 2 fleet signals to Supabase
+2026-03-04 22:47:20,976 [WATCHER] Cycle done — 1 tickers, 2 alerts
+2026-03-04 22:47:53,924 [WATCHER] Crypto fetch failed: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Csolana%2Cavalanche-2%2Cchainlink%2Cpolkadot%2Ccardano%2Cdogecoin%2Csui%2Cinjective-protocol%2Crender-token%2Cpendle&vs_currencies=usd&include_24hr_change=true&include_24hr_vol=true
+2026-03-04 22:47:54,495 [WATCHER] Pushed market state to Supabase
+2026-03-04 22:47:54,657 [WATCHER] Pushed 2 fleet signals to Supabase
+2026-03-04 22:47:54,658 [WATCHER] Cycle done — 1 tickers, 2 alerts
+2026-03-04 22:48:28,392 [WATCHER] Pushed market state to Supabase
+2026-03-04 22:48:28,702 [WATCHER] Pushed 19 fleet signals to Supabase
+2026-03-04 22:48:28,702 [WATCHER] Cycle done — 13 tickers, 19 alerts
+2026-03-04 22:49:02,888 [WATCHER] Pushed market state to Supabase
+2026-03-04 22:49:03,066 [WATCHER] Pushed 19 fleet signals to Supabase
+2026-03-04 22:49:03,066 [WATCHER] Cycle done — 13 tickers, 19 alerts
+2026-03-04 22:49:36,533 [WATCHER] Pushed market state to Supabase
+2026-03-04 22:49:36,705 [WATCHER] Pushed 18 fleet signals to Supabase
+2026-03-04 22:49:36,706 [WATCHER] Cycle done — 13 tickers, 18 alerts
+2026-03-04 22:50:10,350 [WATCHER] Pushed market state to Supabase
+2026-03-04 22:50:10,519 [WATCHER] Pushed 18 fleet signals to Supabase
+2026-03-04 22:50:10,519 [WATCHER] Cycle done — 13 tickers, 18 alerts
+2026-03-04 22:50:44,355 [WATCHER] Pushed market state to Supabase
+2026-03-04 22:50:44,555 [WATCHER] Pushed 15 fleet signals to Supabase
+2026-03-04 22:50:44,555 [WATCHER] Cycle done — 13 tickers, 15 alerts
+2026-03-04 22:51:18,588 [WATCHER] Pushed market state to Supabase
+2026-03-04 22:51:18,772 [WATCHER] Pushed 15 fleet signals to Supabase
+2026-03-04 22:51:18,772 [WATCHER] Cycle done — 13 tickers, 15 alerts
+2026-03-04 22:51:52,785 [WATCHER] Pushed market state to Supabase
+2026-03-04 22:51:52,952 [WATCHER] Pushed 16 fleet signals to Supabase
+2026-03-04 22:51:52,952 [WATCHER] Cycle done — 13 tickers, 16 alerts
+2026-03-04 22:52:26,875 [WATCHER] Pushed market state to Supabase
+2026-03-04 22:52:27,070 [WATCHER] Pushed 16 fleet signals to Supabase
+2026-03-04 22:52:27,070 [WATCHER] Cycle done — 13 tickers, 16 alerts

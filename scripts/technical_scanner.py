@@ -16,7 +16,7 @@ SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://vghssoltipiajiwzhkyn.supa
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "")
 FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY", "")
 ALERTS_PATH = os.path.join(WORKSPACE, "alerts.json")
-LOG_PATH = os.path.join(WORKSPACE, "logs", "technical_scanner.log")
+LOG_PATH = os.path.join(WORKSPACE, "logs", "com.miai.technical-scanner.log")  # unified with launchd output
 
 # Ensure dirs exist
 os.makedirs(os.path.join(WORKSPACE, "logs"), exist_ok=True)

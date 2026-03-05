@@ -899,3 +899,20 @@
 2026-03-04 22:44:04,008 [EXIT]   ✅ RENDER-USD — all factors clear
 2026-03-04 22:44:04,008 [EXIT]   ✅ LINK-USD — all factors clear
 2026-03-04 22:44:04,008 [EXIT]   ✅ SOL-USD — all factors clear
+/Users/sheridanskala/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-03-04 22:49:04,608 [EXIT] Regime: NEUTRAL | Positions: 8
+2026-03-04 22:49:05,161 [EXIT]   BTC-USD: $72416.64
+2026-03-04 22:49:05,496 [EXIT]   LINK-USD: $9.25
+2026-03-04 22:49:05,661 [EXIT]   SOL-USD: $89.81
+2026-03-04 22:49:05,841 [EXIT]   COIN: $208.93
+2026-03-04 22:49:05,991 [EXIT]   RENDER-USD: $1.39
+2026-03-04 22:49:06,171 [EXIT]   ETH-USD: $2112.83
+2026-03-04 22:49:06,172 [EXIT] 🚨 EXIT SIGNAL: BTC-USD — 1 factors flagged (avg 90)
+2026-03-04 22:49:06,172 [EXIT]    [CONCENTRATION] score=90 — BTC at 47.6% — CRITICAL concentration (>35%)
+2026-03-04 22:49:06,172 [EXIT]   ✅ COIN — all factors clear
+2026-03-04 22:49:06,172 [EXIT] 🚨 EXIT SIGNAL: ETH-USD — 1 factors flagged (avg 70)
+2026-03-04 22:49:06,172 [EXIT]    [CONCENTRATION] score=70 — ETH at 27.8% — over 25% limit, trim recommended
+2026-03-04 22:49:06,172 [EXIT]   ✅ RENDER-USD — all factors clear
+2026-03-04 22:49:06,172 [EXIT]   ✅ LINK-USD — all factors clear
+2026-03-04 22:49:06,172 [EXIT]   ✅ SOL-USD — all factors clear

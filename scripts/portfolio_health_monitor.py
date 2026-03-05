@@ -234,7 +234,7 @@ def main():
             run_once()
         except Exception as e:
             log(f"ERROR in health check: {e}")
-        time.sleep(60)
+        time.sleep(300)  # 5 min — reduced from 60s to cut log spam
 
 if __name__ == "__main__":
     if "--once" in sys.argv:

@@ -12094,3 +12094,49 @@ SUMMARY: 45 scanned | 4 rotation(s) | 0 kill(s)
 TOP SWAP: Sell BTC-USD ($6,650) → Buy MATIC-USD (spread: +3.9%)
 ============================================================
 
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 03:51 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.3%  $   6,649  (entry $73405.0000 → $72424.5100)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 KAS-USD      $      0.0312  24h:+1.3%  30m:+0.16%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 SNX-USD      $      0.3328  24h:+0.6%  30m:+0.03%
+  🟡 MKR-USD      $   1813.2454  24h:+0.6%  30m:-0.32%
+  🟡 ICP-USD      $      2.5239  24h:+0.4%  30m:-0.28%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 TON-USD      $      0.0050  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 ENA-USD      $      0.1174  24h:-0.0%  30m:-0.17%
+  🔴 PENDLE-USD   $      1.2994  24h:-0.1%  30m:+0.04%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 NEAR-USD     $      1.2774  30m:+0.308%  24h:-2.6%
+  🔥 KAS-USD      $      0.0312  30m:+0.163%  24h:+1.3%
+  🔥 PENDLE-USD   $      1.2994  30m:+0.037%  24h:-0.1%
+  🔥 SNX-USD      $      0.3328  30m:+0.032%  24h:+0.6%
+  🔥 CRV-USD      $      0.2542  30m:+0.016%  24h:-0.4%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.3%) | spread: +3.9%
+  🔄 KAS-USD (+1.3%) replaces BTC-USD (-1.3%) | spread: +2.6%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-1.3%) | spread: +2.3%
+
+============================================================
+SUMMARY: 45 scanned | 3 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,649) → Buy MATIC-USD (spread: +3.9%)
+============================================================
+
