@@ -1,0 +1,34 @@
+[
+  {
+    "ticker": "AVGO",
+    "action": "BUY",
+    "trigger_price": 240,
+    "direction": "up",
+    "min_volume_ratio": 2.0,
+    "tier": "CONFIRM",
+    "thesis": "Post-earnings momentum, AI capex thesis, $10B buyback",
+    "bot_id": "vex",
+    "expires": "2026-03-06T20:00:00"
+  },
+  {
+    "ticker": "BTC-USD",
+    "action": "BUY",
+    "trigger_price": 70000,
+    "direction": "down",
+    "tier": "CONFIRM",
+    "thesis": "Oversold bounce at $70K support, negative funding squeeze setup",
+    "bot_id": "vex",
+    "expires": "2026-03-06T20:00:00"
+  },
+  {
+    "ticker": "CRM",
+    "action": "BUY",
+    "trigger_price": 195,
+    "direction": "down",
+    "min_volume_ratio": 1.5,
+    "tier": "SCOUT",
+    "thesis": "RSI 25 oversold, software rally day 2 candidate",
+    "bot_id": "vex",
+    "expires": "2026-03-06T20:00:00"
+  }
+]
