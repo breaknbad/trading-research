@@ -57,6 +57,9 @@ MANUAL_STOPS = {
         "LINK-USD": 8.80,
         "RENDER-USD": 1.20,
         "COIN": 190,
+        "OXY": 51.50,
+        "AVGO": 310,
+        "CRM": 194,
     },
     "alfred_crypto": {
         "BTC-USD": 70000,
@@ -64,6 +67,31 @@ MANUAL_STOPS = {
         "SOL-USD": 85,
         "LINK-USD": 8.80,
         "RENDER-USD": 1.20,
+    },
+    "tars": {
+        "BTC-USD": 70000,
+        "ETH-USD": 2050,
+        "SOL-USD": 85,
+        "LINK-USD": 8.80,
+    },
+    "vex": {
+        "BTC-USD": 70000,
+        "ETH-USD": 1900,
+        "SOL-USD": 80,
+        "SUI-USD": 0.85,
+        "CEG": 315,
+    },
+    "eddie_v": {
+        "BTC-USD": 70000,
+        "LINK-USD": 8.80,
+        "CEG": 315,
+        "VST": 158,
+        "COIN": 195,
+        "CRM": 194,
+        "DVN": 43,
+    },
+    "eddie_crypto": {
+        "BTC-USD": 70000,
     },
 }
 
