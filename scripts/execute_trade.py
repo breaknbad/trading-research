@@ -135,6 +135,44 @@ def check_position_limit(bot_id):
     return True
 
 
+def check_position_value_limit(bot_id, ticker, quantity, price):
+    """Max 20% of portfolio in any single position. Returns False if would exceed."""
+    try:
+        # Get snapshot for total portfolio value
+        parent = bot_id.replace("_crypto", "") if bot_id.endswith("_crypto") else bot_id
+        r = _retry(lambda: requests.get(
+            f"{SUPABASE_URL}/rest/v1/portfolio_snapshots?bot_id=eq.{parent}&select=total_value_usd",
+            headers=READ_HEADERS, timeout=10))
+        r.raise_for_status()
+        rows = r.json()
+        if not rows:
+            return True  # No snapshot = can't check, allow trade
+        total_value = rows[0].get("total_value_usd", 50000)
+        if total_value <= 0:
+            total_value = 50000  # Fallback to starting capital
+        
+        trade_value = quantity * price
+        max_value = total_value * 0.20  # 20% limit
+        
+        # Also check existing position in same ticker
+        r2 = _retry(lambda: requests.get(
+            f"{SUPABASE_URL}/rest/v1/trades?bot_id=eq.{bot_id}&ticker=eq.{ticker}&status=eq.OPEN&select=quantity,price_usd",
+            headers=READ_HEADERS, timeout=10))
+        existing_value = 0
+        if r2.ok:
+            for t in r2.json():
+                existing_value += t["quantity"] * t["price_usd"]
+        
+        total_position = existing_value + trade_value
+        if total_position > max_value:
+            log.warning(f"Position value limit: {ticker} would be ${total_position:,.0f} ({total_position/total_value*100:.1f}% of ${total_value:,.0f}). Max 20% = ${max_value:,.0f}")
+            return False
+        return True
+    except Exception as e:
+        log.warning(f"Position value check failed: {e} — allowing trade")
+        return True
+
+
 def close_matching_position(ticker, bot_id):
     """Find and close the matching OPEN position for a SELL. Returns the closed trade_id or None."""
     r = _retry(lambda: requests.get(
@@ -250,6 +288,9 @@ def main():
             if not check_rate_limit(args.bot_id):
                 sys.exit(1)
             if args.action.upper() == "BUY" and not check_position_limit(args.bot_id):
+                sys.exit(1)
+            if args.action.upper() == "BUY" and not check_position_value_limit(args.bot_id, args.ticker, args.quantity, args.price):
+                log.error("Trade exceeds 20% position value limit. Use --skip-validation to override.")
                 sys.exit(1)
         except Exception as e:
             log.error(f"Validation check failed (Supabase down?): {e}")
