@@ -303,10 +303,23 @@ def check_stops(bot_id=None):
                 gain_pct = ((entry - current) / entry) * 100
 
             if gain_pct >= TARGET_PCT:
-                # DISABLED 2026-03-04: Auto-profit-take disabled pending review.
-                # Pyramid scaler + manual scale-outs handle profit-taking now.
-                # Re-enable only after SHIL review confirms logic is correct.
-                print(f"📊 TARGET REACHED (no auto-exit): {bot} {side} {ticker} — entry ${entry:.2f}, now ${current:.2f}, gain {gain_pct:.1f}%")
+                # RE-ENABLED Mar 5: Trim 25% at +5%, keep 75% running
+                trim_qty = round(qty * 0.25, 4)
+                if trim_qty > 0 and bot in LOCAL_BOTS:
+                    action = "SELL" if side == "LONG" else "COVER"
+                    print(f"🎯 PROFIT TRIM: {bot} {side} {ticker} — gain {gain_pct:.1f}%, trimming 25% ({trim_qty} units)")
+                    try:
+                        from log_trade import log_trade
+                        success = log_trade(
+                            bot, action, ticker, trim_qty, current,
+                            f"PROFIT TRIM 25%: {gain_pct:.1f}% gain (threshold {TARGET_PCT}%)"
+                        )
+                        if success:
+                            print(f"  ✅ Trimmed {trim_qty} {ticker}")
+                    except Exception as e:
+                        print(f"  ❌ Trim failed: {e}")
+                elif bot not in LOCAL_BOTS:
+                    print(f"📊 PROFIT TARGET: {bot} {ticker} +{gain_pct:.1f}% — ALERT ONLY (not local)")
                 continue
                 action = "SELL" if side == "LONG" else "COVER"
                 print(f"🎯 TARGET HIT: {bot} {side} {ticker} — entry ${entry:.2f}, now ${current:.2f}, gain {gain_pct:.1f}%")
