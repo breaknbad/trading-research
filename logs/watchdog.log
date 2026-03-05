@@ -433,3 +433,15 @@
    freshness: fresh (52s old)
    activity: activity detected in recent log
    price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (46s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (39s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (32s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
