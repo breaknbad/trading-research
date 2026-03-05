@@ -303,10 +303,23 @@ def check_stops(bot_id=None):
                 gain_pct = ((entry - current) / entry) * 100
 
             if gain_pct >= TARGET_PCT:
-                # DISABLED 2026-03-04: Auto-profit-take disabled pending review.
-                # Pyramid scaler + manual scale-outs handle profit-taking now.
-                # Re-enable only after SHIL review confirms logic is correct.
-                print(f"📊 TARGET REACHED (no auto-exit): {bot} {side} {ticker} — entry ${entry:.2f}, now ${current:.2f}, gain {gain_pct:.1f}%")
+                # RE-ENABLED Mar 5: Trim 25% at +5%, keep 75% running
+                trim_qty = round(qty * 0.25, 4)
+                if trim_qty > 0 and bot in LOCAL_BOTS:
+                    action = "SELL" if side == "LONG" else "COVER"
+                    print(f"🎯 PROFIT TRIM: {bot} {side} {ticker} — gain {gain_pct:.1f}%, trimming 25% ({trim_qty} units)")
+                    try:
+                        from log_trade import log_trade
+                        success = log_trade(
+                            bot, action, ticker, trim_qty, current,
+                            f"PROFIT TRIM 25%: {gain_pct:.1f}% gain (threshold {TARGET_PCT}%)"
+                        )
+                        if success:
+                            print(f"  ✅ Trimmed {trim_qty} {ticker}")
+                    except Exception as e:
+                        print(f"  ❌ Trim failed: {e}")
+                elif bot not in LOCAL_BOTS:
+                    print(f"📊 PROFIT TARGET: {bot} {ticker} +{gain_pct:.1f}% — ALERT ONLY (not local)")
                 continue
                 action = "SELL" if side == "LONG" else "COVER"
                 print(f"🎯 TARGET HIT: {bot} {side} {ticker} — entry ${entry:.2f}, now ${current:.2f}, gain {gain_pct:.1f}%")
@@ -387,6 +400,7 @@ def check_stops(bot_id=None):
     # HEAT CAP CHECK: total stop exposure ≤6% of portfolio
     for bot in bots_to_check:
         check_heat_cap(bot)
+        check_hourly_loss_pause(bot)  # Log state, alert if paused
 
     return stops_hit
 
@@ -423,6 +437,80 @@ def check_heat_cap(bot_id):
         print(f"🔴 HEAT CAP BREACH: {bot_id} total heat {heat_pct:.1f}% (cap: 6%). Reduce positions or tighten stops.")
     elif heat_pct > 5.0:
         print(f"🟡 HEAT WARNING: {bot_id} total heat {heat_pct:.1f}% (cap: 6%). Approaching limit.")
+
+
+def check_hourly_loss_pause(bot_id):
+    """Dollar-loss pause: if bot lost >$500 in unrealized P&L in the last hour, pause trading.
+    Writes/reads state to a JSON file. Returns True if trading should be PAUSED."""
+    import json
+    state_file = os.path.join(os.path.dirname(__file__), "logs", "hourly_loss_state.json")
+    
+    # Get current unrealized P&L from snapshot
+    r = supabase_get(
+        f"{SUPABASE_URL}/rest/v1/portfolio_snapshots",
+        params={"bot_id": f"eq.{bot_id}", "select": "total_value_usd"},
+    )
+    if r is None or not r.json():
+        return False
+    
+    current_value = float(r.json()[0].get("total_value_usd", 50000))
+    now = datetime.now(timezone.utc)
+    now_str = now.isoformat()
+    
+    # Read/update state
+    state = {}
+    try:
+        with open(state_file) as f:
+            state = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+    
+    bot_state = state.get(bot_id, {})
+    
+    # Check if currently paused
+    pause_until = bot_state.get("pause_until")
+    if pause_until:
+        pause_dt = datetime.fromisoformat(pause_until)
+        if now < pause_dt:
+            remaining = (pause_dt - now).total_seconds() / 60
+            print(f"⏸️ LOSS PAUSE: {bot_id} paused for {remaining:.0f} more minutes (lost >${bot_state.get('loss_amount', '?')} in 1hr)")
+            return True
+        else:
+            # Pause expired, clear it
+            bot_state.pop("pause_until", None)
+            bot_state.pop("loss_amount", None)
+    
+    # Record current value with timestamp
+    hourly_values = bot_state.get("hourly_values", [])
+    hourly_values.append({"time": now_str, "value": current_value})
+    
+    # Keep only last 60 minutes
+    cutoff = (now - timedelta(hours=1)).isoformat()
+    hourly_values = [v for v in hourly_values if v["time"] > cutoff]
+    bot_state["hourly_values"] = hourly_values
+    
+    # Check if loss exceeds $500 in the window
+    if len(hourly_values) >= 2:
+        oldest_value = hourly_values[0]["value"]
+        loss = oldest_value - current_value
+        if loss >= 500:
+            # PAUSE for 30 minutes
+            from datetime import timedelta
+            pause_dt = now + timedelta(minutes=30)
+            bot_state["pause_until"] = pause_dt.isoformat()
+            bot_state["loss_amount"] = round(loss, 2)
+            print(f"🚨 HOURLY LOSS PAUSE: {bot_id} lost ${loss:.0f} in the last hour. PAUSING stops for 30 min to prevent panic selling.")
+            # Note: we pause PROFIT-TAKING and TRAILING exits, but hard stops still fire
+    
+    state[bot_id] = bot_state
+    try:
+        os.makedirs(os.path.dirname(state_file), exist_ok=True)
+        with open(state_file, "w") as f:
+            json.dump(state, f, indent=2)
+    except Exception:
+        pass
+    
+    return False
 
 
 def is_market_hours():
