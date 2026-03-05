@@ -167,6 +167,14 @@
         "quantity": 2.61,
         "side": "LONG"
       }
+    ],
+    "alfred:OXY:LONG": [
+      {
+        "timestamp": "2026-03-05T17:51:31.210176+00:00",
+        "entry_price": 54.27,
+        "quantity": 50.0,
+        "side": "LONG"
+      }
     ]
   },
   "reentries_done": {

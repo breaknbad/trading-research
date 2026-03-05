@@ -1,58 +1,79 @@
-# Alfred Daily Plan — Wed Mar 4, 2026
+# Alfred Daily Plan — Thursday, March 5, 2026
 
-## Market Context
-- **Overnight**: BTC +5.8% to $71,306, ETH +4.4% to $2,053, SOL +5.8% to $89.28
-- **Fear & Greed**: ~10 (Extreme Fear) — contrarian signals firing hard
-- **Catalysts**: Apple event today, AVGO earnings AMC, Iran/Hormuz Day 5
-- **Regime**: Rally into extreme fear = short squeeze / relief bounce territory
+## Overnight Summary
+- Crypto drifted slightly positive overnight: BTC $72,970 (+0.4%), ETH $2,139 (+0.6%), SOL $92.04 (+1.3%), LINK $9.47 (+1.3%)
+- ES futures 5864, NQ 25070 — flat pre-market
+- Gold $5,173 — still elevated (risk hedge bid)
+- No fleet signals overnight. No alerts fired.
 
-## Open Positions (4)
-| Ticker | Qty | Entry | Current | P&L % | Action |
-|--------|-----|-------|---------|-------|--------|
-| BTC | 0.19 | $68,038 | $71,306 | +4.8% | **TRAIL**: Tighten stop to $69,500 (breakeven+2%). Trim 25% at $72,500 (+6.5%) |
-| ETH | 4.0 | $1,974 | $2,053 | +4.0% | **TRAIL**: Stop at $2,010 (breakeven+1.8%). Trim 1.0 at $2,100 (+6.4%) |
-| NEAR | 8,100 | $1.35 | $1.33 | -1.5% | **WATCH**: Weakest name. Stop at $1.30 (-3.7%). Cut 50% if no bounce by noon |
-| APT | 7,914 | $0.995 | ~$0.994 | ~flat | **FIX**: Price feed stale. Get live quote. Stop at $0.95 (-4.5%) |
+## Current Book ($31,767 | ~100% deployed | P&L: +$2 flat)
+
+| Ticker | Qty | Entry | Current | P&L | Weight |
+|--------|-----|-------|---------|-----|--------|
+| BTC-USD | 0.2068 | ~71,067 avg | 72,970 | +$394 | 47.5% |
+| ETH-USD | 4.15 | ~2,197 avg | 2,139 | -$240 | 27.9% |
+| RENDER-USD | 2,193 | 1.45 | 1.39 | -$132 | 9.6% |
+| LINK-USD | 250 | 9.48 | 9.47 | -$3 | 7.5% |
+| COIN | 10 | 210.49 | 208.93 | -$16 | 6.6% |
+| SOL-USD | 3.2 | 92.75 | 92.04 | -$2 | 0.9% |
+
+## Critical Issues
+1. **BTC+ETH = 75.4% concentration** — exceeds 60% heat cap. Must reduce.
+2. **COIN thesis broken** — flat on crypto rip days. Exit at open.
+3. **RENDER stale pricing** — CoinGecko rate-limited, Yahoo delisted RNDR-USD. Need manual check.
+4. **Cash = ~$0** — no dry powder for opportunities.
 
 ## Today's Plan
 
-### Priority 1: Manage Winners (BTC, ETH)
-- Both at +4-5% — ATR trailing stops should be active
-- Do NOT sell into strength prematurely. Let trails work.
-- Scale-out tiers: 25% at +6%, 25% at +8%, let 50% ride
+### 8:00 AM — System Check (NOW)
+- [x] Read yesterday EOD + STANDING_ORDERS
+- [x] Sync positions + get live prices
+- [ ] Run pre_deploy_check.py
+- [ ] Run system_check_alfred.py
+- [ ] Verify stop_check.py running (PID alive, stops current)
 
-### Priority 2: Cut or Defend Losers (NEAR, APT)
-- NEAR lagging the rally (-1.5% while BTC +5.8%) — bad sign
-- If NEAR doesn't reclaim $1.36 by 10 AM, cut to 4,000 (half)
-- APT stale price — fix feed, evaluate thesis. If APT isn't participating in the rally, exit
+### 8:15 AM — Exit Engine Scan
+- Run exit_engine_v2.py
+- Expected flags: BTC concentration (47.5%), ETH concentration (27.9%)
+- **ACTION: Exit COIN at market open** ($2,089 freed → rebalance or cash reserve)
+- **ACTION: Trim BTC by ~$3,000** (sell 0.041 BTC) to bring under 40%
+- **ACTION: Trim ETH by ~$1,500** (sell 0.7 ETH) to bring under 25%
 
-### Priority 3: Contrarian Radar (My Lane)
-- Yesterday's oversold screeners: GDX -9%, GDXJ -8.9%, SLV -8.4%, MARA -8.4%, INTC -5.3%
-- **GDX**: Stage CONFIRM buy at $105 if DXY weakening. 1.5x ATR stop. Mean reversion play.
-- **MARA**: If BTC holds $70K+, MARA is leveraged BTC recovery play. SCOUT size only.
-- Run factor_engine on all 5 at 8:30 AM with live data
+### 8:30 AM — Factor Engine / Pre-Market Scan
+- Check AVGO reaction (reported last night)
+- Check MRVL, BABA, COST for earnings plays
+- Factor score any crypto movers
 
-### Priority 4: Infrastructure
-- [ ] Verify all 11 launchd jobs running (`launchctl list | grep miai`)
-- [ ] Run system_check_alfred.py (SHIL daily sweep)
-- [ ] Seed price_sanity_cache with fresh prices
-- [ ] Fix APT-USD price feed in market-state.json
-- [ ] Reset pnl_alerts state for fresh day
+### 8:45 AM — Top 3 Setups (Sized + Stops)
+After freeing ~$5,600 from trims:
+1. **Hold core BTC** (0.166 after trim) — stop $70,000 (Mark's wide stop)
+2. **Hold core ETH** (3.45 after trim) — stop $2,050
+3. **SOL add** if confirms >$93 — add 5 SOL ($460) with stop $88
+4. **Cash reserve: ~$5,000** (16% of book) for intraday opportunities
 
-## Risk Limits
-- **Max new deployment**: 20% of book today (have ~30% cash)
-- **Position cap**: 15% per ticker (CONVICTION), 8% (CONFIRM), 2% (SCOUT)
-- **Daily circuit breaker**: -5% total book = stop all new entries
-- **Trailing stops**: ACTIVE on BTC, ETH. Set on NEAR, APT.
-- **No inverse ETF overnight holds** (learned from SQQQ incident)
+### 9:00 AM — Execute
+- COIN market sell
+- BTC trim 0.041
+- ETH trim 0.7
+- Post executions to #capital-roundtable
 
-## Deployment Target
-- Currently ~70% deployed, ~30% cash
-- Target: Stay 70-80%. Cash is a position in extreme fear.
-- Only deploy more if factor scores come back CONFIRM+ on contrarian names
+### 9:30-10:00 AM — Confirmation Wave
+- If trims filled, verify stops on remaining positions
+- If AVGO gaps up, evaluate COIN replacement (tech proxy with better beta)
+- Target: 84% deployed, 16% cash by 10 AM
 
-## Key Levels to Watch
-- BTC $72,500 (resistance / trim level), $69,500 (trailing stop)
-- ETH $2,100 (trim), $2,010 (stop)
-- GDX $105 (entry zone if DXY cooperates)
-- VIX / DXY direction pre-market will set the tone
+### Ongoing
+- SHIL Cycle 2 at 8 AM, Cycle 3 at 10 AM
+- Onboard TARS/Eddie when they come online (FLEET_BRIEFING_2026-03-05.md ready)
+- Stop enforcement: BTC $70K, ETH $2,050, SOL $85, LINK $8.80, RENDER $1.20, COIN $190 (until sold)
+
+## Risk Limits Today
+- Max single position: 40% (rebalancing BTC down from 47.5%)
+- Heat cap: 85% (freeing 15% cash)
+- Daily circuit breaker: -5% ($1,588)
+- Trailing stops: 2% default, Mark's manual levels override
+
+## Key Earnings Today
+- AVGO (after-hours yesterday — check gap)
+- MRVL, BABA, COST (today)
+- Broadcom reaction sets tone for semis

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.miai.news-sentiment-scanner</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/sheridanskala/.openclaw/workspace/scripts/run_service.sh</string>
+        <string>/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py</string>
+        <string>--loop</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/sheridanskala/.openclaw/workspace</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/sheridanskala/.openclaw/workspace/logs/com.miai.news-sentiment-scanner.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/sheridanskala/.openclaw/workspace/logs/com.miai.news-sentiment-scanner.err</string>
+</dict>
+</plist>

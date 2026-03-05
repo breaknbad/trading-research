@@ -65,6 +65,15 @@
     "alfred:SOL-USD:LONG:stop_warn": "2026-03-05T00:52:16.413403+00:00",
     "alfred:RENDER-USD:LONG:stop_warn": "2026-03-05T00:52:16.662486+00:00",
     "tars:LINK-USD:LONG:stop_warn": "2026-03-05T01:37:50.634820+00:00",
-    "alfred:LINK-USD:LONG:stop_warn": "2026-03-05T01:47:56.342293+00:00"
+    "alfred:LINK-USD:LONG:stop_warn": "2026-03-05T01:47:56.342293+00:00",
+    "alfred:BTC-USD:LONG:stop_warn": "2026-03-05T06:20:59.816788+00:00",
+    "eddie_v:MSTR:LONG:stop_warn": "2026-03-05T15:12:56.180757+00:00",
+    "vex:BTC-USD:LONG:stop_warn": "2026-03-05T15:33:11.621962+00:00",
+    "alfred:COIN:LONG:stop_warn": "2026-03-05T15:58:38.846726+00:00",
+    "eddie_v:UNI-USD:LONG:stop_warn": "2026-03-05T16:49:32.189027+00:00",
+    "eddie_v:COIN:LONG:stop_warn": "2026-03-05T17:35:19.444351+00:00",
+    "vex:MRNA:LONG:stop_warn": "2026-03-05T17:40:23.586216+00:00",
+    "vex:INTC:LONG:stop_warn": "2026-03-05T17:50:35.174303+00:00",
+    "eddie_v:MRVL:LONG:stop_warn": "2026-03-05T21:04:04.556547+00:00"
   }
 }

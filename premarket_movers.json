@@ -1,60 +1,90 @@
 {
-  "scan_time": "2026-03-04T14:16:17.528877Z",
+  "scan_time": "2026-03-05T14:15:40.324065Z",
   "scanner": "premarket_equity",
   "movers": [
     {
-      "ticker": "AI",
-      "change_pct": 5.2,
-      "price": 9.1,
+      "ticker": "AMD",
+      "change_pct": 5.82,
+      "price": 202.07,
       "category": "MOMENTUM"
     },
     {
-      "ticker": "AMD",
-      "change_pct": -3.86,
-      "price": 190.95,
+      "ticker": "AMZN",
+      "change_pct": 3.88,
+      "price": 216.82,
       "category": "MOMENTUM"
     },
     {
       "ticker": "BITF",
-      "change_pct": -7.44,
-      "price": 1.99,
+      "change_pct": 12.56,
+      "price": 2.24,
       "category": "CRYPTO-ADJ"
     },
     {
       "ticker": "CLSK",
-      "change_pct": -6.26,
-      "price": 9.89,
+      "change_pct": 7.79,
+      "price": 10.66,
+      "category": "CRYPTO-ADJ"
+    },
+    {
+      "ticker": "COIN",
+      "change_pct": 14.57,
+      "price": 208.93,
       "category": "CRYPTO-ADJ"
     },
     {
       "ticker": "HUT",
-      "change_pct": -9.71,
-      "price": 47.6,
+      "change_pct": 13.89,
+      "price": 54.21,
       "category": "CRYPTO-ADJ"
     },
     {
       "ticker": "MARA",
-      "change_pct": -8.36,
-      "price": 8.66,
+      "change_pct": 7.27,
+      "price": 9.29,
       "category": "CRYPTO-ADJ"
+    },
+    {
+      "ticker": "MPC",
+      "change_pct": 4.15,
+      "price": 220.77,
+      "category": "SECTOR"
     },
     {
       "ticker": "MSTR",
-      "change_pct": -3.61,
-      "price": 132.68,
+      "change_pct": 10.37,
+      "price": 146.44,
       "category": "CRYPTO-ADJ"
     },
     {
+      "ticker": "PLTR",
+      "change_pct": 4.06,
+      "price": 153.19,
+      "category": "MOMENTUM"
+    },
+    {
       "ticker": "RIOT",
-      "change_pct": -6.94,
-      "price": 15.29,
+      "change_pct": 8.11,
+      "price": 16.53,
       "category": "CRYPTO-ADJ"
     },
     {
       "ticker": "SMCI",
-      "change_pct": -3.61,
-      "price": 30.68,
+      "change_pct": 6.42,
+      "price": 32.65,
       "category": "MOMENTUM"
+    },
+    {
+      "ticker": "TSLA",
+      "change_pct": 3.44,
+      "price": 405.94,
+      "category": "MOMENTUM"
+    },
+    {
+      "ticker": "VLO",
+      "change_pct": 3.62,
+      "price": 225.6,
+      "category": "SECTOR"
     }
   ]
 }

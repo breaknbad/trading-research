@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.miai.exit-engine</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/python3</string>
+		<string>/Users/sheridanskala/.openclaw/workspace/scripts/exit_engine_v2.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>StandardErrorPath</key>
+	<string>/Users/sheridanskala/.openclaw/workspace/logs/exit_engine_err.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/sheridanskala/.openclaw/workspace/logs/exit_engine.log</string>
+	<key>StartInterval</key>
+	<integer>300</integer>
+	<key>WorkingDirectory</key>
+	<string>/Users/sheridanskala/.openclaw/workspace/scripts</string>
+</dict>
+</plist>

@@ -47,6 +47,158 @@
       "entry_price": 1.45,
       "entry_time": "2026-03-04T19:47:14.014316+00:00",
       "status": "OPEN"
+    },
+    {
+      "ticker": "BTC-USD",
+      "bot": "alfred_crypto",
+      "thesis": "Momentum continuation + negative funding + FOMC dovish. Deployment clock 9:20 AM.",
+      "entry_price": 72560.0,
+      "entry_time": "2026-03-05T14:20:26.128672+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "BTC-USD",
+      "bot": "eddie_crypto",
+      "thesis": "[MANAGED BY alfred] Momentum continuation + negative funding. Eddie down, deploying idle cash per Mark directive.",
+      "entry_price": 72560.0,
+      "entry_time": "2026-03-05T14:20:31.388054+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "OXY",
+      "bot": "alfred",
+      "thesis": "Oil +3.2% momentum. Energy sector bid. Stop $51.50",
+      "entry_price": 54.27,
+      "entry_time": "2026-03-05T14:31:54.260061+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "AVGO",
+      "bot": "alfred",
+      "thesis": "Post-earnings dip buy. AI capex thesis. Stop $310",
+      "entry_price": 327.86,
+      "entry_time": "2026-03-05T14:31:54.892265+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "COIN",
+      "bot": "eddie_v",
+      "thesis": "[MANAGED BY alfred] BTC proxy. Crypto momentum. Stop $195",
+      "entry_price": 207.8,
+      "entry_time": "2026-03-05T14:31:55.559405+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "MSTR",
+      "bot": "eddie_v",
+      "thesis": "[MANAGED BY alfred] Levered BTC proxy. Stop $135",
+      "entry_price": 145.76,
+      "entry_time": "2026-03-05T14:31:56.167159+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "AVGO",
+      "bot": "vex",
+      "thesis": "[MANAGED BY alfred] Post-earnings dip buy per Vex plan. Stop $310",
+      "entry_price": 327.86,
+      "entry_time": "2026-03-05T14:31:56.849756+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "CRM",
+      "bot": "eddie_v",
+      "thesis": "[MANAGED BY alfred] Oversold bounce RSI 25->confirmed. Cloud/AI enterprise. +3.9% momentum. Stop $194",
+      "entry_price": 201.49,
+      "entry_time": "2026-03-05T15:35:10.865740+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "DVN",
+      "bot": "eddie_v",
+      "thesis": "[MANAGED BY alfred] Oil +3.2% overnight. Shale momentum. Stop $43",
+      "entry_price": 44.52,
+      "entry_time": "2026-03-05T15:35:11.478898+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "CRM",
+      "bot": "alfred",
+      "thesis": "Oversold bounce confirmed. RSI 25->recovery. Cloud/AI enterprise. Stop $194",
+      "entry_price": 201.49,
+      "entry_time": "2026-03-05T15:35:12.089703+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "HOOD",
+      "bot": "eddie_v",
+      "thesis": "[MANAGED BY alfred] PREDICTION: crypto proxy oversold -4.2%, BTC stabilizing. Dip buy. Stop $75",
+      "entry_price": 79.54,
+      "entry_time": "2026-03-05T16:05:00.836988+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "CRM",
+      "bot": "vex",
+      "thesis": "[MANAGED BY alfred] CRM runner +4% from open, oversold bounce confirmed. Adding on strength. Stop $194",
+      "entry_price": 201.69,
+      "entry_time": "2026-03-05T16:05:01.426288+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "NOW",
+      "bot": "alfred",
+      "thesis": "Cloud/SaaS sector rotation. NOW +5.5% leading the move. Same thesis as CRM. Stop $115",
+      "entry_price": 120.78,
+      "entry_time": "2026-03-05T16:42:08.902980+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "NOW",
+      "bot": "eddie_v",
+      "thesis": "[MANAGED BY alfred] Cloud sector rotation leader. +5.5% from open. Stop $115",
+      "entry_price": 120.78,
+      "entry_time": "2026-03-05T16:42:09.586845+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "MDB",
+      "bot": "alfred",
+      "thesis": "HOTTEST stock in scan. MDB +6.2% from open. Cloud/database sector rotation. Stop $250",
+      "entry_price": 265.46,
+      "entry_time": "2026-03-05T16:47:13.459828+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "CRWD",
+      "bot": "eddie_v",
+      "thesis": "[MANAGED BY alfred] Cybersecurity +4.2% from open. Cloud sector bid. Stop $405",
+      "entry_price": 424.45,
+      "entry_time": "2026-03-05T16:47:13.985746+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "CEG",
+      "bot": "eddie_v",
+      "thesis": "[MANAGED BY alfred] Nuclear momentum +3.4% today, deploying idle cash into sector strength",
+      "entry_price": 328.82,
+      "entry_time": "2026-03-05T19:21:17.994641+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "VST",
+      "bot": "eddie_v",
+      "thesis": "[MANAGED BY alfred] Nuclear/energy momentum +2.2%, deploying remaining Eddie cash",
+      "entry_price": 165.43,
+      "entry_time": "2026-03-05T19:21:21.869437+00:00",
+      "status": "OPEN"
+    },
+    {
+      "ticker": "CEG",
+      "bot": "vex",
+      "thesis": "[MANAGED BY alfred] Nuclear momentum, deploying Vex idle cash into today's strongest sector",
+      "entry_price": 328.82,
+      "entry_time": "2026-03-05T19:21:30.211416+00:00",
+      "status": "OPEN"
     }
   ],
   "exits": []

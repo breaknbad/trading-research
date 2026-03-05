@@ -1,6 +1,6 @@
 {
   "regime": "NORMAL",
-  "rvol": 1.268,
+  "rvol": 0.786,
   "rvol_delta": "FLAT",
   "stop_rule": "1.5%",
   "entry_rule": {
@@ -13,6 +13,6 @@
     "note": "Standard entries"
   },
   "glide_killer_active": false,
-  "updated_at": "2026-03-04T22:44:03.070437",
+  "updated_at": "2026-03-05T17:00:59.889301",
   "morning_avg_rvol": 1.423244087416435
 }

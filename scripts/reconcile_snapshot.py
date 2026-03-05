@@ -15,9 +15,7 @@ WORKSPACE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(WORKSPACE / "scripts"))
 from bot_config import BOT_ID
 
-STARTING_CAPITAL = 25000.0  # Alfred's actual remaining capital after realized losses
-# Note: Original was $50K but ~$18K in realized losses (APT write-off, etc.)
-# This gives a more honest cash/return calculation.
+STARTING_CAPITAL = 50000.0  # Original paper trading allocation
 
 # Supabase
 URL = 'https://vghssoltipiajiwzhkyn.supabase.co'

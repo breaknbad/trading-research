@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.miai.auto-trader</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/sheridanskala/.openclaw/workspace/scripts/auto_trader.py</string>
+        <string>--bot-id</string>
+        <string>alfred</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>300</integer>
+    <key>WorkingDirectory</key>
+    <string>/Users/sheridanskala/.openclaw/workspace</string>
+    <key>StandardOutPath</key>
+    <string>/Users/sheridanskala/.openclaw/workspace/logs/auto-trader.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/sheridanskala/.openclaw/workspace/logs/auto-trader-error.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    </dict>
+</dict>
+</plist>

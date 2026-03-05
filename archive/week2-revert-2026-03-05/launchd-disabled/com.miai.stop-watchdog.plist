@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.miai.stop-watchdog</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/sheridanskala/.openclaw/workspace/trading-research/stop_check_watchdog.py</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>120</integer>
+    <key>StandardOutPath</key>
+    <string>/Users/sheridanskala/.openclaw/workspace/trading-research/logs/watchdog.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/sheridanskala/.openclaw/workspace/trading-research/logs/watchdog_err.log</string>
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>

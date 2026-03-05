@@ -41,19 +41,12 @@
     "trailing_stop": 67200.0,
     "highest_profit_atr": 2.2095998191859305
   },
-  "vex:ETH-USD:LONG": {
-    "original_qty": 6.26,
-    "tier_1_done": true,
-    "tier_2_done": true,
-    "trailing_stop": 2060.920548,
-    "highest_profit_atr": 2.563996284152022
-  },
   "vex:SOL-USD:LONG": {
     "original_qty": 93.33,
     "tier_1_done": false,
     "tier_2_done": false,
     "trailing_stop": null,
-    "highest_profit_atr": 0.5965658898715146
+    "highest_profit_atr": 0.7682552432382769
   },
   "vex:SQQQ:LONG": {
     "original_qty": 13.0,
@@ -200,7 +193,7 @@
     "tier_1_done": false,
     "tier_2_done": false,
     "trailing_stop": null,
-    "highest_profit_atr": 0.31735630031829115
+    "highest_profit_atr": 0.5455476423218371
   },
   "tars:SOL-USD:LONG": {
     "original_qty": 98.0,
@@ -251,13 +244,6 @@
     "trailing_stop": null,
     "highest_profit_atr": 0
   },
-  "vex:MRNA:LONG": {
-    "original_qty": 18.0,
-    "tier_1_done": true,
-    "tier_2_done": true,
-    "trailing_stop": 56.289500000000004,
-    "highest_profit_atr": 3.1302008909809156
-  },
   "vex:SUI:LONG": {
     "original_qty": 2928.0,
     "tier_1_done": true,
@@ -277,7 +263,7 @@
     "tier_1_done": false,
     "tier_2_done": false,
     "trailing_stop": null,
-    "highest_profit_atr": 0
+    "highest_profit_atr": 0.004031369661076631
   },
   "vex:GDX-USD:LONG": {
     "original_qty": 27.0,
@@ -333,7 +319,7 @@
     "tier_1_done": false,
     "tier_2_done": false,
     "trailing_stop": null,
-    "highest_profit_atr": 0.35659926070885295
+    "highest_profit_atr": 0.6899525657611075
   },
   "vex:STX:LONG": {
     "original_qty": 10.0,
@@ -347,7 +333,7 @@
     "tier_1_done": false,
     "tier_2_done": false,
     "trailing_stop": null,
-    "highest_profit_atr": 0.20982986767485542
+    "highest_profit_atr": 0.40816326530612007
   },
   "eddie_v:ADA-USD:LONG": {
     "original_qty": 7142.0,
@@ -357,25 +343,25 @@
     "highest_profit_atr": 0.6386380968781469
   },
   "eddie_v:HOOD:LONG": {
-    "original_qty": 50.0,
+    "original_qty": 150.0,
     "tier_1_done": false,
     "tier_2_done": false,
     "trailing_stop": null,
-    "highest_profit_atr": 0.4008209585898821
+    "highest_profit_atr": 0.506454816285996
   },
   "eddie_v:COIN:LONG": {
     "original_qty": 40.0,
     "tier_1_done": false,
     "tier_2_done": false,
     "trailing_stop": null,
-    "highest_profit_atr": 0.20887975236879844
+    "highest_profit_atr": 0.913194770995954
   },
   "eddie_v:LINK-USD:LONG": {
     "original_qty": 500.0,
     "tier_1_done": false,
     "tier_2_done": false,
     "trailing_stop": null,
-    "highest_profit_atr": 0.19336363103227672
+    "highest_profit_atr": 0.3151603395304113
   },
   "eddie_v:AMD:LONG": {
     "original_qty": 15.0,
@@ -404,5 +390,138 @@
     "tier_2_done": false,
     "trailing_stop": null,
     "highest_profit_atr": 0.01248510673683832
+  },
+  "alfred:OXY:LONG": {
+    "original_qty": 50.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.1651527663088315
+  },
+  "alfred:AVGO:LONG": {
+    "original_qty": 15.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.9690476190476174
+  },
+  "vex:AVGO:LONG": {
+    "original_qty": 15.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.9667242097743917
+  },
+  "eddie_v:MSTR:LONG": {
+    "original_qty": 80.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.015910244277118363
+  },
+  "alfred:CRM:LONG": {
+    "original_qty": 25.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.5318185157072556
+  },
+  "eddie_v:CRM:LONG": {
+    "original_qty": 100.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.5318185157072556
+  },
+  "eddie_v:DVN:LONG": {
+    "original_qty": 200.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.2412599128783612
+  },
+  "vex:CRM:LONG": {
+    "original_qty": 40.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.49264219779143786
+  },
+  "vex:MRNA:LONG": {
+    "original_qty": 9.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 1.223587658032002
+  },
+  "vex:ETH-USD:LONG": {
+    "original_qty": 1.9,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 1.4951917239439025
+  },
+  "alfred:NOW:LONG": {
+    "original_qty": 40.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.3870121351262685
+  },
+  "eddie_v:NOW:LONG": {
+    "original_qty": 30.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.3998688954441163
+  },
+  "alfred:MDB:LONG": {
+    "original_qty": 15.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.3724505980481804
+  },
+  "eddie_v:CRWD:LONG": {
+    "original_qty": 20.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.2118534836305679
+  },
+  "eddie_v:UNI-USD:LONG": {
+    "original_qty": 493.4963,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
+  },
+  "vex:CEG:LONG": {
+    "original_qty": 15.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.41186211049224947
+  },
+  "eddie_v:CEG:LONG": {
+    "original_qty": 20.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.41234631070445144
+  },
+  "eddie_v:VST:LONG": {
+    "original_qty": 40.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0.4302997794862574
+  },
+  "eddie_v:MRVL:LONG": {
+    "original_qty": 25.0,
+    "tier_1_done": false,
+    "tier_2_done": false,
+    "trailing_stop": null,
+    "highest_profit_atr": 0
   }
 }

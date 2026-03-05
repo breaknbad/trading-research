@@ -1,70 +1,30 @@
 [
   {
     "bot": "ALFRED",
-    "timestamp": "2026-03-05T00:26:28.905691+00:00",
+    "timestamp": "2026-03-05T13:02:02.229761+00:00",
+    "category": "service_down",
+    "severity": "CRITICAL",
+    "description": "launchd service com.miai.factor-engine not running (exit code 2)",
+    "auto_fixable": true,
+    "fix_applied": "Restart via launchctl",
+    "status": "open"
+  },
+  {
+    "bot": "ALFRED",
+    "timestamp": "2026-03-05T13:02:02.247616+00:00",
     "category": "performance_anomaly",
     "severity": "WARN",
-    "description": "technical_scanner.log: 7530 errors detected",
+    "description": "factor_engine_err.log: 110 errors detected",
     "auto_fixable": false,
     "fix_applied": null,
     "status": "open"
   },
   {
     "bot": "ALFRED",
-    "timestamp": "2026-03-05T00:26:28.934212+00:00",
-    "category": "performance_anomaly",
-    "severity": "WARN",
-    "description": "portfolio_health.log: 368 errors detected",
-    "auto_fixable": false,
-    "fix_applied": null,
-    "status": "open"
-  },
-  {
-    "bot": "ALFRED",
-    "timestamp": "2026-03-05T00:26:28.944081+00:00",
-    "category": "performance_anomaly",
-    "severity": "WARN",
-    "description": "com.miai.portfolio-health.log: 368 errors detected",
-    "auto_fixable": false,
-    "fix_applied": null,
-    "status": "open"
-  },
-  {
-    "bot": "ALFRED",
-    "timestamp": "2026-03-05T00:26:28.969654+00:00",
+    "timestamp": "2026-03-05T13:02:02.317660+00:00",
     "category": "performance_anomaly",
     "severity": "WARN",
     "description": "reentry_trigger.log: 63 errors detected",
-    "auto_fixable": false,
-    "fix_applied": null,
-    "status": "open"
-  },
-  {
-    "bot": "ALFRED",
-    "timestamp": "2026-03-05T00:26:28.976835+00:00",
-    "category": "performance_anomaly",
-    "severity": "WARN",
-    "description": "com.miai.technical-scanner.log: 7530 errors detected",
-    "auto_fixable": false,
-    "fix_applied": null,
-    "status": "open"
-  },
-  {
-    "bot": "ALFRED",
-    "timestamp": "2026-03-05T00:26:29.012403+00:00",
-    "category": "performance_anomaly",
-    "severity": "WARN",
-    "description": "sync-market-state.log: 81 errors detected",
-    "auto_fixable": false,
-    "fix_applied": null,
-    "status": "open"
-  },
-  {
-    "bot": "ALFRED",
-    "timestamp": "2026-03-05T00:26:29.038291+00:00",
-    "category": "performance_anomaly",
-    "severity": "WARN",
-    "description": "stop_check_err.log: 117 errors detected",
     "auto_fixable": false,
     "fix_applied": null,
     "status": "open"

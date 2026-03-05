@@ -1,11 +1,11 @@
 [
   {
-    "bot": "alfred",
-    "ticker": "LINK-USD",
+    "bot": "eddie_v",
+    "ticker": "MRVL",
     "side": "LONG",
-    "pnl_pct": -2.15,
+    "pnl_pct": -3.38,
     "threshold": -1.5,
-    "message": "\u26a0\ufe0f APPROACHING STOP: alfred LONG LINK-USD at -2.2% \u2014 review thesis",
-    "timestamp": "2026-03-05T01:47:56.342264+00:00"
+    "message": "\u26a0\ufe0f APPROACHING STOP: eddie_v LONG MRVL at -3.4% \u2014 review thesis",
+    "timestamp": "2026-03-05T21:04:04.556515+00:00"
   }
 ]

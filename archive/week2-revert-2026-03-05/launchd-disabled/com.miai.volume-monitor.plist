@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.miai.volume-monitor</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/python3</string>
+		<string>/Users/sheridanskala/.openclaw/workspace/scripts/volume_monitor.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/sheridanskala/.openclaw/workspace/logs/volume_monitor_err.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/sheridanskala/.openclaw/workspace/logs/volume_monitor.log</string>
+	<key>StartInterval</key>
+	<integer>900</integer>
+	<key>WorkingDirectory</key>
+	<string>/Users/sheridanskala/.openclaw/workspace/scripts</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.miai.atr-trailing-stop</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/sheridanskala/.openclaw/workspace/scripts/atr_trailing_stop.py</string>
+        <string>--force</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>60</integer>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/sheridanskala/.openclaw/workspace/logs/atr_trailing_stop.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/sheridanskala/.openclaw/workspace/logs/atr_trailing_stop_error.log</string>
+    <key>WorkingDirectory</key>
+    <string>/Users/sheridanskala/.openclaw/workspace</string>
+</dict>
+</plist>

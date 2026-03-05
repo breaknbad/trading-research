@@ -1,121 +1,121 @@
 {
-  "updated": "2026-03-05T03:52:38.314298+00:00",
+  "updated": "2026-03-05T22:07:02.048416+00:00",
   "stale_after": 90,
   "tickers": {
     "BTC": {
-      "price": 72429,
-      "change_24h_pct": 7.089548208393618,
-      "volume_24h": 80520654730.54102,
+      "price": 71148,
+      "change_24h_pct": -3.1252011148342698,
+      "volume_24h": 56773917260.51106,
       "asset_type": "crypto",
       "technicals": {
-        "rsi": 45.75,
-        "ema9": 72419.0423,
-        "ema21": 72422.4068,
-        "macd": -6.1701,
+        "rsi": 42.95,
+        "ema9": 71171.5058,
+        "ema21": 71179.3172,
+        "macd": -6.3978,
         "macd_signal": null,
         "macd_histogram": null,
         "ema_cross": null
       }
     },
     "ETH": {
-      "price": 2112.98,
-      "change_24h_pct": 8.068506905454816,
-      "volume_24h": 33815343670.48915,
+      "price": 2078.9,
+      "change_24h_pct": -3.689779737733888,
+      "volume_24h": 24116813812.99734,
       "asset_type": "crypto",
       "technicals": {
-        "rsi": 52.96,
-        "ema9": 2112.5838,
-        "ema21": 2112.6212,
-        "macd": -0.1191,
+        "rsi": 35.52,
+        "ema9": 2079.5854,
+        "ema21": 2080.0852,
+        "macd": -0.4875,
         "macd_signal": null,
         "macd_histogram": null,
         "ema_cross": null
       }
     },
     "SOL": {
-      "price": 89.87,
-      "change_24h_pct": 5.0556129289980785,
-      "volume_24h": 7230532971.616314,
+      "price": 89.13,
+      "change_24h_pct": -3.6531995823978107,
+      "volume_24h": 4990590159.302542,
       "asset_type": "crypto",
       "technicals": {
-        "rsi": 26.64,
-        "ema9": 89.8741,
-        "ema21": 89.9049,
-        "macd": -0.0388,
+        "rsi": 48.8,
+        "ema9": 89.1263,
+        "ema21": 89.1256,
+        "macd": -0.0007,
         "macd_signal": null,
         "macd_histogram": null,
         "ema_cross": null
       }
     },
     "AVAX": {
-      "price": 9.44,
-      "change_24h_pct": 3.4188724636723644,
-      "volume_24h": 481838499.01517344,
+      "price": 9.43,
+      "change_24h_pct": -1.3723802494762027,
+      "volume_24h": 278627189.6675793,
       "asset_type": "crypto",
       "technicals": {
-        "rsi": 33.54,
-        "ema9": 9.4424,
-        "ema21": 9.4435,
-        "macd": -0.0017,
+        "rsi": 29.13,
+        "ema9": 9.435,
+        "ema21": 9.4391,
+        "macd": -0.0047,
         "macd_signal": null,
         "macd_histogram": null,
         "ema_cross": null
       }
     },
     "LINK": {
-      "price": 9.25,
-      "change_24h_pct": 6.096141460981909,
-      "volume_24h": 522971264.1218639,
+      "price": 9.22,
+      "change_24h_pct": -2.5760570208121774,
+      "volume_24h": 437367100.91881675,
       "asset_type": "crypto",
       "technicals": {
-        "rsi": 100.0,
-        "ema9": 9.25,
-        "ema21": 9.25,
-        "macd": 0.0,
+        "rsi": 0.0,
+        "ema9": 9.2203,
+        "ema21": 9.2244,
+        "macd": -0.0052,
         "macd_signal": null,
         "macd_histogram": null,
         "ema_cross": null
       }
     },
     "DOT": {
-      "price": 1.53,
-      "change_24h_pct": 0.027149201216178673,
-      "volume_24h": 200908806.77663165,
+      "price": 1.54,
+      "change_24h_pct": -0.23895486587242615,
+      "volume_24h": 160779772.23749352,
       "asset_type": "crypto",
       "technicals": {
-        "rsi": 73.84,
-        "ema9": 1.5236,
-        "ema21": 1.5219,
-        "macd": 0.0012,
-        "macd_signal": null,
-        "macd_histogram": null,
-        "ema_cross": null
-      }
-    },
-    "ADA": {
-      "price": 0.273895,
-      "change_24h_pct": 4.622122834924525,
-      "volume_24h": 943666153.0197513,
-      "asset_type": "crypto",
-      "technicals": {
-        "rsi": 61.7,
-        "ema9": 0.2738,
-        "ema21": 0.2738,
+        "rsi": 100.0,
+        "ema9": 1.54,
+        "ema21": 1.54,
         "macd": 0.0,
         "macd_signal": null,
         "macd_histogram": null,
         "ema_cross": null
       }
     },
-    "DOGE": {
-      "price": 0.096106,
-      "change_24h_pct": 7.926324804739628,
-      "volume_24h": 2736150840.170353,
+    "ADA": {
+      "price": 0.268945,
+      "change_24h_pct": -4.221414222191377,
+      "volume_24h": 581453094.2823595,
       "asset_type": "crypto",
       "technicals": {
-        "rsi": 46.04,
-        "ema9": 0.0961,
-        "ema21": 0.0961,
+        "rsi": 13.5,
+        "ema9": 0.269,
+        "ema21": 0.2692,
+        "macd": -0.0002,
+        "macd_signal": null,
+        "macd_histogram": null,
+        "ema_cross": null
+      }
+    },
+    "DOGE": {
+      "price": 0.093924,
+      "change_24h_pct": -8.307624298700322,
+      "volume_24h": 1603968733.1332119,
+      "asset_type": "crypto",
+      "technicals": {
+        "rsi": 43.56,
+        "ema9": 0.0939,
+        "ema21": 0.0939,
         "macd": 0.0,
         "macd_signal": null,
         "macd_histogram": null,
@@ -123,97 +123,97 @@
       }
     },
     "SUI": {
-      "price": 0.94732,
-      "change_24h_pct": 5.459700441083714,
-      "volume_24h": 751968484.1170826,
+      "price": 0.95645,
+      "change_24h_pct": -2.006446255396168,
+      "volume_24h": 611947711.1113119,
       "asset_type": "crypto",
       "technicals": {
-        "rsi": 5.56,
-        "ema9": 0.9476,
-        "ema21": 0.9481,
-        "macd": -0.0007,
+        "rsi": 48.12,
+        "ema9": 0.9564,
+        "ema21": 0.9566,
+        "macd": -0.0002,
         "macd_signal": null,
         "macd_histogram": null,
         "ema_cross": null
       }
     },
     "INJ": {
-      "price": 3.06,
-      "change_24h_pct": 2.263789594539382,
-      "volume_24h": 56717709.72716232,
+      "price": 3.05,
+      "change_24h_pct": -3.4299529771658612,
+      "volume_24h": 47181318.17542305,
       "asset_type": "crypto",
       "technicals": {
-        "rsi": 41.2,
-        "ema9": 3.0626,
-        "ema21": 3.0641,
-        "macd": -0.0021,
+        "rsi": 53.7,
+        "ema9": 3.0477,
+        "ema21": 3.0486,
+        "macd": -0.0008,
         "macd_signal": null,
         "macd_histogram": null,
         "ema_cross": null
       }
     },
     "RNDR": {
-      "price": 1.39,
-      "change_24h_pct": 5.2448103947076214,
-      "volume_24h": 75442341.12256485,
+      "price": 1.4,
+      "change_24h_pct": -2.749280285339552,
+      "volume_24h": 59627073.57866767,
       "asset_type": "crypto",
       "technicals": {
-        "rsi": 100.0,
-        "ema9": 1.39,
-        "ema21": 1.39,
-        "macd": 0.0,
+        "rsi": 75.6,
+        "ema9": 1.3975,
+        "ema21": 1.3962,
+        "macd": 0.0009,
         "macd_signal": null,
         "macd_histogram": null,
         "ema_cross": null
       }
     },
     "PENDLE": {
-      "price": 1.3,
-      "change_24h_pct": 4.272351013034809,
-      "volume_24h": 34156650.76782251,
+      "price": 1.28,
+      "change_24h_pct": -2.860497928148845,
+      "volume_24h": 24448131.793175247,
       "asset_type": "crypto",
       "technicals": {
         "rsi": 100.0,
-        "ema9": 1.3,
-        "ema21": 1.3,
+        "ema9": 1.28,
+        "ema21": 1.28,
         "macd": 0.0,
         "macd_signal": null,
         "macd_histogram": null,
         "ema_cross": null
       }
     },
-    "MRNA": {
-      "price": 57.8,
-      "change_24h_pct": 15.994380895043145,
-      "volume_24h": 23055000,
+    "CRM": {
+      "price": 201.39,
+      "change_24h_pct": 4.303915475450577,
+      "volume_24h": 15843090,
       "asset_type": "stock",
       "technicals": {}
     },
-    "ROST": {
-      "price": 213.52,
-      "change_24h_pct": 8.034810767051216,
-      "volume_24h": 7734600,
-      "asset_type": "stock",
-      "technicals": {}
-    },
-    "TSLA": {
-      "price": 405.94,
-      "change_24h_pct": 3.4426521927477487,
-      "volume_24h": 68140300,
+    "MDB": {
+      "price": 263.93,
+      "change_24h_pct": 6.419096004193387,
+      "volume_24h": 3584782,
       "asset_type": "stock",
       "technicals": {}
     },
     "COIN": {
-      "price": 208.93,
-      "change_24h_pct": 14.570081158148712,
-      "volume_24h": 27134100,
+      "price": 205.71,
+      "change_24h_pct": -1.5411860431723539,
+      "volume_24h": 14989340,
       "asset_type": "stock",
       "technicals": {}
     },
-    "INTC": {
-      "price": 45.58,
-      "change_24h_pct": 5.7540603248259785,
-      "volume_24h": 96412600,
+    "AVGO": {
+      "price": 332.77,
+      "change_24h_pct": 4.799546499543354,
+      "volume_24h": 56905445,
+      "asset_type": "stock",
+      "technicals": {}
+    },
+    "NOW": {
+      "price": 120.38,
+      "change_24h_pct": 5.72633058141577,
+      "volume_24h": 26534309,
       "asset_type": "stock",
       "technicals": {}
     }
