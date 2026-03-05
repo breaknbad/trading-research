@@ -105,7 +105,11 @@ def reconcile(dry_run=False):
                     total_sold += total_cost
 
     # Cash = starting capital - net bought + net sold
-    cash = STARTING_CAPITAL - total_bought + total_sold
+    # Cap at 0 minimum — negative cash indicates phantom trades in the ledger
+    cash_raw = STARTING_CAPITAL - total_bought + total_sold
+    cash = max(0.0, cash_raw)
+    if cash_raw < 0:
+        print(f"  ⚠️ Ledger shows negative cash (${cash_raw:.2f}) — phantom trades detected. Capping at $0.")
 
     # Aggregate open positions by ticker
     from collections import defaultdict
