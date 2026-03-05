@@ -60,11 +60,14 @@
 5. **Post to Discord** — one message: what changed, why, test results
 6. **Share with fleet** — tag bots that need to pull/adopt
 
-## Phase 6: VERIFY (Next day)
-1. Did it actually run overnight/next session?
-2. Did it produce correct results?
-3. Did anything else break because of it?
-4. If yes → new Phase 1 cycle
+## Phase 6: VERIFY (NOW — not next day)
+1. Run it live RIGHT NOW. Watch it execute.
+2. Did it produce correct results? Compare output to expected.
+3. Did anything else break because of it? Check adjacent systems.
+4. Confirm in Discord: "Verified. Working. Evidence: [output]"
+5. If anything is wrong → new Phase 1 cycle IMMEDIATELY
+
+**Do NOT defer verification. If you can't verify it now, you didn't finish the job.**
 
 ---
 
