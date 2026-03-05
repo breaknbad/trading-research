@@ -551,3 +551,27 @@ The top 3 systemic failures:
 3. **Complexity killed reliability** — 3/4 bots down simultaneously because the system was too heavy. Context overflow, rate limits, resource contention.
 
 The fix is equally simple: **trade more, build less, test everything.**
+
+---
+
+## VEX ADDITIONS (Mar 5)
+
+### #101 — Single Vendor API Dependency (P1 CRITICAL)
+**What:** All 4 bots run on Anthropic. One rate limit event took out 75% of the fleet for 14+ hours.
+**Impact:** 3/4 bots non-functional during active trading day. Zero trades executed by TARS, Eddie, or Vex for most of the session.
+**Fix:** Rate limit budgeting — each bot gets a token budget per hour. Implement exponential backoff. Consider model fallback (e.g., if primary model 429s 3x, fall back to a lighter model for critical functions like stop enforcement).
+
+### #102 — Overbought RSI Ignored (P1 CRITICAL)
+**What:** 11/11 crypto assets showed RSI >70 at 9:20 AM. Alfred's own scan flagged it. We bought more BTC instead of tightening stops.
+**Impact:** Crypto reversed -3% to -8% across the board. BTC stop hit at $71,247. Could have locked +$1,500 more by tightening at the signal.
+**Fix:** Automated stop tightening when >60% of portfolio assets show RSI >70 simultaneously. This is a distribution signal, not momentum. Glide killer should trigger on fleet-wide overbought, not just individual position drawdown.
+
+### #103 — TARS Model Typo (P2 HIGH)
+**What:** TARS configured with `anthropic/claude-opus-4-5-20250620` (doesn't exist). One wrong string = 18+ hours offline.
+**Impact:** Lost TARS's macro analysis, market_watcher degraded, no stop enforcement on his positions, fleet lost 25% capacity.
+**Fix:** Model validation on startup — if configured model returns error, fall back to default. Gateway should not crash on bad model string. Also: any config change should be verified with a test call before committing.
+
+### #104 — Silent Cron Death (P2 HIGH)
+**What:** Intel pipeline, sentiment scanner, watchdog crons all 429'd and stopped running. No alerts fired. Nobody knew.
+**Impact:** Factor engine inputs went stale. Sentiment data stopped flowing. The tools we built to prevent yesterday's mistakes were silently dead.
+**Fix:** Every cron job writes a success heartbeat to a file or Supabase table. A meta-watchdog checks that ALL crons have heartbeated in the last 2x their interval. If stale → alert to Discord immediately.
