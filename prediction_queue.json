@@ -1,0 +1,99 @@
+{
+  "updated_at": "2026-03-05T23:41:19.353128+00:00",
+  "bot_id": "alfred",
+  "queue_size": 5,
+  "predictions": [
+    {
+      "ticker": "NOW",
+      "action": "BUY",
+      "market": "STOCK",
+      "price": 120.38,
+      "quantity": 83,
+      "stop": 117.97,
+      "target": 126.4,
+      "score": 67,
+      "reasons": [
+        "strong momentum +5.7%",
+        "volume 26,534,309",
+        "correlation follower of winner"
+      ],
+      "momentum_pct": 5.73,
+      "is_follower": true,
+      "queued_at": "2026-03-05T23:41:19.352129+00:00",
+      "expires_at": "2026-03-06T00:11:19.352135+00:00"
+    },
+    {
+      "ticker": "CRM",
+      "action": "BUY",
+      "market": "STOCK",
+      "price": 201.39,
+      "quantity": 49,
+      "stop": 197.36,
+      "target": 211.46,
+      "score": 59,
+      "reasons": [
+        "good momentum +4.3%",
+        "volume 15,843,090",
+        "correlation follower of winner"
+      ],
+      "momentum_pct": 4.3,
+      "is_follower": true,
+      "queued_at": "2026-03-05T23:41:19.352100+00:00",
+      "expires_at": "2026-03-06T00:11:19.352105+00:00"
+    },
+    {
+      "ticker": "TTD",
+      "action": "BUY",
+      "market": "STOCK",
+      "price": 29.79,
+      "quantity": 335,
+      "stop": 29.19,
+      "target": 31.28,
+      "score": 57,
+      "reasons": [
+        "strong momentum +18.4%",
+        "volume 82,163,130"
+      ],
+      "momentum_pct": 18.36,
+      "is_follower": false,
+      "queued_at": "2026-03-05T23:41:19.352557+00:00",
+      "expires_at": "2026-03-06T00:11:19.352561+00:00"
+    },
+    {
+      "ticker": "MDB",
+      "action": "BUY",
+      "market": "STOCK",
+      "price": 263.93,
+      "quantity": 37,
+      "stop": 258.65,
+      "target": 277.13,
+      "score": 57,
+      "reasons": [
+        "strong momentum +6.4%",
+        "volume 3,584,782"
+      ],
+      "momentum_pct": 6.42,
+      "is_follower": false,
+      "queued_at": "2026-03-05T23:41:19.352606+00:00",
+      "expires_at": "2026-03-06T00:11:19.352610+00:00"
+    },
+    {
+      "ticker": "DOGE-USD",
+      "action": "SELL",
+      "market": "CRYPTO",
+      "price": 0.09363669,
+      "quantity": 106795.7443,
+      "stop": 0.09,
+      "target": 0.1,
+      "score": 57,
+      "reasons": [
+        "strong momentum -5.5%",
+        "volume 1,374,815,872"
+      ],
+      "momentum_pct": -5.45,
+      "is_follower": false,
+      "queued_at": "2026-03-05T23:41:19.353057+00:00",
+      "expires_at": "2026-03-06T00:11:19.353062+00:00"
+    }
+  ]
+}

@@ -1,6 +1,21 @@
 {
   "enabled": true,
-  "tickers": {},
+  "tickers": {
+    "NOW": {
+      "action": "BUY",
+      "market": "STOCK",
+      "criteria": {
+        "price_below": 120.50037999999998,
+        "price_above": null,
+        "any": true
+      },
+      "quantity": 83,
+      "stop": 117.97,
+      "reason": "[PREDICTION Q#1] score=67 | strong momentum +5.7%, volume 26,534,309",
+      "_from_prediction": true,
+      "_expires_at": "2026-03-06T00:11:19.352135+00:00"
+    }
+  },
   "_example": {
     "NVDA": {
       "action": "BUY",
