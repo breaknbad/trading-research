@@ -80,36 +80,10 @@ def reconcile(dry_run=False):
         if r.ok:
             all_trades.extend(r.json())
 
-    # Fetch all closed trades to calculate realized P&L and cash spent
-    total_bought = 0.0
-    total_sold = 0.0
-    realized_pl = 0.0
-    trade_count = 0
-    wins = 0
-
-    for bid in BOT_IDS:
-        r = requests.get(
-            f'{URL}/rest/v1/trades?bot_id=eq.{bid}&select=ticker,quantity,price_usd,action,status&order=created_at.asc',
-            headers={'apikey': KEY, 'Authorization': f'Bearer {KEY}'},
-            timeout=10
-        )
-        if r.ok:
-            for t in r.json():
-                qty = float(t.get('quantity', 0))
-                price = float(t.get('price_usd', 0))
-                total_cost = qty * price
-                trade_count += 1
-                if t['action'] == 'BUY':
-                    total_bought += total_cost
-                elif t['action'] == 'SELL':
-                    total_sold += total_cost
-
-    # Cash = starting capital - net bought + net sold
-    # Cap at 0 minimum — negative cash indicates phantom trades in the ledger
-    cash_raw = STARTING_CAPITAL - total_bought + total_sold
-    cash = max(0.0, cash_raw)
-    if cash_raw < 0:
-        print(f"  ⚠️ Ledger shows negative cash (${cash_raw:.2f}) — phantom trades detected. Capping at $0.")
+    # Cash = starting capital - cost of open positions (simple, deterministic)
+    open_cost = sum(float(t.get('quantity', 0)) * float(t.get('price_usd', 0)) for t in all_trades)
+    cash = max(0.0, STARTING_CAPITAL - open_cost)
+    trade_count = len(all_trades)
 
     # Aggregate open positions by ticker
     from collections import defaultdict
