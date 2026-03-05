@@ -199,3 +199,12 @@ if __name__ == "__main__":
     dry_run = "--dry-run" in sys.argv
     # --bot-id override handled at module level (before imports)
     reconcile(dry_run=dry_run)
+
+    # Fleet concentration check (only when running for local bot, not override)
+    if not _override:
+        try:
+            from fleet_concentration_check import check
+            print("\n--- Fleet Concentration Check ---")
+            check()
+        except Exception as e:
+            print(f"⚠️ Fleet concentration check failed: {e}")
