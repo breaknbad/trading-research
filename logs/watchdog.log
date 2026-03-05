@@ -1,0 +1,435 @@
+✅ stop_check.log is 43s old — alive
+✅ stop_check.log is 33s old — alive
+✅ stop_check.log is 66s old — alive
+✅ stop_check.log is 51s old — alive
+✅ stop_check.log is 41s old — alive
+✅ stop_check.log is 31s old — alive
+✅ stop_check.log is 10s old — alive
+✅ stop_check.log is 0s old — alive
+✅ stop_check.log is 55s old — alive
+✅ stop_check.log is 26s old — alive
+✅ stop_check.log is 11s old — alive
+✅ stop_check.log is 67s old — alive
+✅ stop_check.log is 23s old — alive
+✅ stop_check.log is 13s old — alive
+✅ stop_check.log is 3s old — alive
+✅ stop_check.log is 59s old — alive
+✅ stop_check.log is 110s old — alive
+✅ stop_check.log is 37s old — alive
+✅ stop_check.log is 39s old — alive
+✅ stop_check.log is 29s old — alive
+✅ stop_check.log is 20s old — alive
+✅ stop_check.log is 11s old — alive
+✅ stop_check.log is 1s old — alive
+✅ stop_check.log is 56s old — alive
+✅ stop_check.log is 47s old — alive
+✅ stop_check.log is 37s old — alive
+✅ stop_check.log is 27s old — alive
+✅ stop_check.log is 18s old — alive
+✅ stop_check.log is 9s old — alive
+✅ stop_check.log is 0s old — alive
+✅ stop_check.log is 56s old — alive
+✅ stop_check.log is 47s old — alive
+✅ stop_check.log is 38s old — alive
+✅ stop_check.log is 29s old — alive
+✅ stop_check.log is 21s old — alive
+✅ Watchdog: all checks pass
+   freshness: fresh (50s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (41s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (32s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (23s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (14s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (5s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (60s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (52s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (43s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (33s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (23s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (14s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (4s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (60s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (51s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (41s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (32s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (23s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (14s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (5s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (60s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (51s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (45s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (38s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (32s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (26s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (18s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (12s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (5s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (62s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (55s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (47s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (41s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (34s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (26s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (20s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (12s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (6s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (63s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (55s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (46s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (38s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (31s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (25s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (17s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (10s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (1s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (57s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (50s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (42s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (36s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (28s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (22s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (15s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (8s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (1s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (57s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (49s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (42s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (34s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (28s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (20s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (14s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (6s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (62s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (55s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (48s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (41s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (35s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (28s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (22s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (16s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (9s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (2s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (59s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (53s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (46s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (39s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (33s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (27s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (20s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (14s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (7s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (1s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (58s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (52s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (44s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (38s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (32s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (25s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (19s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (10s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (3s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (60s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (52s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (44s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (37s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (31s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (40s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active
+✅ Watchdog: all checks pass
+   freshness: fresh (52s old)
+   activity: activity detected in recent log
+   price_sanity: price sanity gate active

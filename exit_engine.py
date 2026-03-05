@@ -294,6 +294,46 @@ def sweep_all(bot_id):
     return results
 
 
+def auto_execute_exits(results, bot_id):
+    """Execute EXIT verdicts automatically. REDUCE = trim 50%."""
+    try:
+        from log_trade import log_trade
+    except ImportError:
+        print("❌ log_trade not found — cannot auto-execute exits")
+        return
+
+    for r in results:
+        ticker = r["ticker"]
+        side = r["side"]
+        qty = float(r.get("quantity", 0))
+        current = float(r.get("current_price", 0))
+        if qty <= 0 or current <= 0:
+            continue
+
+        action = "SELL" if side == "LONG" else "COVER"
+
+        if r["verdict"] == "EXIT":
+            signals = ", ".join(t["signal"] for t in r["triggered_exits"][:3])
+            reason = f"EXIT ENGINE AUTO-EXIT: {signals}"
+            print(f"  🔴 EXECUTING: {action} {qty}x {ticker} @ ${current:.2f}")
+            try:
+                log_trade(bot_id, action, ticker, qty, current, reason)
+                print(f"  ✅ Exited {ticker}")
+            except Exception as e:
+                print(f"  ❌ Exit failed: {e}")
+
+        elif r["verdict"] == "REDUCE":
+            trim_qty = round(qty * 0.50, 6)
+            signals = ", ".join(t["signal"] for t in r["triggered_exits"][:3])
+            reason = f"EXIT ENGINE AUTO-REDUCE 50%: {signals}"
+            print(f"  🟡 TRIMMING: {action} {trim_qty}x {ticker} @ ${current:.2f}")
+            try:
+                log_trade(bot_id, action, ticker, trim_qty, current, reason)
+                print(f"  ✅ Trimmed {ticker}")
+            except Exception as e:
+                print(f"  ❌ Trim failed: {e}")
+
+
 def format_discord(results, bot_id):
     """Format results for Discord posting."""
     lines = [f"**🚪 EXIT SWEEP — {bot_id.upper()}**\n"]
@@ -317,11 +357,14 @@ if __name__ == "__main__":
     parser.add_argument("--ticker", help="Score a single position")
     parser.add_argument("--sweep", action="store_true", help="Sweep all positions")
     parser.add_argument("--discord", action="store_true", help="Output Discord-formatted")
+    parser.add_argument("--auto-execute", action="store_true", help="Auto-execute EXIT/REDUCE verdicts")
 
     args = parser.parse_args()
 
     if args.sweep or not args.ticker:
         results = sweep_all(args.bot)
+        if args.auto_execute:
+            auto_execute_exits(results, args.bot)
         if args.discord:
             print("\n" + format_discord(results, args.bot))
     elif args.ticker:
