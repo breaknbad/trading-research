@@ -47,6 +47,17 @@ BUDDIES = {
 STALE_THRESHOLD_MIN = 15
 BOT_IDS = ["tars", "alfred", "eddie_v", "vex"]
 
+# SSH restart config — auto-restart buddy if stale
+SSH_KEY = os.path.expanduser("~/.ssh/miai_bot")
+BOT_SSH = {
+    "tars":    {"user": "mharfmann",     "ip": "192.168.1.234"},
+    "alfred":  {"user": "sheridanskala", "ip": "192.168.1.204"},
+    "eddie_v": {"user": "",              "ip": "192.168.1.197"},  # Fill in username
+    "vex":     {"user": "",              "ip": "192.168.1.233"},  # Fill in username
+}
+RESTART_COOLDOWN_MIN = 30  # Don't restart same bot more than once per 30 min
+RESTART_LOG = WORKSPACE / "logs" / "buddy-restarts.json"
+
 
 def ping(bot_id: str):
     """Record heartbeat to bot_health table."""
@@ -111,6 +122,8 @@ def check_buddy(bot_id: str):
 
         if age_min > STALE_THRESHOLD_MIN:
             print(f"🔴 ALERT: Buddy {buddy} is STALE — last heartbeat {age_min:.0f}m ago (threshold: {STALE_THRESHOLD_MIN}m)")
+            # Auto-restart via SSH
+            ssh_restart(buddy)
             return False
         else:
             print(f"✅ Buddy {buddy} is alive — last heartbeat {age_min:.0f}m ago")
@@ -151,6 +164,59 @@ def show_status():
             print(f"  {bot_id:10s} {'ERROR':8s} {str(e)[:30]}")
 
     print(f"\nBuddy pairs: Alfred↔Eddie, Vex↔TARS | Stale threshold: {STALE_THRESHOLD_MIN}m")
+
+
+def ssh_restart(bot_id: str):
+    """Attempt SSH restart of a stale buddy."""
+    import subprocess
+    
+    ssh_info = BOT_SSH.get(bot_id)
+    if not ssh_info or not ssh_info["user"]:
+        print(f"⚠️  No SSH config for {bot_id} — can't auto-restart")
+        return False
+    
+    if not os.path.exists(SSH_KEY):
+        print(f"⚠️  SSH key {SSH_KEY} not found — run SSH setup first")
+        return False
+    
+    # Cooldown check
+    try:
+        if RESTART_LOG.exists():
+            restarts = json.loads(RESTART_LOG.read_text())
+        else:
+            restarts = {}
+        last = restarts.get(bot_id, 0)
+        age_min = (datetime.now(timezone.utc).timestamp() - last) / 60
+        if age_min < RESTART_COOLDOWN_MIN:
+            print(f"⏳ {bot_id} restart on cooldown ({age_min:.0f}m < {RESTART_COOLDOWN_MIN}m)")
+            return False
+    except:
+        restarts = {}
+    
+    # Attempt restart
+    user = ssh_info["user"]
+    ip = ssh_info["ip"]
+    cmd = ["ssh", "-i", SSH_KEY, "-o", "StrictHostKeyChecking=no", "-o", "ConnectTimeout=10",
+           f"{user}@{ip}", "openclaw gateway restart"]
+    
+    print(f"🔄 Attempting SSH restart of {bot_id} ({user}@{ip})...")
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        if result.returncode == 0:
+            print(f"✅ {bot_id} restarted successfully via SSH")
+            restarts[bot_id] = datetime.now(timezone.utc).timestamp()
+            os.makedirs(RESTART_LOG.parent, exist_ok=True)
+            RESTART_LOG.write_text(json.dumps(restarts, indent=2))
+            return True
+        else:
+            print(f"❌ SSH restart failed: {result.stderr.strip()}")
+            return False
+    except subprocess.TimeoutExpired:
+        print(f"❌ SSH restart timed out for {bot_id}")
+        return False
+    except Exception as e:
+        print(f"❌ SSH restart error: {e}")
+        return False
 
 
 def main():
