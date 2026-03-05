@@ -12,11 +12,11 @@
 |---|------|---------------|--------|
 | 1 | Deploy 70% by 10:30 AM, 100% by noon | ❌ Discipline | STANDING_ORDERS.md |
 | 2 | Up to 20% per position per bot | ✅ Yes | execute_trade.py (position limit check) |
-| 3 | Fleet concentration check every 30 min — if ticker >30% fund-wide, smallest holder trims | ✅ Yes | reconcile_snapshot.py |
+| 3 | Fleet concentration check every 30 min — if ticker >30% fund-wide, smallest holder trims | ✅ Yes | fleet_concentration_check.py (called by reconcile_snapshot.py) |
 | 4 | Stops mandatory — manual price levels or 2% default | ✅ Yes | stop_check.py (MANUAL_STOPS + 2% fallback) |
 | 5 | -6% daily circuit breaker | ✅ Yes | stop_check.py |
-| 6 | Winners auto-trim at +5% — take 25% off, build dry powder | ⬜ TO BUILD | stop_check.py (add profit-take logic) |
-| 7 | Dollar-loss pause — down $500/hr → 30 min cooldown | ⬜ TO BUILD | stop_check.py (add hourly loss tracker) |
+| 6 | Winners auto-trim at +5% — take 25% off, build dry powder | ✅ Yes | stop_check.py (PROFIT TRIM logic) |
+| 7 | Dollar-loss pause — down $500/hr → 30 min cooldown | ✅ Yes | stop_check.py (check_hourly_loss_pause) |
 | 8 | Price sanity gate — reject garbage prices | ✅ Yes | price_sanity_gate.py |
 | 9 | 3x test before any code ships | ❌ Discipline | pre_deploy_check.py validates |
 
