@@ -1,0 +1,235 @@
+{
+  "bot_id": "vex",
+  "bot_name": "Vex",
+  "emoji": "\ud83e\udd19",
+  "strategy": "Cross-Market Correlations",
+  "status": "running",
+  "updated_at": "2026-02-28T02:07:06.165735+00:00",
+  "total_value_usd": 25619.44,
+  "cash_usd": 3055.92,
+  "total_return_pct": 2.48,
+  "daily_pnl": 240.37,
+  "daily_return_pct": 2.4778,
+  "realized_pl": 0.0,
+  "unrealized_pl": 678.67,
+  "day_start_value": 25379.07,
+  "win_rate": 46.7,
+  "trade_count": 13,
+  "positions": [
+    {
+      "ticker": "AMZN",
+      "side": "LONG",
+      "quantity": 10.0,
+      "avg_entry": 209.0,
+      "current_price": 210.0,
+      "unrealized_pl": 10.0,
+      "pnl_pct": 0.48,
+      "market_value": 2100.0
+    },
+    {
+      "ticker": "EFA",
+      "side": "LONG",
+      "quantity": 25.0,
+      "avg_entry": 104.24,
+      "current_price": 105.38,
+      "unrealized_pl": 28.5,
+      "pnl_pct": 1.09,
+      "market_value": 2634.5
+    },
+    {
+      "ticker": "EWC",
+      "side": "LONG",
+      "quantity": 50.0,
+      "avg_entry": 56.17,
+      "current_price": 57.98,
+      "unrealized_pl": 90.5,
+      "pnl_pct": 3.22,
+      "market_value": 2899.0
+    },
+    {
+      "ticker": "GDX",
+      "side": "LONG",
+      "quantity": 40.0,
+      "avg_entry": 109.82,
+      "current_price": 115.84,
+      "unrealized_pl": 240.8,
+      "pnl_pct": 5.48,
+      "market_value": 4633.6
+    },
+    {
+      "ticker": "GLD",
+      "side": "LONG",
+      "quantity": 10.0,
+      "avg_entry": 462.62,
+      "current_price": 483.75,
+      "unrealized_pl": 211.3,
+      "pnl_pct": 4.57,
+      "market_value": 4837.5
+    },
+    {
+      "ticker": "XLE",
+      "side": "LONG",
+      "quantity": 26.0,
+      "avg_entry": 54.6,
+      "current_price": 55.92,
+      "unrealized_pl": 34.32,
+      "pnl_pct": 2.42,
+      "market_value": 1453.92
+    },
+    {
+      "ticker": "XLV",
+      "side": "LONG",
+      "quantity": 25.0,
+      "avg_entry": 157.67,
+      "current_price": 160.2,
+      "unrealized_pl": 63.25,
+      "pnl_pct": 1.6,
+      "market_value": 4005.0
+    }
+  ],
+  "recent_trades": [
+    {
+      "trade_id": "VEX-f36c0999",
+      "timestamp": "2026-02-26T14:32:12+00:00",
+      "action": "SELL",
+      "ticker": "XLI",
+      "quantity": 8.0,
+      "price_usd": 175.91,
+      "total_usd": 1407.28,
+      "reason": "Freeing cash for velocity plays.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "VEX-275c7a41",
+      "timestamp": "2026-02-26T14:32:11+00:00",
+      "action": "SELL",
+      "ticker": "DRS",
+      "quantity": 25.0,
+      "price_usd": 42.36,
+      "total_usd": 1059.0,
+      "reason": "DRS stop breached at -4.9%. Rule is rule.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "VEX-6c892758",
+      "timestamp": "2026-02-24T19:06:19.068651+00:00",
+      "action": "BUY",
+      "ticker": "DRS",
+      "quantity": 25.0,
+      "price_usd": 44.55,
+      "total_usd": 1113.75,
+      "reason": "Defense + AI convergence. +16.8% today. SOTU defense spending catalyst. Stop $42.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "VEX-a1772ebf",
+      "timestamp": "2026-02-24T17:05:17.207357+00:00",
+      "action": "BUY",
+      "ticker": "XLI",
+      "quantity": 8.0,
+      "price_usd": 176.47,
+      "total_usd": 1411.76,
+      "reason": "Cyclicals leading today. Infrastructure spend works either way. Stop $172.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "VEX-7003b006",
+      "timestamp": "2026-02-24T17:05:16.532817+00:00",
+      "action": "BUY",
+      "ticker": "XLE",
+      "quantity": 26.0,
+      "price_usd": 54.6,
+      "total_usd": 1419.6000000000001,
+      "reason": "Both-direction energy play. Tariffs lift oil, bounce lifts sector. Stop $53.50.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "VEX-d2259b67",
+      "timestamp": "2026-02-24T17:05:15.806854+00:00",
+      "action": "BUY",
+      "ticker": "GDX",
+      "quantity": 40.0,
+      "price_usd": 109.82,
+      "total_usd": 4392.799999999999,
+      "reason": "Gold miners leverage gold move 2-3x. Stop $107.62.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "VEX-66c0c42c",
+      "timestamp": "2026-02-24T17:05:15.181840+00:00",
+      "action": "SELL",
+      "ticker": "QQQ",
+      "quantity": 5.0,
+      "price_usd": 601.92,
+      "total_usd": 3009.6,
+      "reason": "Sold at open per locked plan. Cutting the loser.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "VEX-41bec37f",
+      "timestamp": "2026-02-24T17:01:34.659261+00:00",
+      "action": "BUY",
+      "ticker": "AMZN",
+      "quantity": 10.0,
+      "price_usd": 209.0,
+      "total_usd": 2090.0,
+      "reason": "Both-direction capability. Cloud + AI. Stop $205.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "VEX-ed4c9713",
+      "timestamp": "2026-02-23T17:20:00+00:00",
+      "action": "BUY",
+      "ticker": "XLV",
+      "quantity": 25.0,
+      "price_usd": 157.67,
+      "total_usd": 3941.75,
+      "reason": "Defensive rotation confirmed \u2014 Healthcare +0.87% while rest bleeds. Riding the flow.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "3b64b6f4-e5c1-4938-b714-03d5319e52c7",
+      "timestamp": "2026-02-23T15:30:00+00:00",
+      "action": "BUY",
+      "ticker": "EWC",
+      "quantity": 50.0,
+      "price_usd": 56.17,
+      "total_usd": 2808.5,
+      "reason": "Canadian energy exposure riding oil spike. Non-obvious play while market focuses on US tech/gold.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "db3295c9-e25e-415c-b1ec-84f120ee7e5b",
+      "timestamp": "2026-02-23T14:40:00+00:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "quantity": 5.0,
+      "price_usd": 601.92,
+      "total_usd": 3009.6,
+      "reason": "10am reversal play. Nasdaq oversold bounce.",
+      "status": "CLOSED"
+    },
+    {
+      "trade_id": "a912a394-2cce-43d4-bff0-cd43745a0ebb",
+      "timestamp": "2026-02-23T14:40:00+00:00",
+      "action": "BUY",
+      "ticker": "EFA",
+      "quantity": 25.0,
+      "price_usd": 104.24,
+      "total_usd": 2606.0,
+      "reason": "International diversification. Europe holding up vs US selloff.",
+      "status": "OPEN"
+    },
+    {
+      "trade_id": "8e1e6142-9c87-4f92-8fcd-e1051d1afd11",
+      "timestamp": "2026-02-23T14:40:00+00:00",
+      "action": "BUY",
+      "ticker": "GLD",
+      "quantity": 10.0,
+      "price_usd": 462.62,
+      "total_usd": 4626.2,
+      "reason": "Risk-off hedge. Gold bid on tariff fears.",
+      "status": "OPEN"
+    }
+  ]
+}
