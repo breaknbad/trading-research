@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "tickers": {},
+  "_example": {
+    "NVDA": {
+      "action": "BUY",
+      "market": "STOCK",
+      "criteria": {
+        "price_below": 220,
+        "price_above": null,
+        "volume_spike": null,
+        "any": true
+      },
+      "quantity": 25,
+      "stop": 210,
+      "reason": "Oversold bounce setup"
+    }
+  }
+}
