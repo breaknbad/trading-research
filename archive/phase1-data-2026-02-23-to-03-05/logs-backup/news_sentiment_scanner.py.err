@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py", line 298, in <module>
+    run_scan()
+  File "/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py", line 281, in run_scan
+    fresh_alerts = [a for a in alerts if a.get("timestamp", "") > cutoff]
+  File "/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py", line 281, in <listcomp>
+    fresh_alerts = [a for a in alerts if a.get("timestamp", "") > cutoff]
+AttributeError: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py", line 298, in <module>
+    run_scan()
+  File "/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py", line 281, in run_scan
+    fresh_alerts = [a for a in alerts if a.get("timestamp", "") > cutoff]
+  File "/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py", line 281, in <listcomp>
+    fresh_alerts = [a for a in alerts if a.get("timestamp", "") > cutoff]
+AttributeError: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py", line 298, in <module>
+    run_scan()
+  File "/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py", line 281, in run_scan
+    fresh_alerts = [a for a in alerts if a.get("timestamp", "") > cutoff]
+  File "/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py", line 281, in <listcomp>
+    fresh_alerts = [a for a in alerts if a.get("timestamp", "") > cutoff]
+AttributeError: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py", line 298, in <module>
+    log(f"Scan error: {e}")
+  File "/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py", line 281, in run_scan
+    
+  File "/Users/sheridanskala/.openclaw/workspace/scripts/news_sentiment_scanner.py", line 281, in <listcomp>
+    
+AttributeError: 'str' object has no attribute 'get'

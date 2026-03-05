@@ -1,0 +1,872 @@
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state
+usage: factor_engine.py [-h] --ticker TICKER --side {long,short}
+                        --market-state MARKET_STATE
+                        [--macro-state MACRO_STATE]
+factor_engine.py: error: the following arguments are required: --ticker, --side, --market-state

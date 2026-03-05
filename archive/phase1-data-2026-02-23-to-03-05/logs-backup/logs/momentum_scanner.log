@@ -1,0 +1,4071 @@
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.7%  $   6,688  (entry $73405.0000 → $72854.9600)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5610  24h:+1.9%  30m:+0.24%
+  🟢 WIF-USD      $      0.2173  24h:+1.3%  30m:-0.16%
+  🟢 KAS-USD      $      0.0312  24h:+1.3%  30m:-0.05%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 AAVE-USD     $    116.7813  24h:+0.8%  30m:-0.00%
+  🟡 SOL-USD      $     91.4985  24h:+0.7%  30m:+0.34%
+  🟡 PENDLE-USD   $      1.3083  24h:+0.5%  30m:+0.31%
+  🟡 SNX-USD      $      0.3323  24h:+0.4%  30m:-0.92%
+  🟡 RUNE-USD     $      0.4393  24h:+0.4%  30m:+0.05%
+  🟡 OP-USD       $      0.1291  24h:+0.4%  30m:-0.03%
+  🟡 MKR-USD      $   1808.3480  24h:+0.3%  30m:+0.00%
+  🟡 TIA-USD      $      0.3403  24h:+0.3%  30m:-0.17%
+  🟡 FIL-USD      $      1.0274  24h:+0.3%  30m:-0.13%
+  🟡 ETH-USD      $   2133.2822  24h:+0.2%  30m:+0.39%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 ETH-USD      $   2133.2822  30m:+0.389%  24h:+0.2%
+  🔥 SOL-USD      $     91.4985  30m:+0.343%  24h:+0.7%
+  🔥 PENDLE-USD   $      1.3083  30m:+0.306%  24h:+0.5%
+  🔥 ICP-USD      $      2.5610  30m:+0.244%  24h:+1.9%
+  🔥 ATOM-USD     $      1.8773  30m:+0.127%  24h:-0.2%
+  🔥 XRP-USD      $      1.4285  30m:+0.086%  24h:-0.1%
+  🔥 DOT-USD      $      1.5303  30m:+0.071%  24h:-0.8%
+  🔥 SEI-USD      $      0.0685  30m:+0.068%  24h:-2.1%
+  🔥 RUNE-USD     $      0.4393  30m:+0.051%  24h:+0.4%
+  🔥 LINK-USD     $      9.3018  30m:+0.043%  24h:-0.5%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.7%) | spread: +3.3%
+  🔄 ICP-USD (+1.9%) replaces BTC-USD (-0.7%) | spread: +2.6%
+  🔄 WIF-USD (+1.3%) replaces BTC-USD (-0.7%) | spread: +2.0%
+  🔄 KAS-USD (+1.3%) replaces BTC-USD (-0.7%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 4 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,688) → Buy MATIC-USD (spread: +3.3%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 10:35 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🟢 BTC-USD        +0.0%  $   6,740  (entry $73405.0000 → $73421.3900)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5725  24h:+2.3%  30m:+0.48%
+  🟢 WIF-USD      $      0.2185  24h:+1.8%  30m:+0.43%
+  🟢 KAS-USD      $      0.0313  24h:+1.6%  30m:+0.36%
+  🟢 SOL-USD      $     92.3253  24h:+1.6%  30m:+1.05%
+  🟢 AAVE-USD     $    117.6324  24h:+1.5%  30m:+0.66%
+  🟡 PENDLE-USD   $      1.3140  24h:+1.0%  30m:+0.54%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 FIL-USD      $      1.0337  24h:+0.9%  30m:+0.70%
+  🟡 RUNE-USD     $      0.4412  24h:+0.9%  30m:+0.46%
+  🟡 ETH-USD      $   2146.8557  24h:+0.9%  30m:+0.91%
+  🟡 TIA-USD      $      0.3420  24h:+0.8%  30m:+0.48%
+  🟡 XRP-USD      $      1.4416  24h:+0.8%  30m:+0.90%
+  🟡 OP-USD       $      0.1295  24h:+0.7%  30m:+0.27%
+  🟡 LINK-USD     $      9.4065  24h:+0.6%  30m:+1.27%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 LINK-USD     $      9.4065  30m:+1.270%  24h:+0.6%
+  🔥 ADA-USD      $      0.2762  30m:+1.099%  24h:-0.0%
+  🔥 SOL-USD      $     92.3253  30m:+1.054%  24h:+1.6%
+  🔥 DOGE-USD     $      0.0973  30m:+1.001%  24h:-1.8%
+  🔥 ETH-USD      $   2146.8557  30m:+0.907%  24h:+0.9%
+  🔥 XRP-USD      $      1.4416  30m:+0.901%  24h:+0.8%
+  🔥 FIL-USD      $      1.0337  30m:+0.699%  24h:+0.9%
+  🔥 AAVE-USD     $    117.6324  30m:+0.661%  24h:+1.5%
+  🔥 PENDLE-USD   $      1.3140  30m:+0.541%  24h:+1.0%
+  🔥 ALGO-USD     $      0.0893  30m:+0.536%  24h:+0.4%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (+0.0%) | spread: +2.6%
+  🔄 ICP-USD (+2.3%) replaces BTC-USD (+0.0%) | spread: +2.3%
+
+============================================================
+SUMMARY: 45 scanned | 2 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,740) → Buy MATIC-USD (spread: +2.6%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 10:45 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.2%  $   6,728  (entry $73405.0000 → $73293.9300)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5741  24h:+2.4%  30m:+0.49%
+  🟢 AAVE-USD     $    118.4257  24h:+2.2%  30m:+1.37%
+  🟢 WIF-USD      $      0.2192  24h:+2.2%  30m:+0.89%
+  🟢 KAS-USD      $      0.0313  24h:+1.8%  30m:+0.48%
+  🟢 SOL-USD      $     92.3334  24h:+1.6%  30m:+0.91%
+  🟢 PENDLE-USD   $      1.3187  24h:+1.4%  30m:+0.80%
+  🟢 FIL-USD      $      1.0364  24h:+1.1%  30m:+0.85%
+  🟢 RUNE-USD     $      0.4424  24h:+1.1%  30m:+0.67%
+  🟢 OP-USD       $      0.1300  24h:+1.1%  30m:+0.71%
+  🟢 TIA-USD      $      0.3430  24h:+1.1%  30m:+0.79%
+  🟢 ETH-USD      $   2150.2817  24h:+1.0%  30m:+0.80%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 XRP-USD      $      1.4427  24h:+0.8%  30m:+0.96%
+  🟡 SNX-USD      $      0.3335  24h:+0.8%  30m:+0.31%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 AAVE-USD     $    118.4257  30m:+1.373%  24h:+2.2%
+  🔥 DOGE-USD     $      0.0975  30m:+1.265%  24h:-1.6%
+  🔥 LINK-USD     $      9.4109  30m:+1.174%  24h:+0.6%
+  🔥 ADA-USD      $      0.2761  30m:+1.154%  24h:-0.0%
+  🔥 CRV-USD      $      0.2568  30m:+0.978%  24h:+0.7%
+  🔥 XRP-USD      $      1.4427  30m:+0.955%  24h:+0.8%
+  🔥 LDO-USD      $      0.3170  30m:+0.918%  24h:-0.2%
+  🔥 SOL-USD      $     92.3334  30m:+0.913%  24h:+1.6%
+  🔥 AVAX-USD     $      9.5430  30m:+0.907%  24h:+0.5%
+  🔥 DYDX-USD     $      0.0981  30m:+0.894%  24h:-0.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.2%) | spread: +2.7%
+  🔄 ICP-USD (+2.4%) replaces BTC-USD (-0.2%) | spread: +2.5%
+  🔄 AAVE-USD (+2.2%) replaces BTC-USD (-0.2%) | spread: +2.3%
+  🔄 WIF-USD (+2.2%) replaces BTC-USD (-0.2%) | spread: +2.3%
+
+============================================================
+SUMMARY: 45 scanned | 4 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,728) → Buy MATIC-USD (spread: +2.7%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 10:55 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🟢 BTC-USD        +0.2%  $   6,750  (entry $73405.0000 → $73527.2900)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 WIF-USD      $      0.2197  24h:+2.4%  30m:+0.55%
+  🟢 AAVE-USD     $    118.5983  24h:+2.3%  30m:+0.82%
+  🟢 ICP-USD      $      2.5721  24h:+2.3%  30m:-0.05%
+  🟢 SOL-USD      $     92.7396  24h:+2.0%  30m:+0.28%
+  🟢 KAS-USD      $      0.0313  24h:+1.8%  30m:+0.17%
+  🟢 PENDLE-USD   $      1.3197  24h:+1.4%  30m:+0.07%
+  🟢 MKR-USD      $   1827.6987  24h:+1.4%  30m:+1.07%
+  🟢 XRP-USD      $      1.4499  24h:+1.4%  30m:+0.58%
+  🟢 TIA-USD      $      0.3435  24h:+1.2%  30m:+0.24%
+  🟢 FIL-USD      $      1.0369  24h:+1.2%  30m:+0.55%
+  🟢 RUNE-USD     $      0.4425  24h:+1.1%  30m:+0.20%
+  🟢 ETH-USD      $   2152.7046  24h:+1.1%  30m:+0.31%
+  🟢 OP-USD       $      0.1300  24h:+1.1%  30m:+0.14%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 MKR-USD      $   1827.6987  30m:+1.070%  24h:+1.4%
+  🔥 AAVE-USD     $    118.5983  30m:+0.821%  24h:+2.3%
+  🔥 XRP-USD      $      1.4499  30m:+0.580%  24h:+1.4%
+  🔥 DOT-USD      $      1.5472  30m:+0.557%  24h:+0.3%
+  🔥 DYDX-USD     $      0.0983  30m:+0.555%  24h:-0.1%
+  🔥 FIL-USD      $      1.0369  30m:+0.553%  24h:+1.2%
+  🔥 WIF-USD      $      0.2197  30m:+0.548%  24h:+2.4%
+  🔥 AVAX-USD     $      9.5572  30m:+0.524%  24h:+0.6%
+  🔥 CRV-USD      $      0.2569  30m:+0.515%  24h:+0.7%
+  🔥 XLM-USD      $      0.1606  30m:+0.513%  24h:+0.6%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (+0.2%) | spread: +2.4%
+  🔄 WIF-USD (+2.4%) replaces BTC-USD (+0.2%) | spread: +2.2%
+  🔄 AAVE-USD (+2.3%) replaces BTC-USD (+0.2%) | spread: +2.2%
+  🔄 ICP-USD (+2.3%) replaces BTC-USD (+0.2%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 4 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,750) → Buy MATIC-USD (spread: +2.4%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 11:05 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.1%  $   6,732  (entry $73405.0000 → $73330.6640)
+
+TOP 15 MOVERS (not held):
+  🟢 WIF-USD      $      0.2211  24h:+3.0%  30m:+0.76%
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5703  24h:+2.2%  30m:-0.15%
+  🟢 KAS-USD      $      0.0314  24h:+2.2%  30m:+0.44%
+  🟢 AAVE-USD     $    118.4118  24h:+2.2%  30m:-0.04%
+  🟢 SOL-USD      $     92.6689  24h:+2.0%  30m:+0.31%
+  🟢 MKR-USD      $   1830.1533  24h:+1.5%  30m:+1.00%
+  🟢 PENDLE-USD   $      1.3184  24h:+1.3%  30m:-0.03%
+  🟢 XRP-USD      $      1.4489  24h:+1.3%  30m:+0.41%
+  🟢 RUNE-USD     $      0.4430  24h:+1.3%  30m:+0.17%
+  🟢 ETH-USD      $   2155.3777  24h:+1.3%  30m:+0.24%
+  🟢 SNX-USD      $      0.3348  24h:+1.2%  30m:+0.37%
+  🟢 TIA-USD      $      0.3432  24h:+1.2%  30m:+0.09%
+  🟢 FIL-USD      $      1.0362  24h:+1.1%  30m:-0.02%
+  🟢 OP-USD       $      0.1300  24h:+1.1%  30m:+0.06%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 MKR-USD      $   1830.1533  30m:+1.004%  24h:+1.5%
+  🔥 WIF-USD      $      0.2211  30m:+0.764%  24h:+3.0%
+  🔥 KAS-USD      $      0.0314  30m:+0.443%  24h:+2.2%
+  🔥 FET-USD      $      0.1568  30m:+0.436%  24h:+0.9%
+  🔥 XRP-USD      $      1.4489  30m:+0.409%  24h:+1.3%
+  🔥 SNX-USD      $      0.3348  30m:+0.365%  24h:+1.2%
+  🔥 SEI-USD      $      0.0693  30m:+0.365%  24h:-0.9%
+  🔥 LINK-USD     $      9.4449  30m:+0.364%  24h:+1.0%
+  🔥 SOL-USD      $     92.6689  30m:+0.310%  24h:+2.0%
+  🔥 DOGE-USD     $      0.0977  30m:+0.305%  24h:-1.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 WIF-USD (+3.0%) replaces BTC-USD (-0.1%) | spread: +3.1%
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.1%) | spread: +2.7%
+  🔄 ICP-USD (+2.2%) replaces BTC-USD (-0.1%) | spread: +2.3%
+  🔄 KAS-USD (+2.2%) replaces BTC-USD (-0.1%) | spread: +2.3%
+  🔄 AAVE-USD (+2.2%) replaces BTC-USD (-0.1%) | spread: +2.3%
+  🔄 SOL-USD (+2.0%) replaces BTC-USD (-0.1%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 6 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,732) → Buy WIF-USD (spread: +3.1%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 11:16 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 43 tickers.
+
+CURRENT HOLDINGS:
+
+TOP 15 MOVERS (not held):
+  🟢 WIF-USD      $      0.2214  24h:+3.2%  30m:+0.82%
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5773  24h:+2.5%  30m:+0.20%
+  🟢 KAS-USD      $      0.0314  24h:+2.2%  30m:+0.34%
+  🟢 AAVE-USD     $    118.2584  24h:+2.0%  30m:-0.29%
+  🟢 SOL-USD      $     92.3072  24h:+1.6%  30m:-0.38%
+  🟢 MKR-USD      $   1830.4350  24h:+1.5%  30m:+0.15%
+  🟢 SNX-USD      $      0.3348  24h:+1.2%  30m:+0.33%
+  🟢 PENDLE-USD   $      1.3154  24h:+1.1%  30m:-0.33%
+  🟢 FIL-USD      $      1.0359  24h:+1.1%  30m:-0.14%
+  🟢 TIA-USD      $      0.3430  24h:+1.1%  30m:-0.15%
+  🟢 RUNE-USD     $      0.4419  24h:+1.0%  30m:-0.12%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 XRP-USD      $      1.4439  24h:+0.9%  30m:-0.38%
+  🟡 OP-USD       $      0.1296  24h:+0.8%  30m:-0.28%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 WIF-USD      $      0.2214  30m:+0.815%  24h:+3.2%
+  🔥 KAS-USD      $      0.0314  30m:+0.338%  24h:+2.2%
+  🔥 SNX-USD      $      0.3348  30m:+0.333%  24h:+1.2%
+  🔥 ICP-USD      $      2.5773  30m:+0.202%  24h:+2.5%
+  🔥 MKR-USD      $   1830.4350  30m:+0.150%  24h:+1.5%
+  🔥 LDO-USD      $      0.3170  30m:+0.033%  24h:-0.1%
+  🔥 HBAR-USD     $      0.1015  30m:+0.021%  24h:+0.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  No rotation candidates found.
+
+============================================================
+SUMMARY: 43 scanned | 0 rotation(s) | 0 kill(s)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 11:26 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.5%  $   6,706  (entry $73405.0000 → $73053.6500)
+
+TOP 15 MOVERS (not held):
+  🟢 WIF-USD      $      0.2207  24h:+2.8%  30m:-0.18%
+  🟢 ICP-USD      $      2.5813  24h:+2.7%  30m:+0.43%
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.3229  24h:+2.1%  30m:-0.07%
+  🟢 KAS-USD      $      0.0313  24h:+1.8%  30m:-0.29%
+  🟢 SOL-USD      $     92.2620  24h:+1.5%  30m:-0.35%
+  🟢 MKR-USD      $   1828.9823  24h:+1.5%  30m:-0.08%
+  🟢 PENDLE-USD   $      1.3150  24h:+1.1%  30m:-0.17%
+  🟡 FIL-USD      $      1.0350  24h:+1.0%  30m:-0.12%
+  🟡 XRP-USD      $      1.4444  24h:+1.0%  30m:-0.25%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 RUNE-USD     $      0.4415  24h:+0.9%  30m:-0.33%
+  🟡 TIA-USD      $      0.3423  24h:+0.9%  30m:-0.28%
+  🟡 ETH-USD      $   2146.2290  24h:+0.8%  30m:-0.32%
+  🟡 SNX-USD      $      0.3335  24h:+0.8%  30m:-0.36%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 ICP-USD      $      2.5813  30m:+0.429%  24h:+2.7%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 WIF-USD (+2.8%) replaces BTC-USD (-0.5%) | spread: +3.3%
+  🔄 ICP-USD (+2.7%) replaces BTC-USD (-0.5%) | spread: +3.1%
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.5%) | spread: +3.1%
+  🔄 AAVE-USD (+2.1%) replaces BTC-USD (-0.5%) | spread: +2.6%
+  🔄 KAS-USD (+1.8%) replaces BTC-USD (-0.5%) | spread: +2.3%
+
+============================================================
+SUMMARY: 45 scanned | 5 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,706) → Buy WIF-USD (spread: +3.3%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 11:36 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.5%  $   6,704  (entry $73405.0000 → $73032.8750)
+
+TOP 15 MOVERS (not held):
+  🟢 WIF-USD      $      0.2207  24h:+2.8%  30m:-0.35%
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.4668  24h:+2.2%  30m:+0.18%
+  🟢 ICP-USD      $      2.5646  24h:+2.0%  30m:-0.49%
+  🟢 KAS-USD      $      0.0313  24h:+1.8%  30m:-0.41%
+  🟢 SOL-USD      $     92.2555  24h:+1.5%  30m:-0.06%
+  🟢 MKR-USD      $   1828.9784  24h:+1.5%  30m:-0.08%
+  🟢 PENDLE-USD   $      1.3175  24h:+1.3%  30m:+0.16%
+  🟡 XRP-USD      $      1.4444  24h:+1.0%  30m:+0.04%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 SNX-USD      $      0.3340  24h:+0.9%  30m:-0.25%
+  🟡 FIL-USD      $      1.0343  24h:+0.9%  30m:-0.15%
+  🟡 RUNE-USD     $      0.4411  24h:+0.8%  30m:-0.17%
+  🟡 ETH-USD      $   2145.4438  24h:+0.8%  30m:-0.27%
+  🟡 LINK-USD     $      9.4234  24h:+0.8%  30m:+0.04%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 AAVE-USD     $    118.4668  30m:+0.176%  24h:+2.2%
+  🔥 PENDLE-USD   $      1.3175  30m:+0.161%  24h:+1.3%
+  🔥 LINK-USD     $      9.4234  30m:+0.044%  24h:+0.8%
+  🔥 XRP-USD      $      1.4444  30m:+0.040%  24h:+1.0%
+  🔥 SEI-USD      $      0.0690  30m:+0.018%  24h:-1.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 WIF-USD (+2.8%) replaces BTC-USD (-0.5%) | spread: +3.4%
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.5%) | spread: +3.1%
+  🔄 AAVE-USD (+2.2%) replaces BTC-USD (-0.5%) | spread: +2.7%
+  🔄 ICP-USD (+2.0%) replaces BTC-USD (-0.5%) | spread: +2.5%
+  🔄 KAS-USD (+1.8%) replaces BTC-USD (-0.5%) | spread: +2.3%
+  🔄 SOL-USD (+1.5%) replaces BTC-USD (-0.5%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 6 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,704) → Buy WIF-USD (spread: +3.4%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 11:46 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.8%  $   6,688  (entry $73405.0000 → $72852.6400)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.0484  24h:+1.9%  30m:-0.23%
+  🟢 ICP-USD      $      2.5473  24h:+1.3%  30m:-1.32%
+  🟢 MKR-USD      $   1825.9105  24h:+1.3%  30m:-0.17%
+  🟢 KAS-USD      $      0.0311  24h:+1.2%  30m:-0.56%
+  🟢 WIF-USD      $      0.2168  24h:+1.0%  30m:-1.76%
+  🟡 SOL-USD      $     91.7582  24h:+1.0%  30m:-0.55%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 XRP-USD      $      1.4384  24h:+0.5%  30m:-0.42%
+  🟡 PENDLE-USD   $      1.3077  24h:+0.5%  30m:-0.56%
+  🟡 LINK-USD     $      9.3856  24h:+0.4%  30m:-0.39%
+  🟡 ETH-USD      $   2136.3090  24h:+0.4%  30m:-0.46%
+  🟡 RUNE-USD     $      0.4390  24h:+0.4%  30m:-0.57%
+  🟡 SNX-USD      $      0.3317  24h:+0.3%  30m:-0.53%
+  🟡 FIL-USD      $      1.0265  24h:+0.2%  30m:-0.82%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.8%) | spread: +3.3%
+  🔄 AAVE-USD (+1.9%) replaces BTC-USD (-0.8%) | spread: +2.6%
+  🔄 ICP-USD (+1.3%) replaces BTC-USD (-0.8%) | spread: +2.1%
+  🔄 MKR-USD (+1.3%) replaces BTC-USD (-0.8%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 4 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,688) → Buy MATIC-USD (spread: +3.3%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 11:56 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.7%  $   6,688  (entry $73405.0000 → $72855.0800)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    117.9003  24h:+1.7%  30m:-0.48%
+  🟢 KAS-USD      $      0.0313  24h:+1.6%  30m:-0.21%
+  🟢 ICP-USD      $      2.5506  24h:+1.4%  30m:-0.55%
+  🟢 WIF-USD      $      0.2173  24h:+1.3%  30m:-1.54%
+  🟢 MKR-USD      $   1822.6772  24h:+1.1%  30m:-0.34%
+  🟢 SOL-USD      $     91.8592  24h:+1.1%  30m:-0.43%
+  🟡 RNDR-USD     $      6.8021  24h:+1.0%  
+  🟡 PENDLE-USD   $      1.3110  24h:+0.8%  30m:-0.49%
+  🟡 XRP-USD      $      1.4377  24h:+0.5%  30m:-0.46%
+  🟡 LINK-USD     $      9.3942  24h:+0.5%  30m:-0.31%
+  🟡 RUNE-USD     $      0.4394  24h:+0.4%  30m:-0.39%
+  🟡 ETH-USD      $   2138.0562  24h:+0.4%  30m:-0.34%
+  🟡 FIL-USD      $      1.0279  24h:+0.3%  30m:-0.64%
+  🟡 SNX-USD      $      0.3314  24h:+0.2%  30m:-0.77%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 NEAR-USD     $      1.2888  30m:+0.089%  24h:-1.8%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.7%) | spread: +3.3%
+  🔄 AAVE-USD (+1.7%) replaces BTC-USD (-0.7%) | spread: +2.5%
+  🔄 KAS-USD (+1.6%) replaces BTC-USD (-0.7%) | spread: +2.3%
+  🔄 ICP-USD (+1.4%) replaces BTC-USD (-0.7%) | spread: +2.2%
+  🔄 WIF-USD (+1.3%) replaces BTC-USD (-0.7%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 5 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,688) → Buy MATIC-USD (spread: +3.3%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 12:06 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.8%  $   6,683  (entry $73405.0000 → $72796.5160)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    117.7881  24h:+1.6%  30m:-0.22%
+  🟢 KAS-USD      $      0.0313  24h:+1.6%  30m:+0.40%
+  🟢 ICP-USD      $      2.5525  24h:+1.5%  30m:+0.44%
+  🟢 WIF-USD      $      0.2172  24h:+1.2%  30m:+0.19%
+  🟢 MKR-USD      $   1822.1329  24h:+1.1%  30m:-0.38%
+  🟡 RNDR-USD     $      6.8021  24h:+1.0%  
+  🟡 SOL-USD      $     91.6264  24h:+0.8%  30m:-0.14%
+  🟡 PENDLE-USD   $      1.3115  24h:+0.8%  30m:+0.29%
+  🟡 LINK-USD     $      9.3878  24h:+0.4%  30m:+0.02%
+  🟡 RUNE-USD     $      0.4391  24h:+0.4%  30m:+0.01%
+  🟡 SNX-USD      $      0.3320  24h:+0.3%  30m:+0.08%
+  🟡 XRP-USD      $      1.4354  24h:+0.3%  30m:-0.21%
+  🟡 FIL-USD      $      1.0274  24h:+0.3%  30m:+0.09%
+  🟡 TIA-USD      $      0.3397  24h:+0.1%  30m:+0.31%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 ICP-USD      $      2.5525  30m:+0.439%  24h:+1.5%
+  🔥 KAS-USD      $      0.0313  30m:+0.399%  24h:+1.6%
+  🔥 FET-USD      $      0.1554  30m:+0.369%  24h:-0.0%
+  🔥 TIA-USD      $      0.3397  30m:+0.308%  24h:+0.1%
+  🔥 PENDLE-USD   $      1.3115  30m:+0.292%  24h:+0.8%
+  🔥 NEAR-USD     $      1.2880  30m:+0.283%  24h:-1.8%
+  🔥 WIF-USD      $      0.2172  30m:+0.188%  24h:+1.2%
+  🔥 DYDX-USD     $      0.0974  30m:+0.147%  24h:-1.1%
+  🔥 SEI-USD      $      0.0687  30m:+0.094%  24h:-1.7%
+  🔥 FIL-USD      $      1.0274  30m:+0.092%  24h:+0.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.8%) | spread: +3.4%
+  🔄 AAVE-USD (+1.6%) replaces BTC-USD (-0.8%) | spread: +2.5%
+  🔄 KAS-USD (+1.6%) replaces BTC-USD (-0.8%) | spread: +2.4%
+  🔄 ICP-USD (+1.5%) replaces BTC-USD (-0.8%) | spread: +2.3%
+  🔄 WIF-USD (+1.2%) replaces BTC-USD (-0.8%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 5 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,683) → Buy MATIC-USD (spread: +3.4%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 12:16 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.6%  $   6,699  (entry $73405.0000 → $72974.8050)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5655  24h:+2.0%  30m:+0.59%
+  🟢 MKR-USD      $   1835.8962  24h:+1.8%  30m:+0.73%
+  🟢 AAVE-USD     $    117.8726  24h:+1.7%  30m:-0.02%
+  🟢 KAS-USD      $      0.0313  24h:+1.6%  30m:-0.01%
+  🟢 WIF-USD      $      0.2173  24h:+1.3%  30m:+0.00%
+  🟢 SOL-USD      $     91.8272  24h:+1.0%  30m:-0.07%
+  🟢 PENDLE-USD   $      1.3146  24h:+1.0%  30m:+0.25%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 SNX-USD      $      0.3332  24h:+0.7%  30m:+0.56%
+  🟡 XRP-USD      $      1.4382  24h:+0.5%  30m:+0.01%
+  🟡 LINK-USD     $      9.3940  24h:+0.5%  30m:-0.05%
+  🟡 RUNE-USD     $      0.4392  24h:+0.4%  30m:-0.05%
+  🟡 FIL-USD      $      1.0283  24h:+0.3%  30m:+0.04%
+  🟡 ETH-USD      $   2134.4133  24h:+0.3%  30m:-0.17%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 MKR-USD      $   1835.8962  30m:+0.725%  24h:+1.8%
+  🔥 ICP-USD      $      2.5655  30m:+0.586%  24h:+2.0%
+  🔥 SNX-USD      $      0.3332  30m:+0.559%  24h:+0.7%
+  🔥 PENDLE-USD   $      1.3146  30m:+0.254%  24h:+1.0%
+  🔥 FET-USD      $      0.1557  30m:+0.224%  24h:+0.2%
+  🔥 NEAR-USD     $      1.2915  30m:+0.207%  24h:-1.6%
+  🔥 ENA-USD      $      0.1161  30m:+0.159%  24h:-1.2%
+  🔥 AVAX-USD     $      9.4619  30m:+0.129%  24h:-0.4%
+  🔥 TIA-USD      $      0.3402  30m:+0.125%  24h:+0.3%
+  🔥 XLM-USD      $      0.1596  30m:+0.123%  24h:+0.0%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.6%) | spread: +3.2%
+  🔄 ICP-USD (+2.0%) replaces BTC-USD (-0.6%) | spread: +2.6%
+  🔄 MKR-USD (+1.8%) replaces BTC-USD (-0.6%) | spread: +2.4%
+  🔄 AAVE-USD (+1.7%) replaces BTC-USD (-0.6%) | spread: +2.3%
+  🔄 KAS-USD (+1.6%) replaces BTC-USD (-0.6%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 5 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,699) → Buy MATIC-USD (spread: +3.2%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 12:27 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.7%  $   6,691  (entry $73405.0000 → $72883.3300)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5677  24h:+2.1%  30m:+0.60%
+  🟢 MKR-USD      $   1837.6888  24h:+1.9%  30m:+0.85%
+  🟢 KAS-USD      $      0.0313  24h:+1.9%  30m:+0.32%
+  🟢 AAVE-USD     $    117.7557  24h:+1.6%  30m:-0.03%
+  🟢 WIF-USD      $      0.2174  24h:+1.3%  30m:+0.05%
+  🟡 RNDR-USD     $      6.8021  24h:+1.0%  
+  🟡 PENDLE-USD   $      1.3139  24h:+1.0%  30m:+0.19%
+  🟡 SNX-USD      $      0.3335  24h:+0.8%  30m:+0.48%
+  🟡 SOL-USD      $     91.5992  24h:+0.8%  30m:-0.03%
+  🟡 XRP-USD      $      1.4394  24h:+0.6%  30m:+0.21%
+  🟡 LINK-USD     $      9.4042  24h:+0.6%  30m:+0.18%
+  🟡 RUNE-USD     $      0.4399  24h:+0.5%  30m:+0.12%
+  🟡 FIL-USD      $      1.0287  24h:+0.4%  30m:+0.13%
+  🟡 FET-USD      $      0.1560  24h:+0.4%  30m:+0.40%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 MKR-USD      $   1837.6888  30m:+0.854%  24h:+1.9%
+  🔥 ICP-USD      $      2.5677  30m:+0.597%  24h:+2.1%
+  🔥 SNX-USD      $      0.3335  30m:+0.477%  24h:+0.8%
+  🔥 NEAR-USD     $      1.2961  30m:+0.470%  24h:-1.2%
+  🔥 FET-USD      $      0.1560  30m:+0.399%  24h:+0.4%
+  🔥 OP-USD       $      0.1277  30m:+0.384%  24h:-0.7%
+  🔥 ADA-USD      $      0.2747  30m:+0.371%  24h:-0.5%
+  🔥 KAS-USD      $      0.0313  30m:+0.324%  24h:+1.9%
+  🔥 XRP-USD      $      1.4394  30m:+0.207%  24h:+0.6%
+  🔥 DOT-USD      $      1.5226  30m:+0.204%  24h:-1.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.7%) | spread: +3.3%
+  🔄 ICP-USD (+2.1%) replaces BTC-USD (-0.7%) | spread: +2.8%
+  🔄 MKR-USD (+1.9%) replaces BTC-USD (-0.7%) | spread: +2.6%
+  🔄 KAS-USD (+1.9%) replaces BTC-USD (-0.7%) | spread: +2.6%
+  🔄 AAVE-USD (+1.6%) replaces BTC-USD (-0.7%) | spread: +2.3%
+  🔄 WIF-USD (+1.3%) replaces BTC-USD (-0.7%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 6 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,691) → Buy MATIC-USD (spread: +3.3%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 12:37 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.8%  $   6,685  (entry $73405.0000 → $72825.0550)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5678  24h:+2.1%  30m:+0.08%
+  🟢 KAS-USD      $      0.0314  24h:+2.0%  30m:+0.36%
+  🟢 MKR-USD      $   1837.6958  24h:+1.9%  30m:+0.10%
+  🟢 AAVE-USD     $    117.6927  24h:+1.6%  30m:-0.15%
+  🟢 WIF-USD      $      0.2176  24h:+1.4%  30m:+0.15%
+  🟢 PENDLE-USD   $      1.3144  24h:+1.0%  30m:-0.01%
+  🟡 RNDR-USD     $      6.8021  24h:+1.0%  
+  🟡 SNX-USD      $      0.3336  24h:+0.8%  30m:+0.11%
+  🟡 SOL-USD      $     91.5046  24h:+0.7%  30m:-0.35%
+  🟡 LINK-USD     $      9.4123  24h:+0.6%  30m:+0.16%
+  🟡 RUNE-USD     $      0.4399  24h:+0.6%  30m:+0.15%
+  🟡 XRP-USD      $      1.4380  24h:+0.5%  30m:-0.02%
+  🟡 FIL-USD      $      1.0300  24h:+0.5%  30m:+0.15%
+  🟡 TIA-USD      $      0.3407  24h:+0.4%  30m:+0.16%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 KAS-USD      $      0.0314  30m:+0.362%  24h:+2.0%
+  🔥 NEAR-USD     $      1.2961  30m:+0.359%  24h:-1.2%
+  🔥 ADA-USD      $      0.2752  30m:+0.335%  24h:-0.4%
+  🔥 ATOM-USD     $      1.8778  30m:+0.272%  24h:-0.1%
+  🔥 OP-USD       $      0.1279  30m:+0.225%  24h:-0.5%
+  🔥 FET-USD      $      0.1560  30m:+0.203%  24h:+0.4%
+  🔥 LINK-USD     $      9.4123  30m:+0.156%  24h:+0.6%
+  🔥 TIA-USD      $      0.3407  30m:+0.155%  24h:+0.4%
+  🔥 WIF-USD      $      0.2176  30m:+0.152%  24h:+1.4%
+  🔥 FIL-USD      $      1.0300  30m:+0.151%  24h:+0.5%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.8%) | spread: +3.4%
+  🔄 ICP-USD (+2.1%) replaces BTC-USD (-0.8%) | spread: +2.9%
+  🔄 KAS-USD (+2.0%) replaces BTC-USD (-0.8%) | spread: +2.8%
+  🔄 MKR-USD (+1.9%) replaces BTC-USD (-0.8%) | spread: +2.7%
+  🔄 AAVE-USD (+1.6%) replaces BTC-USD (-0.8%) | spread: +2.3%
+  🔄 WIF-USD (+1.4%) replaces BTC-USD (-0.8%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 6 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,685) → Buy MATIC-USD (spread: +3.4%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 12:47 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.7%  $   6,695  (entry $73405.0000 → $72925.1200)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5734  24h:+2.4%  30m:+0.22%
+  🟢 KAS-USD      $      0.0314  24h:+2.1%  30m:+0.33%
+  🟢 MKR-USD      $   1837.6868  24h:+1.9%  30m:-0.00%
+  🟢 WIF-USD      $      0.2181  24h:+1.6%  30m:+0.33%
+  🟢 AAVE-USD     $    117.6957  24h:+1.6%  30m:-0.05%
+  🟢 PENDLE-USD   $      1.3176  24h:+1.3%  30m:+0.28%
+  🟢 SOL-USD      $     91.8112  24h:+1.0%  30m:+0.22%
+  🟡 RNDR-USD     $      6.8021  24h:+1.0%  
+  🟡 SNX-USD      $      0.3341  24h:+1.0%  30m:+0.18%
+  🟡 LINK-USD     $      9.4345  24h:+0.9%  30m:+0.35%
+  🟡 FIL-USD      $      1.0318  24h:+0.7%  30m:+0.29%
+  🟡 RUNE-USD     $      0.4404  24h:+0.7%  30m:+0.11%
+  🟡 XRP-USD      $      1.4389  24h:+0.6%  30m:-0.04%
+  🟡 TIA-USD      $      0.3411  24h:+0.5%  30m:+0.23%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 ADA-USD      $      0.2762  30m:+0.592%  24h:-0.0%
+  🔥 ATOM-USD     $      1.8808  30m:+0.471%  24h:+0.0%
+  🔥 ENA-USD      $      0.1164  30m:+0.440%  24h:-0.9%
+  🔥 INJ-USD      $      3.0896  30m:+0.396%  24h:-1.0%
+  🔥 LINK-USD     $      9.4345  30m:+0.346%  24h:+0.9%
+  🔥 KAS-USD      $      0.0314  30m:+0.331%  24h:+2.1%
+  🔥 WIF-USD      $      0.2181  30m:+0.330%  24h:+1.6%
+  🔥 FIL-USD      $      1.0318  30m:+0.294%  24h:+0.7%
+  🔥 PENDLE-USD   $      1.3176  30m:+0.276%  24h:+1.3%
+  🔥 OP-USD       $      0.1281  30m:+0.260%  24h:-0.4%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.7%) | spread: +3.2%
+  🔄 ICP-USD (+2.4%) replaces BTC-USD (-0.7%) | spread: +3.0%
+  🔄 KAS-USD (+2.1%) replaces BTC-USD (-0.7%) | spread: +2.7%
+  🔄 MKR-USD (+1.9%) replaces BTC-USD (-0.7%) | spread: +2.6%
+  🔄 WIF-USD (+1.6%) replaces BTC-USD (-0.7%) | spread: +2.3%
+  🔄 AAVE-USD (+1.6%) replaces BTC-USD (-0.7%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 6 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,695) → Buy MATIC-USD (spread: +3.2%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 12:57 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.6%  $   6,698  (entry $73405.0000 → $72958.5800)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5722  24h:+2.3%  30m:+0.17%
+  🟢 KAS-USD      $      0.0315  24h:+2.2%  30m:+0.27%
+  🟢 MKR-USD      $   1840.2126  24h:+2.1%  30m:+0.14%
+  🟢 WIF-USD      $      0.2185  24h:+1.8%  30m:+0.41%
+  🟢 AAVE-USD     $    117.9714  24h:+1.8%  30m:+0.20%
+  🟢 PENDLE-USD   $      1.3197  24h:+1.4%  30m:+0.39%
+  🟢 SOL-USD      $     92.0834  24h:+1.3%  30m:+0.63%
+  🟢 LINK-USD     $      9.4685  24h:+1.2%  30m:+0.60%
+  🟢 SNX-USD      $      0.3345  24h:+1.1%  30m:+0.25%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 FIL-USD      $      1.0328  24h:+0.8%  30m:+0.27%
+  🟡 RUNE-USD     $      0.4408  24h:+0.8%  30m:+0.22%
+  🟡 XRP-USD      $      1.4405  24h:+0.7%  30m:+0.16%
+  🟡 FET-USD      $      0.1565  24h:+0.7%  30m:+0.29%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 DYDX-USD     $      0.0981  30m:+1.077%  24h:-0.3%
+  🔥 ADA-USD      $      0.2771  30m:+0.676%  24h:+0.3%
+  🔥 SOL-USD      $     92.0834  30m:+0.630%  24h:+1.3%
+  🔥 LINK-USD     $      9.4685  30m:+0.599%  24h:+1.2%
+  🔥 AVAX-USD     $      9.5139  30m:+0.512%  24h:+0.2%
+  🔥 ENA-USD      $      0.1166  30m:+0.479%  24h:-0.7%
+  🔥 INJ-USD      $      3.0944  30m:+0.433%  24h:-0.8%
+  🔥 DOT-USD      $      1.5287  30m:+0.428%  24h:-0.9%
+  🔥 WIF-USD      $      0.2185  30m:+0.406%  24h:+1.8%
+  🔥 PENDLE-USD   $      1.3197  30m:+0.394%  24h:+1.4%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.6%) | spread: +3.2%
+  🔄 ICP-USD (+2.3%) replaces BTC-USD (-0.6%) | spread: +2.9%
+  🔄 KAS-USD (+2.2%) replaces BTC-USD (-0.6%) | spread: +2.9%
+  🔄 MKR-USD (+2.1%) replaces BTC-USD (-0.6%) | spread: +2.7%
+  🔄 WIF-USD (+1.8%) replaces BTC-USD (-0.6%) | spread: +2.4%
+  🔄 AAVE-USD (+1.8%) replaces BTC-USD (-0.6%) | spread: +2.4%
+  🔄 PENDLE-USD (+1.4%) replaces BTC-USD (-0.6%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 7 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,698) → Buy MATIC-USD (spread: +3.2%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 13:07 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -0.8%  $   6,683  (entry $73405.0000 → $72801.2800)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 KAS-USD      $      0.0314  24h:+2.2%  30m:+0.13%
+  🟢 ICP-USD      $      2.5661  24h:+2.1%  30m:-0.28%
+  🟢 MKR-USD      $   1839.9481  24h:+2.1%  30m:+0.12%
+  🟢 AAVE-USD     $    117.8042  24h:+1.6%  30m:+0.09%
+  🟢 WIF-USD      $      0.2178  24h:+1.5%  30m:-0.14%
+  🟢 PENDLE-USD   $      1.3178  24h:+1.3%  30m:+0.02%
+  🟢 LINK-USD     $      9.4703  24h:+1.3%  30m:+0.38%
+  🟢 SNX-USD      $      0.3342  24h:+1.0%  30m:+0.03%
+  🟡 RNDR-USD     $      6.8021  24h:+1.0%  
+  🟡 SOL-USD      $     91.7842  24h:+1.0%  30m:-0.02%
+  🟡 FIL-USD      $      1.0313  24h:+0.6%  30m:-0.05%
+  🟡 RUNE-USD     $      0.4402  24h:+0.6%  30m:-0.05%
+  🟡 XRP-USD      $      1.4387  24h:+0.6%  30m:-0.01%
+  🟡 TIA-USD      $      0.3412  24h:+0.5%  30m:+0.02%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 DYDX-USD     $      0.0980  30m:+0.528%  24h:-0.4%
+  🔥 LINK-USD     $      9.4703  30m:+0.377%  24h:+1.3%
+  🔥 INJ-USD      $      3.0984  30m:+0.285%  24h:-0.7%
+  🔥 ADA-USD      $      0.2770  30m:+0.282%  24h:+0.3%
+  🔥 AVAX-USD     $      9.4925  30m:+0.174%  24h:-0.1%
+  🔥 CRV-USD      $      0.2543  30m:+0.152%  24h:-0.3%
+  🔥 KAS-USD      $      0.0314  30m:+0.131%  24h:+2.2%
+  🔥 ENA-USD      $      0.1165  30m:+0.127%  24h:-0.8%
+  🔥 MKR-USD      $   1839.9481  30m:+0.123%  24h:+2.1%
+  🔥 DOT-USD      $      1.5272  30m:+0.121%  24h:-1.0%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-0.8%) | spread: +3.4%
+  🔄 KAS-USD (+2.2%) replaces BTC-USD (-0.8%) | spread: +3.0%
+  🔄 ICP-USD (+2.1%) replaces BTC-USD (-0.8%) | spread: +2.9%
+  🔄 MKR-USD (+2.1%) replaces BTC-USD (-0.8%) | spread: +2.9%
+  🔄 AAVE-USD (+1.6%) replaces BTC-USD (-0.8%) | spread: +2.5%
+  🔄 WIF-USD (+1.5%) replaces BTC-USD (-0.8%) | spread: +2.3%
+  🔄 PENDLE-USD (+1.3%) replaces BTC-USD (-0.8%) | spread: +2.1%
+  🔄 LINK-USD (+1.3%) replaces BTC-USD (-0.8%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 8 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,683) → Buy MATIC-USD (spread: +3.4%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 13:17 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.0%  $   6,673  (entry $73405.0000 → $72687.1400)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5647  24h:+2.0%  30m:-0.29%
+  🟢 KAS-USD      $      0.0314  24h:+2.0%  30m:-0.38%
+  🟢 AAVE-USD     $    117.4681  24h:+1.4%  30m:-0.43%
+  🟡 PENDLE-USD   $      1.3135  24h:+1.0%  30m:-0.47%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 LINK-USD     $      9.4400  24h:+0.9%  30m:-0.32%
+  🟡 WIF-USD      $      0.2165  24h:+0.9%  30m:-0.95%
+  🟡 SNX-USD      $      0.3335  24h:+0.8%  30m:-0.35%
+  🟡 SOL-USD      $     91.4978  24h:+0.7%  30m:-0.64%
+  🟡 MKR-USD      $   1813.6589  24h:+0.6%  30m:-1.44%
+  🟡 FIL-USD      $      1.0298  24h:+0.5%  30m:-0.30%
+  🟡 TIA-USD      $      0.3405  24h:+0.4%  30m:-0.37%
+  🟡 RUNE-USD     $      0.4389  24h:+0.3%  30m:-0.42%
+  🟡 XRP-USD      $      1.4348  24h:+0.3%  30m:-0.39%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.0%) | spread: +3.6%
+  🔄 ICP-USD (+2.0%) replaces BTC-USD (-1.0%) | spread: +3.0%
+  🔄 KAS-USD (+2.0%) replaces BTC-USD (-1.0%) | spread: +2.9%
+  🔄 AAVE-USD (+1.4%) replaces BTC-USD (-1.0%) | spread: +2.3%
+
+============================================================
+SUMMARY: 45 scanned | 4 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,673) → Buy MATIC-USD (spread: +3.6%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 13:27 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.1%  $   6,663  (entry $73405.0000 → $72581.8900)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5655  24h:+2.0%  30m:-0.02%
+  🟢 KAS-USD      $      0.0313  24h:+1.6%  30m:-0.40%
+  🟢 AAVE-USD     $    117.6363  24h:+1.5%  30m:-0.14%
+  🟢 MKR-USD      $   1829.7478  24h:+1.5%  30m:-0.55%
+  🟢 LINK-USD     $      9.4494  24h:+1.0%  30m:-0.26%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 PENDLE-USD   $      1.3133  24h:+0.9%  30m:-0.35%
+  🟡 WIF-USD      $      0.2161  24h:+0.7%  30m:-0.82%
+  🟡 SOL-USD      $     91.4885  24h:+0.7%  30m:-0.32%
+  🟡 FIL-USD      $      1.0314  24h:+0.6%  30m:+0.01%
+  🟡 SNX-USD      $      0.3328  24h:+0.6%  30m:-0.42%
+  🟡 TIA-USD      $      0.3406  24h:+0.4%  30m:-0.19%
+  🟡 RUNE-USD     $      0.4385  24h:+0.2%  30m:-0.38%
+  🟡 XRP-USD      $      1.4333  24h:+0.2%  30m:-0.38%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 FIL-USD      $      1.0314  30m:+0.007%  24h:+0.6%
+  🔥 NEAR-USD     $      1.2933  30m:+0.003%  24h:-1.4%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.1%) | spread: +3.7%
+  🔄 ICP-USD (+2.0%) replaces BTC-USD (-1.1%) | spread: +3.2%
+  🔄 KAS-USD (+1.6%) replaces BTC-USD (-1.1%) | spread: +2.7%
+  🔄 AAVE-USD (+1.5%) replaces BTC-USD (-1.1%) | spread: +2.6%
+  🔄 MKR-USD (+1.5%) replaces BTC-USD (-1.1%) | spread: +2.6%
+  🔄 LINK-USD (+1.0%) replaces BTC-USD (-1.1%) | spread: +2.2%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-1.1%) | spread: +2.1%
+  🔄 PENDLE-USD (+0.9%) replaces BTC-USD (-1.1%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 8 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,663) → Buy MATIC-USD (spread: +3.7%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 13:37 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.4%  $   6,642  (entry $73405.0000 → $72348.3400)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 MKR-USD      $   1832.5728  24h:+1.7%  30m:-0.49%
+  🟢 ICP-USD      $      2.5431  24h:+1.1%  30m:-0.84%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 AAVE-USD     $    116.9081  24h:+0.9%  30m:-0.48%
+  🟡 KAS-USD      $      0.0310  24h:+0.7%  30m:-1.05%
+  🟡 FIL-USD      $      1.0288  24h:+0.4%  30m:-0.09%
+  🟡 PENDLE-USD   $      1.3037  24h:+0.2%  30m:-0.75%
+  🟡 SNX-USD      $      0.3311  24h:+0.1%  30m:-0.79%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.4%) | spread: +4.0%
+  🔄 MKR-USD (+1.7%) replaces BTC-USD (-1.4%) | spread: +3.1%
+  🔄 ICP-USD (+1.1%) replaces BTC-USD (-1.4%) | spread: +2.6%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-1.4%) | spread: +2.4%
+  🔄 AAVE-USD (+0.9%) replaces BTC-USD (-1.4%) | spread: +2.3%
+  🔄 KAS-USD (+0.7%) replaces BTC-USD (-1.4%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 6 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,642) → Buy MATIC-USD (spread: +4.0%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 13:47 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.2%  $   6,656  (entry $73405.0000 → $72509.5550)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 MKR-USD      $   1832.1537  24h:+1.6%  30m:+0.13%
+  🟢 ICP-USD      $      2.5457  24h:+1.3%  30m:-0.77%
+  🟢 AAVE-USD     $    117.0972  24h:+1.0%  30m:-0.46%
+  🟢 KAS-USD      $      0.0311  24h:+1.0%  30m:-0.53%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 FIL-USD      $      1.0294  24h:+0.4%  30m:-0.21%
+  🟡 SNX-USD      $      0.3316  24h:+0.2%  30m:-0.47%
+  🟡 LINK-USD     $      9.3692  24h:+0.2%  30m:-0.74%
+  🟡 PENDLE-USD   $      1.3016  24h:+0.0%  30m:-0.98%
+  🟡 SOL-USD      $     90.8873  24h:+0.0%  30m:-0.66%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 MKR-USD      $   1832.1537  30m:+0.131%  24h:+1.6%
+  🔥 LDO-USD      $      0.3134  30m:+0.031%  24h:-1.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.2%) | spread: +3.8%
+  🔄 MKR-USD (+1.6%) replaces BTC-USD (-1.2%) | spread: +2.8%
+  🔄 ICP-USD (+1.3%) replaces BTC-USD (-1.2%) | spread: +2.5%
+  🔄 AAVE-USD (+1.0%) replaces BTC-USD (-1.2%) | spread: +2.3%
+  🔄 KAS-USD (+1.0%) replaces BTC-USD (-1.2%) | spread: +2.2%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-1.2%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 6 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,656) → Buy MATIC-USD (spread: +3.8%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 13:58 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.1%  $   6,665  (entry $73405.0000 → $72607.3000)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5569  24h:+1.7%  30m:+0.49%
+  🟢 KAS-USD      $      0.0313  24h:+1.6%  30m:+0.86%
+  🟢 MKR-USD      $   1832.1538  24h:+1.6%  30m:-0.02%
+  🟢 AAVE-USD     $    117.6560  24h:+1.5%  30m:+0.64%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 FIL-USD      $      1.0332  24h:+0.8%  30m:+0.43%
+  🟡 SNX-USD      $      0.3333  24h:+0.7%  30m:+0.66%
+  🟡 PENDLE-USD   $      1.3095  24h:+0.6%  30m:+0.42%
+  🟡 LINK-USD     $      9.4054  24h:+0.6%  30m:+0.68%
+  🟡 TIA-USD      $      0.3409  24h:+0.5%  30m:+0.70%
+  🟡 WIF-USD      $      0.2154  24h:+0.4%  30m:+0.52%
+  🟡 RUNE-USD     $      0.4388  24h:+0.3%  30m:+0.45%
+  🟡 SOL-USD      $     91.0513  24h:+0.2%  30m:+0.35%
+  🟡 ATOM-USD     $      1.8807  24h:+0.0%  30m:+0.51%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 KAS-USD      $      0.0313  30m:+0.860%  24h:+1.6%
+  🔥 DOT-USD      $      1.5281  30m:+0.778%  24h:-0.9%
+  🔥 LTC-USD      $     56.0040  30m:+0.722%  24h:-1.4%
+  🔥 OP-USD       $      0.1280  30m:+0.709%  24h:-0.4%
+  🔥 TIA-USD      $      0.3409  30m:+0.705%  24h:+0.5%
+  🔥 LINK-USD     $      9.4054  30m:+0.683%  24h:+0.6%
+  🔥 SNX-USD      $      0.3333  30m:+0.656%  24h:+0.7%
+  🔥 AAVE-USD     $    117.6560  30m:+0.640%  24h:+1.5%
+  🔥 ALGO-USD     $      0.0886  30m:+0.610%  24h:-0.4%
+  🔥 SEI-USD      $      0.0685  30m:+0.550%  24h:-2.0%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.1%) | spread: +3.7%
+  🔄 ICP-USD (+1.7%) replaces BTC-USD (-1.1%) | spread: +2.8%
+  🔄 KAS-USD (+1.6%) replaces BTC-USD (-1.1%) | spread: +2.7%
+  🔄 MKR-USD (+1.6%) replaces BTC-USD (-1.1%) | spread: +2.7%
+  🔄 AAVE-USD (+1.5%) replaces BTC-USD (-1.1%) | spread: +2.6%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-1.1%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 6 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,665) → Buy MATIC-USD (spread: +3.7%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 14:08 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.2%  $   6,659  (entry $73405.0000 → $72535.8400)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 KAS-USD      $      0.0313  24h:+1.6%  30m:+0.34%
+  🟢 AAVE-USD     $    117.6985  24h:+1.6%  30m:+0.51%
+  🟢 MKR-USD      $   1830.3569  24h:+1.5%  30m:-0.10%
+  🟢 ICP-USD      $      2.5521  24h:+1.5%  30m:+0.25%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 PENDLE-USD   $      1.3101  24h:+0.7%  30m:+0.65%
+  🟡 FIL-USD      $      1.0317  24h:+0.7%  30m:+0.22%
+  🟡 SNX-USD      $      0.3329  24h:+0.6%  30m:+0.39%
+  🟡 TIA-USD      $      0.3411  24h:+0.5%  30m:+0.41%
+  🟡 WIF-USD      $      0.2156  24h:+0.5%  30m:+0.51%
+  🟡 LINK-USD     $      9.3898  24h:+0.4%  30m:+0.07%
+  🟡 RUNE-USD     $      0.4385  24h:+0.2%  30m:+0.24%
+  🟡 SOL-USD      $     90.9448  24h:+0.1%  30m:+0.09%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 PENDLE-USD   $      1.3101  30m:+0.652%  24h:+0.7%
+  🔥 LDO-USD      $      0.3156  30m:+0.530%  24h:-0.6%
+  🔥 DOT-USD      $      1.5259  30m:+0.519%  24h:-1.0%
+  🔥 AAVE-USD     $    117.6985  30m:+0.513%  24h:+1.6%
+  🔥 XLM-USD      $      0.1590  30m:+0.513%  24h:-0.4%
+  🔥 WIF-USD      $      0.2156  30m:+0.508%  24h:+0.5%
+  🔥 LTC-USD      $     56.0226  30m:+0.484%  24h:-1.4%
+  🔥 OP-USD       $      0.1280  30m:+0.479%  24h:-0.4%
+  🔥 TIA-USD      $      0.3411  30m:+0.409%  24h:+0.5%
+  🔥 SNX-USD      $      0.3329  30m:+0.386%  24h:+0.6%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.2%) | spread: +3.8%
+  🔄 KAS-USD (+1.6%) replaces BTC-USD (-1.2%) | spread: +2.8%
+  🔄 AAVE-USD (+1.6%) replaces BTC-USD (-1.2%) | spread: +2.7%
+  🔄 MKR-USD (+1.5%) replaces BTC-USD (-1.2%) | spread: +2.7%
+  🔄 ICP-USD (+1.5%) replaces BTC-USD (-1.2%) | spread: +2.7%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-1.2%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 6 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,659) → Buy MATIC-USD (spread: +3.8%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 14:18 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.1%  $   6,667  (entry $73405.0000 → $72624.4840)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 MKR-USD      $   1835.9679  24h:+1.8%  30m:+0.21%
+  🟢 AAVE-USD     $    117.8946  24h:+1.7%  30m:+0.33%
+  🟢 KAS-USD      $      0.0313  24h:+1.6%  30m:+0.00%
+  🟢 ICP-USD      $      2.5492  24h:+1.4%  30m:-0.23%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 PENDLE-USD   $      1.3121  24h:+0.8%  30m:+0.20%
+  🟡 FIL-USD      $      1.0326  24h:+0.8%  30m:+0.09%
+  🟡 SNX-USD      $      0.3330  24h:+0.6%  30m:+0.10%
+  🟡 TIA-USD      $      0.3414  24h:+0.6%  30m:+0.17%
+  🟡 WIF-USD      $      0.2156  24h:+0.5%  30m:+0.17%
+  🟡 LINK-USD     $      9.3939  24h:+0.5%  30m:+0.04%
+  🟡 RUNE-USD     $      0.4388  24h:+0.3%  30m:-0.03%
+  🟡 SOL-USD      $     90.9776  24h:+0.1%  30m:-0.15%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 LDO-USD      $      0.3171  30m:+0.478%  24h:-0.1%
+  🔥 INJ-USD      $      3.0842  30m:+0.377%  24h:-1.2%
+  🔥 LTC-USD      $     56.1153  30m:+0.337%  24h:-1.2%
+  🔥 AAVE-USD     $    117.8946  30m:+0.332%  24h:+1.7%
+  🔥 DYDX-USD     $      0.0964  30m:+0.247%  24h:-2.0%
+  🔥 ENA-USD      $      0.1161  30m:+0.246%  24h:-1.1%
+  🔥 XLM-USD      $      0.1592  30m:+0.228%  24h:-0.3%
+  🔥 OP-USD       $      0.1282  30m:+0.225%  24h:-0.3%
+  🔥 MKR-USD      $   1835.9679  30m:+0.208%  24h:+1.8%
+  🔥 PENDLE-USD   $      1.3121  30m:+0.202%  24h:+0.8%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.1%) | spread: +3.6%
+  🔄 MKR-USD (+1.8%) replaces BTC-USD (-1.1%) | spread: +2.9%
+  🔄 AAVE-USD (+1.7%) replaces BTC-USD (-1.1%) | spread: +2.8%
+  🔄 KAS-USD (+1.6%) replaces BTC-USD (-1.1%) | spread: +2.7%
+  🔄 ICP-USD (+1.4%) replaces BTC-USD (-1.1%) | spread: +2.5%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-1.1%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 6 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,667) → Buy MATIC-USD (spread: +3.6%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 14:28 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.3%  $   6,654  (entry $73405.0000 → $72479.1640)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 MKR-USD      $   1836.5710  24h:+1.9%  30m:+0.34%
+  🟢 AAVE-USD     $    117.7600  24h:+1.6%  30m:+0.06%
+  🟢 KAS-USD      $      0.0312  24h:+1.5%  30m:-0.11%
+  🟢 ICP-USD      $      2.5459  24h:+1.3%  30m:-0.36%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 PENDLE-USD   $      1.3095  24h:+0.6%  30m:-0.05%
+  🟡 FIL-USD      $      1.0310  24h:+0.6%  30m:-0.09%
+  🟡 TIA-USD      $      0.3411  24h:+0.5%  30m:+0.08%
+  🟡 SNX-USD      $      0.3323  24h:+0.5%  30m:-0.17%
+  🟡 LINK-USD     $      9.3759  24h:+0.3%  30m:-0.13%
+  🟡 OP-USD       $      0.1288  24h:+0.2%  30m:+0.58%
+  🟡 RUNE-USD     $      0.4382  24h:+0.2%  30m:-0.11%
+  🟡 WIF-USD      $      0.2149  24h:+0.1%  30m:-0.32%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 OP-USD       $      0.1288  30m:+0.578%  24h:+0.2%
+  🔥 LDO-USD      $      0.3171  30m:+0.475%  24h:-0.1%
+  🔥 LTC-USD      $     56.2094  30m:+0.350%  24h:-1.0%
+  🔥 MKR-USD      $   1836.5710  30m:+0.340%  24h:+1.9%
+  🔥 INJ-USD      $      3.0860  30m:+0.294%  24h:-1.1%
+  🔥 ENA-USD      $      0.1160  30m:+0.203%  24h:-1.2%
+  🔥 TIA-USD      $      0.3411  30m:+0.076%  24h:+0.5%
+  🔥 AAVE-USD     $    117.7600  30m:+0.055%  24h:+1.6%
+  🔥 HBAR-USD     $      0.1003  30m:+0.034%  24h:-0.8%
+  🔥 NEAR-USD     $      1.2893  30m:+0.020%  24h:-1.7%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.3%) | spread: +3.8%
+  🔄 MKR-USD (+1.9%) replaces BTC-USD (-1.3%) | spread: +3.1%
+  🔄 AAVE-USD (+1.6%) replaces BTC-USD (-1.3%) | spread: +2.9%
+  🔄 KAS-USD (+1.5%) replaces BTC-USD (-1.3%) | spread: +2.7%
+  🔄 ICP-USD (+1.3%) replaces BTC-USD (-1.3%) | spread: +2.5%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-1.3%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 6 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,654) → Buy MATIC-USD (spread: +3.8%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 14:38 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.0%  $   6,671  (entry $73405.0000 → $72668.5550)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.0771  24h:+1.9%  30m:+0.15%
+  🟢 MKR-USD      $   1836.3850  24h:+1.9%  30m:+0.02%
+  🟢 KAS-USD      $      0.0313  24h:+1.7%  30m:+0.26%
+  🟢 ICP-USD      $      2.5574  24h:+1.7%  30m:+0.35%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 TIA-USD      $      0.3424  24h:+0.9%  30m:+0.47%
+  🟡 FIL-USD      $      1.0338  24h:+0.9%  30m:+0.12%
+  🟡 PENDLE-USD   $      1.3114  24h:+0.8%  30m:+0.08%
+  🟡 SNX-USD      $      0.3329  24h:+0.6%  30m:-0.00%
+  🟡 WIF-USD      $      0.2158  24h:+0.6%  30m:+0.32%
+  🟡 OP-USD       $      0.1292  24h:+0.5%  30m:+0.80%
+  🟡 LDO-USD      $      0.3191  24h:+0.5%  30m:+0.65%
+  🟡 LINK-USD     $      9.3914  24h:+0.4%  30m:+0.12%
+  🟡 RUNE-USD     $      0.4390  24h:+0.4%  30m:+0.06%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 OP-USD       $      0.1292  30m:+0.802%  24h:+0.5%
+  🔥 NEAR-USD     $      1.2973  30m:+0.789%  24h:-1.1%
+  🔥 LDO-USD      $      0.3191  30m:+0.653%  24h:+0.5%
+  🔥 BCH-USD      $    462.8480  30m:+0.650%  24h:-1.0%
+  🔥 CRV-USD      $      0.2551  30m:+0.582%  24h:-0.0%
+  🔥 ADA-USD      $      0.2756  30m:+0.501%  24h:-0.2%
+  🔥 DYDX-USD     $      0.0965  30m:+0.483%  24h:-1.9%
+  🔥 TIA-USD      $      0.3424  30m:+0.472%  24h:+0.9%
+  🔥 ALGO-USD     $      0.0889  30m:+0.458%  24h:+0.0%
+  🔥 LTC-USD      $     56.3511  30m:+0.443%  24h:-0.8%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.0%) | spread: +3.6%
+  🔄 AAVE-USD (+1.9%) replaces BTC-USD (-1.0%) | spread: +2.9%
+  🔄 MKR-USD (+1.9%) replaces BTC-USD (-1.0%) | spread: +2.9%
+  🔄 KAS-USD (+1.7%) replaces BTC-USD (-1.0%) | spread: +2.7%
+  🔄 ICP-USD (+1.7%) replaces BTC-USD (-1.0%) | spread: +2.7%
+
+============================================================
+SUMMARY: 45 scanned | 5 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,671) → Buy MATIC-USD (spread: +3.6%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 14:48 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.9%  $   6,611  (entry $73405.0000 → $72013.4840)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5560  24h:+1.7%  30m:+0.34%
+  🟢 MKR-USD      $   1831.9214  24h:+1.6%  30m:-0.25%
+  🟢 AAVE-USD     $    117.6894  24h:+1.6%  30m:+0.00%
+  🟢 KAS-USD      $      0.0312  24h:+1.4%  30m:-0.09%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 FIL-USD      $      1.0328  24h:+0.8%  30m:+0.14%
+  🟡 TIA-USD      $      0.3416  24h:+0.7%  30m:+0.12%
+  🟡 SNX-USD      $      0.3330  24h:+0.6%  30m:+0.18%
+  🟡 PENDLE-USD   $      1.3069  24h:+0.4%  30m:-0.16%
+  🟡 WIF-USD      $      0.2153  24h:+0.3%  30m:+0.28%
+  🟡 OP-USD       $      0.1289  24h:+0.3%  30m:+0.00%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 NEAR-USD     $      1.2969  30m:+0.493%  24h:-1.1%
+  🔥 DOT-USD      $      1.5294  30m:+0.442%  24h:-0.8%
+  🔥 ICP-USD      $      2.5560  30m:+0.335%  24h:+1.7%
+  🔥 DYDX-USD     $      0.0964  30m:+0.327%  24h:-2.0%
+  🔥 WIF-USD      $      0.2153  30m:+0.282%  24h:+0.3%
+  🔥 XLM-USD      $      0.1594  30m:+0.214%  24h:-0.1%
+  🔥 CRV-USD      $      0.2546  30m:+0.208%  24h:-0.2%
+  🔥 SNX-USD      $      0.3330  30m:+0.177%  24h:+0.6%
+  🔥 FIL-USD      $      1.0328  30m:+0.144%  24h:+0.8%
+  🔥 TIA-USD      $      0.3416  30m:+0.120%  24h:+0.7%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.9%) | spread: +4.5%
+  🔄 ICP-USD (+1.7%) replaces BTC-USD (-1.9%) | spread: +3.6%
+  🔄 MKR-USD (+1.6%) replaces BTC-USD (-1.9%) | spread: +3.5%
+  🔄 AAVE-USD (+1.6%) replaces BTC-USD (-1.9%) | spread: +3.4%
+  🔄 KAS-USD (+1.4%) replaces BTC-USD (-1.9%) | spread: +3.3%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-1.9%) | spread: +2.8%
+  🔄 FIL-USD (+0.8%) replaces BTC-USD (-1.9%) | spread: +2.7%
+  🔄 TIA-USD (+0.7%) replaces BTC-USD (-1.9%) | spread: +2.6%
+  🔄 SNX-USD (+0.6%) replaces BTC-USD (-1.9%) | spread: +2.5%
+  🔄 PENDLE-USD (+0.4%) replaces BTC-USD (-1.9%) | spread: +2.3%
+  🔄 WIF-USD (+0.3%) replaces BTC-USD (-1.9%) | spread: +2.2%
+  🔄 OP-USD (+0.3%) replaces BTC-USD (-1.9%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 12 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,611) → Buy MATIC-USD (spread: +4.5%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 14:58 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.2%  $   6,658  (entry $73405.0000 → $72527.3360)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.5776  24h:+2.3%  30m:+0.13%
+  🟢 ICP-USD      $      2.5709  24h:+2.3%  30m:+0.17%
+  🟢 KAS-USD      $      0.0313  24h:+1.8%  30m:+0.03%
+  🟢 MKR-USD      $   1829.2715  24h:+1.5%  30m:-0.35%
+  🟢 FIL-USD      $      1.0378  24h:+1.3%  30m:+0.08%
+  🟢 TIA-USD      $      0.3436  24h:+1.3%  30m:+0.08%
+  🟡 SNX-USD      $      0.3341  24h:+1.0%  30m:+0.09%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 PENDLE-USD   $      1.3129  24h:+0.9%  30m:+0.13%
+  🟡 WIF-USD      $      0.2164  24h:+0.9%  30m:-0.18%
+  🟡 LDO-USD      $      0.3195  24h:+0.6%  30m:+0.03%
+  🟡 CRV-USD      $      0.2568  24h:+0.6%  30m:+0.39%
+  🟡 OP-USD       $      0.1293  24h:+0.5%  30m:+0.09%
+  🟡 XLM-USD      $      0.1604  24h:+0.5%  30m:+0.19%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 DYDX-USD     $      0.0969  30m:+0.555%  24h:-1.5%
+  🔥 CRV-USD      $      0.2568  30m:+0.389%  24h:+0.6%
+  🔥 NEAR-USD     $      1.3011  30m:+0.317%  24h:-0.8%
+  🔥 XLM-USD      $      0.1604  30m:+0.191%  24h:+0.5%
+  🔥 ICP-USD      $      2.5709  30m:+0.173%  24h:+2.3%
+  🔥 BCH-USD      $    463.6937  30m:+0.172%  24h:-0.8%
+  🔥 INJ-USD      $      3.0985  30m:+0.154%  24h:-0.7%
+  🔥 AAVE-USD     $    118.5776  30m:+0.128%  24h:+2.3%
+  🔥 PENDLE-USD   $      1.3129  30m:+0.127%  24h:+0.9%
+  🔥 ENA-USD      $      0.1168  30m:+0.105%  24h:-0.5%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.2%) | spread: +3.8%
+  🔄 AAVE-USD (+2.3%) replaces BTC-USD (-1.2%) | spread: +3.5%
+  🔄 ICP-USD (+2.3%) replaces BTC-USD (-1.2%) | spread: +3.4%
+  🔄 KAS-USD (+1.8%) replaces BTC-USD (-1.2%) | spread: +3.0%
+  🔄 MKR-USD (+1.5%) replaces BTC-USD (-1.2%) | spread: +2.7%
+  🔄 FIL-USD (+1.3%) replaces BTC-USD (-1.2%) | spread: +2.5%
+  🔄 TIA-USD (+1.3%) replaces BTC-USD (-1.2%) | spread: +2.4%
+  🔄 SNX-USD (+1.0%) replaces BTC-USD (-1.2%) | spread: +2.2%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-1.2%) | spread: +2.1%
+  🔄 PENDLE-USD (+0.9%) replaces BTC-USD (-1.2%) | spread: +2.1%
+  🔄 WIF-USD (+0.9%) replaces BTC-USD (-1.2%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 11 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,658) → Buy MATIC-USD (spread: +3.8%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 15:08 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -1.6%  $   6,632  (entry $73405.0000 → $72248.8800)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.4536  24h:+2.2%  30m:+0.62%
+  🟢 ICP-USD      $      2.5694  24h:+2.2%  30m:+0.29%
+  🟢 MKR-USD      $   1829.2699  24h:+1.5%  30m:+0.00%
+  🟢 KAS-USD      $      0.0312  24h:+1.3%  30m:-0.17%
+  🟢 TIA-USD      $      0.3439  24h:+1.3%  30m:+0.60%
+  🟢 SNX-USD      $      0.3347  24h:+1.2%  30m:+0.54%
+  🟢 FIL-USD      $      1.0366  24h:+1.1%  30m:+0.22%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 WIF-USD      $      0.2165  24h:+0.9%  30m:+0.48%
+  🟡 PENDLE-USD   $      1.3104  24h:+0.7%  30m:+0.12%
+  🟡 CRV-USD      $      0.2568  24h:+0.7%  30m:+0.83%
+  🟡 OP-USD       $      0.1294  24h:+0.6%  30m:+0.21%
+  🟡 RUNE-USD     $      0.4398  24h:+0.5%  30m:+0.57%
+  🟡 FET-USD      $      0.1561  24h:+0.4%  30m:+0.54%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 CRV-USD      $      0.2568  30m:+0.826%  24h:+0.7%
+  🔥 AAVE-USD     $    118.4536  30m:+0.618%  24h:+2.2%
+  🔥 TIA-USD      $      0.3439  30m:+0.602%  24h:+1.3%
+  🔥 XRP-USD      $      1.4334  30m:+0.600%  24h:+0.2%
+  🔥 RUNE-USD     $      0.4398  30m:+0.568%  24h:+0.5%
+  🔥 FET-USD      $      0.1561  30m:+0.539%  24h:+0.4%
+  🔥 SNX-USD      $      0.3347  30m:+0.537%  24h:+1.2%
+  🔥 SEI-USD      $      0.0688  30m:+0.520%  24h:-1.5%
+  🔥 WIF-USD      $      0.2165  30m:+0.483%  24h:+0.9%
+  🔥 HBAR-USD     $      0.1009  30m:+0.442%  24h:-0.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-1.6%) | spread: +4.1%
+  🔄 AAVE-USD (+2.2%) replaces BTC-USD (-1.6%) | spread: +3.8%
+  🔄 ICP-USD (+2.2%) replaces BTC-USD (-1.6%) | spread: +3.8%
+  🔄 MKR-USD (+1.5%) replaces BTC-USD (-1.6%) | spread: +3.0%
+  🔄 KAS-USD (+1.3%) replaces BTC-USD (-1.6%) | spread: +2.9%
+  🔄 TIA-USD (+1.3%) replaces BTC-USD (-1.6%) | spread: +2.9%
+  🔄 SNX-USD (+1.2%) replaces BTC-USD (-1.6%) | spread: +2.8%
+  🔄 FIL-USD (+1.1%) replaces BTC-USD (-1.6%) | spread: +2.7%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-1.6%) | spread: +2.5%
+  🔄 WIF-USD (+0.9%) replaces BTC-USD (-1.6%) | spread: +2.5%
+  🔄 PENDLE-USD (+0.7%) replaces BTC-USD (-1.6%) | spread: +2.3%
+  🔄 CRV-USD (+0.7%) replaces BTC-USD (-1.6%) | spread: +2.2%
+  🔄 OP-USD (+0.6%) replaces BTC-USD (-1.6%) | spread: +2.2%
+  🔄 RUNE-USD (+0.5%) replaces BTC-USD (-1.6%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 14 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,632) → Buy MATIC-USD (spread: +4.1%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 15:19 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.3%  $   6,582  (entry $73405.0000 → $71695.1900)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5466  24h:+1.3%  30m:-0.92%
+  🟢 AAVE-USD     $    117.2156  24h:+1.1%  30m:-0.79%
+  🟢 MKR-USD      $   1821.6218  24h:+1.0%  30m:-0.42%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 KAS-USD      $      0.0310  24h:+0.9%  30m:-0.89%
+  🟡 TIA-USD      $      0.3403  24h:+0.3%  30m:-0.68%
+  🟡 SNX-USD      $      0.3317  24h:+0.3%  30m:-0.80%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FIL-USD      $      1.0247  24h:-0.0%  30m:-1.33%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.3%) | spread: +4.9%
+  🔄 ICP-USD (+1.3%) replaces BTC-USD (-2.3%) | spread: +3.6%
+  🔄 AAVE-USD (+1.1%) replaces BTC-USD (-2.3%) | spread: +3.5%
+  🔄 MKR-USD (+1.0%) replaces BTC-USD (-2.3%) | spread: +3.4%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.3%) | spread: +3.3%
+  🔄 KAS-USD (+0.9%) replaces BTC-USD (-2.3%) | spread: +3.2%
+  🔄 TIA-USD (+0.3%) replaces BTC-USD (-2.3%) | spread: +2.6%
+  🔄 SNX-USD (+0.3%) replaces BTC-USD (-2.3%) | spread: +2.6%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.3%) | spread: +2.3%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.3%) | spread: +2.3%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.3%) | spread: +2.3%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.3%) | spread: +2.3%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.3%) | spread: +2.3%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.3%) | spread: +2.3%
+  🔄 FIL-USD (-0.0%) replaces BTC-USD (-2.3%) | spread: +2.3%
+  🔄 CRV-USD (-0.0%) replaces BTC-USD (-2.3%) | spread: +2.3%
+  🔄 PENDLE-USD (-0.2%) replaces BTC-USD (-2.3%) | spread: +2.1%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.3%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 18 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,582) → Buy MATIC-USD (spread: +4.9%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 15:29 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.6%  $   6,562  (entry $73405.0000 → $71483.9100)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 MKR-USD      $   1821.6592  24h:+1.0%  30m:-0.42%
+  🟢 ICP-USD      $      2.5396  24h:+1.0%  30m:-1.23%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 AAVE-USD     $    116.8716  24h:+0.8%  30m:-1.46%
+  🟡 KAS-USD      $      0.0309  24h:+0.5%  30m:-0.83%
+  🟡 SNX-USD      $      0.3314  24h:+0.2%  30m:-1.08%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 CRV-USD      $      0.2550  24h:-0.1%  30m:-0.77%
+  🔴 TIA-USD      $      0.3387  24h:-0.2%  30m:-1.01%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.6%) | spread: +5.2%
+  🔄 MKR-USD (+1.0%) replaces BTC-USD (-2.6%) | spread: +3.7%
+  🔄 ICP-USD (+1.0%) replaces BTC-USD (-2.6%) | spread: +3.6%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.6%) | spread: +3.6%
+  🔄 AAVE-USD (+0.8%) replaces BTC-USD (-2.6%) | spread: +3.5%
+  🔄 KAS-USD (+0.5%) replaces BTC-USD (-2.6%) | spread: +3.1%
+  🔄 SNX-USD (+0.2%) replaces BTC-USD (-2.6%) | spread: +2.8%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 CRV-USD (-0.1%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 TIA-USD (-0.2%) replaces BTC-USD (-2.6%) | spread: +2.4%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.6%) | spread: +2.3%
+  🔄 FIL-USD (-0.4%) replaces BTC-USD (-2.6%) | spread: +2.2%
+  🔄 RUNE-USD (-0.5%) replaces BTC-USD (-2.6%) | spread: +2.1%
+  🔄 PENDLE-USD (-0.5%) replaces BTC-USD (-2.6%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 19 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,562) → Buy MATIC-USD (spread: +5.2%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 15:39 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 AAVE-USD     $    116.7736  24h:+0.8%  30m:-0.08%
+  🟡 ICP-USD      $      2.5321  24h:+0.7%  30m:-0.57%
+  🟡 KAS-USD      $      0.0309  24h:+0.5%  30m:-0.25%
+  🟡 MKR-USD      $   1810.8212  24h:+0.4%  30m:-0.59%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 CRV-USD      $      0.2549  24h:-0.1%  30m:-0.07%
+  🔴 SNX-USD      $      0.3300  24h:-0.2%  30m:-0.38%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  No rotation candidates found.
+
+============================================================
+SUMMARY: 45 scanned | 0 rotation(s) | 0 kill(s)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 15:49 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.6%  $   6,564  (entry $73405.0000 → $71507.8200)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5450  24h:+1.2%  30m:+0.41%
+  🟢 AAVE-USD     $    117.1066  24h:+1.0%  30m:+0.35%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1816.9049  24h:+0.8%  30m:-0.26%
+  🟡 KAS-USD      $      0.0309  24h:+0.5%  30m:+0.08%
+  🟡 SNX-USD      $      0.3315  24h:+0.2%  30m:+0.21%
+  🟡 CRV-USD      $      0.2555  24h:+0.2%  30m:+0.33%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 ENA-USD      $      0.1156  30m:+0.511%  24h:-1.5%
+  🔥 DYDX-USD     $      0.0948  30m:+0.473%  24h:-3.6%
+  🔥 AVAX-USD     $      9.4192  30m:+0.432%  24h:-0.8%
+  🔥 ICP-USD      $      2.5450  30m:+0.408%  24h:+1.2%
+  🔥 FET-USD      $      0.1539  30m:+0.375%  24h:-1.0%
+  🔥 OP-USD       $      0.1277  30m:+0.360%  24h:-0.7%
+  🔥 AAVE-USD     $    117.1066  30m:+0.353%  24h:+1.0%
+  🔥 CRV-USD      $      0.2555  30m:+0.327%  24h:+0.2%
+  🔥 LDO-USD      $      0.3149  30m:+0.320%  24h:-0.8%
+  🔥 SOL-USD      $     89.5034  30m:+0.307%  24h:-1.5%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.6%) | spread: +5.2%
+  🔄 ICP-USD (+1.2%) replaces BTC-USD (-2.6%) | spread: +3.8%
+  🔄 AAVE-USD (+1.0%) replaces BTC-USD (-2.6%) | spread: +3.6%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.6%) | spread: +3.5%
+  🔄 MKR-USD (+0.8%) replaces BTC-USD (-2.6%) | spread: +3.4%
+  🔄 KAS-USD (+0.5%) replaces BTC-USD (-2.6%) | spread: +3.1%
+  🔄 SNX-USD (+0.2%) replaces BTC-USD (-2.6%) | spread: +2.8%
+  🔄 CRV-USD (+0.2%) replaces BTC-USD (-2.6%) | spread: +2.7%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.6%) | spread: +2.3%
+  🔄 TIA-USD (-0.3%) replaces BTC-USD (-2.6%) | spread: +2.3%
+  🔄 RUNE-USD (-0.3%) replaces BTC-USD (-2.6%) | spread: +2.3%
+  🔄 FIL-USD (-0.5%) replaces BTC-USD (-2.6%) | spread: +2.1%
+  🔄 PENDLE-USD (-0.5%) replaces BTC-USD (-2.6%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 19 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,564) → Buy MATIC-USD (spread: +5.2%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 15:59 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.6%  $   6,562  (entry $73405.0000 → $71481.0100)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5398  24h:+1.0%  30m:+0.11%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 AAVE-USD     $    116.9399  24h:+0.9%  30m:+0.12%
+  🟡 MKR-USD      $   1816.8763  24h:+0.8%  30m:+0.29%
+  🟡 KAS-USD      $      0.0310  24h:+0.7%  30m:+0.21%
+  🟡 SNX-USD      $      0.3312  24h:+0.1%  30m:+0.20%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 CRV-USD      $      0.2550  24h:-0.0%  30m:-0.03%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 SOL-USD      $     89.6654  30m:+0.546%  24h:-1.3%
+  🔥 AVAX-USD     $      9.4186  30m:+0.410%  24h:-0.8%
+  🔥 MKR-USD      $   1816.8763  30m:+0.293%  24h:+0.8%
+  🔥 ENA-USD      $      0.1155  30m:+0.263%  24h:-1.6%
+  🔥 KAS-USD      $      0.0310  30m:+0.213%  24h:+0.7%
+  🔥 SNX-USD      $      0.3312  30m:+0.199%  24h:+0.1%
+  🔥 PENDLE-USD   $      1.2944  30m:+0.185%  24h:-0.5%
+  🔥 LINK-USD     $      9.2342  30m:+0.134%  24h:-1.3%
+  🔥 RUNE-USD     $      0.4354  30m:+0.128%  24h:-0.5%
+  🔥 AAVE-USD     $    116.9399  30m:+0.119%  24h:+0.9%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.6%) | spread: +5.2%
+  🔄 ICP-USD (+1.0%) replaces BTC-USD (-2.6%) | spread: +3.6%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.6%) | spread: +3.6%
+  🔄 AAVE-USD (+0.9%) replaces BTC-USD (-2.6%) | spread: +3.5%
+  🔄 MKR-USD (+0.8%) replaces BTC-USD (-2.6%) | spread: +3.4%
+  🔄 KAS-USD (+0.7%) replaces BTC-USD (-2.6%) | spread: +3.4%
+  🔄 SNX-USD (+0.1%) replaces BTC-USD (-2.6%) | spread: +2.7%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 CRV-USD (-0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.6%) | spread: +2.4%
+  🔄 RUNE-USD (-0.5%) replaces BTC-USD (-2.6%) | spread: +2.1%
+  🔄 PENDLE-USD (-0.5%) replaces BTC-USD (-2.6%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 17 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,562) → Buy MATIC-USD (spread: +5.2%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 16:09 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.9%  $   6,545  (entry $73405.0000 → $71300.4600)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1818.0195  24h:+0.8%  30m:+0.06%
+  🟡 ICP-USD      $      2.5236  24h:+0.4%  30m:-0.74%
+  🟡 KAS-USD      $      0.0308  24h:+0.1%  30m:-0.47%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 AAVE-USD     $    115.4159  24h:-0.4%  30m:-1.39%
+  🔴 RUNE-USD     $      0.4338  24h:-0.8%  30m:-0.37%
+  🔴 PENDLE-USD   $      1.2886  24h:-1.0%  30m:-0.39%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 MKR-USD      $   1818.0195  30m:+0.064%  24h:+0.8%
+  🔥 NEAR-USD     $      1.2681  30m:+0.008%  24h:-3.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.9%) | spread: +5.4%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.9%) | spread: +3.8%
+  🔄 MKR-USD (+0.8%) replaces BTC-USD (-2.9%) | spread: +3.7%
+  🔄 ICP-USD (+0.4%) replaces BTC-USD (-2.9%) | spread: +3.2%
+  🔄 KAS-USD (+0.1%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.9%) | spread: +2.6%
+  🔄 AAVE-USD (-0.4%) replaces BTC-USD (-2.9%) | spread: +2.5%
+  🔄 RUNE-USD (-0.8%) replaces BTC-USD (-2.9%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 14 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,545) → Buy MATIC-USD (spread: +5.4%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 16:19 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.3%  $   6,518  (entry $73405.0000 → $71003.1900)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1812.9922  24h:+0.6%  30m:-0.21%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 KAS-USD      $      0.0307  24h:-0.1%  30m:-0.69%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 ICP-USD      $      2.4906  24h:-0.9%  30m:-1.72%
+  🔴 AAVE-USD     $    114.7271  24h:-1.0%  30m:-1.66%
+  🔴 RUNE-USD     $      0.4330  24h:-1.0%  30m:-0.54%
+  🔴 SNX-USD      $      0.3265  24h:-1.3%  30m:-1.43%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 NEAR-USD     $      1.2745  30m:+0.423%  24h:-2.8%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.3%) | spread: +5.8%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.3%) | spread: +4.2%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.3%) | spread: +3.8%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 KAS-USD (-0.1%) replaces BTC-USD (-3.3%) | spread: +3.2%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.3%) | spread: +3.0%
+  🔄 ICP-USD (-0.9%) replaces BTC-USD (-3.3%) | spread: +2.3%
+  🔄 AAVE-USD (-1.0%) replaces BTC-USD (-3.3%) | spread: +2.3%
+  🔄 RUNE-USD (-1.0%) replaces BTC-USD (-3.3%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 14 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,518) → Buy MATIC-USD (spread: +5.8%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 16:30 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.2%  $   6,526  (entry $73405.0000 → $71084.1500)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1811.2750  24h:+0.5%  30m:-0.37%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 KAS-USD      $      0.0307  24h:-0.2%  30m:-0.24%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 AAVE-USD     $    115.1468  24h:-0.6%  30m:-0.21%
+  🔴 RUNE-USD     $      0.4339  24h:-0.8%  30m:+0.00%
+  🔴 ICP-USD      $      2.4920  24h:-0.9%  30m:-0.48%
+  🔴 SNX-USD      $      0.3271  24h:-1.1%  30m:+0.02%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 NEAR-USD     $      1.2792  30m:+0.896%  24h:-2.5%
+  🔥 FIL-USD      $      1.0052  30m:+0.420%  24h:-1.9%
+  🔥 BCH-USD      $    458.1984  30m:+0.375%  24h:-2.0%
+  🔥 ETH-USD      $   2073.8938  30m:+0.277%  24h:-2.6%
+  🔥 DOT-USD      $      1.4961  30m:+0.108%  24h:-3.0%
+  🔥 TIA-USD      $      0.3329  30m:+0.096%  24h:-1.9%
+  🔥 SNX-USD      $      0.3271  30m:+0.023%  24h:-1.1%
+  🔥 RUNE-USD     $      0.4339  30m:+0.004%  24h:-0.8%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.2%) | spread: +5.7%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.2%) | spread: +4.1%
+  🔄 MKR-USD (+0.5%) replaces BTC-USD (-3.2%) | spread: +3.6%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 KAS-USD (-0.2%) replaces BTC-USD (-3.2%) | spread: +3.0%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.2%) | spread: +2.9%
+  🔄 AAVE-USD (-0.6%) replaces BTC-USD (-3.2%) | spread: +2.5%
+  🔄 RUNE-USD (-0.8%) replaces BTC-USD (-3.2%) | spread: +2.3%
+  🔄 ICP-USD (-0.9%) replaces BTC-USD (-3.2%) | spread: +2.3%
+  🔄 SNX-USD (-1.1%) replaces BTC-USD (-3.2%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 15 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,526) → Buy MATIC-USD (spread: +5.7%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 16:40 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.0%  $   6,537  (entry $73405.0000 → $71206.8400)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1811.1935  24h:+0.5%  30m:-0.00%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 KAS-USD      $      0.0308  24h:-0.0%  30m:+0.07%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 AAVE-USD     $    115.3405  24h:-0.5%  30m:+0.35%
+  🔴 RUNE-USD     $      0.4352  24h:-0.5%  30m:+0.36%
+  🔴 ICP-USD      $      2.5003  24h:-0.6%  30m:+0.25%
+  🔴 SNX-USD      $      0.3280  24h:-0.9%  30m:+0.75%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 DOT-USD      $      1.5035  30m:+1.027%  24h:-2.5%
+  🔥 TIA-USD      $      0.3354  30m:+0.919%  24h:-1.2%
+  🔥 ETH-USD      $   2081.9636  30m:+0.829%  24h:-2.2%
+  🔥 SNX-USD      $      0.3280  30m:+0.745%  24h:-0.9%
+  🔥 ADA-USD      $      0.2683  30m:+0.725%  24h:-2.9%
+  🔥 ENA-USD      $      0.1144  30m:+0.725%  24h:-2.6%
+  🔥 HBAR-USD     $      0.0993  30m:+0.695%  24h:-1.8%
+  🔥 DOGE-USD     $      0.0938  30m:+0.688%  24h:-5.3%
+  🔥 LDO-USD      $      0.3090  30m:+0.672%  24h:-2.7%
+  🔥 PENDLE-USD   $      1.2776  30m:+0.565%  24h:-1.8%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.0%) | spread: +5.6%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.0%) | spread: +3.9%
+  🔄 MKR-USD (+0.5%) replaces BTC-USD (-3.0%) | spread: +3.5%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 KAS-USD (-0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.0%) | spread: +2.7%
+  🔄 AAVE-USD (-0.5%) replaces BTC-USD (-3.0%) | spread: +2.5%
+  🔄 RUNE-USD (-0.5%) replaces BTC-USD (-3.0%) | spread: +2.5%
+  🔄 ICP-USD (-0.6%) replaces BTC-USD (-3.0%) | spread: +2.4%
+  🔄 SNX-USD (-0.9%) replaces BTC-USD (-3.0%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 15 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,537) → Buy MATIC-USD (spread: +5.6%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 16:50 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.8%  $   6,550  (entry $73405.0000 → $71355.1600)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1812.9833  24h:+0.6%  30m:+0.10%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 KAS-USD      $      0.0308  24h:-0.0%  30m:+0.15%
+  🔴 RUNE-USD     $      0.4365  24h:-0.2%  30m:+0.59%
+  🔴 SNX-USD      $      0.3301  24h:-0.2%  30m:+0.90%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 ICP-USD      $      2.5042  24h:-0.4%  30m:+0.49%
+  🔴 AAVE-USD     $    115.3949  24h:-0.4%  30m:+0.22%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 LDO-USD      $      0.3111  30m:+1.133%  24h:-2.0%
+  🔥 SNX-USD      $      0.3301  30m:+0.898%  24h:-0.2%
+  🔥 DYDX-USD     $      0.0934  30m:+0.848%  24h:-5.1%
+  🔥 XLM-USD      $      0.1563  30m:+0.750%  24h:-2.1%
+  🔥 FIL-USD      $      1.0126  30m:+0.742%  24h:-1.2%
+  🔥 BCH-USD      $    461.5599  30m:+0.734%  24h:-1.3%
+  🔥 TIA-USD      $      0.3360  30m:+0.727%  24h:-1.0%
+  🔥 FET-USD      $      0.1520  30m:+0.684%  24h:-2.2%
+  🔥 SEI-USD      $      0.0675  30m:+0.683%  24h:-3.5%
+  🔥 SOL-USD      $     88.8930  30m:+0.657%  24h:-2.2%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.8%) | spread: +5.4%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.8%) | spread: +3.7%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-2.8%) | spread: +3.4%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 KAS-USD (-0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 RUNE-USD (-0.2%) replaces BTC-USD (-2.8%) | spread: +2.6%
+  🔄 SNX-USD (-0.2%) replaces BTC-USD (-2.8%) | spread: +2.6%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.8%) | spread: +2.5%
+  🔄 ICP-USD (-0.4%) replaces BTC-USD (-2.8%) | spread: +2.4%
+  🔄 AAVE-USD (-0.4%) replaces BTC-USD (-2.8%) | spread: +2.4%
+
+============================================================
+SUMMARY: 45 scanned | 15 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,550) → Buy MATIC-USD (spread: +5.4%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 17:00 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.8%  $   6,548  (entry $73405.0000 → $71326.3360)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1813.0009  24h:+0.6%  30m:+0.10%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 KAS-USD      $      0.0307  24h:-0.3%  30m:-0.27%
+  🔴 RUNE-USD     $      0.4360  24h:-0.3%  30m:+0.16%
+  🔴 AAVE-USD     $    115.4422  24h:-0.4%  30m:+0.08%
+  🔴 SNX-USD      $      0.3291  24h:-0.5%  30m:+0.16%
+  🔴 ICP-USD      $      2.4988  24h:-0.6%  30m:-0.30%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 LDO-USD      $      0.3103  30m:+0.444%  24h:-2.3%
+  🔥 DYDX-USD     $      0.0935  30m:+0.377%  24h:-5.0%
+  🔥 SEI-USD      $      0.0674  30m:+0.292%  24h:-3.5%
+  🔥 BCH-USD      $    461.0958  30m:+0.214%  24h:-1.4%
+  🔥 SOL-USD      $     88.9026  30m:+0.185%  24h:-2.2%
+  🔥 RUNE-USD     $      0.4360  30m:+0.163%  24h:-0.3%
+  🔥 SNX-USD      $      0.3291  30m:+0.157%  24h:-0.5%
+  🔥 FET-USD      $      0.1518  30m:+0.132%  24h:-2.3%
+  🔥 FIL-USD      $      1.0101  30m:+0.127%  24h:-1.4%
+  🔥 AVAX-USD     $      9.3748  30m:+0.122%  24h:-1.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.8%) | spread: +5.4%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.8%) | spread: +3.8%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-2.8%) | spread: +3.4%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.8%) | spread: +2.6%
+  🔄 KAS-USD (-0.3%) replaces BTC-USD (-2.8%) | spread: +2.5%
+  🔄 RUNE-USD (-0.3%) replaces BTC-USD (-2.8%) | spread: +2.5%
+  🔄 AAVE-USD (-0.4%) replaces BTC-USD (-2.8%) | spread: +2.4%
+  🔄 SNX-USD (-0.5%) replaces BTC-USD (-2.8%) | spread: +2.3%
+  🔄 ICP-USD (-0.6%) replaces BTC-USD (-2.8%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 15 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,548) → Buy MATIC-USD (spread: +5.4%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 17:10 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.9%  $   6,540  (entry $73405.0000 → $71244.4800)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1815.0902  24h:+0.7%  30m:+0.12%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 AAVE-USD     $    115.8839  24h:-0.0%  30m:+0.40%
+  🔴 RUNE-USD     $      0.4368  24h:-0.2%  30m:+0.07%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 SNX-USD      $      0.3299  24h:-0.3%  30m:+0.00%
+  🔴 KAS-USD      $      0.0307  24h:-0.3%  30m:-0.28%
+  🔴 ICP-USD      $      2.5062  24h:-0.3%  30m:+0.07%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 DYDX-USD     $      0.0939  30m:+0.507%  24h:-4.6%
+  🔥 AAVE-USD     $    115.8839  30m:+0.400%  24h:-0.0%
+  🔥 SOL-USD      $     89.2593  30m:+0.394%  24h:-1.8%
+  🔥 WIF-USD      $      0.2104  30m:+0.363%  24h:-2.0%
+  🔥 AVAX-USD     $      9.4045  30m:+0.209%  24h:-1.0%
+  🔥 INJ-USD      $      3.0332  30m:+0.208%  24h:-2.8%
+  🔥 NEAR-USD     $      1.2805  30m:+0.172%  24h:-2.4%
+  🔥 LINK-USD     $      9.2099  30m:+0.156%  24h:-1.5%
+  🔥 HBAR-USD     $      0.0994  30m:+0.152%  24h:-1.8%
+  🔥 XRP-USD      $      1.4146  30m:+0.145%  24h:-1.1%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.9%) | spread: +5.5%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.9%) | spread: +3.9%
+  🔄 MKR-USD (+0.7%) replaces BTC-USD (-2.9%) | spread: +3.6%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 AAVE-USD (-0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 RUNE-USD (-0.2%) replaces BTC-USD (-2.9%) | spread: +2.8%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.9%) | spread: +2.7%
+  🔄 SNX-USD (-0.3%) replaces BTC-USD (-2.9%) | spread: +2.7%
+  🔄 KAS-USD (-0.3%) replaces BTC-USD (-2.9%) | spread: +2.6%
+  🔄 ICP-USD (-0.3%) replaces BTC-USD (-2.9%) | spread: +2.6%
+
+============================================================
+SUMMARY: 45 scanned | 15 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,540) → Buy MATIC-USD (spread: +5.5%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 17:20 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.1%  $   6,530  (entry $73405.0000 → $71130.5300)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1815.0815  24h:+0.7%  30m:+0.11%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 AAVE-USD     $    115.3613  24h:-0.5%  30m:-0.08%
+  🔴 RUNE-USD     $      0.4349  24h:-0.6%  30m:-0.29%
+  🔴 ICP-USD      $      2.4950  24h:-0.8%  30m:-0.28%
+  🔴 SNX-USD      $      0.3279  24h:-0.9%  30m:-0.48%
+  🔴 KAS-USD      $      0.0304  24h:-1.3%  30m:-1.01%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 MKR-USD      $   1815.0815  30m:+0.115%  24h:+0.7%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.1%) | spread: +5.7%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.1%) | spread: +4.0%
+  🔄 MKR-USD (+0.7%) replaces BTC-USD (-3.1%) | spread: +3.8%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.1%) | spread: +2.8%
+  🔄 AAVE-USD (-0.5%) replaces BTC-USD (-3.1%) | spread: +2.6%
+  🔄 RUNE-USD (-0.6%) replaces BTC-USD (-3.1%) | spread: +2.5%
+  🔄 ICP-USD (-0.8%) replaces BTC-USD (-3.1%) | spread: +2.3%
+  🔄 SNX-USD (-0.9%) replaces BTC-USD (-3.1%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 14 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,530) → Buy MATIC-USD (spread: +5.7%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 17:30 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.2%  $   6,524  (entry $73405.0000 → $71065.6950)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1816.4240  24h:+0.8%  30m:+0.07%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 AAVE-USD     $    115.6834  24h:-0.2%  30m:-0.17%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 RUNE-USD     $      0.4348  24h:-0.6%  30m:-0.45%
+  🔴 ICP-USD      $      2.4861  24h:-1.1%  30m:-0.80%
+  🔴 SNX-USD      $      0.3269  24h:-1.2%  30m:-0.86%
+  🔴 KAS-USD      $      0.0304  24h:-1.3%  30m:-1.03%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 MKR-USD      $   1816.4240  30m:+0.073%  24h:+0.8%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.2%) | spread: +5.8%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.2%) | spread: +4.1%
+  🔄 MKR-USD (+0.8%) replaces BTC-USD (-3.2%) | spread: +3.9%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 AAVE-USD (-0.2%) replaces BTC-USD (-3.2%) | spread: +3.0%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.2%) | spread: +2.9%
+  🔄 RUNE-USD (-0.6%) replaces BTC-USD (-3.2%) | spread: +2.6%
+  🔄 ICP-USD (-1.1%) replaces BTC-USD (-3.2%) | spread: +2.1%
+  🔄 SNX-USD (-1.2%) replaces BTC-USD (-3.2%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 14 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,524) → Buy MATIC-USD (spread: +5.8%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 17:40 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.4%  $   6,510  (entry $73405.0000 → $70914.9200)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.8021  24h:+1.0%  
+  🟡 MKR-USD      $   1814.2323  24h:+0.6%  30m:-0.04%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 RUNE-USD     $      0.4342  24h:-0.8%  30m:-0.13%
+  🔴 AAVE-USD     $    114.9936  24h:-0.8%  30m:-0.23%
+  🔴 KAS-USD      $      0.0303  24h:-1.5%  30m:-0.15%
+  🔴 ICP-USD      $      2.4754  24h:-1.5%  30m:-0.59%
+  🔴 SNX-USD      $      0.3252  24h:-1.7%  30m:-0.66%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.4%) | spread: +6.0%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.4%) | spread: +4.4%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.4%) | spread: +4.0%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.4%) | spread: +3.1%
+  🔄 RUNE-USD (-0.8%) replaces BTC-USD (-3.4%) | spread: +2.6%
+  🔄 AAVE-USD (-0.8%) replaces BTC-USD (-3.4%) | spread: +2.6%
+
+============================================================
+SUMMARY: 45 scanned | 12 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,510) → Buy MATIC-USD (spread: +6.0%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 17:51 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.6%  $   6,498  (entry $73405.0000 → $70779.0600)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1814.2383  24h:+0.6%  30m:-0.12%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 AAVE-USD     $    115.3962  24h:-0.4%  30m:-0.25%
+  🔴 RUNE-USD     $      0.4346  24h:-0.7%  30m:-0.06%
+  🔴 KAS-USD      $      0.0304  24h:-1.3%  30m:+0.00%
+  🔴 ICP-USD      $      2.4803  24h:-1.4%  30m:-0.42%
+  🔴 SNX-USD      $      0.3255  24h:-1.6%  30m:-0.43%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 KAS-USD      $      0.0304  30m:+0.000%  24h:-1.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.6%) | spread: +6.2%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.6%) | spread: +4.5%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.6%) | spread: +4.2%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.6%) | spread: +3.6%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.6%) | spread: +3.6%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.6%) | spread: +3.6%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.6%) | spread: +3.6%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.6%) | spread: +3.6%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.6%) | spread: +3.6%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.6%) | spread: +3.3%
+  🔄 AAVE-USD (-0.4%) replaces BTC-USD (-3.6%) | spread: +3.1%
+  🔄 RUNE-USD (-0.7%) replaces BTC-USD (-3.6%) | spread: +2.9%
+  🔄 KAS-USD (-1.3%) replaces BTC-USD (-3.6%) | spread: +2.2%
+  🔄 ICP-USD (-1.4%) replaces BTC-USD (-3.6%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 14 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,498) → Buy MATIC-USD (spread: +6.2%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 18:01 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.5%  $   6,503  (entry $73405.0000 → $70837.2900)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1814.2528  24h:+0.6%  30m:+0.00%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 AAVE-USD     $    115.2792  24h:-0.5%  30m:+0.25%
+  🔴 RUNE-USD     $      0.4343  24h:-0.7%  30m:+0.02%
+  🔴 KAS-USD      $      0.0304  24h:-1.3%  30m:+0.18%
+  🔴 ICP-USD      $      2.4813  24h:-1.3%  30m:+0.23%
+  🔴 SNX-USD      $      0.3257  24h:-1.5%  30m:+0.15%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 AAVE-USD     $    115.2792  30m:+0.249%  24h:-0.5%
+  🔥 ICP-USD      $      2.4813  30m:+0.233%  24h:-1.3%
+  🔥 DYDX-USD     $      0.0924  30m:+0.225%  24h:-6.1%
+  🔥 FET-USD      $      0.1504  30m:+0.187%  24h:-3.3%
+  🔥 KAS-USD      $      0.0304  30m:+0.177%  24h:-1.3%
+  🔥 SNX-USD      $      0.3257  30m:+0.146%  24h:-1.5%
+  🔥 FIL-USD      $      1.0004  30m:+0.145%  24h:-2.4%
+  🔥 HBAR-USD     $      0.0987  30m:+0.145%  24h:-2.5%
+  🔥 INJ-USD      $      3.0054  30m:+0.137%  24h:-3.7%
+  🔥 TIA-USD      $      0.3324  30m:+0.102%  24h:-2.0%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.5%) | spread: +6.1%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.5%) | spread: +4.4%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.5%) | spread: +4.1%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.5%) | spread: +3.5%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.5%) | spread: +3.5%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.5%) | spread: +3.5%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.5%) | spread: +3.5%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.5%) | spread: +3.5%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.5%) | spread: +3.5%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.5%) | spread: +3.2%
+  🔄 AAVE-USD (-0.5%) replaces BTC-USD (-3.5%) | spread: +3.0%
+  🔄 RUNE-USD (-0.7%) replaces BTC-USD (-3.5%) | spread: +2.8%
+  🔄 KAS-USD (-1.3%) replaces BTC-USD (-3.5%) | spread: +2.2%
+  🔄 ICP-USD (-1.3%) replaces BTC-USD (-3.5%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 14 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,503) → Buy MATIC-USD (spread: +6.1%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 18:11 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.3%  $   6,515  (entry $73405.0000 → $70970.0200)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1814.2537  24h:+0.6%  30m:+0.00%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 AAVE-USD     $    115.5461  24h:-0.3%  30m:+0.20%
+  🔴 RUNE-USD     $      0.4349  24h:-0.6%  30m:+0.08%
+  🔴 ICP-USD      $      2.4845  24h:-1.2%  30m:+0.15%
+  🔴 KAS-USD      $      0.0303  24h:-1.4%  30m:-0.07%
+  🔴 SNX-USD      $      0.3260  24h:-1.5%  30m:+0.15%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 ETH-USD      $   2066.7210  30m:+0.244%  24h:-2.9%
+  🔥 AAVE-USD     $    115.5461  30m:+0.204%  24h:-0.3%
+  🔥 SNX-USD      $      0.3260  30m:+0.153%  24h:-1.5%
+  🔥 ICP-USD      $      2.4845  30m:+0.149%  24h:-1.2%
+  🔥 RUNE-USD     $      0.4349  30m:+0.079%  24h:-0.6%
+  🔥 HBAR-USD     $      0.0987  30m:+0.065%  24h:-2.5%
+  🔥 ENA-USD      $      0.1128  30m:+0.053%  24h:-4.0%
+  🔥 DOT-USD      $      1.4898  30m:+0.036%  24h:-3.4%
+  🔥 DOGE-USD     $      0.0932  30m:+0.033%  24h:-5.9%
+  🔥 XLM-USD      $      0.1549  30m:+0.002%  24h:-2.9%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.3%) | spread: +5.9%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.3%) | spread: +4.3%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.3%) | spread: +4.0%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.3%) | spread: +3.0%
+  🔄 AAVE-USD (-0.3%) replaces BTC-USD (-3.3%) | spread: +3.0%
+  🔄 RUNE-USD (-0.6%) replaces BTC-USD (-3.3%) | spread: +2.7%
+  🔄 ICP-USD (-1.2%) replaces BTC-USD (-3.3%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 13 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,515) → Buy MATIC-USD (spread: +5.9%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 18:21 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.2%  $   6,520  (entry $73405.0000 → $71027.8700)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1814.2380  24h:+0.6%  30m:-0.00%
+  🟡 AAVE-USD     $    115.8943  24h:+0.0%  30m:+0.53%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 RUNE-USD     $      0.4360  24h:-0.3%  30m:+0.39%
+  🔴 ICP-USD      $      2.4880  24h:-1.0%  30m:+0.27%
+  🔴 KAS-USD      $      0.0304  24h:-1.2%  30m:+0.10%
+  🔴 SNX-USD      $      0.3266  24h:-1.3%  30m:+0.23%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 AAVE-USD     $    115.8943  30m:+0.534%  24h:+0.0%
+  🔥 ETH-USD      $   2070.4450  30m:+0.490%  24h:-2.7%
+  🔥 RUNE-USD     $      0.4360  30m:+0.389%  24h:-0.3%
+  🔥 AVAX-USD     $      9.3145  30m:+0.316%  24h:-1.9%
+  🔥 ICP-USD      $      2.4880  30m:+0.271%  24h:-1.0%
+  🔥 DOGE-USD     $      0.0934  30m:+0.250%  24h:-5.7%
+  🔥 ENA-USD      $      0.1130  30m:+0.234%  24h:-3.8%
+  🔥 SNX-USD      $      0.3266  30m:+0.229%  24h:-1.3%
+  🔥 NEAR-USD     $      1.2565  30m:+0.227%  24h:-4.2%
+  🔥 HBAR-USD     $      0.0989  30m:+0.217%  24h:-2.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.2%) | spread: +5.8%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.2%) | spread: +4.2%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.2%) | spread: +3.9%
+  🔄 AAVE-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.2%) | spread: +3.0%
+  🔄 RUNE-USD (-0.3%) replaces BTC-USD (-3.2%) | spread: +2.9%
+  🔄 ICP-USD (-1.0%) replaces BTC-USD (-3.2%) | spread: +2.2%
+  🔄 KAS-USD (-1.2%) replaces BTC-USD (-3.2%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 14 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,520) → Buy MATIC-USD (spread: +5.8%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 18:31 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.5%  $   6,504  (entry $73405.0000 → $70853.0860)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1814.1108  24h:+0.6%  30m:-0.01%
+  🟡 AAVE-USD     $    116.2329  24h:+0.3%  30m:+0.58%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 RUNE-USD     $      0.4353  24h:-0.5%  30m:+0.01%
+  🔴 ICP-USD      $      2.4933  24h:-0.8%  30m:+0.36%
+  🔴 SNX-USD      $      0.3269  24h:-1.2%  30m:+0.27%
+  🔴 KAS-USD      $      0.0304  24h:-1.3%  30m:+0.11%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 AAVE-USD     $    116.2329  30m:+0.578%  24h:+0.3%
+  🔥 LDO-USD      $      0.3086  30m:+0.561%  24h:-2.8%
+  🔥 WIF-USD      $      0.2090  30m:+0.538%  24h:-2.6%
+  🔥 FIL-USD      $      1.0052  30m:+0.494%  24h:-1.9%
+  🔥 PENDLE-USD   $      1.2659  30m:+0.440%  24h:-2.7%
+  🔥 ICP-USD      $      2.4933  30m:+0.360%  24h:-0.8%
+  🔥 OP-USD       $      0.1241  30m:+0.347%  24h:-3.5%
+  🔥 INJ-USD      $      3.0135  30m:+0.346%  24h:-3.4%
+  🔥 FET-USD      $      0.1507  30m:+0.343%  24h:-3.0%
+  🔥 DOT-USD      $      1.4948  30m:+0.325%  24h:-3.1%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.5%) | spread: +6.1%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.5%) | spread: +4.4%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.5%) | spread: +4.1%
+  🔄 AAVE-USD (+0.3%) replaces BTC-USD (-3.5%) | spread: +3.8%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.5%) | spread: +3.5%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.5%) | spread: +3.5%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.5%) | spread: +3.5%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.5%) | spread: +3.5%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.5%) | spread: +3.5%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.5%) | spread: +3.5%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.5%) | spread: +3.2%
+  🔄 RUNE-USD (-0.5%) replaces BTC-USD (-3.5%) | spread: +3.0%
+  🔄 ICP-USD (-0.8%) replaces BTC-USD (-3.5%) | spread: +2.6%
+  🔄 SNX-USD (-1.2%) replaces BTC-USD (-3.5%) | spread: +2.3%
+  🔄 KAS-USD (-1.3%) replaces BTC-USD (-3.5%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 15 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,504) → Buy MATIC-USD (spread: +6.1%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 18:41 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.4%  $   6,512  (entry $73405.0000 → $70937.0600)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    117.0648  24h:+1.0%  30m:+0.99%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1814.1031  24h:+0.6%  30m:-0.01%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 RUNE-USD     $      0.4358  24h:-0.4%  30m:-0.04%
+  🔴 ICP-USD      $      2.4988  24h:-0.6%  30m:+0.41%
+  🔴 KAS-USD      $      0.0304  24h:-1.0%  30m:+0.17%
+  🔴 SNX-USD      $      0.3270  24h:-1.2%  30m:+0.12%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 AAVE-USD     $    117.0648  30m:+0.990%  24h:+1.0%
+  🔥 LDO-USD      $      0.3097  30m:+0.713%  24h:-2.5%
+  🔥 WIF-USD      $      0.2097  30m:+0.708%  24h:-2.3%
+  🔥 OP-USD       $      0.1246  30m:+0.562%  24h:-3.1%
+  🔥 FET-USD      $      0.1514  30m:+0.551%  24h:-2.6%
+  🔥 FIL-USD      $      1.0076  30m:+0.480%  24h:-1.7%
+  🔥 PENDLE-USD   $      1.2690  30m:+0.471%  24h:-2.5%
+  🔥 ICP-USD      $      2.4988  30m:+0.412%  24h:-0.6%
+  🔥 DOT-USD      $      1.4988  30m:+0.408%  24h:-2.8%
+  🔥 INJ-USD      $      3.0215  30m:+0.376%  24h:-3.2%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.4%) | spread: +5.9%
+  🔄 AAVE-USD (+1.0%) replaces BTC-USD (-3.4%) | spread: +4.4%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.4%) | spread: +4.3%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.4%) | spread: +4.0%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.4%) | spread: +3.1%
+  🔄 RUNE-USD (-0.4%) replaces BTC-USD (-3.4%) | spread: +3.0%
+  🔄 ICP-USD (-0.6%) replaces BTC-USD (-3.4%) | spread: +2.7%
+  🔄 KAS-USD (-1.0%) replaces BTC-USD (-3.4%) | spread: +2.3%
+  🔄 SNX-USD (-1.2%) replaces BTC-USD (-3.4%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 15 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,512) → Buy MATIC-USD (spread: +5.9%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 18:51 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.4%  $   6,512  (entry $73405.0000 → $70933.5860)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.2662  24h:+2.0%  30m:+1.75%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1814.0521  24h:+0.6%  30m:-0.00%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 RUNE-USD     $      0.4357  24h:-0.4%  30m:+0.10%
+  🔴 ICP-USD      $      2.5023  24h:-0.5%  30m:+0.36%
+  🔴 KAS-USD      $      0.0305  24h:-1.0%  30m:+0.32%
+  🔴 SNX-USD      $      0.3269  24h:-1.2%  30m:+0.02%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 AAVE-USD     $    118.2662  30m:+1.749%  24h:+2.0%
+  🔥 SOL-USD      $     88.7402  30m:+0.559%  24h:-2.4%
+  🔥 FET-USD      $      0.1516  30m:+0.544%  24h:-2.5%
+  🔥 LDO-USD      $      0.3103  30m:+0.532%  24h:-2.3%
+  🔥 OP-USD       $      0.1247  30m:+0.524%  24h:-3.0%
+  🔥 FIL-USD      $      1.0104  30m:+0.523%  24h:-1.4%
+  🔥 ENA-USD      $      0.1136  30m:+0.505%  24h:-3.2%
+  🔥 LINK-USD     $      9.1578  30m:+0.505%  24h:-2.1%
+  🔥 DOT-USD      $      1.5023  30m:+0.482%  24h:-2.6%
+  🔥 LTC-USD      $     55.4316  30m:+0.470%  24h:-2.4%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.4%) | spread: +5.9%
+  🔄 AAVE-USD (+2.0%) replaces BTC-USD (-3.4%) | spread: +5.4%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.4%) | spread: +4.3%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.4%) | spread: +4.0%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.4%) | spread: +3.1%
+  🔄 RUNE-USD (-0.4%) replaces BTC-USD (-3.4%) | spread: +3.0%
+  🔄 ICP-USD (-0.5%) replaces BTC-USD (-3.4%) | spread: +2.9%
+  🔄 KAS-USD (-1.0%) replaces BTC-USD (-3.4%) | spread: +2.4%
+  🔄 SNX-USD (-1.2%) replaces BTC-USD (-3.4%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 15 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,512) → Buy MATIC-USD (spread: +5.9%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 19:01 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.3%  $   6,516  (entry $73405.0000 → $70981.2700)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.0901  24h:+1.9%  30m:+0.87%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1813.6050  24h:+0.6%  30m:-0.03%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 RUNE-USD     $      0.4363  24h:-0.3%  30m:+0.12%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 ICP-USD      $      2.5046  24h:-0.4%  30m:+0.23%
+  🔴 KAS-USD      $      0.0306  24h:-0.6%  30m:+0.44%
+  🔴 SNX-USD      $      0.3278  24h:-0.9%  30m:+0.23%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 AAVE-USD     $    118.0901  30m:+0.871%  24h:+1.9%
+  🔥 ENA-USD      $      0.1141  30m:+0.619%  24h:-2.9%
+  🔥 KAS-USD      $      0.0306  30m:+0.443%  24h:-0.6%
+  🔥 DOGE-USD     $      0.0938  30m:+0.415%  24h:-5.3%
+  🔥 XLM-USD      $      0.1556  30m:+0.370%  24h:-2.5%
+  🔥 LINK-USD     $      9.1690  30m:+0.362%  24h:-2.0%
+  🔥 OP-USD       $      0.1250  30m:+0.345%  24h:-2.8%
+  🔥 WIF-USD      $      0.2104  30m:+0.340%  24h:-1.9%
+  🔥 LTC-USD      $     55.4545  30m:+0.325%  24h:-2.4%
+  🔥 ALGO-USD     $      0.0871  30m:+0.309%  24h:-2.0%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.3%) | spread: +5.9%
+  🔄 AAVE-USD (+1.9%) replaces BTC-USD (-3.3%) | spread: +5.2%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.3%) | spread: +4.3%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.3%) | spread: +3.9%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 RUNE-USD (-0.3%) replaces BTC-USD (-3.3%) | spread: +3.0%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.3%) | spread: +3.0%
+  🔄 ICP-USD (-0.4%) replaces BTC-USD (-3.3%) | spread: +2.9%
+  🔄 KAS-USD (-0.6%) replaces BTC-USD (-3.3%) | spread: +2.7%
+  🔄 SNX-USD (-0.9%) replaces BTC-USD (-3.3%) | spread: +2.4%
+
+============================================================
+SUMMARY: 45 scanned | 15 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,516) → Buy MATIC-USD (spread: +5.9%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 19:11 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.9%  $   6,541  (entry $73405.0000 → $71249.7900)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.5736  24h:+2.3%  30m:+0.26%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1813.5880  24h:+0.6%  30m:-0.03%
+  🟡 ICP-USD      $      2.5245  24h:+0.4%  30m:+0.88%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 RUNE-USD     $      0.4374  24h:-0.0%  30m:+0.38%
+  🔴 KAS-USD      $      0.0307  24h:-0.2%  30m:+0.79%
+  🔴 SNX-USD      $      0.3300  24h:-0.2%  30m:+0.95%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 NEAR-USD     $      1.2711  30m:+0.994%  24h:-3.1%
+  🔥 SNX-USD      $      0.3300  30m:+0.950%  24h:-0.2%
+  🔥 ENA-USD      $      0.1147  30m:+0.903%  24h:-2.4%
+  🔥 LDO-USD      $      0.3129  30m:+0.898%  24h:-1.4%
+  🔥 ICP-USD      $      2.5245  30m:+0.885%  24h:+0.4%
+  🔥 WIF-USD      $      0.2117  30m:+0.822%  24h:-1.4%
+  🔥 FET-USD      $      0.1528  30m:+0.795%  24h:-1.7%
+  🔥 KAS-USD      $      0.0307  30m:+0.789%  24h:-0.2%
+  🔥 XRP-USD      $      1.4166  30m:+0.670%  24h:-1.0%
+  🔥 XLM-USD      $      0.1564  30m:+0.640%  24h:-2.0%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.9%) | spread: +5.5%
+  🔄 AAVE-USD (+2.3%) replaces BTC-USD (-2.9%) | spread: +5.2%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.9%) | spread: +3.9%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-2.9%) | spread: +3.5%
+  🔄 ICP-USD (+0.4%) replaces BTC-USD (-2.9%) | spread: +3.3%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 RUNE-USD (-0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 KAS-USD (-0.2%) replaces BTC-USD (-2.9%) | spread: +2.7%
+  🔄 SNX-USD (-0.2%) replaces BTC-USD (-2.9%) | spread: +2.7%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.9%) | spread: +2.7%
+  🔄 FIL-USD (-0.9%) replaces BTC-USD (-2.9%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 16 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,541) → Buy MATIC-USD (spread: +5.5%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 19:22 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.9%  $   6,546  (entry $73405.0000 → $71311.3000)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.6999  24h:+2.4%  30m:+0.52%
+  🟢 ICP-USD      $      2.5409  24h:+1.1%  30m:+1.45%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 SNX-USD      $      0.3330  24h:+0.6%  30m:+1.59%
+  🟡 MKR-USD      $   1811.5330  24h:+0.5%  30m:-0.11%
+  🟡 RUNE-USD     $      0.4382  24h:+0.2%  30m:+0.43%
+  🟡 KAS-USD      $      0.0308  24h:+0.1%  30m:+0.70%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 TIA-USD      $      0.3387  24h:-0.2%  30m:+1.25%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 SNX-USD      $      0.3330  30m:+1.586%  24h:+0.6%
+  🔥 ICP-USD      $      2.5409  30m:+1.448%  24h:+1.1%
+  🔥 WIF-USD      $      0.2132  30m:+1.307%  24h:-0.7%
+  🔥 TIA-USD      $      0.3387  30m:+1.252%  24h:-0.2%
+  🔥 SEI-USD      $      0.0680  30m:+1.218%  24h:-2.7%
+  🔥 NEAR-USD     $      1.2771  30m:+1.185%  24h:-2.7%
+  🔥 FIL-USD      $      1.0215  30m:+1.140%  24h:-0.3%
+  🔥 LDO-USD      $      0.3137  30m:+1.066%  24h:-1.2%
+  🔥 FET-USD      $      0.1533  30m:+1.039%  24h:-1.4%
+  🔥 DYDX-USD     $      0.0930  30m:+0.947%  24h:-5.5%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.9%) | spread: +5.4%
+  🔄 AAVE-USD (+2.4%) replaces BTC-USD (-2.9%) | spread: +5.3%
+  🔄 ICP-USD (+1.1%) replaces BTC-USD (-2.9%) | spread: +3.9%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.9%) | spread: +3.8%
+  🔄 SNX-USD (+0.6%) replaces BTC-USD (-2.9%) | spread: +3.5%
+  🔄 MKR-USD (+0.5%) replaces BTC-USD (-2.9%) | spread: +3.3%
+  🔄 RUNE-USD (+0.2%) replaces BTC-USD (-2.9%) | spread: +3.0%
+  🔄 KAS-USD (+0.1%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 TIA-USD (-0.2%) replaces BTC-USD (-2.9%) | spread: +2.7%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.9%) | spread: +2.6%
+  🔄 FIL-USD (-0.3%) replaces BTC-USD (-2.9%) | spread: +2.5%
+  🔄 WIF-USD (-0.7%) replaces BTC-USD (-2.9%) | spread: +2.2%
+  🔄 CRV-USD (-0.8%) replaces BTC-USD (-2.9%) | spread: +2.1%
+  🔄 XRP-USD (-0.8%) replaces BTC-USD (-2.9%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 20 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,546) → Buy MATIC-USD (spread: +5.4%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 19:32 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.1%  $   6,528  (entry $73405.0000 → $71107.7500)
+
+TOP 15 MOVERS (not held):
+  🟢 AAVE-USD     $    118.9686  24h:+2.7%  30m:+0.33%
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 ICP-USD      $      2.5319  24h:+0.7%  30m:+0.30%
+  🟡 MKR-USD      $   1812.6377  24h:+0.5%  30m:-0.05%
+  🟡 SNX-USD      $      0.3321  24h:+0.4%  30m:+0.62%
+  🟡 RUNE-USD     $      0.4378  24h:+0.1%  30m:+0.10%
+  🟡 KAS-USD      $      0.0308  24h:+0.0%  30m:+0.40%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 WIF-USD      $      0.2136  30m:+0.906%  24h:-0.5%
+  🔥 SEI-USD      $      0.0680  30m:+0.831%  24h:-2.7%
+  🔥 DOT-USD      $      1.5159  30m:+0.753%  24h:-1.7%
+  🔥 TIA-USD      $      0.3383  30m:+0.657%  24h:-0.3%
+  🔥 SNX-USD      $      0.3321  30m:+0.623%  24h:+0.4%
+  🔥 ENA-USD      $      0.1154  30m:+0.612%  24h:-1.8%
+  🔥 DYDX-USD     $      0.0930  30m:+0.586%  24h:-5.5%
+  🔥 LDO-USD      $      0.3136  30m:+0.543%  24h:-1.2%
+  🔥 INJ-USD      $      3.0445  30m:+0.457%  24h:-2.4%
+  🔥 FIL-USD      $      1.0202  30m:+0.457%  24h:-0.4%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 AAVE-USD (+2.7%) replaces BTC-USD (-3.1%) | spread: +5.8%
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.1%) | spread: +5.7%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.1%) | spread: +4.1%
+  🔄 ICP-USD (+0.7%) replaces BTC-USD (-3.1%) | spread: +3.8%
+  🔄 MKR-USD (+0.5%) replaces BTC-USD (-3.1%) | spread: +3.7%
+  🔄 SNX-USD (+0.4%) replaces BTC-USD (-3.1%) | spread: +3.5%
+  🔄 RUNE-USD (+0.1%) replaces BTC-USD (-3.1%) | spread: +3.2%
+  🔄 KAS-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.1%) | spread: +2.9%
+  🔄 TIA-USD (-0.3%) replaces BTC-USD (-3.1%) | spread: +2.8%
+  🔄 FIL-USD (-0.4%) replaces BTC-USD (-3.1%) | spread: +2.7%
+  🔄 WIF-USD (-0.5%) replaces BTC-USD (-3.1%) | spread: +2.7%
+  🔄 AVAX-USD (-0.9%) replaces BTC-USD (-3.1%) | spread: +2.3%
+  🔄 XRP-USD (-1.0%) replaces BTC-USD (-3.1%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 20 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,528) → Buy AAVE-USD (spread: +5.8%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 19:42 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.3%  $   6,516  (entry $73405.0000 → $70984.8600)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.6248  24h:+2.4%  30m:-0.06%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1812.6345  24h:+0.5%  30m:+0.06%
+  🟡 ICP-USD      $      2.5254  24h:+0.4%  30m:-0.61%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 SNX-USD      $      0.3307  24h:-0.0%  30m:-0.68%
+  🔴 KAS-USD      $      0.0307  24h:-0.1%  30m:-0.23%
+  🔴 RUNE-USD     $      0.4365  24h:-0.2%  30m:-0.40%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 SEI-USD      $      0.0680  30m:+0.398%  24h:-2.7%
+  🔥 ENA-USD      $      0.1151  30m:+0.101%  24h:-2.0%
+  🔥 MKR-USD      $   1812.6345  30m:+0.061%  24h:+0.5%
+  🔥 WIF-USD      $      0.2132  30m:+0.018%  24h:-0.6%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.3%) | spread: +5.9%
+  🔄 AAVE-USD (+2.4%) replaces BTC-USD (-3.3%) | spread: +5.7%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.3%) | spread: +4.2%
+  🔄 MKR-USD (+0.5%) replaces BTC-USD (-3.3%) | spread: +3.8%
+  🔄 ICP-USD (+0.4%) replaces BTC-USD (-3.3%) | spread: +3.7%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 SNX-USD (-0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 KAS-USD (-0.1%) replaces BTC-USD (-3.3%) | spread: +3.2%
+  🔄 RUNE-USD (-0.2%) replaces BTC-USD (-3.3%) | spread: +3.1%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.3%) | spread: +3.0%
+  🔄 TIA-USD (-0.6%) replaces BTC-USD (-3.3%) | spread: +2.7%
+  🔄 WIF-USD (-0.6%) replaces BTC-USD (-3.3%) | spread: +2.7%
+  🔄 FIL-USD (-0.9%) replaces BTC-USD (-3.3%) | spread: +2.4%
+  🔄 XRP-USD (-1.1%) replaces BTC-USD (-3.3%) | spread: +2.2%
+  🔄 AVAX-USD (-1.2%) replaces BTC-USD (-3.3%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 20 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,516) → Buy MATIC-USD (spread: +5.9%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 19:52 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.2%  $   6,524  (entry $73405.0000 → $71072.5500)
+
+TOP 15 MOVERS (not held):
+  🟢 AAVE-USD     $    118.9898  24h:+2.7%  30m:+0.02%
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 ICP-USD      $      2.5282  24h:+0.6%  30m:-0.15%
+  🟡 MKR-USD      $   1812.6448  24h:+0.5%  30m:+0.00%
+  🟡 KAS-USD      $      0.0308  24h:+0.1%  30m:+0.15%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 RUNE-USD     $      0.4367  24h:-0.2%  30m:-0.25%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 SNX-USD      $      0.3298  24h:-0.3%  30m:-0.71%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 ETH-USD      $   2082.5532  30m:+0.281%  24h:-2.2%
+  🔥 LDO-USD      $      0.3130  30m:+0.166%  24h:-1.4%
+  🔥 KAS-USD      $      0.0308  30m:+0.154%  24h:+0.1%
+  🔥 ENA-USD      $      0.1155  30m:+0.111%  24h:-1.7%
+  🔥 WIF-USD      $      0.2137  30m:+0.091%  24h:-0.4%
+  🔥 HBAR-USD     $      0.0997  30m:+0.038%  24h:-1.5%
+  🔥 AAVE-USD     $    118.9898  30m:+0.018%  24h:+2.7%
+  🔥 SOL-USD      $     88.9955  30m:+0.004%  24h:-2.1%
+  🔥 MKR-USD      $   1812.6448  30m:+0.000%  24h:+0.5%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 AAVE-USD (+2.7%) replaces BTC-USD (-3.2%) | spread: +5.9%
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.2%) | spread: +5.8%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.2%) | spread: +4.1%
+  🔄 ICP-USD (+0.6%) replaces BTC-USD (-3.2%) | spread: +3.7%
+  🔄 MKR-USD (+0.5%) replaces BTC-USD (-3.2%) | spread: +3.7%
+  🔄 KAS-USD (+0.1%) replaces BTC-USD (-3.2%) | spread: +3.3%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.2%) | spread: +3.2%
+  🔄 RUNE-USD (-0.2%) replaces BTC-USD (-3.2%) | spread: +3.0%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.2%) | spread: +2.9%
+  🔄 SNX-USD (-0.3%) replaces BTC-USD (-3.2%) | spread: +2.8%
+  🔄 WIF-USD (-0.4%) replaces BTC-USD (-3.2%) | spread: +2.8%
+  🔄 TIA-USD (-0.5%) replaces BTC-USD (-3.2%) | spread: +2.6%
+  🔄 FIL-USD (-0.8%) replaces BTC-USD (-3.2%) | spread: +2.3%
+  🔄 XRP-USD (-1.0%) replaces BTC-USD (-3.2%) | spread: +2.1%
+  🔄 AVAX-USD (-1.1%) replaces BTC-USD (-3.2%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 20 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,524) → Buy AAVE-USD (spread: +5.9%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 20:02 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.4%  $   6,513  (entry $73405.0000 → $70945.5700)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.6154  24h:+2.3%  30m:-0.01%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1812.6421  24h:+0.5%  30m:+0.00%
+  🟡 ICP-USD      $      2.5205  24h:+0.2%  30m:-0.19%
+  🟡 KAS-USD      $      0.0308  24h:+0.1%  30m:+0.21%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+  🔴 WIF-USD      $      0.2138  24h:-0.3%  30m:+0.28%
+  🔴 RUNE-USD     $      0.4355  24h:-0.5%  30m:-0.23%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 WIF-USD      $      0.2138  30m:+0.277%  24h:-0.3%
+  🔥 KAS-USD      $      0.0308  30m:+0.211%  24h:+0.1%
+  🔥 TIA-USD      $      0.3374  30m:+0.104%  24h:-0.6%
+  🔥 ENA-USD      $      0.1153  30m:+0.089%  24h:-1.9%
+  🔥 CRV-USD      $      0.2513  30m:+0.082%  24h:-1.5%
+  🔥 ATOM-USD     $      1.8422  30m:+0.080%  24h:-2.0%
+  🔥 OP-USD       $      0.1255  30m:+0.049%  24h:-2.4%
+  🔥 LDO-USD      $      0.3128  30m:+0.012%  24h:-1.5%
+  🔥 FET-USD      $      0.1528  30m:+0.001%  24h:-1.7%
+  🔥 MKR-USD      $   1812.6421  30m:+0.000%  24h:+0.5%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.4%) | spread: +5.9%
+  🔄 AAVE-USD (+2.3%) replaces BTC-USD (-3.4%) | spread: +5.7%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.4%) | spread: +4.3%
+  🔄 MKR-USD (+0.5%) replaces BTC-USD (-3.4%) | spread: +3.9%
+  🔄 ICP-USD (+0.2%) replaces BTC-USD (-3.4%) | spread: +3.6%
+  🔄 KAS-USD (+0.1%) replaces BTC-USD (-3.4%) | spread: +3.5%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.4%) | spread: +3.4%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.4%) | spread: +3.1%
+  🔄 WIF-USD (-0.3%) replaces BTC-USD (-3.4%) | spread: +3.0%
+  🔄 RUNE-USD (-0.5%) replaces BTC-USD (-3.4%) | spread: +2.9%
+  🔄 TIA-USD (-0.6%) replaces BTC-USD (-3.4%) | spread: +2.8%
+  🔄 SNX-USD (-0.6%) replaces BTC-USD (-3.4%) | spread: +2.8%
+  🔄 FIL-USD (-1.0%) replaces BTC-USD (-3.4%) | spread: +2.3%
+  🔄 AVAX-USD (-1.2%) replaces BTC-USD (-3.4%) | spread: +2.2%
+  🔄 XRP-USD (-1.3%) replaces BTC-USD (-3.4%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 20 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,513) → Buy MATIC-USD (spread: +5.9%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 20:12 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.3%  $   6,517  (entry $73405.0000 → $70991.4600)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.7476  24h:+2.5%  30m:-0.16%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 KAS-USD      $      0.0310  24h:+0.7%  30m:+0.51%
+  🟡 MKR-USD      $   1812.6505  24h:+0.5%  30m:-0.00%
+  🟡 WIF-USD      $      0.2154  24h:+0.4%  30m:+0.81%
+  🟡 ICP-USD      $      2.5244  24h:+0.4%  30m:-0.15%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 TIA-USD      $      0.3389  24h:-0.1%  30m:+0.46%
+  🔴 FTM-USD      $      0.6969  24h:-0.3%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 WIF-USD      $      0.2154  30m:+0.808%  24h:+0.4%
+  🔥 KAS-USD      $      0.0310  30m:+0.513%  24h:+0.7%
+  🔥 TIA-USD      $      0.3389  30m:+0.461%  24h:-0.1%
+  🔥 CRV-USD      $      0.2519  30m:+0.278%  24h:-1.3%
+  🔥 XLM-USD      $      0.1571  30m:+0.205%  24h:-1.6%
+  🔥 FET-USD      $      0.1532  30m:+0.198%  24h:-1.4%
+  🔥 ENA-USD      $      0.1157  30m:+0.171%  24h:-1.5%
+  🔥 ALGO-USD     $      0.0876  30m:+0.132%  24h:-1.5%
+  🔥 LDO-USD      $      0.3133  30m:+0.097%  24h:-1.3%
+  🔥 LTC-USD      $     55.5836  30m:+0.065%  24h:-2.1%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.3%) | spread: +5.9%
+  🔄 AAVE-USD (+2.5%) replaces BTC-USD (-3.3%) | spread: +5.8%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.3%) | spread: +4.2%
+  🔄 KAS-USD (+0.7%) replaces BTC-USD (-3.3%) | spread: +4.0%
+  🔄 MKR-USD (+0.5%) replaces BTC-USD (-3.3%) | spread: +3.8%
+  🔄 WIF-USD (+0.4%) replaces BTC-USD (-3.3%) | spread: +3.7%
+  🔄 ICP-USD (+0.4%) replaces BTC-USD (-3.3%) | spread: +3.7%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.3%) | spread: +3.3%
+  🔄 TIA-USD (-0.1%) replaces BTC-USD (-3.3%) | spread: +3.2%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.3%) | spread: +3.0%
+  🔄 RUNE-USD (-0.3%) replaces BTC-USD (-3.3%) | spread: +3.0%
+  🔄 SNX-USD (-0.5%) replaces BTC-USD (-3.3%) | spread: +2.7%
+  🔄 FIL-USD (-0.8%) replaces BTC-USD (-3.3%) | spread: +2.4%
+  🔄 AVAX-USD (-1.1%) replaces BTC-USD (-3.3%) | spread: +2.2%
+  🔄 CRV-USD (-1.3%) replaces BTC-USD (-3.3%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 20 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,517) → Buy MATIC-USD (spread: +5.9%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 20:22 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.0%  $   6,537  (entry $73405.0000 → $71206.8700)
+
+TOP 15 MOVERS (not held):
+  🟢 AAVE-USD     $    118.8967  24h:+2.6%  30m:+0.24%
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5440  24h:+1.2%  30m:+0.93%
+  🟢 WIF-USD      $      0.2168  24h:+1.1%  30m:+1.40%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 KAS-USD      $      0.0310  24h:+0.6%  30m:+0.45%
+  🟡 TIA-USD      $      0.3413  24h:+0.6%  30m:+1.14%
+  🟡 MKR-USD      $   1812.7395  24h:+0.6%  30m:+0.01%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+  🔴 RUNE-USD     $      0.4372  24h:-0.1%  30m:+0.36%
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 DOT-USD      $      1.5314  30m:+1.503%  24h:-0.7%
+  🔥 WIF-USD      $      0.2168  30m:+1.403%  24h:+1.1%
+  🔥 DYDX-USD     $      0.0934  30m:+1.341%  24h:-5.1%
+  🔥 TIA-USD      $      0.3413  30m:+1.144%  24h:+0.6%
+  🔥 ENA-USD      $      0.1164  30m:+0.975%  24h:-0.9%
+  🔥 ICP-USD      $      2.5440  30m:+0.932%  24h:+1.2%
+  🔥 LDO-USD      $      0.3155  30m:+0.827%  24h:-0.6%
+  🔥 XLM-USD      $      0.1579  30m:+0.804%  24h:-1.1%
+  🔥 DOGE-USD     $      0.0947  30m:+0.778%  24h:-4.4%
+  🔥 LTC-USD      $     55.7726  30m:+0.749%  24h:-1.8%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 AAVE-USD (+2.6%) replaces BTC-USD (-3.0%) | spread: +5.6%
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.0%) | spread: +5.6%
+  🔄 ICP-USD (+1.2%) replaces BTC-USD (-3.0%) | spread: +4.2%
+  🔄 WIF-USD (+1.1%) replaces BTC-USD (-3.0%) | spread: +4.1%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.0%) | spread: +3.9%
+  🔄 KAS-USD (+0.6%) replaces BTC-USD (-3.0%) | spread: +3.6%
+  🔄 TIA-USD (+0.6%) replaces BTC-USD (-3.0%) | spread: +3.6%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.0%) | spread: +3.5%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 RUNE-USD (-0.1%) replaces BTC-USD (-3.0%) | spread: +2.9%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.0%) | spread: +2.7%
+  🔄 SNX-USD (-0.4%) replaces BTC-USD (-3.0%) | spread: +2.6%
+  🔄 FIL-USD (-0.4%) replaces BTC-USD (-3.0%) | spread: +2.6%
+  🔄 LDO-USD (-0.6%) replaces BTC-USD (-3.0%) | spread: +2.4%
+  🔄 AVAX-USD (-0.6%) replaces BTC-USD (-3.0%) | spread: +2.4%
+  🔄 DOT-USD (-0.7%) replaces BTC-USD (-3.0%) | spread: +2.3%
+  🔄 CRV-USD (-0.8%) replaces BTC-USD (-3.0%) | spread: +2.2%
+  🔄 ENA-USD (-0.9%) replaces BTC-USD (-3.0%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 23 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,537) → Buy AAVE-USD (spread: +5.6%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 20:32 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.0%  $   6,536  (entry $73405.0000 → $71200.5860)
+
+TOP 15 MOVERS (not held):
+  🟢 AAVE-USD     $    119.2913  24h:+2.9%  30m:+0.46%
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5510  24h:+1.5%  30m:+1.05%
+  🟢 WIF-USD      $      0.2173  24h:+1.3%  30m:+1.41%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 TIA-USD      $      0.3417  24h:+0.7%  30m:+1.11%
+  🟡 MKR-USD      $   1813.5648  24h:+0.6%  30m:+0.05%
+  🟡 KAS-USD      $      0.0309  24h:+0.5%  30m:+0.02%
+  🟡 RUNE-USD     $      0.4391  24h:+0.4%  30m:+0.79%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 DOT-USD      $      1.5399  30m:+1.772%  24h:-0.1%
+  🔥 WIF-USD      $      0.2173  30m:+1.412%  24h:+1.3%
+  🔥 DYDX-USD     $      0.0933  30m:+1.375%  24h:-5.1%
+  🔥 ENA-USD      $      0.1168  30m:+1.230%  24h:-0.5%
+  🔥 TIA-USD      $      0.3417  30m:+1.108%  24h:+0.7%
+  🔥 ICP-USD      $      2.5510  30m:+1.055%  24h:+1.5%
+  🔥 XLM-USD      $      0.1582  30m:+0.918%  24h:-0.9%
+  🔥 CRV-USD      $      0.2537  30m:+0.847%  24h:-0.6%
+  🔥 AVAX-USD     $      9.4715  30m:+0.820%  24h:-0.3%
+  🔥 OP-USD       $      0.1270  30m:+0.814%  24h:-1.3%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 AAVE-USD (+2.9%) replaces BTC-USD (-3.0%) | spread: +5.9%
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.0%) | spread: +5.6%
+  🔄 ICP-USD (+1.5%) replaces BTC-USD (-3.0%) | spread: +4.5%
+  🔄 WIF-USD (+1.3%) replaces BTC-USD (-3.0%) | spread: +4.3%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.0%) | spread: +4.0%
+  🔄 TIA-USD (+0.7%) replaces BTC-USD (-3.0%) | spread: +3.7%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.0%) | spread: +3.6%
+  🔄 KAS-USD (+0.5%) replaces BTC-USD (-3.0%) | spread: +3.6%
+  🔄 RUNE-USD (+0.4%) replaces BTC-USD (-3.0%) | spread: +3.4%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 DOT-USD (-0.1%) replaces BTC-USD (-3.0%) | spread: +2.9%
+  🔄 SNX-USD (-0.2%) replaces BTC-USD (-3.0%) | spread: +2.8%
+  🔄 FIL-USD (-0.3%) replaces BTC-USD (-3.0%) | spread: +2.7%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.0%) | spread: +2.7%
+  🔄 AVAX-USD (-0.3%) replaces BTC-USD (-3.0%) | spread: +2.7%
+  🔄 ENA-USD (-0.5%) replaces BTC-USD (-3.0%) | spread: +2.5%
+  🔄 LDO-USD (-0.5%) replaces BTC-USD (-3.0%) | spread: +2.5%
+  🔄 CRV-USD (-0.6%) replaces BTC-USD (-3.0%) | spread: +2.4%
+  🔄 FET-USD (-0.8%) replaces BTC-USD (-3.0%) | spread: +2.2%
+  🔄 HBAR-USD (-0.8%) replaces BTC-USD (-3.0%) | spread: +2.2%
+  🔄 XLM-USD (-0.9%) replaces BTC-USD (-3.0%) | spread: +2.1%
+  🔄 LINK-USD (-0.9%) replaces BTC-USD (-3.0%) | spread: +2.1%
+  🔄 XRP-USD (-1.0%) replaces BTC-USD (-3.0%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 28 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,536) → Buy AAVE-USD (spread: +5.9%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 20:43 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.0%  $   6,538  (entry $73405.0000 → $71219.5860)
+
+TOP 15 MOVERS (not held):
+  🟢 AAVE-USD     $    119.2575  24h:+2.9%  30m:+0.29%
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 ICP-USD      $      2.5526  24h:+1.5%  30m:+0.34%
+  🟢 WIF-USD      $      0.2171  24h:+1.2%  30m:+0.18%
+  🟢 TIA-USD      $      0.3430  24h:+1.1%  30m:+0.89%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1813.5603  24h:+0.6%  30m:+0.05%
+  🟡 KAS-USD      $      0.0309  24h:+0.6%  30m:-0.08%
+  🟡 RUNE-USD     $      0.4398  24h:+0.5%  30m:+0.58%
+  🟡 DOT-USD      $      1.5449  24h:+0.2%  30m:+0.89%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 DOT-USD      $      1.5449  30m:+0.894%  24h:+0.2%
+  🔥 TIA-USD      $      0.3430  30m:+0.894%  24h:+1.1%
+  🔥 NEAR-USD     $      1.2779  30m:+0.697%  24h:-2.6%
+  🔥 RUNE-USD     $      0.4398  30m:+0.583%  24h:+0.5%
+  🔥 ENA-USD      $      0.1169  30m:+0.480%  24h:-0.4%
+  🔥 HBAR-USD     $      0.1004  30m:+0.472%  24h:-0.8%
+  🔥 AVAX-USD     $      9.4818  30m:+0.463%  24h:-0.2%
+  🔥 INJ-USD      $      3.0693  30m:+0.425%  24h:-1.6%
+  🔥 CRV-USD      $      0.2540  30m:+0.385%  24h:-0.5%
+  🔥 OP-USD       $      0.1271  30m:+0.359%  24h:-1.2%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 AAVE-USD (+2.9%) replaces BTC-USD (-3.0%) | spread: +5.9%
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.0%) | spread: +5.6%
+  🔄 ICP-USD (+1.5%) replaces BTC-USD (-3.0%) | spread: +4.5%
+  🔄 WIF-USD (+1.2%) replaces BTC-USD (-3.0%) | spread: +4.2%
+  🔄 TIA-USD (+1.1%) replaces BTC-USD (-3.0%) | spread: +4.1%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.0%) | spread: +3.9%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.0%) | spread: +3.6%
+  🔄 KAS-USD (+0.6%) replaces BTC-USD (-3.0%) | spread: +3.6%
+  🔄 RUNE-USD (+0.5%) replaces BTC-USD (-3.0%) | spread: +3.5%
+  🔄 DOT-USD (+0.2%) replaces BTC-USD (-3.0%) | spread: +3.2%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 FIL-USD (-0.1%) replaces BTC-USD (-3.0%) | spread: +2.8%
+  🔄 AVAX-USD (-0.2%) replaces BTC-USD (-3.0%) | spread: +2.8%
+  🔄 SNX-USD (-0.2%) replaces BTC-USD (-3.0%) | spread: +2.7%
+  🔄 LDO-USD (-0.3%) replaces BTC-USD (-3.0%) | spread: +2.7%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.0%) | spread: +2.7%
+  🔄 ENA-USD (-0.4%) replaces BTC-USD (-3.0%) | spread: +2.5%
+  🔄 CRV-USD (-0.5%) replaces BTC-USD (-3.0%) | spread: +2.5%
+  🔄 FET-USD (-0.7%) replaces BTC-USD (-3.0%) | spread: +2.3%
+  🔄 HBAR-USD (-0.8%) replaces BTC-USD (-3.0%) | spread: +2.2%
+  🔄 XLM-USD (-0.8%) replaces BTC-USD (-3.0%) | spread: +2.2%
+  🔄 XRP-USD (-0.9%) replaces BTC-USD (-3.0%) | spread: +2.1%
+  🔄 ALGO-USD (-0.9%) replaces BTC-USD (-3.0%) | spread: +2.1%
+  🔄 LINK-USD (-0.9%) replaces BTC-USD (-3.0%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 29 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,538) → Buy AAVE-USD (spread: +5.9%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 20:53 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.0%  $   6,535  (entry $73405.0000 → $71187.7000)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.7414  24h:+2.5%  30m:-0.46%
+  🟢 TIA-USD      $      0.3433  24h:+1.2%  30m:+0.19%
+  🟢 ICP-USD      $      2.5434  24h:+1.2%  30m:-0.36%
+  🟢 WIF-USD      $      0.2169  24h:+1.1%  30m:-0.19%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1813.5610  24h:+0.6%  30m:-0.00%
+  🟡 RUNE-USD     $      0.4396  24h:+0.5%  30m:+0.15%
+  🟡 DOT-USD      $      1.5486  24h:+0.4%  30m:+0.64%
+  🟡 KAS-USD      $      0.0309  24h:+0.4%  30m:-0.20%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 DOT-USD      $      1.5486  30m:+0.636%  24h:+0.4%
+  🔥 NEAR-USD     $      1.2748  30m:+0.197%  24h:-2.8%
+  🔥 TIA-USD      $      0.3433  30m:+0.187%  24h:+1.2%
+  🔥 RUNE-USD     $      0.4396  30m:+0.147%  24h:+0.5%
+  🔥 SNX-USD      $      0.3307  30m:+0.119%  24h:-0.0%
+  🔥 ETH-USD      $   2090.5525  30m:+0.110%  24h:-1.8%
+  🔥 AVAX-USD     $      9.4719  30m:+0.042%  24h:-0.3%
+  🔥 BCH-USD      $    459.0797  30m:+0.029%  24h:-1.8%
+  🔥 ALGO-USD     $      0.0881  30m:+0.018%  24h:-0.9%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.0%) | spread: +5.6%
+  🔄 AAVE-USD (+2.5%) replaces BTC-USD (-3.0%) | spread: +5.5%
+  🔄 TIA-USD (+1.2%) replaces BTC-USD (-3.0%) | spread: +4.2%
+  🔄 ICP-USD (+1.2%) replaces BTC-USD (-3.0%) | spread: +4.2%
+  🔄 WIF-USD (+1.1%) replaces BTC-USD (-3.0%) | spread: +4.1%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.0%) | spread: +4.0%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.0%) | spread: +3.6%
+  🔄 RUNE-USD (+0.5%) replaces BTC-USD (-3.0%) | spread: +3.5%
+  🔄 DOT-USD (+0.4%) replaces BTC-USD (-3.0%) | spread: +3.4%
+  🔄 KAS-USD (+0.4%) replaces BTC-USD (-3.0%) | spread: +3.4%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 SNX-USD (-0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.0%) | spread: +2.8%
+  🔄 AVAX-USD (-0.3%) replaces BTC-USD (-3.0%) | spread: +2.7%
+  🔄 FIL-USD (-0.4%) replaces BTC-USD (-3.0%) | spread: +2.6%
+  🔄 LDO-USD (-0.5%) replaces BTC-USD (-3.0%) | spread: +2.5%
+  🔄 CRV-USD (-0.6%) replaces BTC-USD (-3.0%) | spread: +2.4%
+  🔄 ENA-USD (-0.8%) replaces BTC-USD (-3.0%) | spread: +2.3%
+  🔄 ALGO-USD (-0.9%) replaces BTC-USD (-3.0%) | spread: +2.1%
+  🔄 FET-USD (-0.9%) replaces BTC-USD (-3.0%) | spread: +2.1%
+  🔄 HBAR-USD (-0.9%) replaces BTC-USD (-3.0%) | spread: +2.1%
+  🔄 XLM-USD (-1.0%) replaces BTC-USD (-3.0%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 27 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,535) → Buy MATIC-USD (spread: +5.6%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 21:03 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.9%  $   6,541  (entry $73405.0000 → $71248.1200)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.6353  24h:+2.4%  30m:-0.63%
+  🟢 ICP-USD      $      2.5461  24h:+1.3%  30m:-0.29%
+  🟢 TIA-USD      $      0.3436  24h:+1.3%  30m:+0.14%
+  🟡 WIF-USD      $      0.2167  24h:+1.0%  30m:-0.14%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1813.5670  24h:+0.6%  30m:+0.00%
+  🟡 KAS-USD      $      0.0309  24h:+0.5%  30m:+0.03%
+  🟡 RUNE-USD     $      0.4396  24h:+0.5%  30m:-0.08%
+  🟡 DOT-USD      $      1.5477  24h:+0.4%  30m:+0.11%
+  🟡 SNX-USD      $      0.3309  24h:+0.0%  30m:+0.26%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 SNX-USD      $      0.3309  30m:+0.256%  24h:+0.0%
+  🔥 LINK-USD     $      9.2755  30m:+0.162%  24h:-0.8%
+  🔥 BCH-USD      $    460.1598  30m:+0.145%  24h:-1.6%
+  🔥 TIA-USD      $      0.3436  30m:+0.136%  24h:+1.3%
+  🔥 DOT-USD      $      1.5477  30m:+0.111%  24h:+0.4%
+  🔥 ENA-USD      $      0.1168  30m:+0.085%  24h:-0.5%
+  🔥 ALGO-USD     $      0.0881  30m:+0.084%  24h:-0.8%
+  🔥 LTC-USD      $     55.9506  30m:+0.060%  24h:-1.5%
+  🔥 KAS-USD      $      0.0309  30m:+0.028%  24h:+0.5%
+  🔥 MKR-USD      $   1813.5670  30m:+0.000%  24h:+0.6%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.9%) | spread: +5.5%
+  🔄 AAVE-USD (+2.4%) replaces BTC-USD (-2.9%) | spread: +5.3%
+  🔄 ICP-USD (+1.3%) replaces BTC-USD (-2.9%) | spread: +4.2%
+  🔄 TIA-USD (+1.3%) replaces BTC-USD (-2.9%) | spread: +4.2%
+  🔄 WIF-USD (+1.0%) replaces BTC-USD (-2.9%) | spread: +3.9%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.9%) | spread: +3.9%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-2.9%) | spread: +3.5%
+  🔄 KAS-USD (+0.5%) replaces BTC-USD (-2.9%) | spread: +3.4%
+  🔄 RUNE-USD (+0.5%) replaces BTC-USD (-2.9%) | spread: +3.4%
+  🔄 DOT-USD (+0.4%) replaces BTC-USD (-2.9%) | spread: +3.3%
+  🔄 SNX-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.9%) | spread: +2.7%
+  🔄 AVAX-USD (-0.3%) replaces BTC-USD (-2.9%) | spread: +2.7%
+  🔄 FIL-USD (-0.4%) replaces BTC-USD (-2.9%) | spread: +2.6%
+  🔄 LDO-USD (-0.5%) replaces BTC-USD (-2.9%) | spread: +2.5%
+  🔄 ENA-USD (-0.5%) replaces BTC-USD (-2.9%) | spread: +2.4%
+  🔄 CRV-USD (-0.6%) replaces BTC-USD (-2.9%) | spread: +2.3%
+  🔄 FET-USD (-0.8%) replaces BTC-USD (-2.9%) | spread: +2.1%
+  🔄 LINK-USD (-0.8%) replaces BTC-USD (-2.9%) | spread: +2.1%
+  🔄 HBAR-USD (-0.8%) replaces BTC-USD (-2.9%) | spread: +2.1%
+  🔄 ALGO-USD (-0.8%) replaces BTC-USD (-2.9%) | spread: +2.1%
+  🔄 XLM-USD (-0.9%) replaces BTC-USD (-2.9%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 28 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,541) → Buy MATIC-USD (spread: +5.5%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 21:13 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.8%  $   6,548  (entry $73405.0000 → $71327.9100)
+
+TOP 15 MOVERS (not held):
+  🟢 AAVE-USD     $    119.0930  24h:+2.8%  30m:+0.24%
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 TIA-USD      $      0.3439  24h:+1.4%  30m:+0.29%
+  🟢 MKR-USD      $   1821.7197  24h:+1.0%  30m:+0.45%
+  🟡 WIF-USD      $      0.2166  24h:+1.0%  30m:+0.03%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 ICP-USD      $      2.5377  24h:+0.9%  30m:-0.22%
+  🟡 RUNE-USD     $      0.4401  24h:+0.6%  30m:+0.12%
+  🟡 KAS-USD      $      0.0309  24h:+0.5%  30m:+0.10%
+  🟡 SNX-USD      $      0.3309  24h:+0.0%  30m:+0.08%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 LINK-USD     $      9.3008  30m:+0.540%  24h:-0.5%
+  🔥 MKR-USD      $   1821.7197  30m:+0.450%  24h:+1.0%
+  🔥 ENA-USD      $      0.1170  30m:+0.332%  24h:-0.4%
+  🔥 ETH-USD      $   2095.3290  30m:+0.311%  24h:-1.6%
+  🔥 BCH-USD      $    460.4678  30m:+0.309%  24h:-1.5%
+  🔥 TIA-USD      $      0.3439  30m:+0.286%  24h:+1.4%
+  🔥 PENDLE-USD   $      1.2839  30m:+0.251%  24h:-1.3%
+  🔥 AAVE-USD     $    119.0930  30m:+0.243%  24h:+2.8%
+  🔥 FET-USD      $      0.1544  30m:+0.218%  24h:-0.7%
+  🔥 SOL-USD      $     89.3799  30m:+0.203%  24h:-1.7%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 AAVE-USD (+2.8%) replaces BTC-USD (-2.8%) | spread: +5.6%
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.8%) | spread: +5.4%
+  🔄 TIA-USD (+1.4%) replaces BTC-USD (-2.8%) | spread: +4.2%
+  🔄 MKR-USD (+1.0%) replaces BTC-USD (-2.8%) | spread: +3.9%
+  🔄 WIF-USD (+1.0%) replaces BTC-USD (-2.8%) | spread: +3.8%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.8%) | spread: +3.8%
+  🔄 ICP-USD (+0.9%) replaces BTC-USD (-2.8%) | spread: +3.8%
+  🔄 RUNE-USD (+0.6%) replaces BTC-USD (-2.8%) | spread: +3.4%
+  🔄 KAS-USD (+0.5%) replaces BTC-USD (-2.8%) | spread: +3.3%
+  🔄 SNX-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.9%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.8%) | spread: +2.8%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.8%) | spread: +2.6%
+  🔄 AVAX-USD (-0.3%) replaces BTC-USD (-2.8%) | spread: +2.5%
+  🔄 ENA-USD (-0.4%) replaces BTC-USD (-2.8%) | spread: +2.4%
+  🔄 DOT-USD (-0.4%) replaces BTC-USD (-2.8%) | spread: +2.4%
+  🔄 LDO-USD (-0.5%) replaces BTC-USD (-2.8%) | spread: +2.3%
+  🔄 LINK-USD (-0.5%) replaces BTC-USD (-2.8%) | spread: +2.3%
+  🔄 FIL-USD (-0.6%) replaces BTC-USD (-2.8%) | spread: +2.3%
+  🔄 CRV-USD (-0.6%) replaces BTC-USD (-2.8%) | spread: +2.2%
+  🔄 FET-USD (-0.7%) replaces BTC-USD (-2.8%) | spread: +2.1%
+  🔄 HBAR-USD (-0.8%) replaces BTC-USD (-2.8%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 26 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,548) → Buy AAVE-USD (spread: +5.6%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 21:23 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.6%  $   6,561  (entry $73405.0000 → $71467.3000)
+
+TOP 15 MOVERS (not held):
+  🟢 AAVE-USD     $    119.4937  24h:+3.1%  30m:+0.75%
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 TIA-USD      $      0.3447  24h:+1.6%  30m:+0.29%
+  🟢 WIF-USD      $      0.2172  24h:+1.2%  30m:+0.17%
+  🟢 ICP-USD      $      2.5409  24h:+1.1%  30m:-0.27%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 KAS-USD      $      0.0310  24h:+0.8%  30m:+0.32%
+  🟡 RUNE-USD     $      0.4405  24h:+0.7%  30m:+0.23%
+  🟡 MKR-USD      $   1813.9282  24h:+0.6%  30m:+0.02%
+  🟡 DOT-USD      $      1.5482  24h:+0.4%  30m:-0.22%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 AAVE-USD     $    119.4937  30m:+0.751%  24h:+3.1%
+  🔥 LINK-USD     $      9.3081  30m:+0.464%  24h:-0.5%
+  🔥 SOL-USD      $     89.5905  30m:+0.406%  24h:-1.4%
+  🔥 KAS-USD      $      0.0310  30m:+0.315%  24h:+0.8%
+  🔥 TIA-USD      $      0.3447  30m:+0.288%  24h:+1.6%
+  🔥 ENA-USD      $      0.1172  30m:+0.281%  24h:-0.2%
+  🔥 NEAR-USD     $      1.2805  30m:+0.280%  24h:-2.4%
+  🔥 INJ-USD      $      3.0714  30m:+0.271%  24h:-1.6%
+  🔥 FET-USD      $      0.1546  30m:+0.270%  24h:-0.6%
+  🔥 RUNE-USD     $      0.4405  30m:+0.226%  24h:+0.7%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 AAVE-USD (+3.1%) replaces BTC-USD (-2.6%) | spread: +5.7%
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.6%) | spread: +5.2%
+  🔄 TIA-USD (+1.6%) replaces BTC-USD (-2.6%) | spread: +4.2%
+  🔄 WIF-USD (+1.2%) replaces BTC-USD (-2.6%) | spread: +3.9%
+  🔄 ICP-USD (+1.1%) replaces BTC-USD (-2.6%) | spread: +3.7%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.6%) | spread: +3.6%
+  🔄 KAS-USD (+0.8%) replaces BTC-USD (-2.6%) | spread: +3.5%
+  🔄 RUNE-USD (+0.7%) replaces BTC-USD (-2.6%) | spread: +3.3%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-2.6%) | spread: +3.3%
+  🔄 DOT-USD (+0.4%) replaces BTC-USD (-2.6%) | spread: +3.0%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 SNX-USD (-0.1%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 AVAX-USD (-0.1%) replaces BTC-USD (-2.6%) | spread: +2.5%
+  🔄 ENA-USD (-0.2%) replaces BTC-USD (-2.6%) | spread: +2.4%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.6%) | spread: +2.4%
+  🔄 LDO-USD (-0.4%) replaces BTC-USD (-2.6%) | spread: +2.3%
+  🔄 FIL-USD (-0.4%) replaces BTC-USD (-2.6%) | spread: +2.2%
+  🔄 LINK-USD (-0.5%) replaces BTC-USD (-2.6%) | spread: +2.2%
+  🔄 FET-USD (-0.6%) replaces BTC-USD (-2.6%) | spread: +2.1%
+  🔄 CRV-USD (-0.6%) replaces BTC-USD (-2.6%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 25 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,561) → Buy AAVE-USD (spread: +5.7%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 21:33 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.6%  $   6,565  (entry $73405.0000 → $71518.8360)
+
+TOP 15 MOVERS (not held):
+  🟢 AAVE-USD     $    119.1527  24h:+2.8%  30m:+0.02%
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 TIA-USD      $      0.3454  24h:+1.8%  30m:+0.47%
+  🟢 ICP-USD      $      2.5415  24h:+1.1%  30m:+0.01%
+  🟢 WIF-USD      $      0.2169  24h:+1.1%  30m:+0.12%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 RUNE-USD     $      0.4404  24h:+0.7%  30m:+0.14%
+  🟡 MKR-USD      $   1813.8784  24h:+0.6%  30m:-0.43%
+  🟡 KAS-USD      $      0.0309  24h:+0.6%  30m:+0.08%
+  🟡 DOT-USD      $      1.5482  24h:+0.4%  30m:+0.66%
+  🟡 AVAX-USD     $      9.4999  24h:+0.0%  30m:+0.33%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 NEAR-USD     $      1.2838  30m:+0.708%  24h:-2.1%
+  🔥 DOT-USD      $      1.5482  30m:+0.657%  24h:+0.4%
+  🔥 TIA-USD      $      0.3454  30m:+0.470%  24h:+1.8%
+  🔥 AVAX-USD     $      9.4999  30m:+0.332%  24h:+0.0%
+  🔥 SOL-USD      $     89.6735  30m:+0.330%  24h:-1.3%
+  🔥 XLM-USD      $      0.1584  30m:+0.246%  24h:-0.8%
+  🔥 FIL-USD      $      1.0202  30m:+0.224%  24h:-0.4%
+  🔥 SEI-USD      $      0.0682  30m:+0.153%  24h:-2.4%
+  🔥 INJ-USD      $      3.0699  30m:+0.141%  24h:-1.6%
+  🔥 RUNE-USD     $      0.4404  30m:+0.138%  24h:+0.7%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 AAVE-USD (+2.8%) replaces BTC-USD (-2.6%) | spread: +5.4%
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.6%) | spread: +5.1%
+  🔄 TIA-USD (+1.8%) replaces BTC-USD (-2.6%) | spread: +4.4%
+  🔄 ICP-USD (+1.1%) replaces BTC-USD (-2.6%) | spread: +3.7%
+  🔄 WIF-USD (+1.1%) replaces BTC-USD (-2.6%) | spread: +3.7%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.6%) | spread: +3.5%
+  🔄 RUNE-USD (+0.7%) replaces BTC-USD (-2.6%) | spread: +3.2%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-2.6%) | spread: +3.2%
+  🔄 KAS-USD (+0.6%) replaces BTC-USD (-2.6%) | spread: +3.1%
+  🔄 DOT-USD (+0.4%) replaces BTC-USD (-2.6%) | spread: +3.0%
+  🔄 AVAX-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.6%) | spread: +2.6%
+  🔄 SNX-USD (-0.0%) replaces BTC-USD (-2.6%) | spread: +2.5%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.6%) | spread: +2.3%
+  🔄 FIL-USD (-0.4%) replaces BTC-USD (-2.6%) | spread: +2.1%
+  🔄 LDO-USD (-0.5%) replaces BTC-USD (-2.6%) | spread: +2.1%
+  🔄 LINK-USD (-0.5%) replaces BTC-USD (-2.6%) | spread: +2.0%
+
+============================================================
+SUMMARY: 45 scanned | 22 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,565) → Buy AAVE-USD (spread: +5.4%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 21:43 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.1%  $   6,533  (entry $73405.0000 → $71163.5800)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.5688  24h:+2.3%  30m:-0.76%
+  🟡 TIA-USD      $      0.3427  24h:+1.0%  30m:-0.61%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 MKR-USD      $   1813.9393  24h:+0.6%  30m:-0.43%
+  🟡 ICP-USD      $      2.5260  24h:+0.5%  30m:-0.57%
+  🟡 WIF-USD      $      0.2151  24h:+0.2%  30m:-0.91%
+  🟡 RUNE-USD     $      0.4384  24h:+0.2%  30m:-0.48%
+  🟡 KAS-USD      $      0.0308  24h:+0.2%  30m:-0.58%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.1%) | spread: +5.6%
+  🔄 AAVE-USD (+2.3%) replaces BTC-USD (-3.1%) | spread: +5.4%
+  🔄 TIA-USD (+1.0%) replaces BTC-USD (-3.1%) | spread: +4.0%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.1%) | spread: +4.0%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.1%) | spread: +3.7%
+  🔄 ICP-USD (+0.5%) replaces BTC-USD (-3.1%) | spread: +3.5%
+  🔄 WIF-USD (+0.2%) replaces BTC-USD (-3.1%) | spread: +3.3%
+  🔄 RUNE-USD (+0.2%) replaces BTC-USD (-3.1%) | spread: +3.3%
+  🔄 KAS-USD (+0.2%) replaces BTC-USD (-3.1%) | spread: +3.3%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.1%) | spread: +3.1%
+  🔄 DOT-USD (-0.2%) replaces BTC-USD (-3.1%) | spread: +2.9%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.1%) | spread: +2.8%
+  🔄 AVAX-USD (-0.4%) replaces BTC-USD (-3.1%) | spread: +2.6%
+  🔄 SNX-USD (-0.5%) replaces BTC-USD (-3.1%) | spread: +2.6%
+
+============================================================
+SUMMARY: 45 scanned | 19 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,533) → Buy MATIC-USD (spread: +5.6%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 21:53 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -2.9%  $   6,540  (entry $73405.0000 → $71240.3750)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    118.3953  24h:+2.2%  30m:-0.63%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 TIA-USD      $      0.3422  24h:+0.8%  30m:-0.91%
+  🟡 MKR-USD      $   1813.8534  24h:+0.6%  30m:-0.29%
+  🟡 ICP-USD      $      2.5293  24h:+0.6%  30m:-0.58%
+  🟡 RUNE-USD     $      0.4390  24h:+0.4%  30m:-0.35%
+  🟡 WIF-USD      $      0.2151  24h:+0.2%  30m:-0.75%
+  🟡 KAS-USD      $      0.0308  24h:+0.2%  30m:-0.37%
+  🟡 DOT-USD      $      1.5433  24h:+0.1%  30m:-0.41%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 BCH-USD      $    460.5809  30m:+0.022%  24h:-1.5%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-2.9%) | spread: +5.5%
+  🔄 AAVE-USD (+2.2%) replaces BTC-USD (-2.9%) | spread: +5.1%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-2.9%) | spread: +3.9%
+  🔄 TIA-USD (+0.8%) replaces BTC-USD (-2.9%) | spread: +3.8%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-2.9%) | spread: +3.6%
+  🔄 ICP-USD (+0.6%) replaces BTC-USD (-2.9%) | spread: +3.5%
+  🔄 RUNE-USD (+0.4%) replaces BTC-USD (-2.9%) | spread: +3.3%
+  🔄 WIF-USD (+0.2%) replaces BTC-USD (-2.9%) | spread: +3.2%
+  🔄 KAS-USD (+0.2%) replaces BTC-USD (-2.9%) | spread: +3.1%
+  🔄 DOT-USD (+0.1%) replaces BTC-USD (-2.9%) | spread: +3.0%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-2.9%) | spread: +2.9%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-2.9%) | spread: +2.7%
+  🔄 AVAX-USD (-0.5%) replaces BTC-USD (-2.9%) | spread: +2.5%
+  🔄 SNX-USD (-0.8%) replaces BTC-USD (-2.9%) | spread: +2.2%
+
+============================================================
+SUMMARY: 45 scanned | 19 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,540) → Buy MATIC-USD (spread: +5.5%)
+============================================================
+
+
+============================================================
+INTRADAY MOMENTUM SCAN v2 — 2026-03-05 22:04 UTC
+Bot: alfred | Threshold: 2.0% | Tickers: 50
+============================================================
+
+Scanning 50 tickers...
+Got valid data for 45 tickers.
+
+CURRENT HOLDINGS:
+  🔴 BTC-USD        -3.0%  $   6,534  (entry $73405.0000 → $71181.2200)
+
+TOP 15 MOVERS (not held):
+  🟢 MATIC-USD    $      0.2182  24h:+2.6%  
+  🟢 AAVE-USD     $    117.9612  24h:+1.8%  30m:-0.52%
+  🟡 RNDR-USD     $      6.7993  24h:+1.0%  
+  🟡 TIA-USD      $      0.3420  24h:+0.8%  30m:-0.06%
+  🟡 MKR-USD      $   1813.7933  24h:+0.6%  30m:-0.01%
+  🟡 ICP-USD      $      2.5292  24h:+0.6%  30m:+0.07%
+  🟡 RUNE-USD     $      0.4392  24h:+0.4%  30m:+0.19%
+  🟡 WIF-USD      $      0.2149  24h:+0.2%  30m:-0.01%
+  🟡 KAS-USD      $      0.0308  24h:+0.0%  30m:-0.24%
+  🔴 SUI-USD      $      0.0003  24h:+0.0%  
+  🔴 APT-USD      $      0.0001  24h:+0.0%  
+  🔴 ARB-USD      $      0.0009  24h:+0.0%  
+  🔴 STX-USD      $      0.0028  24h:+0.0%  
+  🔴 UNI-USD      $      0.0002  24h:+0.0%  
+  🔴 MNT-USD      $      0.1223  24h:+0.0%  
+
+HOURLY MOMENTUM LEADERS (30-min change, not held):
+  🔥 NEAR-USD     $      1.2774  30m:+0.288%  24h:-2.6%
+  🔥 RUNE-USD     $      0.4392  30m:+0.192%  24h:+0.4%
+  🔥 ICP-USD      $      2.5292  30m:+0.065%  24h:+0.6%
+  🔥 FET-USD      $      0.1535  30m:+0.060%  24h:-1.2%
+  🔥 FIL-USD      $      1.0141  30m:+0.039%  24h:-1.0%
+  🔥 PENDLE-USD   $      1.2791  30m:+0.020%  24h:-1.7%
+  🔥 SOL-USD      $     89.1445  30m:+0.011%  24h:-1.9%
+  🔥 XLM-USD      $      0.1573  30m:+0.010%  24h:-1.5%
+  🔥 LTC-USD      $     55.7083  30m:+0.001%  24h:-1.9%
+
+ROTATION CANDIDATES (beat worst holding by 2.0%):
+  🔄 MATIC-USD (+2.6%) replaces BTC-USD (-3.0%) | spread: +5.6%
+  🔄 AAVE-USD (+1.8%) replaces BTC-USD (-3.0%) | spread: +4.8%
+  🔄 RNDR-USD (+1.0%) replaces BTC-USD (-3.0%) | spread: +4.0%
+  🔄 TIA-USD (+0.8%) replaces BTC-USD (-3.0%) | spread: +3.8%
+  🔄 MKR-USD (+0.6%) replaces BTC-USD (-3.0%) | spread: +3.6%
+  🔄 ICP-USD (+0.6%) replaces BTC-USD (-3.0%) | spread: +3.6%
+  🔄 RUNE-USD (+0.4%) replaces BTC-USD (-3.0%) | spread: +3.4%
+  🔄 WIF-USD (+0.2%) replaces BTC-USD (-3.0%) | spread: +3.2%
+  🔄 KAS-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.1%
+  🔄 SUI-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 APT-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 ARB-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 STX-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 UNI-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 MNT-USD (+0.0%) replaces BTC-USD (-3.0%) | spread: +3.0%
+  🔄 DOT-USD (-0.2%) replaces BTC-USD (-3.0%) | spread: +2.8%
+  🔄 FTM-USD (-0.3%) replaces BTC-USD (-3.0%) | spread: +2.8%
+  🔄 AVAX-USD (-0.7%) replaces BTC-USD (-3.0%) | spread: +2.4%
+  🔄 SNX-USD (-0.9%) replaces BTC-USD (-3.0%) | spread: +2.1%
+
+============================================================
+SUMMARY: 45 scanned | 19 rotation(s) | 0 kill(s)
+TOP SWAP: Sell BTC-USD ($6,534) → Buy MATIC-USD (spread: +5.6%)
+============================================================
+

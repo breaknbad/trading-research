@@ -1,0 +1,117 @@
+{
+  "updated": "2026-03-05T22:22:38.683486+00:00",
+  "alerts": [
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "AVAX",
+      "value": 17.12,
+      "message": "AVAX RSI=17.12 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "LINK",
+      "value": 0.0,
+      "message": "LINK RSI=0.0 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "DOT",
+      "value": 0.0,
+      "message": "DOT RSI=0.0 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "ADA",
+      "value": 25.47,
+      "message": "ADA RSI=25.47 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "BIG_MOVE",
+      "ticker": "DOGE",
+      "value": 8.705158417367185,
+      "message": "DOGE moved 8.7% (crypto CRITICAL)",
+      "source": "watcher",
+      "severity": "CRITICAL"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "DOGE",
+      "value": 14.57,
+      "message": "DOGE RSI=14.57 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERSOLD",
+      "ticker": "INJ",
+      "value": 26.34,
+      "message": "INJ RSI=26.34 oversold",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "RSI_OVERBOUGHT",
+      "ticker": "PENDLE",
+      "value": 100.0,
+      "message": "PENDLE RSI=100.0 overbought",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "BIG_MOVE",
+      "ticker": "CRM",
+      "value": 4.303915475450577,
+      "message": "CRM moved 4.3% (stock HIGH)",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "BIG_MOVE",
+      "ticker": "MDB",
+      "value": 6.419096004193387,
+      "message": "MDB moved 6.4% (stock CRITICAL)",
+      "source": "watcher",
+      "severity": "CRITICAL"
+    },
+    {
+      "type": "BIG_MOVE",
+      "ticker": "AVGO",
+      "value": 4.799546499543354,
+      "message": "AVGO moved 4.8% (stock HIGH)",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "BIG_MOVE",
+      "ticker": "NOW",
+      "value": 5.72633058141577,
+      "message": "NOW moved 5.7% (stock CRITICAL)",
+      "source": "watcher",
+      "severity": "CRITICAL"
+    },
+    {
+      "type": "CORRELATION",
+      "ticker": "CRM,MDB,AVGO,NOW",
+      "value": 4,
+      "message": "Correlation alert: 4 positions up >3%: CRM, MDB, AVGO, NOW",
+      "source": "watcher",
+      "severity": "HIGH"
+    },
+    {
+      "type": "CORRELATION",
+      "ticker": "ETH,SOL,ADA,DOGE,INJ,RNDR,PENDLE",
+      "value": 7,
+      "message": "Correlation alert: 7 positions down >3%: ETH, SOL, ADA, DOGE, INJ, RNDR, PENDLE",
+      "source": "watcher",
+      "severity": "CRITICAL"
+    }
+  ]
+}

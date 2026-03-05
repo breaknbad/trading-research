@@ -13,7 +13,16 @@ from pathlib import Path
 
 WORKSPACE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(WORKSPACE / "scripts"))
-from bot_config import BOT_ID
+# Allow --bot-id override before loading default
+import sys as _sys
+_override = None
+for _i, _a in enumerate(_sys.argv):
+    if _a == "--bot-id" and _i + 1 < len(_sys.argv):
+        _override = _sys.argv[_i + 1]
+if _override:
+    BOT_ID = _override
+else:
+    from bot_config import BOT_ID
 
 STARTING_CAPITAL = 50000.0  # Original paper trading allocation
 
@@ -188,4 +197,5 @@ def reconcile(dry_run=False):
 
 if __name__ == "__main__":
     dry_run = "--dry-run" in sys.argv
+    # --bot-id override handled at module level (before imports)
     reconcile(dry_run=dry_run)

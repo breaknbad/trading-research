@@ -1,0 +1,11 @@
+[
+  {
+    "bot": "eddie_v",
+    "ticker": "MRVL",
+    "side": "LONG",
+    "pnl_pct": -3.38,
+    "threshold": -1.5,
+    "message": "\u26a0\ufe0f APPROACHING STOP: eddie_v LONG MRVL at -3.4% \u2014 review thesis",
+    "timestamp": "2026-03-05T21:04:04.556515+00:00"
+  }
+]
