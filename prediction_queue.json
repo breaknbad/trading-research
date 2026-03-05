@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-05T23:41:19.353128+00:00",
+  "updated_at": "2026-03-05T23:48:35.559717+00:00",
   "bot_id": "alfred",
-  "queue_size": 5,
+  "queue_size": 7,
   "predictions": [
     {
       "ticker": "NOW",
@@ -21,6 +21,27 @@
       "is_follower": true,
       "queued_at": "2026-03-05T23:41:19.352129+00:00",
       "expires_at": "2026-03-06T00:11:19.352135+00:00"
+    },
+    {
+      "ticker": "DOGE-USD",
+      "action": "SELL",
+      "market": "CRYPTO",
+      "price": 0.09359461,
+      "quantity": 53421.8797,
+      "stop": 0.1,
+      "target": 0.09,
+      "score": 65,
+      "reasons": [
+        "strong downtrend -5.5%",
+        "resistance rejection (100% giveback)",
+        "weak follower of BTC-USD (rank #1)"
+      ],
+      "momentum_pct": -5.49,
+      "rsi": 22.86,
+      "is_follower": true,
+      "side": "SHORT",
+      "queued_at": "2026-03-05T23:48:30.859701+00:00",
+      "expires_at": "2026-03-06T00:18:30.859720+00:00"
     },
     {
       "ticker": "CRM",
@@ -94,6 +115,28 @@
       "is_follower": false,
       "queued_at": "2026-03-05T23:41:19.353057+00:00",
       "expires_at": "2026-03-06T00:11:19.353062+00:00"
+    },
+    {
+      "ticker": "NEAR-USD",
+      "action": "SELL",
+      "market": "CRYPTO",
+      "price": 1.2788839,
+      "quantity": 3909.659,
+      "stop": 1.32,
+      "target": 1.21,
+      "score": 57,
+      "reasons": [
+        "weakening -2.5%",
+        "volume declining (0.02x)",
+        "resistance rejection (100% giveback)",
+        "weak follower of SOL-USD (rank #3)"
+      ],
+      "momentum_pct": -2.52,
+      "rsi": 62.23,
+      "is_follower": true,
+      "side": "SHORT",
+      "queued_at": "2026-03-05T23:48:35.180684+00:00",
+      "expires_at": "2026-03-06T00:18:35.180704+00:00"
     }
   ]
 }
