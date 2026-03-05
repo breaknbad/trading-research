@@ -45,6 +45,28 @@ STOP_PCT_DEFAULT = 2.0  # 2% stop-loss threshold (NORMAL/SURGE regime)
 TARGET_PCT = 5.0  # 5% profit target — auto-take profits
 BOTS = ["alfred", "tars", "vex", "eddie_v"]
 
+# MANUAL STOP OVERRIDES (Mark directive, Mar 4 2026)
+# These PRICE-BASED stops take precedence over regime % stops.
+# If a position has a manual stop, regime stop only triggers if price is BELOW the manual stop.
+# Update these when Mark sets new stop levels.
+MANUAL_STOPS = {
+    "alfred": {
+        "BTC-USD": 70000,
+        "ETH-USD": 2050,
+        "SOL-USD": 85,
+        "LINK-USD": 8.80,
+        "RENDER-USD": 1.20,
+        "COIN": 190,
+    },
+    "alfred_crypto": {
+        "BTC-USD": 70000,
+        "ETH-USD": 2050,
+        "SOL-USD": 85,
+        "LINK-USD": 8.80,
+        "RENDER-USD": 1.20,
+    },
+}
+
 # CROSS-BOT EXECUTION GUARD (Mar 4 lesson: Alfred's stop_check liquidated Vex's positions)
 # Only auto-execute stops for LOCAL bot(s). Other bots get ALERT ONLY.
 # Each machine should set this to its own bot IDs.
@@ -276,6 +298,16 @@ def check_stops(bot_id=None):
                 continue  # Don't also check stop on same position
 
             if drawdown_pct >= STOP_PCT:
+                # MANUAL STOP OVERRIDE (Mar 4): If Mark set a price-based stop,
+                # only trigger if price is actually below that level.
+                manual_stop = MANUAL_STOPS.get(bot, {}).get(ticker)
+                if manual_stop and side == "LONG" and current > manual_stop:
+                    print(f"📋 MANUAL STOP OVERRIDE: {bot} {ticker} @ ${current:.2f} is above manual stop ${manual_stop}. Regime says sell but Mark says hold.")
+                    continue
+                if manual_stop and side == "SHORT" and current < manual_stop:
+                    print(f"📋 MANUAL STOP OVERRIDE: {bot} {ticker} @ ${current:.2f} is below manual stop ${manual_stop}. Regime says cover but Mark says hold.")
+                    continue
+
                 # SAFETY GUARD (2026-03-04): Never sell a profitable position as a "stop loss"
                 # This catches the inverted P&L bug that liquidated TARS's winners
                 if gain_pct > 0:

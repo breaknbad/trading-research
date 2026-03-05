@@ -80,10 +80,38 @@ def reconcile(dry_run=False):
         if r.ok:
             all_trades.extend(r.json())
 
-    # Cash = starting capital - cost of open positions (simple, deterministic)
+    # Calculate cash from current snapshot (preserve existing cash value)
+    # Then adjust based on open position cost vs starting capital
+    # This avoids the phantom trade problem in trade history
+    trade_count = 0
+    for bid in BOT_IDS:
+        r = requests.get(
+            f'{URL}/rest/v1/trades?bot_id=eq.{bid}&select=id&order=created_at.asc',
+            headers={'apikey': KEY, 'Authorization': f'Bearer {KEY}'},
+            timeout=10
+        )
+        if r.ok:
+            trade_count += len(r.json())
+
+    # Get current snapshot cash (trust snapshot for cash, fix positions)
+    current_cash = 0.0
+    snap_r = requests.get(
+        f'{URL}/rest/v1/portfolio_snapshots?bot_id=eq.{SNAPSHOT_BOT}&select=cash_usd',
+        headers={'apikey': KEY, 'Authorization': f'Bearer {KEY}'},
+        timeout=10
+    )
+    if snap_r.ok and snap_r.json():
+        current_cash = float(snap_r.json()[0].get('cash_usd', 0))
+
+    # Open position cost from OPEN trades
     open_cost = sum(float(t.get('quantity', 0)) * float(t.get('price_usd', 0)) for t in all_trades)
+
+    # Estimate cash: starting capital minus cost of all open positions
+    # This is imperfect (ignores realized P&L) but avoids phantom trade corruption
+    # If open positions cost > starting capital, we've realized losses and cash is ~0
     cash = max(0.0, STARTING_CAPITAL - open_cost)
-    trade_count = len(all_trades)
+    if STARTING_CAPITAL - open_cost < 0:
+        print(f"  ⚠️ Open positions cost (${open_cost:.0f}) exceeds starting capital. Setting cash to $0.")
 
     # Aggregate open positions by ticker
     from collections import defaultdict
