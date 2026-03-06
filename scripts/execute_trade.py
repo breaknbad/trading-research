@@ -247,7 +247,7 @@ def rollback_trade(db_id):
 def main():
     parser = argparse.ArgumentParser(description="Execute a trade (Mi AI Supabase)")
     parser.add_argument("--ticker", required=True, help="e.g. AAPL, BTC-USD")
-    parser.add_argument("--action", required=True, choices=["BUY", "SELL", "buy", "sell"])
+    parser.add_argument("--action", required=True, choices=["BUY", "SELL", "SHORT", "COVER", "buy", "sell", "short", "cover"])
     parser.add_argument("--quantity", required=True, type=float)
     parser.add_argument("--price", required=True, type=float, help="Entry/exit price in USD")
     parser.add_argument("--market", default="STOCK", choices=["STOCK", "CRYPTO", "stock", "crypto"])
@@ -336,12 +336,13 @@ def main():
             positions = snap.get("open_positions", []) or []
             trade_count = int(snap.get("trade_count", 0))
 
-            if args.action.upper() == "BUY":
+            action = args.action.upper()
+            if action == "BUY":
                 cash -= total
-                # Add or update position
+                # Add or update LONG position
                 found = False
                 for p in positions:
-                    if p.get("ticker") == args.ticker.upper():
+                    if p.get("ticker") == args.ticker.upper() and p.get("side", "LONG") == "LONG":
                         old_qty = float(p.get("quantity", 0))
                         old_entry = float(p.get("avg_entry", args.price))
                         new_qty = old_qty + args.quantity
@@ -360,15 +361,48 @@ def main():
                         "market": args.market.upper(),
                         "unrealized_pl": 0,
                     })
-            elif args.action.upper() == "SELL":
+            elif action == "SELL":
                 cash += total
-                positions = [p for p in positions if p.get("ticker") != args.ticker.upper()]
+                positions = [p for p in positions if p.get("ticker") != args.ticker.upper() or p.get("side") == "SHORT"]
+            elif action == "SHORT":
+                # Short sale: receive cash proceeds, create SHORT liability
+                cash += total
+                found = False
+                for p in positions:
+                    if p.get("ticker") == args.ticker.upper() and p.get("side") == "SHORT":
+                        old_qty = float(p.get("quantity", 0))
+                        old_entry = float(p.get("avg_entry", args.price))
+                        new_qty = old_qty + args.quantity
+                        p["avg_entry"] = round((old_entry * old_qty + args.price * args.quantity) / new_qty, 4)
+                        p["quantity"] = new_qty
+                        p["current_price"] = args.price
+                        found = True
+                        break
+                if not found:
+                    positions.append({
+                        "ticker": args.ticker.upper(),
+                        "side": "SHORT",
+                        "quantity": args.quantity,
+                        "avg_entry": args.price,
+                        "current_price": args.price,
+                        "market": args.market.upper(),
+                        "unrealized_pl": 0,
+                    })
+            elif action == "COVER":
+                # Cover short: pay cash to buy back, remove SHORT position
+                cash -= total
+                positions = [p for p in positions if p.get("ticker") != args.ticker.upper() or p.get("side") != "SHORT"]
 
+            # Calculate total value: cash + longs - short liabilities
             long_val = sum(
                 float(p.get("quantity", 0)) * float(p.get("current_price", p.get("avg_entry", 0)))
                 for p in positions if p.get("side", "LONG") == "LONG"
             )
-            total_value = cash + long_val
+            short_val = sum(
+                float(p.get("quantity", 0)) * float(p.get("current_price", p.get("avg_entry", 0)))
+                for p in positions if p.get("side") == "SHORT"
+            )
+            total_value = cash + long_val - short_val
 
             patch = {
                 "cash_usd": round(cash, 2),
