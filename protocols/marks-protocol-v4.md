@@ -141,6 +141,33 @@ Every new idea gets one question:
 
 ---
 
+## Activation Protocol (Permanent — Mar 5 Directive)
+
+**Every script written MUST be activated, not just committed.**
+
+When new code is written:
+1. **Write** — Code the script
+2. **Test** — 3x test cycles
+3. **Commit** — `git add` + `git commit` + `git push`
+4. **ACTIVATE** — Start the process. Verify it's running. Confirm PID.
+5. **Verify** — `ps aux | grep script_name` shows alive
+
+**Categories:**
+- **Daemons** (always running): Start with `nohup python3 script.py > /dev/null 2>&1 &`. Verify PID.
+- **Scheduled** (heartbeat/cron): Add to HEARTBEAT.md or create cron job. Verify it fires.
+- **On-demand** (called by other scripts): Verify the caller passes correct args.
+
+**After every deploy session:** Run full status check:
+```
+ps aux | grep "python3.*scripts/" | grep -v grep
+```
+If a daemon isn't running, it's not deployed. Fix it before moving on.
+
+**No script is "done" until it's running and verified.**
+
+---
+
 *This protocol is permanent. Every change goes through it. No exceptions.*
 *— v2 locked by Mark directive, Mar 4 2026*
 *— v4 updated with Value Gate + Speed-First Trading + Short Parity, Mar 5 2026*
+*— Activation Protocol added, Mar 5 2026*
