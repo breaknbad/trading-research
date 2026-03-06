@@ -30,7 +30,7 @@ def main():
     techs = tdata.get("technicals", {})
     flat = {
         "price": tdata.get("price", 0),
-        "rsi": techs.get("rsi", 50),
+        "rsi": 50.0 if techs.get("rsi", 50) in (0, 0.0, 100, 100.0) else techs.get("rsi", 50),  # garbage RSI guard
         "ema9": techs.get("ema9", tdata.get("price", 0)),
         "ema21": techs.get("ema21", tdata.get("price", 0)),
         "macd": techs.get("macd", 0),
