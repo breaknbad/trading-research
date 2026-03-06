@@ -1,0 +1,26 @@
+{
+  "bot": "vex",
+  "lane": "event_driven",
+  "description": "Event-driven/intel: congressional trades, earnings, geopolitical catalysts, news sentiment",
+  "flex_pct": 0.30,
+  "factor_weights": {
+    "trend": 0.15,
+    "momentum": 0.10,
+    "volume": 0.10,
+    "volatility": 0.05,
+    "risk": 0.10,
+    "sentiment": 0.25,
+    "regime": 0.10,
+    "catalyst": 0.15
+  },
+  "surge_override": {
+    "enabled": true,
+    "rvol_threshold": 2.0,
+    "shift_from": "sentiment",
+    "shift_to": "momentum",
+    "shift_amount": 0.15
+  },
+  "drift_alert_threshold": 0.30,
+  "primary_strategy_types": ["event_driven", "catalyst", "sentiment"],
+  "flex_strategy_types": ["momentum", "contrarian"]
+}

@@ -119,18 +119,28 @@
     "highest_profit_atr": 0
   },
   "alfred:BTC-USD:LONG": {
-    "original_qty": 0.19,
-    "tier_1_done": true,
-    "tier_2_done": false,
+    "ticker": "BTC-USD",
+    "bot_id": "alfred",
+    "side": "LONG",
+    "entry": 70874.36,
+    "current": 71067.47,
+    "gain_pct": 0.27,
+    "high_water": 71067.47,
     "trailing_stop": 68036.8421,
-    "highest_profit_atr": 1.8220157341588574
+    "stop_reason": "none",
+    "updated_at": "2026-03-06T03:20:59.028171+00:00"
   },
   "alfred:ETH-USD:LONG": {
-    "original_qty": 4.0,
-    "tier_1_done": false,
-    "tier_2_done": false,
+    "ticker": "ETH-USD",
+    "bot_id": "alfred",
+    "side": "LONG",
+    "entry": 2074.3468,
+    "current": 2078.242,
+    "gain_pct": 0.19,
+    "high_water": 2078.242,
     "trailing_stop": null,
-    "highest_profit_atr": 1.3600141351307566
+    "stop_reason": "none",
+    "updated_at": "2026-03-06T03:20:59.367589+00:00"
   },
   "alfred:NEAR-USD:LONG": {
     "original_qty": 8100.0,
@@ -259,11 +269,16 @@
     "highest_profit_atr": 0
   },
   "alfred:SOL-USD:LONG": {
-    "original_qty": 36.4,
-    "tier_1_done": false,
-    "tier_2_done": false,
-    "trailing_stop": null,
-    "highest_profit_atr": 0.004031369661076631
+    "ticker": "SOL-USD",
+    "bot_id": "alfred",
+    "side": "LONG",
+    "entry": 88.7354,
+    "current": 88.35043,
+    "gain_pct": -0.43,
+    "high_water": 88.35043,
+    "trailing_stop": 87.848,
+    "stop_reason": "smart_stop_SLOW_QUIET_1.0%",
+    "updated_at": "2026-03-06T03:21:00.220210+00:00"
   },
   "vex:GDX-USD:LONG": {
     "original_qty": 27.0,
@@ -371,11 +386,16 @@
     "highest_profit_atr": 0.10080545535405265
   },
   "alfred:LINK-USD:LONG": {
-    "original_qty": 250.0,
-    "tier_1_done": false,
-    "tier_2_done": false,
+    "ticker": "LINK-USD",
+    "bot_id": "alfred",
+    "side": "LONG",
+    "entry": 9.22,
+    "current": 9.247042,
+    "gain_pct": 0.29,
+    "high_water": 9.247042,
     "trailing_stop": null,
-    "highest_profit_atr": 0
+    "stop_reason": "none",
+    "updated_at": "2026-03-06T03:20:59.771274+00:00"
   },
   "alfred:RENDER-USD:LONG": {
     "original_qty": 2193.0,
@@ -462,11 +482,16 @@
     "highest_profit_atr": 1.4951917239439025
   },
   "alfred:NOW:LONG": {
-    "original_qty": 40.0,
-    "tier_1_done": false,
-    "tier_2_done": false,
+    "ticker": "NOW",
+    "bot_id": "alfred",
+    "side": "LONG",
+    "entry": 120.38,
+    "current": 120.38,
+    "gain_pct": 0.0,
+    "high_water": 120.38,
     "trailing_stop": null,
-    "highest_profit_atr": 0.3870121351262685
+    "stop_reason": "none",
+    "updated_at": "2026-03-06T03:22:34.678564+00:00"
   },
   "eddie_v:NOW:LONG": {
     "original_qty": 30.0,

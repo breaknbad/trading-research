@@ -1,0 +1,22 @@
+{
+  "ETH-USD": {
+    "start": 1772766514.3306801,
+    "entry_price": 2071.73
+  },
+  "SOL-USD": {
+    "start": 1772766514.3306801,
+    "entry_price": 88.82
+  },
+  "BTC-USD": {
+    "start": 1772766514.3306801,
+    "entry_price": 70874.36
+  },
+  "LINK-USD": {
+    "start": 1772766514.3306801,
+    "entry_price": 9.22
+  },
+  "NOW": {
+    "start": 1772767115.975727,
+    "entry_price": 120.38
+  }
+}

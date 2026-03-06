@@ -1,0 +1,9 @@
+[2026-03-05 19:37:56 ET] ⚠️ RSI CLAMPED: TEST — 0 → 1 (likely bad data)
+[2026-03-05 19:37:56 ET] ⚠️ RSI CLAMPED: TEST — 100 → 99 (likely bad data)
+[2026-03-05 19:37:56 ET] 🚫 RSI REJECTED: TEST — value -5.0 outside 0-100 range
+[2026-03-05 19:37:56 ET] 🚫 RSI REJECTED: TEST — value 150.0 outside 0-100 range
+[2026-03-05 19:37:56 ET] 🚫 RSI REJECTED: TEST — non-numeric value 'abc'
+[2026-03-05 19:37:57 ET] 🚫 SNAPSHOT REJECTED: alfred — $150,000 is 200% off from last $50,000
+[2026-03-05 19:38:00 ET] 🧹 Data quality cleanup starting...
+[2026-03-05 19:38:00 ET] Signal cleanup error: HTTP Error 400: Bad Request
+[2026-03-05 19:38:00 ET] 🧹 Data quality cleanup complete

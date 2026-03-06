@@ -1,0 +1,17 @@
+[2026-03-05 18:48:14 ET] 🔻 Scanning for short setups...
+[2026-03-05 18:48:14 ET] 📉 Leader dropping: BTC-USD (-2.5%)
+[2026-03-05 18:48:14 ET] 📉 Leader dropping: ETH-USD (-2.5%)
+[2026-03-05 18:48:15 ET] 📉 Leader dropping: SOL-USD (-2.3%)
+[2026-03-05 18:48:35 ET] 🔻 Found 5 short candidates:
+[2026-03-05 18:48:35 ET]   #1 SHORT DOGE-USD — score 65, @ $0.09, stop $0.10 🔗
+[2026-03-05 18:48:35 ET]       Reasons: strong downtrend -5.5%, resistance rejection (100% giveback), weak follower of BTC-USD (rank #1)
+[2026-03-05 18:48:35 ET]   #2 SHORT NEAR-USD — score 57, @ $1.28, stop $1.32 🔗
+[2026-03-05 18:48:35 ET]       Reasons: weakening -2.5%, volume declining (0.02x), resistance rejection (100% giveback), weak follower of SOL-USD (rank #3)
+[2026-03-05 18:48:35 ET]   #3 SHORT SOL-USD — score 52, @ $88.79, stop $91.90 🔗
+[2026-03-05 18:48:35 ET]       Reasons: weakening -2.3%, volume declining (0.0x), resistance rejection (100% giveback), weak follower of BTC-USD (rank #4)
+[2026-03-05 18:48:35 ET]   #4 SHORT LINK-USD — score 52, @ $9.20, stop $9.52 🔗
+[2026-03-05 18:48:35 ET]       Reasons: weakening -1.6%, resistance rejection (100% giveback), weak follower of ETH-USD (rank #1)
+[2026-03-05 18:48:35 ET]   #5 SHORT ETH-USD — score 42, @ $2075.96, stop $2148.62
+[2026-03-05 18:48:35 ET]       Reasons: weakening -2.5%, volume declining (0.62x), resistance rejection (100% giveback)
+[2026-03-05 18:48:35 ET] 📋 Queue updated: 7 total (2 shorts)
+[2026-03-05 18:48:35 ET] 💉 Injected SHORT DOGE-USD into watchlist (score 65)

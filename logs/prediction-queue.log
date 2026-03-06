@@ -1,0 +1,41 @@
+[2026-03-05 18:40:59 ET] 🔄 Rebuilding prediction queue...
+[2026-03-05 18:41:19 ET] 📋 Prediction queue updated — 5 candidates:
+[2026-03-05 18:41:19 ET]   #1 NOW — score 67, BUY @ $120.38, stop $117.97 🔗
+[2026-03-05 18:41:19 ET]       Reasons: strong momentum +5.7%, volume 26,534,309, correlation follower of winner
+[2026-03-05 18:41:19 ET]   #2 CRM — score 59, BUY @ $201.39, stop $197.36 🔗
+[2026-03-05 18:41:19 ET]       Reasons: good momentum +4.3%, volume 15,843,090, correlation follower of winner
+[2026-03-05 18:41:19 ET]   #3 TTD — score 57, BUY @ $29.79, stop $29.19
+[2026-03-05 18:41:19 ET]       Reasons: strong momentum +18.4%, volume 82,163,130
+[2026-03-05 18:41:19 ET]   #4 MDB — score 57, BUY @ $263.93, stop $258.65
+[2026-03-05 18:41:19 ET]       Reasons: strong momentum +6.4%, volume 3,584,782
+[2026-03-05 18:41:19 ET]   #5 DOGE-USD — score 57, SELL @ $0.09, stop $0.09
+[2026-03-05 18:41:19 ET]       Reasons: strong momentum -5.5%, volume 1,374,815,872
+[2026-03-05 18:41:19 ET] 💉 Injected NOW into watchlist (score 67)
+[2026-03-05 20:24:10 ET] 🏁 Prediction Queue starting — 120s interval, bot=alfred
+[2026-03-05 20:24:10 ET] 🧹 Cleaned 2 expired predictions: NOW, DOGE-USD
+[2026-03-05 20:24:10 ET] 🔄 Rebuilding prediction queue...
+[2026-03-05 20:24:30 ET] 📋 Prediction queue updated — 5 candidates:
+[2026-03-05 20:24:30 ET]   #1 NOW — score 67, BUY @ $120.38, stop $117.97 🔗
+[2026-03-05 20:24:30 ET]       Reasons: strong momentum +5.7%, volume 26,534,309, correlation follower of winner
+[2026-03-05 20:24:30 ET]   #2 CRM — score 59, BUY @ $201.39, stop $197.36 🔗
+[2026-03-05 20:24:30 ET]       Reasons: good momentum +4.3%, volume 15,843,090, correlation follower of winner
+[2026-03-05 20:24:30 ET]   #3 TTD — score 57, BUY @ $29.79, stop $29.19
+[2026-03-05 20:24:30 ET]       Reasons: strong momentum +18.4%, volume 82,163,130
+[2026-03-05 20:24:30 ET]   #4 MDB — score 57, BUY @ $263.93, stop $258.65
+[2026-03-05 20:24:30 ET]       Reasons: strong momentum +6.4%, volume 3,584,782
+[2026-03-05 20:24:30 ET]   #5 WDAY — score 52, BUY @ $147.18, stop $144.24 🔗
+[2026-03-05 20:24:30 ET]       Reasons: moderate momentum +2.9%, volume 5,400,412, correlation follower of winner
+[2026-03-05 20:24:30 ET] 💉 Injected NOW into watchlist (score 67)
+[2026-03-05 21:15:42 ET] 🔄 Rebuilding prediction queue...
+[2026-03-05 21:16:04 ET] 📋 Prediction queue updated — 5 candidates:
+[2026-03-05 21:16:04 ET]   #1 NOW — score 67, BUY @ $120.38, stop $117.97 🔗
+[2026-03-05 21:16:04 ET]       Reasons: strong momentum +5.7%, volume 26,534,309, correlation follower of winner
+[2026-03-05 21:16:04 ET]   #2 CRM — score 59, BUY @ $201.39, stop $197.36 🔗
+[2026-03-05 21:16:04 ET]       Reasons: good momentum +4.3%, volume 15,843,090, correlation follower of winner
+[2026-03-05 21:16:04 ET]   #3 TTD — score 57, BUY @ $29.79, stop $29.19
+[2026-03-05 21:16:04 ET]       Reasons: strong momentum +18.4%, volume 82,163,130
+[2026-03-05 21:16:04 ET]   #4 MDB — score 57, BUY @ $263.93, stop $258.65
+[2026-03-05 21:16:04 ET]       Reasons: strong momentum +6.4%, volume 3,584,782
+[2026-03-05 21:16:04 ET]   #5 WDAY — score 52, BUY @ $147.18, stop $144.24 🔗
+[2026-03-05 21:16:04 ET]       Reasons: moderate momentum +2.9%, volume 5,400,412, correlation follower of winner
+[2026-03-05 21:16:04 ET] 💉 Injected NOW into watchlist (score 67)

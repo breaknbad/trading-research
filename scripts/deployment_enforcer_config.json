@@ -1,0 +1,1 @@
+{"vix_suspend_threshold": 23, "enabled": true, "note": "When VIX > this value, deployment enforcer is suspended. Entries only via re-entry triggers."}
