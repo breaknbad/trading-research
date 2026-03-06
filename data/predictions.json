@@ -1,0 +1,116 @@
+[
+  {
+    "ticker": "BTC-USD",
+    "action": "BUY",
+    "trigger_price": 70000,
+    "direction": "down",
+    "tier": "CONFIRM",
+    "thesis": "Oversold bounce at 70K support",
+    "bot_id": "vex",
+    "expires": "2026-03-07T20:00:00"
+  },
+  {
+    "ticker": "DOGE-USD",
+    "action": "SELL",
+    "trigger_price": 0.085,
+    "direction": "down",
+    "tier": "SCOUT",
+    "thesis": "SHORT: Weakest follower, momentum breakdown",
+    "bot_id": "vex",
+    "expires": "2026-03-07T20:00:00"
+  },
+  {
+    "ticker": "IWM",
+    "action": "SELL",
+    "trigger_price": 210,
+    "direction": "down",
+    "tier": "CONFIRM",
+    "thesis": "SHORT: Hot NFP, small caps crushed on rate fears. Below 210 = breakdown.",
+    "bot_id": "vex",
+    "expires": "2026-03-06T20:00:00",
+    "min_volume_ratio": 1.5
+  },
+  {
+    "ticker": "OXY",
+    "action": "BUY",
+    "trigger_price": 56,
+    "direction": "up",
+    "tier": "SCOUT",
+    "thesis": "Oil play, Iran+hot NFP=inflation hedge. Energy at 52wk highs.",
+    "bot_id": "vex",
+    "expires": "2026-03-06T20:00:00"
+  },
+  {
+    "ticker": "DVN",
+    "action": "BUY",
+    "trigger_price": 42,
+    "direction": "up",
+    "tier": "SCOUT",
+    "thesis": "Energy follower of OXY, Iran oil premium.",
+    "bot_id": "vex",
+    "expires": "2026-03-06T20:00:00"
+  },
+  {
+    "ticker": "AVGO",
+    "action": "BUY",
+    "trigger_price": 240,
+    "direction": "up",
+    "min_volume_ratio": 2.0,
+    "tier": "CONFIRM",
+    "thesis": "Post-earnings +4.8%, AI capex, 10B buyback. Cold NFP = tech rally.",
+    "bot_id": "vex",
+    "expires": "2026-03-06T20:00:00"
+  },
+  {
+    "ticker": "CRM",
+    "action": "BUY",
+    "trigger_price": 195,
+    "direction": "down",
+    "min_volume_ratio": 1.5,
+    "tier": "SCOUT",
+    "thesis": "RSI 25 oversold, software rally candidate on cold NFP.",
+    "bot_id": "vex",
+    "expires": "2026-03-06T20:00:00"
+  },
+  {
+    "ticker": "NOW",
+    "action": "BUY",
+    "trigger_price": 120,
+    "direction": "up",
+    "tier": "SCOUT",
+    "thesis": "Software leader, +5.7% momentum. Cold NFP = growth rotation.",
+    "bot_id": "vex",
+    "expires": "2026-03-06T20:00:00"
+  },
+  {
+    "ticker": "MRVL",
+    "action": "BUY",
+    "trigger_price": 82,
+    "direction": "up",
+    "min_volume_ratio": 2.0,
+    "tier": "CONFIRM",
+    "thesis": "MRVL earnings beat + AI demand signal. Above 82 = breakout. Follower: NVDA, AMD.",
+    "bot_id": "vex",
+    "expires": "2026-03-06T20:00:00"
+  },
+  {
+    "ticker": "MRVL",
+    "action": "SELL",
+    "trigger_price": 72,
+    "direction": "down",
+    "tier": "SCOUT",
+    "thesis": "SHORT: MRVL earnings miss. Below 72 = semi selloff. Short the weakest.",
+    "bot_id": "vex",
+    "expires": "2026-03-06T20:00:00"
+  },
+  {
+    "ticker": "CAT",
+    "action": "SELL",
+    "trigger_price": 330,
+    "direction": "down",
+    "tier": "CONFIRM",
+    "thesis": "SHORT: Industrial breakdown continues, -3.6% today, oil headwind on capex.",
+    "bot_id": "vex",
+    "expires": "2026-03-06T20:00:00"
+  }
+]
