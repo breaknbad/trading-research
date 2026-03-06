@@ -198,17 +198,10 @@ def insert_trade(args, entry_factors=None):
     trade_id = f"{args.bot_id.upper()}-{uuid.uuid4().hex[:8]}"
     total = args.quantity * args.price
 
-    # Route crypto trades to {bot_id}_crypto automatically
-    # Check both market flag AND ticker pattern (anything ending in -USD = crypto)
-    ticker_upper = args.ticker.upper()
-    is_crypto = args.market.upper() == "CRYPTO" or ticker_upper.endswith("-USD") or ticker_upper in ("BTC","ETH","SOL","BNB","DOGE","ADA","DOT","AVAX","LINK","NEAR","SUI","UNI","AAVE","RNDR","ARB","MANA","APT")
-    effective_bot_id = args.bot_id
-    if is_crypto and not args.bot_id.endswith("_crypto"):
-        effective_bot_id = f"{args.bot_id}_crypto"
-        print(f"[ROUTING] Crypto trade routed to {effective_bot_id}")
-
+    # Use parent bot_id for trades table (dashboard reads by bot_id)
+    # No more _crypto suffix — lane is tracked via market field
     payload = {
-        "bot_id": effective_bot_id,
+        "bot_id": args.bot_id,
         "trade_id": trade_id,
         "timestamp": now.isoformat(),
         "action": args.action.upper(),
