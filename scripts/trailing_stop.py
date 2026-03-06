@@ -29,6 +29,26 @@ BREAKEVEN_TRIGGER_PCT = 2.0   # Move stop to breakeven after +2%
 TRAIL_TRIGGER_PCT = 3.0       # Start trailing after +3%
 TRAIL_DISTANCE_PCT = 1.5      # Trail by 1.5% below high-water mark
 
+# Smart Stop Formula v1: "Fast + Loud = Hold. Slow + Quiet = Bail."
+# Default stop widths per grid quadrant:
+SMART_STOP_GRID = {
+    ("FAST", "LOUD"):  3.5,  # Panic selling, snaps back 67%
+    ("FAST", "QUIET"): 2.5,  # Fast but no volume, moderate hold
+    ("SLOW", "LOUD"):  2.0,  # Unusual — watch closely
+    ("SLOW", "QUIET"): 1.5,  # Distribution. Smart money leaving. Bail.
+}
+# Asset modifiers (added to grid stop %)
+ASSET_STOP_MOD = {
+    "BTC-USD": +0.5,   # Recovers 63% from deep dips
+    "ETH-USD": 0.0,
+    "LINK-USD": 0.0,
+    "SOL-USD": -0.5,   # Fades 56% of the time
+    "DOGE-USD": -0.5,
+    "AVAX-USD": -0.5,
+}
+SPEED_THRESHOLD_PCT = 1.0   # >1% drop in 2h = FAST
+VOLUME_THRESHOLD_MULT = 1.5  # >1.5x 24h avg = LOUD
+
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://vghssoltipiajiwzhkyn.supabase.co")
 SUPABASE_KEY = ""
 try:
@@ -127,6 +147,40 @@ def get_price(symbol):
     return 0
 
 
+def get_speed_and_volume(ticker):
+    """Classify dip as FAST/SLOW and LOUD/QUIET using 2h price change + volume vs 24h avg.
+    Returns (speed, volume_class, drop_2h_pct)."""
+    try:
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1h&range=2d"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        resp = urllib.request.urlopen(req, timeout=5)
+        data = json.loads(resp.read())
+        result = data.get("chart", {}).get("result", [{}])[0]
+        closes = result.get("indicators", {}).get("quote", [{}])[0].get("close", [])
+        volumes = result.get("indicators", {}).get("quote", [{}])[0].get("volume", [])
+        closes = [c for c in closes if c is not None]
+        volumes = [v for v in volumes if v is not None]
+        if len(closes) < 3 or len(volumes) < 3:
+            return "SLOW", "QUIET", 0
+        # Speed: last 2 candles
+        drop_2h = ((closes[-1] - closes[-3]) / closes[-3]) * 100 if closes[-3] else 0
+        speed = "FAST" if drop_2h < -SPEED_THRESHOLD_PCT else "SLOW"
+        # Volume: current vs 24h avg
+        recent_vol = volumes[-1] if volumes[-1] else 0
+        avg_vol = sum(volumes[:-1]) / max(len(volumes) - 1, 1) if volumes else 1
+        vol_class = "LOUD" if avg_vol > 0 and recent_vol > avg_vol * VOLUME_THRESHOLD_MULT else "QUIET"
+        return speed, vol_class, drop_2h
+    except Exception:
+        return "SLOW", "QUIET", 0
+
+
+def smart_stop_pct(ticker, speed, vol_class):
+    """Get the smart stop % for this ticker given speed/volume classification."""
+    base = SMART_STOP_GRID.get((speed, vol_class), 2.0)
+    mod = ASSET_STOP_MOD.get(ticker, 0.0)
+    return max(base + mod, 0.5)  # floor at 0.5%
+
+
 def update_trailing_stops():
     """Check all positions and update trailing stop levels."""
     positions = get_open_positions()
@@ -189,6 +243,33 @@ def update_trailing_stops():
                 trailing_stop = entry
                 stop_reason = "breakeven"
                 updated = True
+
+        elif gain_pct < 0:
+            # LOSING — apply Smart Stop Formula
+            speed, vol_class, drop_2h = get_speed_and_volume(ticker)
+            dynamic_stop_pct = smart_stop_pct(ticker, speed, vol_class)
+            if side == "LONG":
+                smart_level = round(entry * (1 - dynamic_stop_pct / 100), 4)
+            else:
+                smart_level = round(entry * (1 + dynamic_stop_pct / 100), 4)
+
+            old_stop = trailing_stop
+            # Only tighten, never widen from a previously set stop (unless no stop set)
+            if trailing_stop is None:
+                trailing_stop = smart_level
+                stop_reason = f"smart_stop_{speed}_{vol_class}_{dynamic_stop_pct}%"
+                updated = True
+                log(f"🧠 SMART STOP: {ticker} {speed}+{vol_class} → {dynamic_stop_pct}% stop @ ${smart_level:.2f} (drop_2h={drop_2h:.1f}%)")
+            elif side == "LONG" and smart_level > trailing_stop:
+                trailing_stop = smart_level
+                stop_reason = f"smart_stop_{speed}_{vol_class}_{dynamic_stop_pct}%"
+                updated = True
+                log(f"🧠 SMART TIGHTEN: {ticker} {speed}+{vol_class} → stop ${old_stop:.2f}→${smart_level:.2f}")
+            elif side == "SHORT" and smart_level < trailing_stop:
+                trailing_stop = smart_level
+                stop_reason = f"smart_stop_{speed}_{vol_class}_{dynamic_stop_pct}%"
+                updated = True
+                log(f"🧠 SMART TIGHTEN: {ticker} {speed}+{vol_class} → stop ${old_stop:.2f}→${smart_level:.2f}")
 
         state[key] = {
             "ticker": ticker,
