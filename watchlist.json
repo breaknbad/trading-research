@@ -1,49 +1,38 @@
 {
   "enabled": true,
   "tickers": {
-    "NOW": {
+    "BTC-USD": {
       "action": "BUY",
-      "market": "STOCK",
-      "criteria": {
-        "price_below": 120.50037999999998,
-        "price_above": null,
-        "any": true
-      },
-      "quantity": 83,
-      "stop": 117.97,
-      "reason": "[PREDICTION Q#1] score=67 | strong momentum +5.7%, volume 26,534,309",
-      "_from_prediction": true,
-      "_expires_at": "2026-03-06T00:11:19.352135+00:00"
-    },
-    "DOGE-USD": {
-      "action": "SELL",
       "market": "CRYPTO",
       "criteria": {
-        "price_above": 0.09350101539,
-        "price_below": null,
+        "price_below": 69500,
         "any": true
       },
-      "quantity": 53421.8797,
-      "stop": 0.1,
-      "reason": "[SHORT SCANNER] score=65 | strong downtrend -5.5%, resistance rejection (100% giveback)",
-      "_from_prediction": true,
-      "_expires_at": "2026-03-06T00:18:30.859720+00:00",
-      "_side": "SHORT"
-    }
-  },
-  "_example": {
-    "NVDA": {
+      "quantity": 0.07,
+      "stop": 69430,
+      "reason": "ADD on dip — BTC pullback to support"
+    },
+    "ETH-USD": {
       "action": "BUY",
-      "market": "STOCK",
+      "market": "CRYPTO",
       "criteria": {
-        "price_below": 220,
-        "price_above": null,
-        "volume_spike": null,
+        "price_below": 2030,
         "any": true
       },
-      "quantity": 25,
-      "stop": 210,
-      "reason": "Oversold bounce setup"
+      "quantity": 2.4,
+      "stop": 1990,
+      "reason": "ADD on dip — ETH pullback entry"
+    },
+    "AVAX-USD": {
+      "action": "BUY",
+      "market": "CRYPTO",
+      "criteria": {
+        "price_below": 9.10,
+        "any": true
+      },
+      "quantity": 820,
+      "stop": 8.92,
+      "reason": "New entry — AVAX oversold, correlated follower"
     }
   }
 }

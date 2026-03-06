@@ -398,6 +398,16 @@ def scan_once():
             except Exception:
                 pass
         
+        # Market hours check — stocks only trade 9:30 AM - 4:00 PM ET
+        market = config.get("market", "STOCK").upper()
+        if market == "STOCK":
+            from datetime import datetime, timezone, timedelta
+            et_now = datetime.now(timezone(timedelta(hours=-5)))
+            hour, minute = et_now.hour, et_now.minute
+            market_open = (hour == 9 and minute >= 30) or (10 <= hour <= 15)
+            if not market_open:
+                continue  # Skip stocks outside market hours
+        
         # Cooldown check
         if is_on_cooldown(ticker):
             continue
