@@ -29,8 +29,10 @@ from bot_config import BOT_ID
 WORKSPACE = Path(__file__).resolve().parent.parent
 QUEUE_PATH = WORKSPACE / "prediction_queue.json"
 WATCHLIST_PATH = WORKSPACE / "watchlist.json"
+ACTED_PATH = WORKSPACE / "data" / "prediction_acted.json"
 LOG_PATH = WORKSPACE / "logs" / "prediction-queue.log"
 SCAN_INTERVAL = 120  # Rebuild queue every 2 minutes
+DEDUP_SECONDS = 1800  # 30-min dedup window — once queued/executed, don't re-queue
 
 # Supabase
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://vghssoltipiajiwzhkyn.supabase.co")
@@ -242,12 +244,37 @@ def score_candidate(ticker, quote, fleet_signals, is_follower_of_winner=False):
     }
 
 
+def load_acted():
+    """Load dedup tracker — tickers recently queued/executed."""
+    try:
+        if ACTED_PATH.exists():
+            data = json.loads(ACTED_PATH.read_text())
+            now = time.time()
+            # Purge entries older than DEDUP_SECONDS
+            return {k: v for k, v in data.items() if now - v < DEDUP_SECONDS}
+    except:
+        pass
+    return {}
+
+
+def mark_acted(ticker):
+    """Mark a ticker as recently queued so it won't repeat."""
+    acted = load_acted()
+    acted[ticker] = time.time()
+    try:
+        ACTED_PATH.parent.mkdir(parents=True, exist_ok=True)
+        ACTED_PATH.write_text(json.dumps(acted, indent=2))
+    except:
+        pass
+
+
 def build_queue():
     """Scan universe, score candidates, build prediction queue."""
     log("🔄 Rebuilding prediction queue...")
     
     fleet_signals = get_fleet_signals()
     open_tickers = get_open_tickers()
+    acted = load_acted()
     
     # Determine which tickers are "winning" for correlation boost
     winning_tickers = set()
@@ -269,6 +296,9 @@ def build_queue():
     for ticker, quote in quotes.items():
         # Skip tickers we already hold
         if ticker in open_tickers:
+            continue
+        # Dedup — skip tickers recently queued/executed
+        if ticker in acted:
             continue
         
         # Check if this ticker is a follower of a winner
@@ -313,6 +343,10 @@ def build_queue():
     # Sort by score descending, take top N
     candidates.sort(key=lambda x: x["score"], reverse=True)
     queue = candidates[:MAX_QUEUE_SIZE]
+    
+    # Mark all queued tickers as acted — prevents re-queuing noise
+    for c in queue:
+        mark_acted(c["ticker"])
     
     # Write queue
     queue_data = {
