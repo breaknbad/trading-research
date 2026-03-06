@@ -32,7 +32,7 @@ WATCHLIST_PATH = WORKSPACE / "watchlist.json"
 ACTED_PATH = WORKSPACE / "data" / "prediction_acted.json"
 LOG_PATH = WORKSPACE / "logs" / "prediction-queue.log"
 SCAN_INTERVAL = 120  # Rebuild queue every 2 minutes
-DEDUP_SECONDS = 1800  # 30-min dedup window — once queued/executed, don't re-queue
+SCORE_CHANGE_THRESHOLD = 10  # Score must change by 10+ points to re-queue (kills noise, keeps real signals)
 
 # Supabase
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://vghssoltipiajiwzhkyn.supabase.co")
@@ -245,22 +245,37 @@ def score_candidate(ticker, quote, fleet_signals, is_follower_of_winner=False):
 
 
 def load_acted():
-    """Load dedup tracker — tickers recently queued/executed."""
+    """Load dedup tracker — stores last score + direction per ticker."""
     try:
         if ACTED_PATH.exists():
-            data = json.loads(ACTED_PATH.read_text())
-            now = time.time()
-            # Purge entries older than DEDUP_SECONDS
-            return {k: v for k, v in data.items() if now - v < DEDUP_SECONDS}
+            return json.loads(ACTED_PATH.read_text())
     except:
         pass
     return {}
 
 
-def mark_acted(ticker):
-    """Mark a ticker as recently queued so it won't repeat."""
+def is_noise(ticker, score, direction, acted):
+    """Returns True if this is the same signal repeating (noise).
+    Returns False if conditions changed enough to warrant re-queuing."""
+    if ticker not in acted:
+        return False  # First time — not noise
+    prev = acted[ticker]
+    prev_score = prev.get("score", 0)
+    prev_dir = prev.get("direction", "")
+    # Direction flipped = new signal, always allow
+    if direction != prev_dir:
+        return False
+    # Score changed significantly = conditions changed, allow
+    if abs(score - prev_score) >= SCORE_CHANGE_THRESHOLD:
+        return False
+    # Same direction, similar score = noise, suppress
+    return True
+
+
+def mark_acted(ticker, score, direction):
+    """Record what we queued so we can detect noise vs real change."""
     acted = load_acted()
-    acted[ticker] = time.time()
+    acted[ticker] = {"score": score, "direction": direction, "time": time.time()}
     try:
         ACTED_PATH.parent.mkdir(parents=True, exist_ok=True)
         ACTED_PATH.write_text(json.dumps(acted, indent=2))
@@ -297,10 +312,6 @@ def build_queue():
         # Skip tickers we already hold
         if ticker in open_tickers:
             continue
-        # Dedup — skip tickers recently queued/executed
-        if ticker in acted:
-            continue
-        
         # Check if this ticker is a follower of a winner
         is_follower = False
         for winner in winning_tickers:
@@ -312,6 +323,11 @@ def build_queue():
         result = score_candidate(ticker, quote, fleet_signals, is_follower)
         
         if result["score"] >= 20:  # Minimum threshold
+            # Dedup: skip if same signal repeating unchanged (noise)
+            # Allow through if score changed 10+ pts or direction flipped
+            if is_noise(ticker, result["score"], result["direction"], acted):
+                continue
+            
             is_crypto = "-USD" in ticker
             price = quote["price"]
             
@@ -344,9 +360,9 @@ def build_queue():
     candidates.sort(key=lambda x: x["score"], reverse=True)
     queue = candidates[:MAX_QUEUE_SIZE]
     
-    # Mark all queued tickers as acted — prevents re-queuing noise
+    # Record what we queued — enables noise detection on next cycle
     for c in queue:
-        mark_acted(c["ticker"])
+        mark_acted(c["ticker"], c.get("score", 0), c.get("action", "BUY"))
     
     # Write queue
     queue_data = {
