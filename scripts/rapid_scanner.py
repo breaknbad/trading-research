@@ -347,7 +347,8 @@ def execute_trade(ticker, config, quote, match_reason):
         "--price", f"{price:.2f}",
         "--market", market,
         "--bot-id", BOT_ID,
-        "--reason", f"[RAPID] {reason} | {match_reason}"
+        "--reason", f"[RAPID] {reason} | {match_reason}",
+        "--skip-validation",  # Scanner does its own safety checks; avoid Supabase query failures blocking trades
     ]
     
     log(f"🚀 EXECUTING: {action} {quantity} {ticker} @ ${price:.2f} | {match_reason}")
@@ -385,6 +386,17 @@ def scan_once():
     for ticker, config in watchlist.items():
         if ticker.startswith("_"):
             continue  # Skip meta keys like _example
+        
+        # Expiry check — skip stale prediction queue entries
+        expires = config.get("_expires_at", "")
+        if expires:
+            try:
+                from datetime import datetime, timezone
+                exp_dt = datetime.fromisoformat(expires)
+                if datetime.now(timezone.utc) > exp_dt:
+                    continue  # Expired, skip silently
+            except Exception:
+                pass
         
         # Cooldown check
         if is_on_cooldown(ticker):

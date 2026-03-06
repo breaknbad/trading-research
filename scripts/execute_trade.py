@@ -96,7 +96,7 @@ def validate_price(ticker, price):
 
 def check_dedup(ticker, action, bot_id):
     """No same ticker+action+bot in last 5 min. Returns False if duplicate found OR if check fails."""
-    cutoff = (datetime.now(timezone.utc) - timedelta(minutes=5)).isoformat()
+    cutoff = (datetime.now(timezone.utc) - timedelta(minutes=5)).isoformat().replace("+", "%2B")
     r = _retry(lambda: requests.get(
         f"{SUPABASE_URL}/rest/v1/trades?ticker=eq.{ticker.upper()}&action=eq.{action}&bot_id=eq.{bot_id}&created_at=gte.{cutoff}&select=id",
         headers=READ_HEADERS, timeout=10))
@@ -110,7 +110,7 @@ def check_dedup(ticker, action, bot_id):
 
 def check_rate_limit(bot_id):
     """Max 10 trades/hour per bot. Returns False if over limit OR if check fails."""
-    cutoff = (datetime.now(timezone.utc) - timedelta(hours=1)).isoformat()
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=1)).isoformat().replace("+", "%2B")
     r = _retry(lambda: requests.get(
         f"{SUPABASE_URL}/rest/v1/trades?bot_id=eq.{bot_id}&created_at=gte.{cutoff}&select=id",
         headers=READ_HEADERS, timeout=10))
