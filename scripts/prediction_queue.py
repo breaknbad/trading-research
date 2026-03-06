@@ -54,7 +54,7 @@ os.makedirs(WORKSPACE / "logs", exist_ok=True)
 
 # --- Config ---
 MAX_QUEUE_SIZE = 5           # Top 5 predictions ready at all times
-PREDICTION_TTL_MIN = 30      # Predictions expire after 30 min
+PREDICTION_TTL_MIN = 3       # Predictions expire after 3 min (next scan replaces them)
 STARTING_CAPITAL = 50000
 MAX_POSITION_PCT = 0.20      # 20% max per position
 DEFAULT_STOP_PCT = 0.02      # 2% tight stop
