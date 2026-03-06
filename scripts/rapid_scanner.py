@@ -256,7 +256,7 @@ def check_daily_pnl():
     if not SUPABASE_KEY:
         return False
     try:
-        url = f"{SUPABASE_URL}/rest/v1/portfolio_snapshots?bot_id=eq.{BOT_ID}&select=total_value&order=snapshot_date.desc&limit=1"
+        url = f"{SUPABASE_URL}/rest/v1/portfolio_snapshots?bot_id=eq.{BOT_ID}&select=total_value_usd&limit=1"
         req = urllib.request.Request(url, headers={
             "apikey": SUPABASE_KEY,
             "Authorization": f"Bearer {SUPABASE_KEY}"
@@ -264,7 +264,7 @@ def check_daily_pnl():
         resp = urllib.request.urlopen(req, timeout=5)
         data = json.loads(resp.read())
         if data:
-            total = float(data[0].get("total_value", STARTING_CAPITAL))
+            total = float(data[0].get("total_value_usd", STARTING_CAPITAL))
             daily_pnl_pct = (total - STARTING_CAPITAL) / STARTING_CAPITAL
             if daily_pnl_pct <= CIRCUIT_BREAKER_PCT:
                 log(f"🚨 CIRCUIT BREAKER: Daily P&L {daily_pnl_pct*100:.1f}% exceeds {CIRCUIT_BREAKER_PCT*100}% limit")
