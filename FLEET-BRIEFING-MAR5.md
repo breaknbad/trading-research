@@ -206,4 +206,24 @@ The system is built. The code is committed. Now we need all hands to pull, test,
 
 **This document is the single source of truth for March 5, 2026.**
 
+---
+
+## 8. Late-Night Fixes (After Initial Briefing)
+
+### CRITICAL — All Bots Must Do These on Return:
+
+1. **`git pull`** — picks up all fixes below automatically
+2. **Trade bot_id fix**: Trades now stored under parent bot_id (`alfred`, `vex`, `tars`, `eddie_v`) — NOT `alfred_crypto`, `vex_crypto`, etc. The `market` field tracks crypto vs stock. Dashboard reads by bot_id, so `_crypto` suffix broke trade visibility. Commits: `806cfbc`, latest on main.
+3. **SHORT/COVER support**: `execute_trade.py` now handles `--action SHORT` (adds cash + creates SHORT position) and `--action COVER` (deducts cash + removes SHORT). Total value = cash + longs - short liabilities. Old code only knew BUY/SELL.
+4. **Smart Stop Formula v1**: `trailing_stop.py` now has data-driven dynamic stops. 2-factor grid (speed × volume). See `protocols/smart-stop-formula.md`. Commit `5f762a4`.
+5. **Rapid scanner PnL fix**: Column name `total_value` → `total_value_usd`. Commit `b07453e`.
+6. **Clear old trailing_stop_state.json**: Run `echo '{}' > logs/trailing_stop_state.json` — old state has stale positions from before the wipe.
+
+### Per-Bot Checklist:
+- [ ] TARS: Fix model config → `git pull` → items 1-6 above → clean launchd → rebuild dashboard frontend
+- [ ] Eddie V: Fix context overflow → `git pull` → items 1-6 above → implement all new scripts
+- [ ] Vex: `git pull` → verify items 2-6 applied (Vex was online for most fixes)
+
+**This document is the single source of truth for March 5, 2026.**
+
 — Alfred
